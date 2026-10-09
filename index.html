@@ -184,6 +184,7 @@ footer a{color:var(--muted)}
           <button class="tab" type="button" aria-pressed="true" data-k="all">すべて</button>
           <button class="tab" type="button" aria-pressed="false" data-k="rank">ランクマ</button>
           <button class="tab" type="button" aria-pressed="false" data-k="tourney">大会</button>
+          <button class="tab" type="button" aria-pressed="false" data-k="offline">オフ会</button>
           <button class="tab" type="button" aria-pressed="false" data-k="trend">流行構築</button>
         </div>
       </div>
@@ -196,6 +197,7 @@ footer a{color:var(--muted)}
           <button class="tab" type="button" aria-pressed="true" data-k="all">すべて</button>
           <button class="tab" type="button" aria-pressed="false" data-k="rank">ランクマ</button>
           <button class="tab" type="button" aria-pressed="false" data-k="tourney">大会</button>
+          <button class="tab" type="button" aria-pressed="false" data-k="offline">オフ会</button>
           <button class="tab" type="button" aria-pressed="false" data-k="trend">流行構築</button>
         </div>
       </div>
@@ -214,6 +216,7 @@ const DEFAULT_DATA = {"updatedAt": "2026-10-09T15:00:00+09:00", "regulation": "M
 
 const TYPES = {normal:"ノーマル",fire:"ほのお",water:"みず",grass:"くさ",electric:"でんき",ice:"こおり",fighting:"かくとう",poison:"どく",ground:"じめん",flying:"ひこう",psychic:"エスパー",bug:"むし",rock:"いわ",ghost:"ゴースト",dragon:"ドラゴン",dark:"あく",steel:"はがね",fairy:"フェアリー"};
 const TYPE_OF = {
+ "ガラルヤドキング":"poison","ドデカバシ":"normal","ローブシン":"fighting","ウツボット":"grass","ヒスイヌメルゴン":"steel","ヌメルゴン":"dragon","ダイケンキ":"water","ソウブレイズ":"fire","ビビヨン":"bug","ヒスイジュナイパー":"grass","ジュナイパー":"grass","シャンデラ":"ghost","オニシズクモ":"water","デンリュウ":"electric","ライボルト":"electric",
  "リザードン":"fire","ガルーラ":"normal","ブリムオン":"psychic","イダイトウ":"water","カバルドン":"ground","サザンドラ":"dark","メタグロス":"steel","ガブリアス":"dragon","ミミッキュ":"ghost","アシレーヌ":"water","サーフゴー":"steel","ジュペッタ":"ghost","パーモット":"electric","ドドゲザン":"dark","エアームド":"steel","ボーマンダ":"dragon","ブリジュラス":"steel","ギルガルド":"steel","ギャラドス":"water","バイバニラ":"ice","カイリュー":"dragon","ルカリオ":"fighting","マスカーニャ":"grass","エンペルト":"water","セグレイブ":"dragon","ゴリランダー":"grass","キラフロル":"rock","アーマーガア":"flying","ゲンガー":"ghost","ブラッキー":"dark","イエッサン":"psychic","オオニューラ":"fighting","マフォクシー":"fire","フシギバナ":"grass","ニンフィア":"fairy","ドヒドイデ":"poison","ガオガエン":"fire","エルフーン":"grass","ムクホーク":"normal","ヤバソチャ":"grass","フラエッテ":"fairy","ペリッパー":"water","オーロンゲ":"dark","スコヴィラン":"grass","ミロカロス":"water","ドリュウズ":"ground","バンギラス":"rock","ハッサム":"bug","ライチュウ":"electric","ウルガモス":"bug","ヒスイウインディ":"fire","ウインディ":"fire","ラグラージ":"water","リキキリン":"normal","バクーダ":"fire","グレンアルマ":"fire","コノヨザル":"fighting","サーナイト":"psychic","ユキメノコ":"ice","グソクムシャ":"bug","プテラ":"rock","ピクシー":"fairy","カメックス":"water","メガニウム":"grass","ゲッコウガ":"water","クチート":"steel","ミミロップ":"normal","バシャーモ":"fire","ジュカイン":"grass","アブソル":"dark","ウォッシュロトム":"water","ヒートロトム":"fire","ヒスイダイケンキ":"water","キュウコン":"fire","ドラパルト":"dragon","ポットデス":"ghost","エーフィ":"psychic","メタモン":"normal","ヤミラミ":"dark","カビゴン":"normal","エースバーン":"fire","ハカドッグ":"ghost","エレザード":"electric","イッカネズミ":"normal","コータス":"fire","ニョロトノ":"water","ジャラランガ":"dragon","ワルビアル":"ground","ドサイドン":"ground","オニゴーリ":"ice","カモネギ":"normal","チリーン":"psychic","トリミアン":"normal","ジジーロン":"normal"
 };
 function typeOf(n){
@@ -258,9 +261,11 @@ function renderPane(fmt){
   list.forEach(b => { if(!groups.has(b.grp)) groups.set(b.grp,[]); groups.get(b.grp).push(b); });
   let html = "";
   const notes = (DATA.notes||{})[fmt] || {};
-  (k==="all" ? ["rank","tourney","trend"] : [k]).forEach(kk => {
+  (k==="all" ? [] : [k]).forEach(kk => {
     if(notes[kk]){ const ln = NOTE_LINKS[fmt+":"+kk]; html += `<div class="note-box">${esc(notes[kk])}${ln?" "+ln:""}</div>`; }
   });
+  const rk = b => { const m = /^(\d+)位/.exec(b.place||""); return m ? +m[1] : 1e9; };
+  groups.forEach(items => { if(items.every(b=>b.kind==="rank")) items.sort((a,b)=>rk(a)-rk(b)); });
   groups.forEach((items,g) => {
     html += `<div class="grp"><h3>${esc(g)}</h3><div class="cards">` + items.map(b => {
       const on = favs.has(b.id);
