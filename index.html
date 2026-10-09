@@ -241,7 +241,7 @@ function renderLegend(){
 function renderHeader(){
   $("#stReg").textContent = DATA.regulation || "—";
   $("#stSeason").textContent = DATA.season || "—";
-  let u = "—"; try{ const d = new Date(DATA.updatedAt); if(!isNaN(d)) u = d.toLocaleString("ja-JP",{month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"}); }catch(e){}
+  let u = "—"; try{ const d = new Date(DATA.updatedAt); if(!isNaN(d)) u = d.toLocaleString("ja-JP",{timeZone:"Asia/Tokyo",month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"}); }catch(e){}
   $("#stUpd").textContent = u;
 }
 function renderPane(fmt){
