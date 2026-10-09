@@ -1,1 +1,7 @@
-# pokechamp-board
+# ポケチャン上位構築ボード
+
+ポケモンチャンピオンズのランクマ・大会の上位構築を、シングル／ダブルで並べて見るサイトです。
+
+- 公開URL: https://miraikakeru.github.io/pokechamp-board/
+- `data.json` は毎朝自動で更新されます。
+- お気に入りは閲覧しているブラウザ内に保存されます。

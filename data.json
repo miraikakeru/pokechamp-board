@@ -1,0 +1,592 @@
+{
+ "updatedAt": "2026-10-09T15:00:00+09:00",
+ "regulation": "M-C（〜12/2）",
+ "season": "M-6（9/9〜10/7）",
+ "notes": {
+  "single": {
+   "tourney": "シングルの公式大会はマンスリーチャレンジ（MCS）。次回 2026.10 は 10/23(金)〜10/26(月)、レギュ M-C。結果が出たら上位構築をここに追加します。"
+  },
+  "double": {
+   "rank": "M-6ダブル最終トップ100はリバティノートにまとまっています。ここではパーティが判明している上位を抜粋しています。"
+  }
+ },
+ "builds": [
+  {
+   "id": "s-m6-1",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "1位",
+   "sub": "2555",
+   "title": "リザYブリムオン",
+   "who": "まおう",
+   "mons": [
+    "*リザードンY",
+    "*ガルーラ",
+    "ブリムオン",
+    "イダイトウ",
+    "カバルドン",
+    "サザンドラ"
+   ],
+   "url": "https://note.com/abclil/n/n68915c0c22e4",
+   "src": "note"
+  },
+  {
+   "id": "s-m6-11",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "11位",
+   "sub": "2528",
+   "title": "グロスガブZ（メタグロス・ミミッキュ軸）",
+   "who": "モーガン",
+   "mons": [
+    "*メタグロス",
+    "*ガブリアスZ",
+    "ミミッキュ",
+    "アシレーヌ",
+    "カバルドン",
+    "サーフゴー"
+   ],
+   "url": "https://note.com/pokemons2/n/n1ec6963deb17",
+   "src": "note"
+  },
+  {
+   "id": "s-m6-136",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "136位",
+   "sub": "",
+   "title": "パモの裏のジュペ",
+   "who": "QUBES_poke",
+   "mons": [
+    "*ジュペッタ",
+    "パーモット",
+    "ドドゲザン",
+    "エアームド",
+    "アシレーヌ",
+    "*ガブリアスZ"
+   ],
+   "url": "https://yakkun.com/bbs/party/list/?soft=4&min_season=5&max_season=7&rule=0&sort=new",
+   "src": "ポケモン徹底攻略"
+  },
+  {
+   "id": "s-m6-224",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "224位",
+   "sub": "",
+   "title": "小学生型メガボーマンダ構築",
+   "who": "cocecco12",
+   "mons": [
+    "*ボーマンダ",
+    "ブリジュラス",
+    "ギルガルド",
+    "*ギャラドス",
+    "バイバニラ",
+    "ドドゲザン"
+   ],
+   "url": "https://yakkun.com/bbs/party/list/?soft=4&min_season=5&max_season=7&rule=0&sort=new",
+   "src": "ポケモン徹底攻略"
+  },
+  {
+   "id": "s-m6-397",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "397位",
+   "sub": "2312",
+   "title": "グロスカイリュースタン",
+   "who": "インドラ",
+   "mons": [
+    "メタグロス",
+    "カイリュー",
+    "（他4体は記事参照）"
+   ],
+   "url": "https://champs.pokedb.tokyo/",
+   "src": "ポケモンバトルデータベース"
+  },
+  {
+   "id": "s-tr-kabamanda",
+   "fmt": "single",
+   "kind": "trend",
+   "grp": "M-C 環境上位の並び（Game8）",
+   "place": "流行",
+   "sub": "M-C",
+   "title": "カバルドン＋メガボーマンダ",
+   "who": "サイクル寄り",
+   "mons": [
+    "カバルドン",
+    "*ボーマンダ",
+    "ブリジュラス",
+    "*ルカリオZ",
+    "マスカーニャ",
+    "アシレーヌ"
+   ],
+   "url": "https://game8.jp/pokemon-champions/779319",
+   "src": "Game8"
+  },
+  {
+   "id": "s-tr-gorilucario",
+   "fmt": "single",
+   "kind": "trend",
+   "grp": "M-C 環境上位の並び（Game8）",
+   "place": "流行",
+   "sub": "M-C",
+   "title": "ゴリランダー＋メガルカリオZ",
+   "who": "グラスフィールド展開",
+   "mons": [
+    "*ルカリオZ",
+    "カイリュー",
+    "エンペルト",
+    "セグレイブ",
+    "ゴリランダー",
+    "キラフロル"
+   ],
+   "url": "https://game8.jp/pokemon-champions/779319",
+   "src": "Game8"
+  },
+  {
+   "id": "s-tr-segriza",
+   "fmt": "single",
+   "kind": "trend",
+   "grp": "M-C 環境上位の並び（Game8）",
+   "place": "流行",
+   "sub": "M-C",
+   "title": "セグレイブ＋メガリザードンY",
+   "who": "対面寄り",
+   "mons": [
+    "セグレイブ",
+    "*リザードンY",
+    "アーマーガア",
+    "ガブリアス",
+    "*メタグロス",
+    "ミミッキュ"
+   ],
+   "url": "https://game8.jp/pokemon-champions/779319",
+   "src": "Game8"
+  },
+  {
+   "id": "s-tr-iegen",
+   "fmt": "single",
+   "kind": "trend",
+   "grp": "M-C 環境上位の並び（Game8）",
+   "place": "流行",
+   "sub": "M-C",
+   "title": "イエッサン＋メガゲンガー",
+   "who": "かげふみ",
+   "mons": [
+    "*ゲンガー",
+    "ガブリアス",
+    "ブラッキー",
+    "アーマーガア",
+    "イエッサン♂",
+    "アシレーヌ"
+   ],
+   "url": "https://game8.jp/pokemon-champions/779319",
+   "src": "Game8"
+  },
+  {
+   "id": "d-m6-1",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "1位",
+   "sub": "2500",
+   "title": "なま",
+   "who": "@namak_po",
+   "mons": [
+    "ガブリアス",
+    "オオニューラ",
+    "ドドゲザン",
+    "マフォクシー",
+    "カイリュー",
+    "イダイトウ♂"
+   ],
+   "url": "https://x.com/namak_po/status/2107714023198486919",
+   "src": "X（リバティノート掲載）"
+  },
+  {
+   "id": "d-m6-2",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "2位",
+   "sub": "2490",
+   "title": "Paul",
+   "who": "@Paul_Chua_",
+   "mons": [
+    "リザードン",
+    "ガブリアス",
+    "フシギバナ",
+    "ニンフィア",
+    "ドヒドイデ",
+    "ガオガエン"
+   ],
+   "url": "https://x.com/paul_chua_/status/2107780103027474898",
+   "src": "X（リバティノート掲載）"
+  },
+  {
+   "id": "d-m6-3",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "3位",
+   "sub": "2478",
+   "title": "ヤシの木",
+   "who": "@xx_z2z",
+   "mons": [
+    "ゲンガー",
+    "カイリュー",
+    "ガブリアス",
+    "オオニューラ",
+    "イダイトウ♂",
+    "ドドゲザン"
+   ],
+   "url": "https://x.com/xx_z2z/status/2107738199154172361",
+   "src": "X（リバティノート掲載）"
+  },
+  {
+   "id": "d-m6-4",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "4位",
+   "sub": "2439",
+   "title": "せいた",
+   "who": "@seita_poke",
+   "mons": [
+    "リザードン",
+    "メタグロス",
+    "エルフーン",
+    "ガブリアス",
+    "イダイトウ♂",
+    "ドドゲザン"
+   ],
+   "url": "https://x.com/seita_poke/status/2107716968883376615",
+   "src": "X（リバティノート掲載）"
+  },
+  {
+   "id": "d-m6-6",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "6位",
+   "sub": "2432",
+   "title": "Online",
+   "who": "@online_poke",
+   "mons": [
+    "リザードン",
+    "エルフーン",
+    "ムクホーク",
+    "ガブリアス",
+    "キラフロル",
+    "イエッサン♂"
+   ],
+   "url": "https://x.com/online_poke/status/2107730195939770792",
+   "src": "X（リバティノート掲載）"
+  },
+  {
+   "id": "d-m6-9",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "9位",
+   "sub": "2414",
+   "title": "yura",
+   "who": "@yurayura_pon",
+   "mons": [
+    "マフォクシー",
+    "ガオガエン",
+    "ヤバソチャ",
+    "ドドゲザン",
+    "フラエッテ",
+    "オオニューラ"
+   ],
+   "url": "https://x.com/yurayura_pon/status/2107730887748304942",
+   "src": "X（リバティノート掲載）"
+  },
+  {
+   "id": "d-m6-13",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "13位",
+   "sub": "2409",
+   "title": "リンヤ",
+   "who": "@gozira2004",
+   "mons": [
+    "リザードン",
+    "フシギバナ",
+    "ペリッパー",
+    "ブリジュラス",
+    "オーロンゲ",
+    "ガブリアス"
+   ],
+   "url": "https://x.com/gozira2004/status/2107768621770625092",
+   "src": "X（リバティノート掲載）"
+  },
+  {
+   "id": "d-m6-15",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "15位",
+   "sub": "2400",
+   "title": "은조순",
+   "who": "@IamSliverfish",
+   "mons": [
+    "スコヴィラン",
+    "ミロカロス",
+    "ドリュウズ",
+    "バンギラス",
+    "ムクホーク",
+    "ハッサム"
+   ],
+   "url": "https://x.com/IamSliverfish/status/2107722622410842592",
+   "src": "X（リバティノート掲載）"
+  },
+  {
+   "id": "d-m6-51",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "51位",
+   "sub": "2315",
+   "title": "Xena｜構築記事あり",
+   "who": "@Xenagaming248",
+   "mons": [
+    "ボーマンダ",
+    "ライチュウ",
+    "ニンフィア",
+    "イダイトウ♂",
+    "ドドゲザン",
+    "ガオガエン"
+   ],
+   "url": "https://note.com/rich_dahlia235/n/n4cb6f5c36bd0",
+   "src": "note"
+  },
+  {
+   "id": "d-t-frankfurt",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "大会（レギュ M-C）",
+   "place": "優勝",
+   "sub": "17-0",
+   "title": "フランクフルト・リージョナル（1,173人）",
+   "who": "Eric Rios ／ 9/26-27",
+   "mons": [
+    "サーフゴー",
+    "ウルガモス",
+    "*ガブリアスZ",
+    "ガオガエン",
+    "ゴリランダー",
+    "*ライチュウY"
+   ],
+   "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-frankfurt-pokemon-vgc-regional-championships/",
+   "src": "Pokémon Zone"
+  },
+  {
+   "id": "d-t-brisbane",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "大会（レギュ M-C）",
+   "place": "優勝",
+   "sub": "",
+   "title": "ブリスベン・リージョナル（360人）",
+   "who": "Kiran Singh ／ 9/26-27",
+   "mons": [
+    "ブリジュラス",
+    "ペリッパー",
+    "オーロンゲ",
+    "*リザードンY",
+    "*ガブリアスZ",
+    "フシギバナ"
+   ],
+   "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-brisbane-pokemon-vgc-regional-championships/",
+   "src": "Pokémon Zone"
+  },
+  {
+   "id": "d-t-maddo12",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "大会（レギュ M-C）",
+   "place": "優勝",
+   "sub": "13-2",
+   "title": "Maddo's Cup #12（388人）",
+   "who": "Luca ／ 9/19",
+   "mons": [
+    "*ボーマンダ",
+    "*ライチュウY",
+    "ヒスイウインディ",
+    "ニンフィア",
+    "サーフゴー",
+    "ゴリランダー"
+   ],
+   "url": "https://play.limitlesstcg.com/tournament/6a9c5234a4272c53be6480bf/player/luca/teamlist",
+   "src": "Limitless"
+  },
+  {
+   "id": "d-t-vr2",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "大会（レギュ M-C）",
+   "place": "優勝",
+   "sub": "10-0",
+   "title": "VR September Challenge #2（253人）",
+   "who": "Didi ／ 9/19-20",
+   "mons": [
+    "*カイリュー",
+    "*フラエッテ",
+    "ガオガエン",
+    "サーフゴー",
+    "オオニューラ",
+    "ゴリランダー"
+   ],
+   "url": "https://victoryroad.pro/vr-sep26-2/",
+   "src": "Victory Road"
+  },
+  {
+   "id": "d-t-coupe4",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "大会（レギュ M-C）",
+   "place": "優勝",
+   "sub": "10-1",
+   "title": "Coupe Critique Champions #4（128人）",
+   "who": "Mahir X ／ 9/19",
+   "mons": [
+    "*ラグラージ",
+    "ペリッパー",
+    "ブリジュラス",
+    "オーロンゲ",
+    "*リザードンY",
+    "フシギバナ"
+   ],
+   "url": "https://play.limitlesstcg.com/tournament/6aa7f40ef1243e65f9800feb/player/fardeen_003x/teamlist",
+   "src": "Limitless"
+  },
+  {
+   "id": "d-t-tartan39",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "大会（レギュ M-C）",
+   "place": "優勝",
+   "sub": "11-0",
+   "title": "TARTAN TAKEDOWN #39（105人）",
+   "who": "Vinnamon ／ 9/22",
+   "mons": [
+    "リキキリン",
+    "ゴリランダー",
+    "ニンフィア",
+    "*バクーダ",
+    "*ガブリアスZ",
+    "ガオガエン"
+   ],
+   "url": "https://play.limitlesstcg.com/tournament/6aa9276138886b36383c0b0d/player/vinnamon/teamlist",
+   "src": "Limitless"
+  },
+  {
+   "id": "d-t-rain",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "大会（レギュ M-C）",
+   "place": "優勝",
+   "sub": "13-1",
+   "title": "Make It Rain - VGC Tournament",
+   "who": "Lloyd Villar",
+   "mons": [
+    "オオニューラ",
+    "*ボーマンダ",
+    "*バンギラス",
+    "ドリュウズ",
+    "イエッサン",
+    "ミロカロス"
+   ],
+   "url": "https://play.limitlesstcg.com/tournament/6a7ba8f62b308b6067b5199c/player/lloyd5/teamlist",
+   "src": "Limitless"
+  },
+  {
+   "id": "d-t-talon101",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "大会（レギュ M-C）",
+   "place": "優勝",
+   "sub": "12-0",
+   "title": "Talon's FIGHT CLUB #101",
+   "who": "DDee",
+   "mons": [
+    "*フラエッテ",
+    "オオニューラ",
+    "ガオガエン",
+    "ゴリランダー",
+    "サーフゴー",
+    "*ライチュウY"
+   ],
+   "url": "https://play.limitlesstcg.com/tournament/6a6a3192937230b102d48538/player/ddee/teamlist",
+   "src": "Limitless"
+  },
+  {
+   "id": "d-t-tenki119",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "大会（レギュ M-C）",
+   "place": "優勝",
+   "sub": "11-0",
+   "title": "Tenki's Cart Weekly #119",
+   "who": "dartsvgc",
+   "mons": [
+    "イエッサン♀",
+    "*ゲンガー",
+    "グレンアルマ",
+    "マスカーニャ",
+    "コノヨザル",
+    "*サーナイト"
+   ],
+   "url": "https://play.limitlesstcg.com/tournament/6aad0d0ae905c1db68744103/player/dartsvgc/teamlist",
+   "src": "Limitless"
+  },
+  {
+   "id": "d-t-wcs1",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "WCS2026（前レギュ M-B）",
+   "place": "優勝",
+   "sub": "",
+   "title": "ポケモンWCS2026 マスター",
+   "who": "Takuma Yamazaki ／ 8/28-30",
+   "mons": [
+    "*フラエッテ",
+    "*カイリュー",
+    "ドドゲザン",
+    "オオニューラ",
+    "イダイトウ",
+    "ガブリアス"
+   ],
+   "url": "https://bulbagarden.net/threads/2026-pokemon-vgc-world-championships-results-and-teams-takuma-yamazaki-is-your-2026-world-champion.311448/",
+   "src": "Bulbagarden"
+  },
+  {
+   "id": "d-t-wcs2",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "WCS2026（前レギュ M-B）",
+   "place": "準優勝",
+   "sub": "",
+   "title": "ポケモンWCS2026 マスター",
+   "who": "Hiroshi Onishi（cona）",
+   "mons": [
+    "*フラエッテ",
+    "*リザードンY",
+    "ドドゲザン",
+    "イダイトウ",
+    "エルフーン",
+    "ガブリアス"
+   ],
+   "url": "https://bulbagarden.net/threads/2026-pokemon-vgc-world-championships-results-and-teams-takuma-yamazaki-is-your-2026-world-champion.311448/",
+   "src": "Bulbagarden"
+  }
+ ]
+}

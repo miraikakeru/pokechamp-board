@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>ポケチャン上位構築ボード</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<style>
+/* Layout: 深緑のヘッダー帯（六角グリッド）→ 検索 → お気に入り棚 → シングル｜ダブルの2ペイン。900px以下は縦積み */
+:root{
+  --bg:#edf3ef; --surface:#ffffff; --sunk:#e0ebe4; --ink:#0f2a1f; --muted:#52705f; --line:#cddfd4;
+  --band:#0b3d2b; --band-ink:#eafff4; --band-muted:#9fd2b8; --brand:#0c7a4f;
+  --single:#0c7a4f; --double:#127580; --star:#d49a00; --mega:#7a3fc4;
+  --f-display:"Dela Gothic One","Hiragino Sans","Noto Sans JP",sans-serif;
+  --f-body:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+  --f-data:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  /* タイプ色 */
+  --t-normal:#9a9a78; --t-fire:#e5672c; --t-water:#3b82d6; --t-grass:#3fa34d; --t-electric:#e2b616; --t-ice:#5cc0c9;
+  --t-fighting:#c0392b; --t-poison:#9a45b0; --t-ground:#c49a4a; --t-flying:#7f93e0; --t-psychic:#e5508a; --t-bug:#93ab1f;
+  --t-rock:#a8913c; --t-ghost:#6a55a6; --t-dragon:#5a3fd6; --t-dark:#5b4a3f; --t-steel:#7f98a8; --t-fairy:#e383c4; --t-none:#8a9a90;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0a1611; --surface:#10211a; --sunk:#173024; --ink:#e2efe8; --muted:#8db0a0; --line:#21392d;
+  --band:#0d2c20; --band-ink:#eafff4; --band-muted:#86c4a6; --brand:#3fd197;
+  --single:#3fd197; --double:#4cc6d0; --star:#ffc53d; --mega:#c49bff; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0a1611; --surface:#10211a; --sunk:#173024; --ink:#e2efe8; --muted:#8db0a0; --line:#21392d;
+  --band:#0d2c20; --band-ink:#eafff4; --band-muted:#86c4a6; --brand:#3fd197;
+  --single:#3fd197; --double:#4cc6d0; --star:#ffc53d; --mega:#c49bff; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.6}
+a{color:inherit}
+input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+button{font:inherit;cursor:pointer}
+
+/* header band */
+.band{background-color:var(--band);color:var(--band-ink);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='48' viewBox='0 0 56 48'%3E%3Cpath d='M14 0l14 8v16l-14 8L0 24V8zM42 24l14 8v16M28 24l14-8' fill='none' stroke='%23ffffff' stroke-opacity='.07' stroke-width='1'/%3E%3C/svg%3E");
+  padding-inline:16px;padding-block:22px 20px}
+.band-in{max-width:1360px;margin:0 auto;display:flex;flex-wrap:wrap;gap:14px 24px;align-items:flex-end;justify-content:space-between}
+.eyebrow{font-family:var(--f-data);font-size:11px;letter-spacing:.18em;color:var(--band-muted);text-transform:uppercase}
+h1{font-family:var(--f-display);font-weight:400;font-size:clamp(24px,3.4vw,34px);line-height:1.15;margin:4px 0 6px;letter-spacing:.03em;text-wrap:balance}
+.lead{margin:0;color:var(--band-muted);font-size:13px;max-width:60ch}
+.stats{display:flex;flex-wrap:wrap;gap:8px}
+.stat{border:1px solid rgba(255,255,255,.18);border-radius:8px;padding:6px 12px;min-width:110px;background:rgba(255,255,255,.04)}
+.stat .k{font-size:10px;letter-spacing:.12em;color:var(--band-muted)}
+.stat .v{font-family:var(--f-data);font-size:14px;font-weight:700;color:var(--band-ink)}
+
+.wrap{max-width:1360px;margin:0 auto;padding-inline:16px;padding-block:18px 48px;display:flex;flex-direction:column;gap:16px}
+.toolbar{display:flex;gap:10px 16px;align-items:center;flex-wrap:wrap}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 12px}
+#q{flex:1;min-width:0;max-width:380px}
+.legend{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:11px;color:var(--muted)}
+
+/* chips */
+.mon{--t:var(--t-none);display:inline-flex;align-items:center;gap:5px;font-size:12px;padding:2px 8px 2px 6px;border-radius:99px;white-space:nowrap;
+  background:color-mix(in srgb,var(--t) 15%,var(--surface));color:var(--ink);border:1px solid color-mix(in srgb,var(--t) 40%,transparent)}
+.mon::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--t);flex:none}
+.mon .mg{font-family:var(--f-data);font-size:9px;font-weight:700;color:#fff;background:var(--mega);border-radius:3px;padding:0 3px;letter-spacing:.04em}
+.mon.hit{outline:2px solid var(--star);outline-offset:1px}
+
+/* favorites */
+.fav{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:12px}
+.fav-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px}
+.fav-head h2{margin:0;font-size:16px;display:flex;align-items:center;gap:8px}
+.cnt{font-family:var(--f-data);font-size:12px;background:var(--sunk);padding:1px 8px;border-radius:99px;color:var(--muted)}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:6px 12px;font-size:13px}
+.btn:hover{border-color:var(--brand)}
+.btn.primary{background:var(--brand);border-color:var(--brand);color:var(--surface);font-weight:700}
+.status{font-size:11px;color:var(--muted)}
+form.add{display:grid;grid-template-columns:2fr 2fr 1fr;gap:8px;align-items:end}
+form.add label{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--muted);min-width:0}
+form.add .full{grid-column:1/-1}
+form.add .row{grid-column:1/-1;display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.fav-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.fav-item{border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:6px;min-width:0;background:var(--bg)}
+.fav-item .t{display:flex;gap:6px;align-items:flex-start;justify-content:space-between}
+.fav-item a{font-weight:700;text-decoration:none;word-break:break-all}
+.fav-item a:hover{text-decoration:underline}
+.fav-item .memo{font-size:12px;color:var(--muted);white-space:pre-wrap;word-break:break-word}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:11px;color:var(--muted)}
+.x{border:none;background:none;color:var(--muted);font-size:12px;padding:2px 4px;flex:none}
+.x:hover{color:var(--t-fighting)}
+.empty{color:var(--muted);font-size:13px;margin:4px 0}
+.fmt{font-size:10px;font-weight:700;letter-spacing:.06em;padding:1px 7px;border-radius:4px;background:var(--sunk);color:var(--muted)}
+.fmt.single{color:var(--single);background:color-mix(in srgb,var(--single) 14%,var(--surface))}
+.fmt.double{color:var(--double);background:color-mix(in srgb,var(--double) 14%,var(--surface))}
+.mons{display:flex;flex-wrap:wrap;gap:4px}
+
+/* panes */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
+@media (max-width:900px){.split{grid-template-columns:1fr} form.add{grid-template-columns:1fr}}
+.pane{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;min-width:0}
+.pane.single{--acc:var(--single)} .pane.double{--acc:var(--double)}
+.pane-head{padding:14px 16px 12px;display:flex;flex-direction:column;gap:10px;border-bottom:1px solid var(--line);
+  background:linear-gradient(90deg,color-mix(in srgb,var(--acc) 12%,var(--surface)),var(--surface) 70%)}
+.pane-title{display:flex;align-items:baseline;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.pane-title h2{margin:0;font-family:var(--f-display);font-weight:400;font-size:24px;color:var(--acc);letter-spacing:.05em;display:flex;align-items:center;gap:10px}
+.pane-title h2 .sym{font-family:var(--f-data);font-size:11px;letter-spacing:.14em;color:var(--muted)}
+.rule{font-size:12px;color:var(--muted)}
+.tabs{display:flex;gap:4px;flex-wrap:wrap}
+.tab{border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:99px;padding:4px 12px;font-size:12px}
+.tab[aria-pressed="true"]{background:var(--acc);border-color:var(--acc);color:var(--surface);font-weight:700}
+.pane-body{padding:6px 16px 16px;display:flex;flex-direction:column;gap:14px}
+.grp h3{font-size:12px;letter-spacing:.08em;color:var(--muted);margin:8px 0 6px;font-weight:700;display:flex;gap:8px;align-items:center}
+.grp h3::after{content:"";flex:1;height:1px;background:var(--line)}
+.cards{display:flex;flex-direction:column;gap:8px}
+.card{border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;grid-template-columns:64px 1fr auto;gap:6px 12px;align-items:start}
+.card:hover{border-color:var(--acc)}
+.place{font-family:var(--f-data);font-weight:700;font-size:15px;line-height:1.15;color:var(--acc);grid-row:span 3}
+.place small{display:block;font-size:11px;font-weight:500;color:var(--muted);margin-top:3px}
+.name{min-width:0;display:flex;flex-direction:column}
+.name a{font-weight:700;text-decoration:none}
+.name a:hover{text-decoration:underline}
+.who{font-size:12px;color:var(--muted)}
+.star{grid-row:span 3;border:1px solid var(--line);background:var(--surface);border-radius:8px;width:34px;height:34px;font-size:17px;line-height:1;color:var(--muted)}
+.star[aria-pressed="true"]{color:var(--star);border-color:var(--star)}
+.card .mons{grid-column:2}
+.foot{grid-column:2;font-size:11px;color:var(--muted)}
+.note-box{font-size:12px;color:var(--muted);background:var(--sunk);border-radius:8px;padding:8px 10px}
+.note-box a{color:var(--acc);font-weight:700}
+footer{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+footer a{color:var(--muted)}
+@media (max-width:480px){.card{grid-template-columns:50px 1fr auto}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="band">
+  <div class="band-in">
+    <div>
+      <div class="eyebrow">Pokémon Champions · Top Teams</div>
+      <h1>ポケチャン上位構築ボード</h1>
+      <p class="lead">ランクマ最終上位と大会上位の構築を、シングルとダブルで並べて確認。☆で気になる構築や記事を保存できます。</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="k">現レギュ</div><div class="v" id="stReg">—</div></div>
+      <div class="stat"><div class="k">直近シーズン</div><div class="v" id="stSeason">—</div></div>
+      <div class="stat"><div class="k">最終更新</div><div class="v" id="stUpd">—</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="toolbar">
+    <input id="q" type="search" placeholder="ポケモン名・プレイヤー・大会名で絞り込み（例：ガブリアス）" aria-label="絞り込み">
+    <div class="legend" id="legend"></div>
+  </div>
+
+  <section class="fav" aria-labelledby="favh">
+    <div class="fav-head">
+      <h2 id="favh">★ お気に入り <span class="cnt" id="favcnt">0</span></h2>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <span class="status" id="favstatus">保存先を確認中…</span>
+        <button class="btn primary" id="toggleAdd" type="button" aria-expanded="false">＋ 記事・サイトを追加</button>
+      </div>
+    </div>
+    <form class="add" id="addForm" hidden>
+      <label>URL<input id="fUrl" type="url" required placeholder="https://note.com/..."></label>
+      <label>タイトル<input id="fTitle" type="text" required placeholder="【M-6 最終○位】○○構築"></label>
+      <label>形式<select id="fFmt"><option value="single">シングル</option><option value="double">ダブル</option><option value="both">両方・その他</option></select></label>
+      <label class="full">メモ（任意）<textarea id="fMemo" rows="2" placeholder="気になった点、使ってみたい並びなど"></textarea></label>
+      <div class="row"><button class="btn" type="button" id="cancelAdd">キャンセル</button><button class="btn primary" type="submit">保存</button></div>
+    </form>
+    <div class="fav-list" id="favList"></div>
+  </section>
+
+  <div class="split">
+    <section class="pane single" aria-label="シングル">
+      <div class="pane-head">
+        <div class="pane-title"><h2>シングル <span class="sym">SINGLES</span></h2><span class="rule">6体見せ合い→3体選出</span></div>
+        <div class="tabs" data-pane="single">
+          <button class="tab" type="button" aria-pressed="true" data-k="all">すべて</button>
+          <button class="tab" type="button" aria-pressed="false" data-k="rank">ランクマ</button>
+          <button class="tab" type="button" aria-pressed="false" data-k="tourney">大会</button>
+          <button class="tab" type="button" aria-pressed="false" data-k="trend">流行構築</button>
+        </div>
+      </div>
+      <div class="pane-body" id="pane-single"></div>
+    </section>
+    <section class="pane double" aria-label="ダブル">
+      <div class="pane-head">
+        <div class="pane-title"><h2>ダブル <span class="sym">DOUBLES</span></h2><span class="rule">6体見せ合い→4体選出</span></div>
+        <div class="tabs" data-pane="double">
+          <button class="tab" type="button" aria-pressed="true" data-k="all">すべて</button>
+          <button class="tab" type="button" aria-pressed="false" data-k="rank">ランクマ</button>
+          <button class="tab" type="button" aria-pressed="false" data-k="tourney">大会</button>
+          <button class="tab" type="button" aria-pressed="false" data-k="trend">流行構築</button>
+        </div>
+      </div>
+      <div class="pane-body" id="pane-double"></div>
+    </section>
+  </div>
+
+  <footer>
+    <div>毎朝4時ごろ（日本時間）に最新のランクマ・大会結果を集めて、このサイトの内容を更新します。お気に入りはこのブラウザ（Chrome）内に保存されます。チップの色は各ポケモンのタイプです。</div>
+    <div>まとめサイト：<a href="https://game8.jp/pokemon-champions/784100" target="_blank" rel="noopener">Game8 上位構築まとめ</a> ・ <a href="https://liberty-note.com/category/pokemon-champions/double-battle-champions/top-result-champions/" target="_blank" rel="noopener">リバティノート 上位まとめ</a> ・ <a href="https://yakkun.com/bbs/party/list/?soft=4" target="_blank" rel="noopener">ポケモン徹底攻略 パーティ構築</a> ・ <a href="https://www.pikalytics.com/topteams" target="_blank" rel="noopener">Pikalytics Top Teams</a></div>
+  </footer>
+</div>
+
+<script>
+const DEFAULT_DATA = {"updatedAt": "2026-10-09T15:00:00+09:00", "regulation": "M-C（〜12/2）", "season": "M-6（9/9〜10/7）", "notes": {"single": {"tourney": "シングルの公式大会はマンスリーチャレンジ（MCS）。次回 2026.10 は 10/23(金)〜10/26(月)、レギュ M-C。結果が出たら上位構築をここに追加します。"}, "double": {"rank": "M-6ダブル最終トップ100はリバティノートにまとまっています。ここではパーティが判明している上位を抜粋しています。"}}, "builds": [{"id": "s-m6-1", "fmt": "single", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "1位", "sub": "2555", "title": "リザYブリムオン", "who": "まおう", "mons": ["*リザードンY", "*ガルーラ", "ブリムオン", "イダイトウ", "カバルドン", "サザンドラ"], "url": "https://note.com/abclil/n/n68915c0c22e4", "src": "note"}, {"id": "s-m6-11", "fmt": "single", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "11位", "sub": "2528", "title": "グロスガブZ（メタグロス・ミミッキュ軸）", "who": "モーガン", "mons": ["*メタグロス", "*ガブリアスZ", "ミミッキュ", "アシレーヌ", "カバルドン", "サーフゴー"], "url": "https://note.com/pokemons2/n/n1ec6963deb17", "src": "note"}, {"id": "s-m6-136", "fmt": "single", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "136位", "sub": "", "title": "パモの裏のジュペ", "who": "QUBES_poke", "mons": ["*ジュペッタ", "パーモット", "ドドゲザン", "エアームド", "アシレーヌ", "*ガブリアスZ"], "url": "https://yakkun.com/bbs/party/list/?soft=4&min_season=5&max_season=7&rule=0&sort=new", "src": "ポケモン徹底攻略"}, {"id": "s-m6-224", "fmt": "single", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "224位", "sub": "", "title": "小学生型メガボーマンダ構築", "who": "cocecco12", "mons": ["*ボーマンダ", "ブリジュラス", "ギルガルド", "*ギャラドス", "バイバニラ", "ドドゲザン"], "url": "https://yakkun.com/bbs/party/list/?soft=4&min_season=5&max_season=7&rule=0&sort=new", "src": "ポケモン徹底攻略"}, {"id": "s-m6-397", "fmt": "single", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "397位", "sub": "2312", "title": "グロスカイリュースタン", "who": "インドラ", "mons": ["メタグロス", "カイリュー", "（他4体は記事参照）"], "url": "https://champs.pokedb.tokyo/", "src": "ポケモンバトルデータベース"}, {"id": "s-tr-kabamanda", "fmt": "single", "kind": "trend", "grp": "M-C 環境上位の並び（Game8）", "place": "流行", "sub": "M-C", "title": "カバルドン＋メガボーマンダ", "who": "サイクル寄り", "mons": ["カバルドン", "*ボーマンダ", "ブリジュラス", "*ルカリオZ", "マスカーニャ", "アシレーヌ"], "url": "https://game8.jp/pokemon-champions/779319", "src": "Game8"}, {"id": "s-tr-gorilucario", "fmt": "single", "kind": "trend", "grp": "M-C 環境上位の並び（Game8）", "place": "流行", "sub": "M-C", "title": "ゴリランダー＋メガルカリオZ", "who": "グラスフィールド展開", "mons": ["*ルカリオZ", "カイリュー", "エンペルト", "セグレイブ", "ゴリランダー", "キラフロル"], "url": "https://game8.jp/pokemon-champions/779319", "src": "Game8"}, {"id": "s-tr-segriza", "fmt": "single", "kind": "trend", "grp": "M-C 環境上位の並び（Game8）", "place": "流行", "sub": "M-C", "title": "セグレイブ＋メガリザードンY", "who": "対面寄り", "mons": ["セグレイブ", "*リザードンY", "アーマーガア", "ガブリアス", "*メタグロス", "ミミッキュ"], "url": "https://game8.jp/pokemon-champions/779319", "src": "Game8"}, {"id": "s-tr-iegen", "fmt": "single", "kind": "trend", "grp": "M-C 環境上位の並び（Game8）", "place": "流行", "sub": "M-C", "title": "イエッサン＋メガゲンガー", "who": "かげふみ", "mons": ["*ゲンガー", "ガブリアス", "ブラッキー", "アーマーガア", "イエッサン♂", "アシレーヌ"], "url": "https://game8.jp/pokemon-champions/779319", "src": "Game8"}, {"id": "d-m6-1", "fmt": "double", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "1位", "sub": "2500", "title": "なま", "who": "@namak_po", "mons": ["ガブリアス", "オオニューラ", "ドドゲザン", "マフォクシー", "カイリュー", "イダイトウ♂"], "url": "https://x.com/namak_po/status/2107714023198486919", "src": "X（リバティノート掲載）"}, {"id": "d-m6-2", "fmt": "double", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "2位", "sub": "2490", "title": "Paul", "who": "@Paul_Chua_", "mons": ["リザードン", "ガブリアス", "フシギバナ", "ニンフィア", "ドヒドイデ", "ガオガエン"], "url": "https://x.com/paul_chua_/status/2107780103027474898", "src": "X（リバティノート掲載）"}, {"id": "d-m6-3", "fmt": "double", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "3位", "sub": "2478", "title": "ヤシの木", "who": "@xx_z2z", "mons": ["ゲンガー", "カイリュー", "ガブリアス", "オオニューラ", "イダイトウ♂", "ドドゲザン"], "url": "https://x.com/xx_z2z/status/2107738199154172361", "src": "X（リバティノート掲載）"}, {"id": "d-m6-4", "fmt": "double", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "4位", "sub": "2439", "title": "せいた", "who": "@seita_poke", "mons": ["リザードン", "メタグロス", "エルフーン", "ガブリアス", "イダイトウ♂", "ドドゲザン"], "url": "https://x.com/seita_poke/status/2107716968883376615", "src": "X（リバティノート掲載）"}, {"id": "d-m6-6", "fmt": "double", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "6位", "sub": "2432", "title": "Online", "who": "@online_poke", "mons": ["リザードン", "エルフーン", "ムクホーク", "ガブリアス", "キラフロル", "イエッサン♂"], "url": "https://x.com/online_poke/status/2107730195939770792", "src": "X（リバティノート掲載）"}, {"id": "d-m6-9", "fmt": "double", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "9位", "sub": "2414", "title": "yura", "who": "@yurayura_pon", "mons": ["マフォクシー", "ガオガエン", "ヤバソチャ", "ドドゲザン", "フラエッテ", "オオニューラ"], "url": "https://x.com/yurayura_pon/status/2107730887748304942", "src": "X（リバティノート掲載）"}, {"id": "d-m6-13", "fmt": "double", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "13位", "sub": "2409", "title": "リンヤ", "who": "@gozira2004", "mons": ["リザードン", "フシギバナ", "ペリッパー", "ブリジュラス", "オーロンゲ", "ガブリアス"], "url": "https://x.com/gozira2004/status/2107768621770625092", "src": "X（リバティノート掲載）"}, {"id": "d-m6-15", "fmt": "double", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "15位", "sub": "2400", "title": "은조순", "who": "@IamSliverfish", "mons": ["スコヴィラン", "ミロカロス", "ドリュウズ", "バンギラス", "ムクホーク", "ハッサム"], "url": "https://x.com/IamSliverfish/status/2107722622410842592", "src": "X（リバティノート掲載）"}, {"id": "d-m6-51", "fmt": "double", "kind": "rank", "grp": "ランクマ M-6 最終", "place": "51位", "sub": "2315", "title": "Xena｜構築記事あり", "who": "@Xenagaming248", "mons": ["ボーマンダ", "ライチュウ", "ニンフィア", "イダイトウ♂", "ドドゲザン", "ガオガエン"], "url": "https://note.com/rich_dahlia235/n/n4cb6f5c36bd0", "src": "note"}, {"id": "d-t-frankfurt", "fmt": "double", "kind": "tourney", "grp": "大会（レギュ M-C）", "place": "優勝", "sub": "17-0", "title": "フランクフルト・リージョナル（1,173人）", "who": "Eric Rios ／ 9/26-27", "mons": ["サーフゴー", "ウルガモス", "*ガブリアスZ", "ガオガエン", "ゴリランダー", "*ライチュウY"], "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-frankfurt-pokemon-vgc-regional-championships/", "src": "Pokémon Zone"}, {"id": "d-t-brisbane", "fmt": "double", "kind": "tourney", "grp": "大会（レギュ M-C）", "place": "優勝", "sub": "", "title": "ブリスベン・リージョナル（360人）", "who": "Kiran Singh ／ 9/26-27", "mons": ["ブリジュラス", "ペリッパー", "オーロンゲ", "*リザードンY", "*ガブリアスZ", "フシギバナ"], "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-brisbane-pokemon-vgc-regional-championships/", "src": "Pokémon Zone"}, {"id": "d-t-maddo12", "fmt": "double", "kind": "tourney", "grp": "大会（レギュ M-C）", "place": "優勝", "sub": "13-2", "title": "Maddo's Cup #12（388人）", "who": "Luca ／ 9/19", "mons": ["*ボーマンダ", "*ライチュウY", "ヒスイウインディ", "ニンフィア", "サーフゴー", "ゴリランダー"], "url": "https://play.limitlesstcg.com/tournament/6a9c5234a4272c53be6480bf/player/luca/teamlist", "src": "Limitless"}, {"id": "d-t-vr2", "fmt": "double", "kind": "tourney", "grp": "大会（レギュ M-C）", "place": "優勝", "sub": "10-0", "title": "VR September Challenge #2（253人）", "who": "Didi ／ 9/19-20", "mons": ["*カイリュー", "*フラエッテ", "ガオガエン", "サーフゴー", "オオニューラ", "ゴリランダー"], "url": "https://victoryroad.pro/vr-sep26-2/", "src": "Victory Road"}, {"id": "d-t-coupe4", "fmt": "double", "kind": "tourney", "grp": "大会（レギュ M-C）", "place": "優勝", "sub": "10-1", "title": "Coupe Critique Champions #4（128人）", "who": "Mahir X ／ 9/19", "mons": ["*ラグラージ", "ペリッパー", "ブリジュラス", "オーロンゲ", "*リザードンY", "フシギバナ"], "url": "https://play.limitlesstcg.com/tournament/6aa7f40ef1243e65f9800feb/player/fardeen_003x/teamlist", "src": "Limitless"}, {"id": "d-t-tartan39", "fmt": "double", "kind": "tourney", "grp": "大会（レギュ M-C）", "place": "優勝", "sub": "11-0", "title": "TARTAN TAKEDOWN #39（105人）", "who": "Vinnamon ／ 9/22", "mons": ["リキキリン", "ゴリランダー", "ニンフィア", "*バクーダ", "*ガブリアスZ", "ガオガエン"], "url": "https://play.limitlesstcg.com/tournament/6aa9276138886b36383c0b0d/player/vinnamon/teamlist", "src": "Limitless"}, {"id": "d-t-rain", "fmt": "double", "kind": "tourney", "grp": "大会（レギュ M-C）", "place": "優勝", "sub": "13-1", "title": "Make It Rain - VGC Tournament", "who": "Lloyd Villar", "mons": ["オオニューラ", "*ボーマンダ", "*バンギラス", "ドリュウズ", "イエッサン", "ミロカロス"], "url": "https://play.limitlesstcg.com/tournament/6a7ba8f62b308b6067b5199c/player/lloyd5/teamlist", "src": "Limitless"}, {"id": "d-t-talon101", "fmt": "double", "kind": "tourney", "grp": "大会（レギュ M-C）", "place": "優勝", "sub": "12-0", "title": "Talon's FIGHT CLUB #101", "who": "DDee", "mons": ["*フラエッテ", "オオニューラ", "ガオガエン", "ゴリランダー", "サーフゴー", "*ライチュウY"], "url": "https://play.limitlesstcg.com/tournament/6a6a3192937230b102d48538/player/ddee/teamlist", "src": "Limitless"}, {"id": "d-t-tenki119", "fmt": "double", "kind": "tourney", "grp": "大会（レギュ M-C）", "place": "優勝", "sub": "11-0", "title": "Tenki's Cart Weekly #119", "who": "dartsvgc", "mons": ["イエッサン♀", "*ゲンガー", "グレンアルマ", "マスカーニャ", "コノヨザル", "*サーナイト"], "url": "https://play.limitlesstcg.com/tournament/6aad0d0ae905c1db68744103/player/dartsvgc/teamlist", "src": "Limitless"}, {"id": "d-t-wcs1", "fmt": "double", "kind": "tourney", "grp": "WCS2026（前レギュ M-B）", "place": "優勝", "sub": "", "title": "ポケモンWCS2026 マスター", "who": "Takuma Yamazaki ／ 8/28-30", "mons": ["*フラエッテ", "*カイリュー", "ドドゲザン", "オオニューラ", "イダイトウ", "ガブリアス"], "url": "https://bulbagarden.net/threads/2026-pokemon-vgc-world-championships-results-and-teams-takuma-yamazaki-is-your-2026-world-champion.311448/", "src": "Bulbagarden"}, {"id": "d-t-wcs2", "fmt": "double", "kind": "tourney", "grp": "WCS2026（前レギュ M-B）", "place": "準優勝", "sub": "", "title": "ポケモンWCS2026 マスター", "who": "Hiroshi Onishi（cona）", "mons": ["*フラエッテ", "*リザードンY", "ドドゲザン", "イダイトウ", "エルフーン", "ガブリアス"], "url": "https://bulbagarden.net/threads/2026-pokemon-vgc-world-championships-results-and-teams-takuma-yamazaki-is-your-2026-world-champion.311448/", "src": "Bulbagarden"}]};
+
+const TYPES = {normal:"ノーマル",fire:"ほのお",water:"みず",grass:"くさ",electric:"でんき",ice:"こおり",fighting:"かくとう",poison:"どく",ground:"じめん",flying:"ひこう",psychic:"エスパー",bug:"むし",rock:"いわ",ghost:"ゴースト",dragon:"ドラゴン",dark:"あく",steel:"はがね",fairy:"フェアリー"};
+const TYPE_OF = {
+ "リザードン":"fire","ガルーラ":"normal","ブリムオン":"psychic","イダイトウ":"water","カバルドン":"ground","サザンドラ":"dark","メタグロス":"steel","ガブリアス":"dragon","ミミッキュ":"ghost","アシレーヌ":"water","サーフゴー":"steel","ジュペッタ":"ghost","パーモット":"electric","ドドゲザン":"dark","エアームド":"steel","ボーマンダ":"dragon","ブリジュラス":"steel","ギルガルド":"steel","ギャラドス":"water","バイバニラ":"ice","カイリュー":"dragon","ルカリオ":"fighting","マスカーニャ":"grass","エンペルト":"water","セグレイブ":"dragon","ゴリランダー":"grass","キラフロル":"rock","アーマーガア":"flying","ゲンガー":"ghost","ブラッキー":"dark","イエッサン":"psychic","オオニューラ":"fighting","マフォクシー":"fire","フシギバナ":"grass","ニンフィア":"fairy","ドヒドイデ":"poison","ガオガエン":"fire","エルフーン":"grass","ムクホーク":"normal","ヤバソチャ":"grass","フラエッテ":"fairy","ペリッパー":"water","オーロンゲ":"dark","スコヴィラン":"grass","ミロカロス":"water","ドリュウズ":"ground","バンギラス":"rock","ハッサム":"bug","ライチュウ":"electric","ウルガモス":"bug","ヒスイウインディ":"fire","ウインディ":"fire","ラグラージ":"water","リキキリン":"normal","バクーダ":"fire","グレンアルマ":"fire","コノヨザル":"fighting","サーナイト":"psychic","ユキメノコ":"ice","グソクムシャ":"bug","プテラ":"rock","ピクシー":"fairy","カメックス":"water","メガニウム":"grass","ゲッコウガ":"water","クチート":"steel","ミミロップ":"normal","バシャーモ":"fire","ジュカイン":"grass","アブソル":"dark","ウォッシュロトム":"water","ヒートロトム":"fire","ヒスイダイケンキ":"water","キュウコン":"fire","ドラパルト":"dragon","ポットデス":"ghost","エーフィ":"psychic","メタモン":"normal","ヤミラミ":"dark","カビゴン":"normal","エースバーン":"fire","ハカドッグ":"ghost","エレザード":"electric","イッカネズミ":"normal","コータス":"fire","ニョロトノ":"water","ジャラランガ":"dragon","ワルビアル":"ground","ドサイドン":"ground","オニゴーリ":"ice","カモネギ":"normal","チリーン":"psychic","トリミアン":"normal","ジジーロン":"normal"
+};
+function typeOf(n){
+  let k = n.replace(/[♂♀]/g,"").replace(/[XYZ]$/,"").replace(/[（(].*$/,"").trim();
+  if(TYPE_OF[k]) return TYPE_OF[k];
+  if(k.startsWith("ヒスイ") && TYPE_OF[k.slice(3)]) return TYPE_OF[k.slice(3)];
+  return null;
+}
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s==null?"":s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl = u => /^https?:\/\//i.test(String(u||"")) ? String(u) : "#";
+const state = {single:"all", double:"all", q:""};
+let DATA = DEFAULT_DATA;
+let favs = new Map();
+let store = null;
+const NOTE_LINKS = {
+  "single:tourney":'<a href="https://game8.jp/pokemon-champions/784100" target="_blank" rel="noopener">Game8 上位構築ツール</a>',
+  "double:rank":'<a href="https://liberty-note.com/category/pokemon-champions/double-battle-champions/top-result-champions/" target="_blank" rel="noopener">リバティノート 上位まとめ</a>'
+};
+
+function monHTML(m, q){
+  const mega = String(m).startsWith("*"); const n = mega ? m.slice(1) : m;
+  const t = typeOf(n); const hit = q && n.includes(q);
+  return `<span class="mon${hit?" hit":""}" style="--t:var(--t-${t||"none"})" title="${t?TYPES[t]+"タイプ":""}">${mega?'<span class="mg">MEGA</span>':""}${esc(n)}</span>`;
+}
+function matches(b,q){ return !q || [b.title,b.who,b.grp,...(b.mons||[])].join(" ").includes(q); }
+function renderLegend(){
+  const used = ["fire","water","grass","electric","dragon","steel","fairy","dark","ghost","fighting"];
+  $("#legend").innerHTML = used.map(t=>`<span class="mon" style="--t:var(--t-${t})">${TYPES[t]}</span>`).join("") + ` <span class="mon" style="--t:var(--t-none)"><span class="mg">MEGA</span>メガ枠</span>`;
+}
+function renderHeader(){
+  $("#stReg").textContent = DATA.regulation || "—";
+  $("#stSeason").textContent = DATA.season || "—";
+  let u = "—"; try{ const d = new Date(DATA.updatedAt); if(!isNaN(d)) u = d.toLocaleString("ja-JP",{month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"}); }catch(e){}
+  $("#stUpd").textContent = u;
+}
+function renderPane(fmt){
+  const k = state[fmt], q = state.q;
+  const list = (DATA.builds||[]).filter(b => b.fmt===fmt && (k==="all"||b.kind===k) && matches(b,q));
+  const groups = new Map();
+  list.forEach(b => { if(!groups.has(b.grp)) groups.set(b.grp,[]); groups.get(b.grp).push(b); });
+  let html = "";
+  const notes = (DATA.notes||{})[fmt] || {};
+  (k==="all" ? ["rank","tourney","trend"] : [k]).forEach(kk => {
+    if(notes[kk]){ const ln = NOTE_LINKS[fmt+":"+kk]; html += `<div class="note-box">${esc(notes[kk])}${ln?" "+ln:""}</div>`; }
+  });
+  groups.forEach((items,g) => {
+    html += `<div class="grp"><h3>${esc(g)}</h3><div class="cards">` + items.map(b => {
+      const on = favs.has(b.id);
+      return `<article class="card">
+        <div class="place">${esc(b.place)}${b.sub?`<small>${esc(b.sub)}</small>`:""}</div>
+        <div class="name"><a href="${esc(safeUrl(b.url))}" target="_blank" rel="noopener">${esc(b.title)}</a><span class="who">${esc(b.who)}</span></div>
+        <button class="star" type="button" data-id="${esc(b.id)}" aria-pressed="${on}" aria-label="${on?"お気に入りから外す":"お気に入りに保存"}" title="${on?"お気に入りから外す":"お気に入りに保存"}">${on?"★":"☆"}</button>
+        <div class="mons">${(b.mons||[]).map(m=>monHTML(m,q)).join("")}</div>
+        <div class="foot">出典：${esc(b.src)}</div>
+      </article>`;}).join("") + `</div></div>`;
+  });
+  if(!groups.size) html += `<p class="empty">条件に合う構築はまだありません。</p>`;
+  $("#pane-"+fmt).innerHTML = html;
+}
+function renderFavs(){
+  const items = [...favs.entries()].sort((a,b)=>(b[1].createdAt||0)-(a[1].createdAt||0));
+  $("#favcnt").textContent = items.length;
+  const fl = {single:"シングル",double:"ダブル",both:"その他"};
+  $("#favList").innerHTML = items.length ? items.map(([id,f]) => `
+    <div class="fav-item">
+      <div class="t"><a href="${esc(safeUrl(f.url))}" target="_blank" rel="noopener">${esc(f.title)}</a><button class="x" type="button" data-del="${esc(id)}">削除</button></div>
+      ${Array.isArray(f.mons)&&f.mons.length?`<div class="mons">${f.mons.map(m=>monHTML(m,"")).join("")}</div>`:""}
+      ${f.memo?`<div class="memo">${esc(f.memo)}</div>`:""}
+      <div class="meta"><span class="fmt ${esc(f.fmt||"both")}">${fl[f.fmt]||"その他"}</span>${f.who?`<span>${esc(f.who)}</span>`:""}<span>${f.createdAt?new Date(f.createdAt).toLocaleDateString("ja-JP"):""}</span></div>
+    </div>`).join("") : `<p class="empty">まだありません。構築カードの ☆ を押すか、「＋ 記事・サイトを追加」で見つけた構築記事のURLを保存できます。</p>`;
+}
+function renderAll(){ renderHeader(); renderFavs(); renderPane("single"); renderPane("double"); }
+
+const LS = "pokechamp-favs-v1";
+function lsLoad(){ try{ return JSON.parse(localStorage.getItem(LS)||"{}"); }catch(e){ return {}; } }
+function lsSave(){ try{ localStorage.setItem(LS, JSON.stringify(Object.fromEntries(favs))); }catch(e){} }
+function useLocal(msg){
+  favs = new Map(Object.entries(lsLoad()));
+  store = { async save(id,d){ favs.set(id,d); lsSave(); renderAll(); }, async remove(id){ favs.delete(id); lsSave(); renderAll(); } };
+  $("#favstatus").textContent = msg; renderAll();
+}
+async function init(){
+  useLocal("このChrome内に保存中");
+  try{
+    const r = await fetch("data.json?t=" + Date.now(), {cache:"no-store"});
+    if(r.ok){ const d = await r.json(); if(d && Array.isArray(d.builds)){ DATA = d; renderAll(); } }
+  }catch(e){ /* オフライン時は埋め込みデータで表示 */ }
+}
+
+document.addEventListener("click", e => {
+  const st = e.target.closest(".star");
+  if(st && store){
+    const b = (DATA.builds||[]).find(x=>x.id===st.dataset.id); if(!b) return;
+    if(favs.has(b.id)) store.remove(b.id);
+    else store.save(b.id,{title:(b.place+" "+b.title).trim(),url:b.url,fmt:b.fmt,who:b.who,mons:b.mons,memo:b.grp,createdAt:Date.now(),buildId:b.id});
+    return;
+  }
+  const del = e.target.closest("[data-del]");
+  if(del && store){ store.remove(del.dataset.del); return; }
+  const tab = e.target.closest(".tab");
+  if(tab){
+    const pane = tab.parentElement.dataset.pane;
+    tab.parentElement.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-pressed", t===tab?"true":"false"));
+    state[pane] = tab.dataset.k; renderPane(pane);
+  }
+});
+let qt; $("#q").addEventListener("input", e => { clearTimeout(qt); qt=setTimeout(()=>{ state.q=e.target.value.trim(); renderPane("single"); renderPane("double"); },120); });
+const form = $("#addForm"), tg = $("#toggleAdd");
+function showForm(v){ form.hidden=!v; tg.setAttribute("aria-expanded", String(v)); if(v) $("#fUrl").focus(); }
+tg.addEventListener("click", ()=>showForm(form.hidden));
+$("#cancelAdd").addEventListener("click", ()=>{ form.reset(); showForm(false); });
+form.addEventListener("submit", e => {
+  e.preventDefault(); if(!store) return;
+  const url = $("#fUrl").value.trim();
+  if(!/^https?:\/\//.test(url)){ $("#fUrl").setCustomValidity("http(s):// から始まるURLを入れてください"); $("#fUrl").reportValidity(); return; }
+  const id = "u-" + Date.now().toString(36) + Math.random().toString(36).slice(2,6);
+  store.save(id,{title:$("#fTitle").value.trim(),url,fmt:$("#fFmt").value,memo:$("#fMemo").value.trim(),createdAt:Date.now()});
+  form.reset(); showForm(false);
+});
+$("#fUrl").addEventListener("input", e=>e.target.setCustomValidity(""));
+
+renderLegend();
+renderAll();
+init();
+</script>
+</body>
+</html>
