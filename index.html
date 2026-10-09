@@ -115,6 +115,8 @@ form.add .row{grid-column:1/-1;display:flex;gap:8px;justify-content:flex-end;fle
 .cards{display:flex;flex-direction:column;gap:8px}
 .card{border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;grid-template-columns:64px 1fr auto;gap:6px 12px;align-items:start}
 .card:hover{border-color:var(--acc)}
+.card.mine{border:2px solid var(--star);background:color-mix(in srgb,var(--star) 9%,var(--surface))}
+.card.mine .place{color:var(--star)}
 .place{font-family:var(--f-data);font-weight:700;font-size:15px;line-height:1.15;color:var(--acc);grid-row:span 3}
 .place small{display:block;font-size:11px;font-weight:500;color:var(--muted);margin-top:3px}
 .name{min-width:0;display:flex;flex-direction:column}
@@ -262,7 +264,7 @@ function renderPane(fmt){
   groups.forEach((items,g) => {
     html += `<div class="grp"><h3>${esc(g)}</h3><div class="cards">` + items.map(b => {
       const on = favs.has(b.id);
-      return `<article class="card">
+      return `<article class="card${b.kind==="mine"?" mine":""}">
         <div class="place">${esc(b.place)}${b.sub?`<small>${esc(b.sub)}</small>`:""}</div>
         <div class="name"><a href="${esc(safeUrl(b.url))}" target="_blank" rel="noopener">${esc(b.title)}</a><span class="who">${esc(b.who)}</span></div>
         <button class="star" type="button" data-id="${esc(b.id)}" aria-pressed="${on}" aria-label="${on?"お気に入りから外す":"お気に入りに保存"}" title="${on?"お気に入りから外す":"お気に入りに保存"}">${on?"★":"☆"}</button>

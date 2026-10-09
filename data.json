@@ -12,6 +12,26 @@
  },
  "builds": [
   {
+   "id": "my-gabugross-dualweather",
+   "fmt": "double",
+   "kind": "mine",
+   "grp": "★ 使用中の構築",
+   "place": "96位",
+   "sub": "1814",
+   "title": "【レギュM-C】ガブグロス+デュアルウェザー",
+   "who": "ベテ ／ グローバルチャレンジⅠ 26-4 ／ チームID WHKDQWQYA1",
+   "mons": [
+    "オーロンゲ",
+    "リザードン",
+    "ブリジュラス",
+    "ペリッパー",
+    "ガブリアス",
+    "メタグロス"
+   ],
+   "url": "https://colonel-vete.hatenablog.com/entry/2026/10/03/144300",
+   "src": "はてなブログ"
+  },
+  {
    "id": "s-m6-1",
    "fmt": "single",
    "kind": "rank",
