@@ -10,5 +10,6 @@
 
 - `/`（ルートの `index.html`）… メインメニュー「安間の好きなものまとめサイト」
 - `/pokechamp/` … ポケチャン上位構築ボード（https://miraikakeru.github.io/pokechamp-board/pokechamp/）
+- `/goods/` … グッズ情報まとめボード（ポケモン・マーベル・原神／ゼンレスゾーンゼロ／崩壊：スターレイルのグッズとコラボ。データは `goods/data.json`、毎週土曜4時に自動更新）
 - ボードのデータは `pokechamp/data.json`。毎朝の自動更新はこの `pokechamp/data.json` を書き換えます。
 - favicon・アイコン・`manifest.webmanifest` はルートに置き、ボードから `../` で参照しています。
