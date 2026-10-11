@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-12T02:17:35+09:00",
+ "updatedAt": "2026-10-12T04:06:54+09:00",
  "regulation": "M-C（〜12/2）",
  "season": "M-7（10/7〜11/4）",
  "notes": {
@@ -3750,6 +3750,26 @@
    ],
    "url": "https://note.com/morikamome/n/ncfcabb8566d0",
    "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-129-ua",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "129位",
+   "sub": "2400",
+   "title": "HDミロカロス軸サイクル構築",
+   "who": "ua_poke ／ 2026-10-12",
+   "mons": [
+    "ミロカロス",
+    "マスカーニャ",
+    "ハッサム",
+    "*カイリュー",
+    "*アブソル",
+    "キラフロル"
+   ],
+   "url": "https://pokesol.app/u/ua_poke/articles/37993777629bf24d",
+   "src": "ポケノート"
   }
  ]
 }
