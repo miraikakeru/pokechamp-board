@@ -1,7 +1,8 @@
 {
  "name": "ポケチャン上位構築ボード",
  "short_name": "ポケチャン構築",
- "start_url": "./",
+ "start_url": "pokechamp/",
+ "scope": "./",
  "display": "standalone",
  "background_color": "#0b3d2b",
  "theme_color": "#0b3d2b",
