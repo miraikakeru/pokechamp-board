@@ -1,16 +1,17 @@
 {
- "updatedAt": "2026-10-11T22:20:00+09:00",
+ "updatedAt": "2026-10-12T02:17:35+09:00",
  "regulation": "M-C（〜12/2）",
  "season": "M-7（10/7〜11/4）",
  "notes": {
   "double": {
    "offline": "国内ダブルのオフ会は、てるチャレChampions #5 Offline（10/4）の上位構築記事が公開されしだい追加します。次回はてるチャレChampions #6 Online（11/14・定員512）。海外のリージョナル（オフライン大会）は「大会」タブにあります。",
-   "rank": "M-6ダブル最終トップ100はリバティノートにまとまっています（申告制のためメガ表記なし）。ここではパーティが判明している上位を抜粋しています。",
+   "rank": "M-6ダブル最終トップ100はリバティノートにまとまっています（申告制のためメガ表記なし）。ここではパーティが判明している上位を抜粋しています。GameWith の上位構築まとめ掲載分も追加しています。",
    "tourney": "レシフェ・リージョナル（10/3-4）は Pokémon Zone の最終順位（スイス順）上位4名。メガストーンを2つ登録しているチームは両方に * を付けています。グローバルチャレンジⅠとランクマのダブル上位は、メガシンカの有無が公表されていないものがあり、その場合はメガ表記なしです。 ルイビル・リージョナル（10/10-11）は現在開催中のため、決勝トーナメント終了後に追加します。"
   },
   "single": {
    "offline": "国内のオフ会（オフライン大会）で結果を残した構築です。構築記事が公開されたものを載せています。",
-   "tourney": "シングルの公式大会はマンスリーチャレンジ（MCS）。次回 2026.10 は 10/23(金)〜10/26(月)、レギュ M-C。結果が出たら上位構築をここに追加します。"
+   "tourney": "シングルの公式大会はマンスリーチャレンジ（MCS）。次回 2026.10 は 10/23(金)〜10/26(月)、レギュ M-C。結果が出たら上位構築をここに追加します。",
+   "rank": "M-6シングルの最終上位は、各プレイヤーの構築記事と GameWith の上位構築まとめ（掲載許可を得た300位以内）から、6体が判明しているものを載せています。"
   }
  },
  "builds": [
@@ -2229,6 +2230,1526 @@
    "title": "飛来神ライチュウアシレ",
    "url": "https://pokesol.app/u/yatoru_poke/articles/d41ee42d123f67e3",
    "who": "yatoru"
+  },
+  {
+   "id": "s-m6-gw2",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "2位",
+   "sub": "2554",
+   "title": "まどれーぬさんの構築記事",
+   "who": "まどれーぬ",
+   "mons": [
+    "*ルカリオZ",
+    "カバルドン",
+    "*カイリュー",
+    "ギルガルド",
+    "イダイトウ♂",
+    "ミミッキュ"
+   ],
+   "url": "https://eff4dckeqm1cwsf.hatenablog.com/entry/2026/10/10/081058",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw3",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "3位",
+   "sub": "2547",
+   "title": "かんたさんの構築記事",
+   "who": "かんた",
+   "mons": [
+    "カバルドン",
+    "*キラフロル",
+    "アーマーガア",
+    "アシレーヌ",
+    "イエッサン♂",
+    "*グソクムシャ"
+   ],
+   "url": "https://meltdowner.hatenablog.com/entry/2026/10/08/115914",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw6",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "6位",
+   "sub": "2538",
+   "title": "めろーるさんの構築記事",
+   "who": "めろーる",
+   "mons": [
+    "*カイリュー",
+    "*ルカリオ",
+    "ブリジュラス",
+    "ゴリランダー",
+    "アシレーヌ",
+    "イダイトウ♂"
+   ],
+   "url": "https://claris-bradbury.hatenablog.com/entry/2026/10/07/%E3%80%90M-6_%E6%9C%80%E7%B5%826%E4%BD%8D%E3%80%91G%E7%B7%9A%E4%B8%8A%E3%81%AE%E9%AD%94%E7%8E%8B",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw7",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "7位",
+   "sub": "2536",
+   "title": "ムーさんの構築記事",
+   "who": "ムー",
+   "mons": [
+    "*フラエッテ",
+    "カバルドン",
+    "ダイケンキ",
+    "ドヒドイデ",
+    "*ガブリアスZ",
+    "サーフゴー"
+   ],
+   "url": "https://muu-poke.hatenablog.com/entry/2026/10/08/204225",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw9",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "9位",
+   "sub": "2532",
+   "title": "チョカさんの構築記事",
+   "who": "チョカ",
+   "mons": [
+    "スコヴィラン",
+    "オオニューラ",
+    "サーフゴー",
+    "*ギャラドス",
+    "ハラバリー",
+    "ゲンガー"
+   ],
+   "url": "https://tixyoca.hatenablog.com/entry/2026/10/08/163644",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw12",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "12位",
+   "sub": "2525",
+   "title": "showさんの構築記事",
+   "who": "show",
+   "mons": [
+    "*リザードンX",
+    "ダイケンキ",
+    "サーフゴー",
+    "カバルドン",
+    "*グソクムシャ",
+    "*フラエッテ"
+   ],
+   "url": "https://show-99.hatenablog.com/entry/2026/10/07/175124",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw24",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "24位",
+   "sub": "2485",
+   "title": "みんらいさんの構築記事",
+   "who": "みんらい",
+   "mons": [
+    "*リザードンY",
+    "*メタグロス",
+    "ガブリアス",
+    "ウォッシュロトム",
+    "アーマーガア",
+    "アシレーヌ"
+   ],
+   "url": "https://minrai525.hatenablog.com/entry/2026/10/08/104102",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw34",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "34位",
+   "sub": "2465",
+   "title": "ごくつぶしさんの構築記事",
+   "who": "ごくつぶし",
+   "mons": [
+    "サザンドラ",
+    "*メタグロス",
+    "ヒートロトム",
+    "ミミッキュ",
+    "ミロカロス",
+    "ガブリアス"
+   ],
+   "url": "https://gokugokupoke.hatenablog.com/entry/2026/10/07/192310?_gl=1*ub1jry*_gcl_au*MTAzNTc5Njc0Ny4xNzg5Mzc4Mjky",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw35",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "35位",
+   "sub": "2462",
+   "title": "スタぽけさんの構築記事",
+   "who": "スタぽけ",
+   "mons": [
+    "*ユキメノコ",
+    "ガブリアス",
+    "アーマーガア",
+    "イエッサン♂",
+    "*ルカリオ",
+    "オニシズクモ"
+   ],
+   "url": "https://suta-poke.hatenablog.com/entry/2026/10/08/111550",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw41",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "41位",
+   "sub": "2458",
+   "title": "ひよぺんさんの構築記事",
+   "who": "ひよぺん",
+   "mons": [
+    "*ゲンガー",
+    "ハラバリー",
+    "ブラッキー",
+    "*ボーマンダ",
+    "ブリジュラス",
+    "アシレーヌ"
+   ],
+   "url": "https://ebapoke.hatenablog.com/entry/2026/10/08/223301",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw47",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "47位",
+   "sub": "2454",
+   "title": "チハヤさんの構築記事",
+   "who": "チハヤ",
+   "mons": [
+    "*ゲンガー",
+    "イエッサン♂",
+    "ブラッキー",
+    "アシレーヌ",
+    "ガブリアス",
+    "*グソクムシャ"
+   ],
+   "url": "https://chihaya-poke.hatenablog.com/entry/2026/10/07/183600",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw49",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "49位",
+   "sub": "2453",
+   "title": "ケチャワチャさんの構築記事",
+   "who": "ケチャワチャ",
+   "mons": [
+    "ルカリオ",
+    "カイリュー",
+    "カメックス",
+    "ゲッコウガ",
+    "ブリジュラス",
+    "イエッサン♂"
+   ],
+   "url": "https://ngopoke.hatenablog.com/entry/2026/10/07/174333",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw52",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "52位",
+   "sub": "2450",
+   "title": "やすおさんの構築記事",
+   "who": "やすお",
+   "mons": [
+    "ガブリアス",
+    "*フラエッテ",
+    "イダイトウ♂",
+    "*マフォクシー",
+    "ハッサム",
+    "ドデカバシ"
+   ],
+   "url": "https://yasuosandayo.hatenablog.com/entry/2026/10/07/192759",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw53",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "53位",
+   "sub": "2448",
+   "title": "ろすさんの構築記事",
+   "who": "ろす",
+   "mons": [
+    "カバルドン",
+    "*ボーマンダ",
+    "サーフゴー",
+    "フラエッテ",
+    "アシレーヌ",
+    "*メタグロス"
+   ],
+   "url": "https://rosupoke.hatenablog.com/entry/2026/10/08/122534",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw57",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "57位",
+   "sub": "2446",
+   "title": "ハルヒさんの構築記事",
+   "who": "ハルヒ",
+   "mons": [
+    "*フラエッテ",
+    "アーマーガア",
+    "ガブリアス",
+    "ダイケンキ",
+    "イエッサン♂",
+    "*ゲンガー"
+   ],
+   "url": "https://wld.hatenablog.com/entry/2026/10/07/194629",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw58",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "58位",
+   "sub": "2444",
+   "title": "城之内サンダーさんの構築記事",
+   "who": "城之内サンダー",
+   "mons": [
+    "*ボーマンダ",
+    "*マフォクシー",
+    "アシレーヌ",
+    "ドドゲザン",
+    "パーモット",
+    "キュウコン"
+   ],
+   "url": "https://note.com/tasty_dunlin573/n/n4783c80b1ce4",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw62",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "62位",
+   "sub": "2441",
+   "title": "みゃけさんの構築記事",
+   "who": "みゃけ",
+   "mons": [
+    "カイリュー",
+    "サーフゴー",
+    "ハッサム",
+    "ブラッキー",
+    "*ライチュウY",
+    "キラフロル"
+   ],
+   "url": "https://note.com/rich_cosmos89/n/n290d12557a87",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw66",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "66位",
+   "sub": "2439",
+   "title": "レブロンぽけさんの構築記事",
+   "who": "レブロンぽけ",
+   "mons": [
+    "オーロンゲ",
+    "*フラエッテ",
+    "サーフゴー",
+    "ガブリアス",
+    "*ギャラドス",
+    "ウルガモス"
+   ],
+   "url": "https://note.com/lively_serval576/n/n6b945def211b",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw71",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "71位",
+   "sub": "2436",
+   "title": "せっきーさんの構築記事",
+   "who": "せっきー",
+   "mons": [
+    "*ルカリオZ",
+    "*アブソルZ",
+    "ガブリアス",
+    "ギャラドス",
+    "キュウコン",
+    "キラフロル"
+   ],
+   "url": "https://pkmn-ys1224.hatenablog.com/entry/2026/10/08/180309",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw73",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "73位",
+   "sub": "2435",
+   "title": "こうたろーさんの構築記事",
+   "who": "こうたろー",
+   "mons": [
+    "*ルカリオ",
+    "カバルドン",
+    "ミミッキュ",
+    "ヌメルゴン",
+    "*ゲッコウガ",
+    "エースバーン"
+   ],
+   "url": "https://kotaro-chizuru.hatenadiary.jp/entry/2026/10/07/165925",
+   "src": "ブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw75",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "75位",
+   "sub": "2434",
+   "title": "ズラーチさんの構築記事",
+   "who": "ズラーチ",
+   "mons": [
+    "エンペルト",
+    "*ボーマンダ",
+    "サーフゴー",
+    "*ガブリアスZ",
+    "ゴリランダー",
+    "ハッサム"
+   ],
+   "url": "https://yama1610.hatenadiary.com/entry/2026/10/11/172320",
+   "src": "ブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw77",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "77位",
+   "sub": "2434",
+   "title": "Ligさんの構築記事",
+   "who": "Lig",
+   "mons": [
+    "*ボーマンダ",
+    "*メタグロス",
+    "カバルドン",
+    "アシレーヌ",
+    "ブリジュラス",
+    "ダイケンキ"
+   ],
+   "url": "https://note.com/lig76/n/n0b0c72c9c76c",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw79",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "79位",
+   "sub": "2433",
+   "title": "はてなさんの構築記事",
+   "who": "はてな",
+   "mons": [
+    "オーロンゲ",
+    "*フラエッテ",
+    "*ギャラドス",
+    "サーフゴー",
+    "ガブリアス",
+    "ウルガモス"
+   ],
+   "url": "https://paov8i5qwu0dwvn.hatenablog.com/entry/2026/10/08/011259",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw80",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "80位",
+   "sub": "2433",
+   "title": "たんぱくしつさんの構築記事",
+   "who": "たんぱくしつ",
+   "mons": [
+    "*ルカリオ",
+    "*ハッサム",
+    "カビゴン",
+    "ソウブレイズ",
+    "ウォッシュロトム",
+    "ミミッキュ"
+   ],
+   "url": "https://tanpaku-pk2.hatenablog.com/entry/2026/10/08/161851",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw84",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "84位",
+   "sub": "2431",
+   "title": "Huyeonさんの構築記事",
+   "who": "Huyeon",
+   "mons": [
+    "バイバニラ",
+    "アーマーガア",
+    "カビゴン",
+    "*メタグロス",
+    "サーフゴー",
+    "ガブリアス"
+   ],
+   "url": "https://blog.naver.com/huyeon1784/224434566716",
+   "src": "ブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw89",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "89位",
+   "sub": "2428",
+   "title": "pHさんの構築記事",
+   "who": "pH",
+   "mons": [
+    "カバルドン",
+    "*ボーマンダ",
+    "ギルガルド",
+    "キラフロル",
+    "*フラエッテ",
+    "マスカーニャ"
+   ],
+   "url": "https://phpoke.hatenablog.com/entry/2026/10/10/042904",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw96",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "96位",
+   "sub": "2424",
+   "title": "わおん♪さんの構築記事",
+   "who": "わおん♪",
+   "mons": [
+    "ブリジュラス",
+    "*ムクホーク",
+    "イダイトウ♂",
+    "*ゲッコウガ",
+    "サーフゴー",
+    "カバルドン"
+   ],
+   "url": "https://wawon-15.hatenablog.com/entry/2026/10/07/181344",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw108",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "108位",
+   "sub": "2412",
+   "title": "ティエンさんの構築記事",
+   "who": "ティエン",
+   "mons": [
+    "ゲンガー",
+    "ギャラドス",
+    "*バシャーモ",
+    "*ガブリアスZ",
+    "ミミッキュ",
+    "ブリジュラス"
+   ],
+   "url": "https://note.com/rosy_squid2276/n/n4ce77f7cf47c?sub_rt=share_pb",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw109",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "109位",
+   "sub": "2412",
+   "title": "ころなさんの構築記事",
+   "who": "ころな",
+   "mons": [
+    "*フラエッテ",
+    "*ゲッコウガ",
+    "イエッサン♂",
+    "ガブリアス",
+    "ハッサム",
+    "ヒートロトム"
+   ],
+   "url": "https://korokorokoro.hatenablog.com/entry/2026/10/05/131955",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw116",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "116位",
+   "sub": "2408",
+   "title": "ピタゴラスさんの構築記事",
+   "who": "ピタゴラス",
+   "mons": [
+    "*メタグロス",
+    "*マフォクシー",
+    "アーマーガア",
+    "*ガブリアスZ",
+    "アシレーヌ",
+    "ミミッキュ"
+   ],
+   "url": "https://pythapoke.hatenablog.com/entry/2026/10/07/230610",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw128",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "128位",
+   "sub": "2401",
+   "title": "しおいぬさんの構築記事",
+   "who": "しおいぬ",
+   "mons": [
+    "ゴウカザル",
+    "カビゴン",
+    "ペロリーム",
+    "*アブソルZ",
+    "*ルカリオZ",
+    "*ギャラドス"
+   ],
+   "url": "https://shioinupoke.hatenablog.com/entry/2026/10/07/173023",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw140",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "140位",
+   "sub": "2389",
+   "title": "Brutalさんの構築記事",
+   "who": "Brutal",
+   "mons": [
+    "*グソクムシャ",
+    "ガブリアス",
+    "ゲッコウガ",
+    "セグレイブ",
+    "アーマーガア",
+    "*リザードンY"
+   ],
+   "url": "https://brutal2832025.hatenablog.jp/entry/2026/10/06/004033",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw142",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "142位",
+   "sub": "2388",
+   "title": "鷹眼兎さんの構築記事",
+   "who": "鷹眼兎",
+   "mons": [
+    "ヌメルゴン",
+    "カバルドン",
+    "*グソクムシャ",
+    "*リザードンY",
+    "セグレイブ",
+    "キラフロル"
+   ],
+   "url": "https://pokesol.app/u/hawk_eye_rabbit/articles/8cfae5073138dec9",
+   "src": "ポケノート（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw145",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "145位",
+   "sub": "2386",
+   "title": "ナスカレーさんの構築記事",
+   "who": "ナスカレー",
+   "mons": [
+    "*ガブリアスZ",
+    "*リザードンX",
+    "ミミッキュ",
+    "アシレーヌ",
+    "セグレイブ",
+    "イダイトウ♂"
+   ],
+   "url": "https://yun-pokemon.hatenablog.com/entry/2026/10/10/191820",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw155",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "155位",
+   "sub": "2382",
+   "title": "ばなたろうさんの構築記事",
+   "who": "ばなたろう",
+   "mons": [
+    "キラフロル",
+    "カイリュー",
+    "*ルカリオZ",
+    "*ライチュウY",
+    "ブラッキー",
+    "アシレーヌ"
+   ],
+   "url": "https://banatarou.hatenadiary.org/entry/2026/10/07/101131",
+   "src": "ブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw156",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "156位",
+   "sub": "2382",
+   "title": "Nさんの構築記事",
+   "who": "N",
+   "mons": [
+    "*フラエッテ",
+    "*ミミロップ",
+    "サーフゴー",
+    "アーマーガア",
+    "ダイケンキ",
+    "ガブリアス"
+   ],
+   "url": "https://note.com/azalea_742/n/nd76a57c3e646",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw162",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "162位",
+   "sub": "2381",
+   "title": "ぱもさんの構築記事",
+   "who": "ぱも",
+   "mons": [
+    "パーモット",
+    "*ピクシー",
+    "イダイトウ♂",
+    "*ルカリオZ",
+    "ダイケンキ",
+    "カイリュー"
+   ],
+   "url": "https://pawmimi.hatenadiary.com/entry/ChampionsM-6",
+   "src": "ブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw164",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "164位",
+   "sub": "2381",
+   "title": "ルル・。・さんの構築記事",
+   "who": "ルル・。・",
+   "mons": [
+    "カバルドン",
+    "*グソクムシャ",
+    "サーフゴー",
+    "ガブリアス",
+    "ミミッキュ",
+    "*カイリュー"
+   ],
+   "url": "https://rurunosuke.hatenablog.com/entry/2026/10/07/150443",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw178",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "178位",
+   "sub": "2379",
+   "title": "ムトウさんの構築記事",
+   "who": "ムトウ",
+   "mons": [
+    "ドドゲザン",
+    "*ボーマンダ",
+    "ウォッシュロトム",
+    "ラグラージ",
+    "*フラエッテ",
+    "エースバーン"
+   ],
+   "url": "https://muto-1005.hatenadiary.jp/entry/2026/10/10/143751",
+   "src": "ブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw180",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "180位",
+   "sub": "2378",
+   "title": "freesiaさんの構築記事",
+   "who": "freesia",
+   "mons": [
+    "カバルドン",
+    "*ボーマンダ",
+    "サーフゴー",
+    "*キラフロル",
+    "セグレイブ",
+    "アシレーヌ"
+   ],
+   "url": "https://note.com/pathetic/n/n5e83a4f034aa?sub_rt=share_pb",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw189",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "189位",
+   "sub": "2377",
+   "title": "あさんの構築記事",
+   "who": "あ",
+   "mons": [
+    "*ライチュウY",
+    "*リザードンY",
+    "アシレーヌ",
+    "ガブリアス",
+    "ミミッキュ",
+    "アーマーガア"
+   ],
+   "url": "https://h4a252s252.hatenablog.com/entry/2026/10/07/225052",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw197",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "197位",
+   "sub": "2376",
+   "title": "フライさんの構築記事",
+   "who": "フライ",
+   "mons": [
+    "*クチート",
+    "アシレーヌ",
+    "サザンドラ",
+    "マンムー",
+    "ヒートロトム",
+    "*キラフロル"
+   ],
+   "url": "https://flygon1.hatenablog.com/entry/2026/10/10/065718",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw199",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "199位",
+   "sub": "2376",
+   "title": "Reginaさんの構築記事",
+   "who": "Regina",
+   "mons": [
+    "ガブリアス",
+    "*フラエッテ",
+    "マスカーニャ",
+    "サーフゴー",
+    "ラグラージ",
+    "*グソクムシャ"
+   ],
+   "url": "https://m.blog.naver.com/hsh5300/224434343811",
+   "src": "ブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw203",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "203位",
+   "sub": "2376",
+   "title": "シーベルさんの構築記事",
+   "who": "シーベル",
+   "mons": [
+    "*ボーマンダ",
+    "*ピクシー",
+    "ブリジュラス",
+    "オーロンゲ",
+    "ポットデス",
+    "ウルガモス"
+   ],
+   "url": "https://sea-bell.hatenablog.com/entry/2026/10/08/194817",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw209",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "209位",
+   "sub": "2375",
+   "title": "ニブルさんの構築記事",
+   "who": "ニブル",
+   "mons": [
+    "エースバーン",
+    "*ギャラドス",
+    "ガブリアス",
+    "キュウコン",
+    "*ルカリオZ",
+    "アシレーヌ"
+   ],
+   "url": "https://m.cafe.naver.com/ca-fe/web/cafes/nivrlair/articles/4436?useCafeId=false&tc",
+   "src": "ブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw210",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "210位",
+   "sub": "2375",
+   "title": "空さんの構築記事",
+   "who": "空",
+   "mons": [
+    "*ヤドラン",
+    "カビゴン",
+    "ドヒドイデ",
+    "ヤドキング",
+    "アーマーガア",
+    "*カイリュー"
+   ],
+   "url": "https://note.com/_sky_feather_ka/n/nd0115a738cc2",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw223",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "223位",
+   "sub": "2374",
+   "title": "あいじろうさんの構築記事",
+   "who": "あいじろう",
+   "mons": [
+    "カバルドン",
+    "*ギャラドス",
+    "*ピクシー",
+    "ドドゲザン",
+    "ハッサム",
+    "*ガメノデス"
+   ],
+   "url": "https://yakkun.com/bbs/party/n8920",
+   "src": "ポケモン徹底攻略（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw227",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "227位",
+   "sub": "2374",
+   "title": "ようのすけさんの構築記事",
+   "who": "ようのすけ",
+   "mons": [
+    "ニョロトノ",
+    "*ラグラージ",
+    "ブリジュラス",
+    "*カイリュー",
+    "マスカーニャ",
+    "バサギリ"
+   ],
+   "url": "https://note.com/ynkpknovl11/n/n8919286bbc7b?ct=1791467166917",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw229",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "229位",
+   "sub": "2374",
+   "title": "シーラさんの構築記事",
+   "who": "シーラ",
+   "mons": [
+    "カバルドン",
+    "ドリュウズ",
+    "*ボーマンダ",
+    "*マフォクシー",
+    "ブリジュラス",
+    "アシレーヌ"
+   ],
+   "url": "https://pokesol.app/u/hd_gigalith/articles/047f48a2b51a88d1",
+   "src": "ポケノート（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw230",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "230位",
+   "sub": "2374",
+   "title": "湊未来さんの構築記事",
+   "who": "湊未来",
+   "mons": [
+    "ゲッコウガ",
+    "*ボーマンダ",
+    "ブリジュラス",
+    "ウォッシュロトム",
+    "*ルカリオZ",
+    "イダイトウ♂"
+   ],
+   "url": "https://mirai-minyato.blog.jp/archives/97906710.html",
+   "src": "ブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw232",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "232位",
+   "sub": "2373",
+   "title": "afouさんの構築記事",
+   "who": "afou",
+   "mons": [
+    "*クチート",
+    "ギャラドス",
+    "*ジュカイン",
+    "ガブリアス",
+    "ウルガモス",
+    "サーフゴー"
+   ],
+   "url": "https://afooooou-2525.hatenablog.com/entry/2026/10/07/174838",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw235",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "235位",
+   "sub": "2373",
+   "title": "旗神好牙さんの構築記事",
+   "who": "旗神好牙",
+   "mons": [
+    "*ジュペッタ",
+    "ブリジュラス",
+    "*エルレイド",
+    "イダイトウ♂",
+    "イエッサン♂",
+    "*ガブリアスZ"
+   ],
+   "url": "https://pokesol.app/u/hatagami_koga/articles/ed829abc65790000",
+   "src": "ポケノート（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw239",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "239位",
+   "sub": "2373",
+   "title": "ギンさんの構築記事",
+   "who": "ギン",
+   "mons": [
+    "バクフーン",
+    "*リザードンY",
+    "キュウコン",
+    "*セグレイブ",
+    "アーマーガア",
+    "ガブリアス"
+   ],
+   "url": "https://pokesol.app/u/c_trl_lab/articles/adb3c969ff4e76ee",
+   "src": "ポケノート（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw245",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "245位",
+   "sub": "2372",
+   "title": "どらけんさんの構築記事",
+   "who": "どらけん",
+   "mons": [
+    "*フラエッテ",
+    "ドドゲザン",
+    "*ガブリアスZ",
+    "イエッサン♂",
+    "アーマーガア",
+    "ドヒドイデ"
+   ],
+   "url": "https://doraneko42895.hatenablog.com/entry/2026/10/08/121525",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw247",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "247位",
+   "sub": "2372",
+   "title": "soyutaさんの構築記事",
+   "who": "soyuta",
+   "mons": [
+    "*カメックス",
+    "*クチート",
+    "エースバーン",
+    "イエッサン♂",
+    "ブリジュラス",
+    "ドラパルト"
+   ],
+   "url": "https://soyuta369.hatenadiary.jp/entry/2026/10/08/175051",
+   "src": "ブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw248",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "248位",
+   "sub": "2372",
+   "title": "Charaさんの構築記事",
+   "who": "Chara",
+   "mons": [
+    "ガブリアス",
+    "*ゲンガー",
+    "アーマーガア",
+    "アシレーヌ",
+    "イエッサン♂",
+    "ダイケンキ"
+   ],
+   "url": "https://aoharu0329.hateblo.jp/entry/2026/10/07/170002",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw252",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "252位",
+   "sub": "2372",
+   "title": "カナタさんの構築記事",
+   "who": "カナタ",
+   "mons": [
+    "ペンドラー",
+    "ソウブレイズ",
+    "サーフゴー",
+    "*ギャラドス",
+    "*メガニウム",
+    "サーナイト"
+   ],
+   "url": "https://kanata-k.hatenadiary.com/entry/2026/10/07/203410",
+   "src": "ブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw254",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "254位",
+   "sub": "2372",
+   "title": "ボストンさんの構築記事",
+   "who": "ボストン",
+   "mons": [
+    "パーモット",
+    "*グソクムシャ",
+    "アシレーヌ",
+    "ゲッコウガ",
+    "*セグレイブ",
+    "ドラパルト"
+   ],
+   "url": "https://champions-m6.hatenablog.com/entry/2026/10/08/015732",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw257",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "257位",
+   "sub": "2372",
+   "title": "テンクウさんの構築記事",
+   "who": "テンクウ",
+   "mons": [
+    "*ジュペッタ",
+    "パーモット",
+    "イダイトウ♂",
+    "*ラグラージ",
+    "ブリジュラス",
+    "ペリッパー"
+   ],
+   "url": "https://tenku64.hatenablog.com/entry/2026/10/07/225858",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw258",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "258位",
+   "sub": "2372",
+   "title": "ソティさんの構築記事",
+   "who": "ソティ",
+   "mons": [
+    "*カイリュー",
+    "イエッサン♂",
+    "イダイトウ♂",
+    "*メタグロス",
+    "ミミッキュ",
+    "ブリジュラス"
+   ],
+   "url": "https://note.com/soty_poke/n/ne8174f0dec96",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw266",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "266位",
+   "sub": "2371",
+   "title": "なべぐらむさんの構築記事",
+   "who": "なべぐらむ",
+   "mons": [
+    "*ムクホーク",
+    "ミミッキュ",
+    "イダイトウ♂",
+    "*ガブリアスZ",
+    "ドドゲザン",
+    "ヒートロトム"
+   ],
+   "url": "https://pokesol.app/u/nbgrm/articles/3c6dac7a5d3d9c6b",
+   "src": "ポケノート（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw267",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "267位",
+   "sub": "2371",
+   "title": "ゼフロスさんの構築記事",
+   "who": "ゼフロス",
+   "mons": [
+    "カバルドン",
+    "*ボーマンダ",
+    "ブラッキー",
+    "アシレーヌ",
+    "*ゲンガー",
+    "エースバーン"
+   ],
+   "url": "https://pokesol.app/u/zehurosu29/articles/c5acded7b5b909ba",
+   "src": "ポケノート（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw271",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "271位",
+   "sub": "2370",
+   "title": "Takeさんの構築記事",
+   "who": "Take",
+   "mons": [
+    "*ゲンガー",
+    "アーマーガア",
+    "ガブリアス",
+    "*バシャーモ",
+    "イエッサン♂",
+    "アシレーヌ"
+   ],
+   "url": "https://takegame.hatenablog.com/entry/2026/10/07/%E3%80%90M-6%E6%9C%80%E7%B5%82271%E4%BD%8D%E3%80%91%E3%82%B5%E3%82%A4%E3%82%B3%E3%83%90%E3%82%B7%E3%83%A3%E3%82%B2%E3%83%B3",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw278",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "278位",
+   "sub": "2370",
+   "title": "RYEさんの構築記事",
+   "who": "RYE",
+   "mons": [
+    "*メタグロス",
+    "*カイリュー",
+    "マンムー",
+    "アシレーヌ",
+    "イダイトウ♂",
+    "ミミッキュ"
+   ],
+   "url": "https://rye-poke.hatenablog.com/entry/2026/10/07/220925",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw287",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "287位",
+   "sub": "2369",
+   "title": "もんさんの構築記事",
+   "who": "もん",
+   "mons": [
+    "パーモット",
+    "ガブリアス",
+    "*リザードンX",
+    "セグレイブ",
+    "アシレーヌ",
+    "カバルドン"
+   ],
+   "url": "https://pokesol.app/u/mon_pkmn/articles/60188a73ca45266b",
+   "src": "ポケノート（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw288",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "288位",
+   "sub": "2369",
+   "title": "松実玄さんの構築記事",
+   "who": "松実玄",
+   "mons": [
+    "バイバニラ",
+    "ガブリアス",
+    "*リザードンX",
+    "*グソクムシャ",
+    "ミミッキュ",
+    "ロズレイド"
+   ],
+   "url": "https://omakaseare96.hatenablog.com/entry/2026/10/07/204318?v=2",
+   "src": "はてなブログ（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw291",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "291位",
+   "sub": "2368",
+   "title": "偽物の鯉王さんの構築記事",
+   "who": "偽物の鯉王",
+   "mons": [
+    "*カメックス",
+    "イエッサン♂",
+    "ブラッキー",
+    "メタモン",
+    "アーマーガア",
+    "*フシギバナ"
+   ],
+   "url": "https://note.com/k_____510/n/n4af4414e55cb",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw294",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "294位",
+   "sub": "2368",
+   "title": "スピリタスさんの構築記事",
+   "who": "スピリタス",
+   "mons": [
+    "キラフロル",
+    "*カイリュー",
+    "*メタグロス",
+    "ドドゲザン",
+    "バイバニラ",
+    "ソウブレイズ"
+   ],
+   "url": "https://note.com/yunouw/n/n4fd41ffbafa3",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw296",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "296位",
+   "sub": "2368",
+   "title": "☆さんの構築記事",
+   "who": "☆",
+   "mons": [
+    "イエッサン♂",
+    "*カメックス",
+    "*メガニウム",
+    "イダイトウ♂",
+    "ブリジュラス",
+    "オオニューラ"
+   ],
+   "url": "https://yakkun.com/bbs/party/n8891",
+   "src": "ポケモン徹底攻略（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw298",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "298位",
+   "sub": "2368",
+   "title": "さいかさんの構築記事",
+   "who": "さいか",
+   "mons": [
+    "*ボーマンダ",
+    "*ルカリオZ",
+    "ガブリアス",
+    "アシレーヌ",
+    "ブリジュラス",
+    "マスカーニャ"
+   ],
+   "url": "https://pokesol.app/u/eliwam_agem303/articles/1acfca2d8341d6c0",
+   "src": "ポケノート（GameWith掲載）"
+  },
+  {
+   "id": "s-m6-gw299",
+   "fmt": "single",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "299位",
+   "sub": "2368",
+   "title": "エヌツー(Nn)さんの構築記事",
+   "who": "エヌツー(Nn)",
+   "mons": [
+    "*ルカリオZ",
+    "アシレーヌ",
+    "カバルドン",
+    "ゴリランダー",
+    "ガブリアス",
+    "*リザードンY"
+   ],
+   "url": "https://pokesol.app/u/nn256/articles/42e421e2316c480a",
+   "src": "ポケノート（GameWith掲載）"
+  },
+  {
+   "id": "d-m6-gw81",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "81位",
+   "sub": "2305",
+   "title": "ルートさんの構築記事",
+   "who": "ルート",
+   "mons": [
+    "エルフーン",
+    "*フラエッテ",
+    "イエッサン♂",
+    "キラフロル",
+    "イダイトウ♀",
+    "キュウコン"
+   ],
+   "url": "https://app-date.net/tailwindbullet/",
+   "src": "ブログ（GameWith掲載）"
+  },
+  {
+   "id": "d-m6-gw90",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "90位",
+   "sub": "2300",
+   "title": "直線さんの構築記事",
+   "who": "直線",
+   "mons": [
+    "ドラパルト",
+    "ミロカロス",
+    "イエッサン♀",
+    "グレンアルマ",
+    "*ムクホーク",
+    "*グソクムシャ"
+   ],
+   "url": "https://note.com/gostraightvgc/n/n6e1611b3a6ec",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "d-m6-gw120",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "120位",
+   "sub": "2277",
+   "title": "Twelveさんの構築記事",
+   "who": "Twelve",
+   "mons": [
+    "ゴリランダー",
+    "ペリッパー",
+    "ブリジュラス",
+    "イダイトウ♀",
+    "*ラグラージ",
+    "*グソクムシャ"
+   ],
+   "url": "https://note.com/big_luv_graceon/n/n03c4ccce40e5",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "d-m6-gw252",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "252位",
+   "sub": "2263",
+   "title": "イケドラさんの構築記事",
+   "who": "イケドラ",
+   "mons": [
+    "*バクーダ",
+    "リキキリン",
+    "ゴリランダー",
+    "イダイトウ♂",
+    "ニンフィア",
+    "ゾロアーク"
+   ],
+   "url": "https://note.com/dm_emperor/n/n03cf08da819a",
+   "src": "note（GameWith掲載）"
+  },
+  {
+   "id": "d-m6-gw271",
+   "fmt": "double",
+   "kind": "rank",
+   "grp": "ランクマ M-6 最終",
+   "place": "271位",
+   "sub": "2262",
+   "title": "森カモメさんの構築記事",
+   "who": "森カモメ",
+   "mons": [
+    "バンギラス",
+    "ドリュウズ",
+    "アーマーガア",
+    "*キラフロル",
+    "*リザードンX",
+    "ジャラランガ"
+   ],
+   "url": "https://note.com/morikamome/n/ncfcabb8566d0",
+   "src": "note（GameWith掲載）"
   }
  ]
 }
