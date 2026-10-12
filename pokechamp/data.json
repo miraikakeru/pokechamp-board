@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-10-12T04:06:54+09:00",
+ "updatedAt": "2026-10-12T12:00:00+09:00",
  "regulation": "M-C（〜12/2）",
  "season": "M-7（10/7〜11/4）",
  "notes": {
   "double": {
    "offline": "国内ダブルのオフ会は、てるチャレChampions #5 Offline（10/4）の上位構築記事が公開されしだい追加します。次回はてるチャレChampions #6 Online（11/14・定員512）。海外のリージョナル（オフライン大会）は「大会」タブにあります。",
    "rank": "M-6ダブル最終トップ100はリバティノートにまとまっています（申告制のためメガ表記なし）。ここではパーティが判明している上位を抜粋しています。GameWith の上位構築まとめ掲載分も追加しています。",
-   "tourney": "レシフェ・リージョナル（10/3-4）は Pokémon Zone の最終順位（スイス順）上位4名。メガストーンを2つ登録しているチームは両方に * を付けています。グローバルチャレンジⅠとランクマのダブル上位は、メガシンカの有無が公表されていないものがあり、その場合はメガ表記なしです。 ルイビル・リージョナル（10/10-11）は現在開催中のため、決勝トーナメント終了後に追加します。"
+   "tourney": "レシフェ・リージョナル（10/3-4）は Pokémon Zone の最終順位（スイス順）上位4名。メガストーンを2つ登録しているチームは両方に * を付けています。グローバルチャレンジⅠとランクマのダブル上位は、メガシンカの有無が公表されていないものがあり、その場合はメガ表記なしです。 ルイビル・リージョナル（10/10-11）は Victory Road の上位8名（メガ表記は同ページのメガ表示個体のみ）。"
   },
   "single": {
    "offline": "国内のオフ会（オフライン大会）で結果を残した構築です。構築記事が公開されたものを載せています。",
@@ -3770,6 +3770,166 @@
    ],
    "url": "https://pokesol.app/u/ua_poke/articles/37993777629bf24d",
    "src": "ポケノート"
+  },
+  {
+   "id": "d-lou-1",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "ルイビル・リージョナル（1,013人・10/10-11）",
+   "place": "1位",
+   "sub": "10-2",
+   "title": "ルイビル・リージョナル",
+   "who": "Joseph Ugarte",
+   "mons": [
+    "*リザードンY",
+    "ガブリアス",
+    "ガオガエン",
+    "リキキリン",
+    "ニンフィア",
+    "フシギバナ"
+   ],
+   "url": "https://victoryroad.pro/2027-louisville/",
+   "src": "Victory Road"
+  },
+  {
+   "id": "d-lou-2",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "ルイビル・リージョナル（1,013人・10/10-11）",
+   "place": "2位",
+   "sub": "10-2",
+   "title": "ルイビル・リージョナル",
+   "who": "Andrew Figueras",
+   "mons": [
+    "*リザードンY",
+    "ガブリアス",
+    "オーロンゲ",
+    "ブリジュラス",
+    "ペリッパー",
+    "フシギバナ"
+   ],
+   "url": "https://victoryroad.pro/2027-louisville/",
+   "src": "Victory Road"
+  },
+  {
+   "id": "d-lou-3",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "ルイビル・リージョナル（1,013人・10/10-11）",
+   "place": "3位",
+   "sub": "10-2",
+   "title": "ルイビル・リージョナル",
+   "who": "Dorian Kang",
+   "mons": [
+    "*リザードンY",
+    "*ライチュウX",
+    "オーロンゲ",
+    "ブリジュラス",
+    "ニョロトノ",
+    "フシギバナ"
+   ],
+   "url": "https://victoryroad.pro/2027-louisville/",
+   "src": "Victory Road"
+  },
+  {
+   "id": "d-lou-4",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "ルイビル・リージョナル（1,013人・10/10-11）",
+   "place": "4位",
+   "sub": "10-2",
+   "title": "ルイビル・リージョナル",
+   "who": "JJ Miller",
+   "mons": [
+    "*ムクホーク",
+    "*ラグラージ",
+    "サーフゴー",
+    "ブリジュラス",
+    "ペリッパー",
+    "ヤバソチャ"
+   ],
+   "url": "https://victoryroad.pro/2027-louisville/",
+   "src": "Victory Road"
+  },
+  {
+   "id": "d-lou-5",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "ルイビル・リージョナル（1,013人・10/10-11）",
+   "place": "5位",
+   "sub": "10-2",
+   "title": "ルイビル・リージョナル",
+   "who": "Ryan Loseto",
+   "mons": [
+    "*ボーマンダ",
+    "*フラエッテ",
+    "イダイトウ",
+    "ドドゲザン",
+    "オオニューラ",
+    "ゴリランダー"
+   ],
+   "url": "https://victoryroad.pro/2027-louisville/",
+   "src": "Victory Road"
+  },
+  {
+   "id": "d-lou-6",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "ルイビル・リージョナル（1,013人・10/10-11）",
+   "place": "6位",
+   "sub": "10-2",
+   "title": "ルイビル・リージョナル",
+   "who": "Toler Webb",
+   "mons": [
+    "*ガブリアスZ",
+    "*グソクムシャ",
+    "ペリッパー",
+    "ブリジュラス",
+    "オオニューラ",
+    "リキキリン"
+   ],
+   "url": "https://victoryroad.pro/2027-louisville/",
+   "src": "Victory Road"
+  },
+  {
+   "id": "d-lou-7",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "ルイビル・リージョナル（1,013人・10/10-11）",
+   "place": "7位",
+   "sub": "10-2",
+   "title": "ルイビル・リージョナル",
+   "who": "Keanu Inosanto",
+   "mons": [
+    "*ボーマンダ",
+    "*フラエッテ",
+    "イダイトウ",
+    "ドドゲザン",
+    "オオニューラ",
+    "ゴリランダー"
+   ],
+   "url": "https://victoryroad.pro/2027-louisville/",
+   "src": "Victory Road"
+  },
+  {
+   "id": "d-lou-8",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "ルイビル・リージョナル（1,013人・10/10-11）",
+   "place": "8位",
+   "sub": "10-2",
+   "title": "ルイビル・リージョナル",
+   "who": "Brian Hough",
+   "mons": [
+    "*カイリュー",
+    "ガブリアス",
+    "ガオガエン",
+    "サーフゴー",
+    "オオニューラ",
+    "ゴリランダー"
+   ],
+   "url": "https://victoryroad.pro/2027-louisville/",
+   "src": "Victory Road"
   }
  ]
 }
