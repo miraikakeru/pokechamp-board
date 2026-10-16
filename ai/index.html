@@ -97,7 +97,7 @@ footer{font-size:12px;color:var(--muted)}
       <a class='back' href='../'>← メインメニュー</a>
       <div class='eyebrow'>Claude · Claude Code · Generative AI</div>
       <h1>AI情報ボード</h1>
-      <p class='lead'>Claude と Claude Code の効果的な使い方、Claude のアップデートや修正、ほかの生成AIの話題をまとめています。毎朝6時に更新。</p>
+      <p class='lead'>Claude と Claude Code の効果的な使い方、Claude のアップデートや修正、ほかの生成AIの話題をまとめています。毎週土曜の朝1時に更新。</p>
     </div>
     <div class='stats'>
       <div class='stat'><div class='k'>新着（14日）</div><div class='v' id='stNew'>—</div></div>
@@ -194,7 +194,7 @@ function render(){
   pills($('#rowStat'), STATS, 'stat', {new:items.filter(isRecent).length, fav:favs.size});
   const list = items.filter(match);
   const html = CATS.slice(1).map(cat => section(cat, list.filter(i=>i.cat===cat.k))).join('');
-  $('#list').innerHTML = html || (items.length ? `<p class='empty'>条件に合う情報はありません。絞り込みを変えてみてください。</p>` : `<p class='empty'>AI情報を読み込み中です。表示されない場合は、毎朝6時の更新後にもう一度開いてください。</p>`);
+  $('#list').innerHTML = html || (items.length ? `<p class='empty'>条件に合う情報はありません。絞り込みを変えてみてください。</p>` : `<p class='empty'>AI情報を読み込み中です。表示されない場合は、毎週土曜朝1時の更新後にもう一度開いてください。</p>`);
   $('#stNew').textContent = items.filter(isRecent).length + '件';
   $('#stAll').textContent = items.length + '件';
 }
