@@ -1,26 +1,16 @@
 {
- "updatedAt": "2026-10-11T22:58:00+09:00",
+ "updatedAt": "2026-10-16T19:10:00+09:00",
  "notes": {},
  "lastRun": {
-  "date": "2026-10-11",
+  "date": "2026-10-16",
   "added": [
-   "pk-starbucks-2026-09",
-   "pk-avail-2026-10",
-   "pk-center-30th-galar-2026-10",
-   "pk-gu-2026-10",
-   "pk-iup-fairy-2026-11",
-   "pk-pokemas-ichibankuji-2026-08",
-   "pk-adidas-2026-09",
-   "mv-lego-doomsday-2026-10",
-   "mv-alpen-2026-aw",
-   "mv-bd-box-2026-10",
-   "mv-bd-box-2026-11",
-   "mv-shf-doom-2026-12",
-   "sr-manekineko-2026-09",
-   "gs-amiami-winter-2026-10"
+   "pk-center-dedenne-tynamo-2026-10",
+   "pk-center-xmas-2026-10",
+   "pk-center-miare-za-2026-10",
+   "zz-animate-2026-10-16"
   ],
   "changed": [],
-  "summary": "初回収集：ポケモン7件・マーベル5件・HoYoverse2件を追加（ゼンゼロは新情報なし）"
+  "summary": "ポケモン3件・ゼンゼロ1件を追加（マーベル・原神・スターレイルは新情報なし）"
  },
  "items": [
   {
@@ -226,6 +216,63 @@
    "url": "https://premium.gamepedia.jp/hobby/genres/47/calendar?d=2026-10",
    "src": "ホビーゲームペディア",
    "addedAt": "2026-10-11"
+  },
+  {
+   "id": "pk-center-dedenne-tynamo-2026-10",
+   "cat": "pokemon",
+   "kind": "official",
+   "grp": "ポケモンセンター新商品",
+   "title": "デデンネ＆バチュル 電気グッズ",
+   "release": "2026-10-10",
+   "price": "等身大ドアストッパー5,940円／充電ケーブル3,300円／バチュルぬいぐるみ2,970円",
+   "where": "ポケモンセンター、ポケモンセンターオンライン（オンラインは10/8 10時〜）",
+   "desc": "電気を求めてやってきたデデンネとバチュルの日常をテーマにした新シリーズ。等身大ドアストッパーや光る充電ケーブル、トートなど実用品が並ぶ。",
+   "url": "https://www.pokemon.co.jp/goods/2026/10/261002_to01.html",
+   "src": "ポケモン公式",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "pk-center-xmas-2026-10",
+   "cat": "pokemon",
+   "kind": "official",
+   "grp": "ポケモンセンター新商品",
+   "title": "クリスマスじゅんびチュウ！",
+   "release": "2026-10-24",
+   "price": "ぬいぐるみ4,400円〜5,500円／セーター8,800円／アドベントボックス3,080円",
+   "where": "ポケモンセンター、ポケモンセンターオンライン（オンラインは10/22 10時〜）",
+   "desc": "ピカチュウたちがクリスマスの準備をする様子を描いた約30アイテムのシリーズ。ぬいぐるみ・衣類・雑貨・文具などがそろう。",
+   "url": "https://www.pokemon.co.jp/goods/2026/10/261016_to01.html",
+   "src": "ポケモン公式",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "pk-center-miare-za-2026-10",
+   "cat": "pokemon",
+   "kind": "official",
+   "grp": "ポケモンセンター新商品",
+   "title": "ミアレの優雅な一日（Pokémon LEGENDS Z-A）",
+   "release": "2026-10-29",
+   "price": "カナリィぬいコレクション2,310円／アートマグネット880円／スウェット5,940円",
+   "where": "ポケモンセンター全店、ポケモンセンターオンライン（10/29 10時〜）",
+   "desc": "Z-Aの舞台ミアレシティの暮らしをイメージした全20品目のシリーズ。作中アイテムを再現したカナリィぬいなどを展開。",
+   "url": "https://www.famitsu.com/article/202610/91192",
+   "src": "ポケモン公式",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "zz-animate-2026-10-16",
+   "cat": "hoyo",
+   "sub": "zzz",
+   "kind": "collab",
+   "grp": "アニメイト",
+   "title": "ゼンレスゾーンゼロ アニメイト新商品（クリアカード特典つき）",
+   "release": "2026-10-16",
+   "price": "—",
+   "where": "アニメイト",
+   "desc": "アニメイトでゼンゼロの新商品が発売。関連商品の購入でクリアカード（全13種）がランダムで1枚もらえ、SNSキャンペーンも実施。",
+   "url": "https://x.com/animateinfo/status/2107744251526152385",
+   "src": "アニメイト公式X",
+   "addedAt": "2026-10-16"
   }
  ]
 }
