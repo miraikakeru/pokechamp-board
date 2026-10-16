@@ -1,0 +1,771 @@
+{
+ "updatedAt": "2026-10-16T22:03:49+09:00",
+ "lastRun": {
+  "date": "2026-10-16",
+  "added": [
+   "u-2026-10-15-opus-fast-ga",
+   "u-2026-10-14-otel",
+   "u-2026-10-09-dynamic-workflows",
+   "u-2026-10-07-haiku-5-5",
+   "u-2026-10-07-api-credits",
+   "u-2026-09-30-sonnet45-deprecation",
+   "u-2026-09-28-sonnet-5-5",
+   "u-2026-09-25-plugin-portal",
+   "u-2026-09-23-cache-diagnostics",
+   "u-2026-09-22-opus-5-5",
+   "u-2026-09-16-cowork-everywhere",
+   "u-2026-09-16-design-slides-docs",
+   "u-2026-09-14-compaction-on-demand",
+   "u-2026-09-01-fable-5-1",
+   "u-2026-08-25-cowork-memory",
+   "u-code-2-1-301",
+   "u-code-2-1-296",
+   "u-code-2-1-293",
+   "t-claude-md",
+   "t-plan-mode",
+   "t-verify",
+   "t-context",
+   "t-rewind",
+   "t-specific-prompt",
+   "t-subagents",
+   "t-skills",
+   "t-hooks",
+   "t-mcp",
+   "t-permissions",
+   "t-model",
+   "t-routines",
+   "t-interview",
+   "t-headless",
+   "t-parallel",
+   "t-projects",
+   "t-clear-prompt",
+   "o-2026-10-16-kling-4",
+   "o-2026-10-15-timestral",
+   "o-2026-10-14-grok-voice-3",
+   "o-2026-10-13-gemini-4-argon",
+   "o-2026-10-12-muse-wonder",
+   "o-2026-10-12-maia-300",
+   "o-2026-10-08-gemini-agent",
+   "o-2026-10-06-mistral-large-4",
+   "o-2026-10-02-devday",
+   "o-2026-10-02-dots-space",
+   "o-2026-09-16-mistral-mozilla"
+  ],
+  "changed": [],
+  "summary": "AI情報ボードを開設。Claude 5.5 ファミリー（Opus・Sonnet・Haiku）の公開、Claude Code の使い方、OpenAI DevDay や Gemini・Meta の新モデルなどをまとめました。"
+ },
+ "items": [
+  {
+   "id": "u-2026-10-15-opus-fast-ga",
+   "cat": "update",
+   "prod": "api",
+   "title": "Opus 5.5 の高速モードが正式提供に",
+   "date": "2026-10-15",
+   "desc": "Claude Opus 5.5 の高速モード（fast mode）がリサーチプレビューを終え、ベータ用ヘッダーなしで使えるようになりました。",
+   "points": [
+    "Microsoft Foundry の Claude でも Opus 5.5 の高速モードが利用可能",
+    "高速モードは最大2.5倍の速さで、料金は入力$8／出力$40（100万トークンあたり）"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Platform リリースノート",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-10-14-otel",
+   "cat": "update",
+   "prod": "api",
+   "title": "API と Managed Agents の OpenTelemetry 出力（ベータ）",
+   "date": "2026-10-14",
+   "desc": "Messages API のリクエストと Managed Agents のセッションを OpenTelemetry で外部の監視ツールへ出力できるようになりました（ベータ）。",
+   "points": [
+    "Managed Agents の定期実行（scheduled deployments）が Claude Platform on AWS でも利用可能に"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Platform リリースノート",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-10-09-dynamic-workflows",
+   "cat": "update",
+   "prod": "api",
+   "title": "Managed Agents に「動的ワークフロー」（ベータ）",
+   "date": "2026-10-09",
+   "desc": "エージェントが自分で複数エージェントのワークフローを書いて実行できる機能がベータで登場しました。",
+   "points": [
+    "進行状況は workflow_run.* イベントで受け取れる"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Platform リリースノート",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-10-07-haiku-5-5",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Claude Haiku 5.5 を公開",
+   "date": "2026-10-07",
+   "desc": "速くて安い小型モデル Haiku 5.5 が登場。100万トークンの文脈と、Haiku で初めての effort（考える量）調整に対応しています。",
+   "points": [
+    "料金は入力$0.10／出力$0.50（10万トークン以下、100万トークンあたり）で、Haiku 4.5 より平均約75%安い",
+    "要約・分類・サブエージェントなど大量処理向き。難しいコーディングは Sonnet 5.5／Opus 5.5 が得意",
+    "同日に Sonnet 5.5 のキャッシュ読み取り料金が$0.10に値下げ"
+   ],
+   "url": "https://www.anthropic.com/claude-haiku-5-5",
+   "src": "Anthropic 公式",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-10-07-api-credits",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Max・Team プランに毎月の API クレジット",
+   "date": "2026-10-07",
+   "desc": "Max と Team プランに、毎月使える API クレジットが付くようになりました。",
+   "points": [
+    "数日かけて順次配布",
+    "Claude Console の組織とつなぐと受け取れる"
+   ],
+   "url": "https://support.claude.com/en/articles/12138966-release-notes",
+   "src": "Claude ヘルプセンター リリースノート",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-09-30-sonnet45-deprecation",
+   "cat": "update",
+   "prod": "api",
+   "title": "Claude Sonnet 4.5 の提供終了が決定",
+   "date": "2026-09-30",
+   "desc": "Sonnet 4.5 の非推奨化が発表され、2026年11月30日に提供終了となります。",
+   "points": [
+    "使っている場合は Sonnet 5.5 などへの移行を早めに検討",
+    "同日、Admin API の各SDKメソッドがベータを卒業"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Platform リリースノート",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-09-28-sonnet-5-5",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Claude Sonnet 5.5 を公開",
+   "date": "2026-09-28",
+   "desc": "Sonnet 5 から大きく性能が上がった Sonnet 5.5 が登場。出力が30%以上速く、料金は据え置きです。",
+   "points": [
+    "料金は入力$2／出力$10（100万トークンあたり）、キャッシュ読み取りは$0.10に値下げ",
+    "Claude Code とアプリでの既定の effort は Medium",
+    "思考オフで使っていた人は between_tools 設定への切り替えが必要"
+   ],
+   "url": "https://www.anthropic.com/claude-sonnet-5-5",
+   "src": "Anthropic 公式",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-09-25-plugin-portal",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Claude 向けプラグインの開発者ポータル",
+   "date": "2026-09-25",
+   "desc": "プラグインの申請、審査状況の確認、利用状況の分析ができる開発者向けポータルが公開されました。",
+   "url": "https://support.claude.com/en/articles/12138966-release-notes",
+   "src": "Claude ヘルプセンター リリースノート",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-09-23-cache-diagnostics",
+   "cat": "update",
+   "prod": "api",
+   "title": "キャッシュ診断が正式提供に",
+   "date": "2026-09-23",
+   "desc": "プロンプトキャッシュの効き具合を調べる診断機能がベータを終え、ヘッダーなしで使えるようになりました。",
+   "points": [
+    "レスポンスに常に diagnostics フィールドが含まれる"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Platform リリースノート",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-09-22-opus-5-5",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Claude Opus 5.5 を公開",
+   "date": "2026-09-22",
+   "desc": "Claude 5.5 ファミリー最初のモデル。Opus 5 より出力が30%以上速く、一般的な使い方で約40%安くなりました。",
+   "points": [
+    "料金は入力$4／出力$20（100万トークンあたり）",
+    "Opus 5.5 では思考（thinking）をオフにできない",
+    "Pro・Max・Team などで5時間ごとの利用上限が引き上げ"
+   ],
+   "url": "https://www.anthropic.com/claude-opus-5-5",
+   "src": "Anthropic 公式",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-09-16-cowork-everywhere",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Claude Cowork がすべての会話で使えるように",
+   "date": "2026-09-16",
+   "desc": "Cowork の機能が通常のチャットからも使えるようになりました。Pro と Max プランに順次展開されます。",
+   "url": "https://support.claude.com/en/articles/12138966-release-notes",
+   "src": "Claude ヘルプセンター リリースノート",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-09-16-design-slides-docs",
+   "cat": "update",
+   "prod": "claude",
+   "title": "会話の中でデザイン・スライド・ドキュメントを作成",
+   "date": "2026-09-16",
+   "desc": "Claude Design、Slides、Docs が使えるようになり、Artifacts は Free を含む全プランで利用できます。",
+   "points": [
+    "Enterprise はベータで、初期設定はオフ"
+   ],
+   "url": "https://support.claude.com/en/articles/12138966-release-notes",
+   "src": "Claude ヘルプセンター リリースノート",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-09-14-compaction-on-demand",
+   "cat": "update",
+   "prod": "api",
+   "title": "API で「必要なときに圧縮」（ベータ）",
+   "date": "2026-09-14",
+   "desc": "会話の圧縮（compaction）を好きなタイミングで実行できる機能がベータで追加されました。",
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Platform リリースノート",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-09-01-fable-5-1",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Claude Fable 5.1 と Mythos 5.1 を公開",
+   "date": "2026-09-01",
+   "desc": "コーディングと知的作業向けの最上位モデル Fable 5.1 と Mythos 5.1 が登場しました。",
+   "points": [
+    "API料金は入力$10／出力$50（100万トークンあたり）",
+    "tool_choice の any／tool 指定はこれらのモデルではエラーになる",
+    "メッセージごとに effort を変える機能もベータで追加"
+   ],
+   "url": "https://support.claude.com/en/articles/12138966-release-notes",
+   "src": "Claude ヘルプセンター リリースノート",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-2026-08-25-cowork-memory",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Cowork のメモリと、記憶内容の編集",
+   "date": "2026-08-25",
+   "desc": "メモリがチャットと Cowork の両方で使えるようになり、覚えた内容を「トピック」から編集・削除できます。",
+   "points": [
+    "センシティブな話題を記憶しない設定も追加"
+   ],
+   "url": "https://support.claude.com/en/articles/12138966-release-notes",
+   "src": "Claude ヘルプセンター リリースノート",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-code-2-1-301",
+   "cat": "update",
+   "prod": "code",
+   "title": "Claude Code 2.1.299〜2.1.301 のまとめ",
+   "desc": "長い会話の自動圧縮や、ファイル読み取りの不具合修正などが入りました。",
+   "points": [
+    "20万トークン超の会話を約54分放置すると自動で圧縮（idle compaction）",
+    ".xlsm や .epub などのバイナリを文字として読んでしまう不具合を修正",
+    "vim モードに % 移動を追加",
+    "デバッグログが多いときのメモリ増加を修正"
+   ],
+   "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+   "src": "Claude Code 変更履歴",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-code-2-1-296",
+   "cat": "update",
+   "prod": "code",
+   "title": "Claude Code 2.1.295〜2.1.296 のまとめ",
+   "desc": "フックの失敗時の扱いやサブエージェントの設定が強化されました。",
+   "points": [
+    "コマンド／HTTP フックに onFailure: block を追加",
+    "サブエージェントの設定に autoCompactWindow を追加",
+    "[1m] モデルでゲートウェイが拒否すると全リクエストが失敗する問題を修正"
+   ],
+   "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+   "src": "Claude Code 変更履歴",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-code-2-1-293",
+   "cat": "update",
+   "prod": "code",
+   "title": "Claude Code 2.1.292〜2.1.294 のまとめ",
+   "desc": "Haiku 5.5 が既定の Haiku モデルになり、フックの判定まわりが修正されました。",
+   "points": [
+    "Anthropic API では Claude Haiku 5.5 が既定の Haiku に",
+    "Agent ツールに effort パラメーターを追加",
+    "圧縮後に作業を完了済みと誤認する問題を修正",
+    "指示形式の prompt／agent フックが止めるべき操作を通してしまう問題を修正"
+   ],
+   "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+   "src": "Claude Code 変更履歴",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-claude-md",
+   "cat": "tips",
+   "prod": "code",
+   "level": "初級",
+   "title": "CLAUDE.md は短く、必要なことだけ書く",
+   "desc": "CLAUDE.md は毎回最初に読み込まれるメモ。長すぎると大事なルールが埋もれます。",
+   "points": [
+    "/init で下書きを作り、少しずつ直す",
+    "推測できないコマンド・独自ルール・注意点だけ書く",
+    "「この行を消したら困るか？」で削る",
+    "/context で読み込まれたか確認"
+   ],
+   "url": "https://code.claude.com/docs/en/best-practices",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-plan-mode",
+   "cat": "tips",
+   "prod": "code",
+   "level": "初級",
+   "title": "プランモードで「調べる→計画→実装」",
+   "desc": "いきなりコードを書かせず、まず調べて計画を立てさせると、的外れな修正を防げます。",
+   "points": [
+    "Shift+Tab でプランモードに切り替え（読むだけで変更しない）",
+    "計画は Ctrl+G でエディタで直せる",
+    "1文で説明できる小さな修正なら計画は省略してよい"
+   ],
+   "url": "https://code.claude.com/docs/en/best-practices",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-verify",
+   "cat": "tips",
+   "prod": "code",
+   "level": "初級",
+   "title": "Claude に「確かめる方法」を渡す",
+   "desc": "テストやビルドなど合否が分かるチェックを渡すと、Claude が自分で直し続けて完成度が上がります。",
+   "points": [
+    "「テストケースはこれ。実装後にテストを実行して」と頼む",
+    "UI はスクリーンショットを比べさせる",
+    "結果の証拠（実行したコマンドと出力）を見せてもらう"
+   ],
+   "url": "https://code.claude.com/docs/en/best-practices",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-context",
+   "cat": "tips",
+   "prod": "code",
+   "level": "初級",
+   "title": "/clear と /compact で文脈を整理",
+   "desc": "会話が長くなると性能が落ちます。関係ない作業に移るときはリセットしましょう。",
+   "points": [
+    "別の作業に移るときは /clear",
+    "続けたいときは /compact 「APIの変更に注目」のように指示付きで圧縮",
+    "同じ指摘を2回しても直らなければ /clear して頼み直す",
+    "ちょっとした質問は /btw で（履歴に残らない）"
+   ],
+   "url": "https://code.claude.com/docs/en/best-practices",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-rewind",
+   "cat": "tips",
+   "prod": "code",
+   "level": "初級",
+   "title": "Esc と /rewind でやり直す",
+   "desc": "Claude の変更は自動で記録されているので、失敗しても前の状態に戻せます。",
+   "points": [
+    "Esc で作業を止めて方向修正",
+    "Esc を2回、または /rewind で会話やコードを巻き戻す",
+    "Bash で変えたものは戻らないので git も併用"
+   ],
+   "url": "https://code.claude.com/docs/en/checkpointing",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-specific-prompt",
+   "cat": "tips",
+   "prod": "code",
+   "level": "初級",
+   "title": "頼み方は具体的に",
+   "desc": "ファイル名・条件・お手本を示すほど、直しの回数が減ります。",
+   "points": [
+    "@ でファイルを指定する",
+    "既存の似た実装を「お手本」として示す",
+    "不具合は症状・場所・直った状態を伝える"
+   ],
+   "url": "https://code.claude.com/docs/en/best-practices",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-subagents",
+   "cat": "tips",
+   "prod": "code",
+   "level": "中級",
+   "title": "調べものはサブエージェントに任せる",
+   "desc": "サブエージェントは別の文脈で調べて要約だけ返すので、メインの会話がすっきり保てます。",
+   "points": [
+    "「サブエージェントで○○を調べて」と頼む",
+    ".claude/agents/ に専用エージェントを定義できる",
+    "実装後のレビューを別のサブエージェントにさせると見落としが減る"
+   ],
+   "url": "https://code.claude.com/docs/en/sub-agents",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-skills",
+   "cat": "tips",
+   "prod": "code",
+   "level": "中級",
+   "title": "スキルで手順や知識を再利用",
+   "desc": "よく使う手順や知識は .claude/skills/ に SKILL.md として置くと、必要なときだけ読み込まれます。",
+   "points": [
+    "CLAUDE.md に書くほどではない知識はスキルへ",
+    "/スキル名 で直接呼び出せる",
+    "副作用がある手順は disable-model-invocation: true で手動専用に"
+   ],
+   "url": "https://code.claude.com/docs/en/skills",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-hooks",
+   "cat": "tips",
+   "prod": "code",
+   "level": "中級",
+   "title": "必ずやりたいことはフックで自動化",
+   "desc": "CLAUDE.md の指示はお願いですが、フックは毎回必ず実行されます。",
+   "points": [
+    "「編集のたびに eslint を実行するフックを書いて」と Claude に頼める",
+    "/hooks で設定中のフックを確認",
+    "Stop フックでテストが通るまで終わらせない使い方も"
+   ],
+   "url": "https://code.claude.com/docs/en/hooks-guide",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-mcp",
+   "cat": "tips",
+   "prod": "code",
+   "level": "中級",
+   "title": "MCP で外部サービスとつなぐ",
+   "desc": "MCP サーバーをつなぐと、課題管理・データベース・Figma などを Claude から直接使えます。",
+   "points": [
+    "claude mcp add --transport http 名前 URL で追加",
+    "GitHub などは gh のような CLI ツールを使うと文脈を節約できる"
+   ],
+   "url": "https://code.claude.com/docs/en/mcp",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-permissions",
+   "cat": "tips",
+   "prod": "code",
+   "level": "中級",
+   "title": "権限設定で確認の手間を減らす",
+   "desc": "よく使う安全なコマンドを許可しておくと、毎回の確認なしで作業が進みます。",
+   "points": [
+    "/permissions で信頼できるツールを事前許可",
+    "/sandbox でファイル・通信を制限した中で自由に動かす",
+    "auto モードは危険そうな操作だけを止める"
+   ],
+   "url": "https://code.claude.com/docs/en/permission-modes",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-model",
+   "cat": "tips",
+   "prod": "code",
+   "level": "中級",
+   "title": "モデルと effort を使い分ける",
+   "desc": "作業の難しさに合わせてモデルと考える量を変えると、速さと費用のバランスが取れます。",
+   "points": [
+    "/model で切り替え（sonnet・opus・haiku などの別名が使える）",
+    "opusplan は計画は Opus、実装は Sonnet",
+    "/effort で low〜max を調整"
+   ],
+   "url": "https://code.claude.com/docs/en/model-config",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-routines",
+   "cat": "tips",
+   "prod": "code",
+   "level": "中級",
+   "title": "ルーティンで定期実行・自動化",
+   "desc": "プロンプトとリポジトリを保存しておくと、PC を閉じていてもクラウドで定期的に動きます。",
+   "points": [
+    "claude.ai/code/routines か CLI の /schedule で作成",
+    "スケジュール・API・GitHub イベントをきっかけにできる",
+    "プロンプトは単体で分かるように、成功の条件まで書く",
+    "ちょうど0分ではなく9:07のように少しずらすと遅れにくい"
+   ],
+   "url": "https://code.claude.com/docs/en/routines",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-interview",
+   "cat": "tips",
+   "prod": "code",
+   "level": "上級",
+   "title": "大きな機能は Claude にインタビューさせる",
+   "desc": "最初に Claude に質問してもらい、仕様書（SPEC.md）を作ってから新しいセッションで実装します。",
+   "points": [
+    "「AskUserQuestion で詳しくインタビューして、SPEC.md に書いて」と頼む",
+    "仕様ができたら新しいセッションで実装すると文脈がきれい"
+   ],
+   "url": "https://code.claude.com/docs/en/best-practices",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-headless",
+   "cat": "tips",
+   "prod": "code",
+   "level": "上級",
+   "title": "claude -p でスクリプトや CI から使う",
+   "desc": "対話なしで実行でき、CI や一括処理に組み込めます。",
+   "points": [
+    "claude -p 「指示」で1回だけ実行",
+    "--output-format json で結果をプログラムで扱う",
+    "--allowedTools で必要なツールだけ許可して一括処理"
+   ],
+   "url": "https://code.claude.com/docs/en/best-practices",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-parallel",
+   "cat": "tips",
+   "prod": "code",
+   "level": "上級",
+   "title": "複数のセッションを並行して動かす",
+   "desc": "worktree やクラウドで複数の Claude を同時に動かすと、作業も品質チェックもはかどります。",
+   "points": [
+    "git worktree でセッションごとに作業場所を分ける",
+    "1人が書き、別の Claude がレビューする分担が有効",
+    "/batch で大きな変更を複数のサブエージェントに分割"
+   ],
+   "url": "https://code.claude.com/docs/en/best-practices",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-projects",
+   "cat": "tips",
+   "prod": "claude",
+   "level": "初級",
+   "title": "プロジェクトで資料と指示をまとめる",
+   "desc": "Claude アプリのプロジェクトに資料とカスタム指示を入れると、そのプロジェクト内のすべてのチャットで使われます。",
+   "points": [
+    "「+ New Project」で作成し、ファイルを知識として追加",
+    "「Set project instructions」で毎回の指示を設定",
+    "チャット同士の内容は共有されないので、残したい情報は知識に追加"
+   ],
+   "url": "https://support.claude.com/en/articles/9519177",
+   "src": "Claude ヘルプセンター",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "t-clear-prompt",
+   "cat": "tips",
+   "prod": "api",
+   "level": "初級",
+   "title": "プロンプトは「新人に頼む」つもりで明確に",
+   "desc": "Claude を「優秀だけど事情を知らない新人」と考え、目的や条件をはっきり伝えると結果が良くなります。",
+   "points": [
+    "何のために、誰向けに、どんな形で欲しいかを書く",
+    "事情を知らない同僚が読んで分かるかで確認する",
+    "欲しい要素は具体的に列挙する"
+   ],
+   "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/be-clear-and-direct",
+   "src": "Claude Platform ドキュメント",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "o-2026-10-16-kling-4",
+   "cat": "other",
+   "maker": "Kling AI",
+   "title": "動画生成「Kling 4.0」が世界で公開",
+   "date": "2026-10-16",
+   "desc": "Kling AI が動画生成モデル Kling 4.0 を世界向けに公開しました。1回で30秒の動画を作れます。",
+   "points": [
+    "アップロードした動画を最大2分まで延長",
+    "参照素材は最大15個、キーフレームは最大10個",
+    "Adobe Firefly にも搭載予定"
+   ],
+   "url": "https://www.manilatimes.net/2026/10/16/tmt-newswire/globenewswire/kling-ai-launches-kling-40-globally-with-professional-grade-output-stable-motion-and-multimodal-control/2447373",
+   "src": "GlobeNewswire（Manila Times 掲載）",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "o-2026-10-15-timestral",
+   "cat": "other",
+   "maker": "Mistral",
+   "title": "Mistral が時系列予測モデル「Timestral」",
+   "date": "2026-10-15",
+   "desc": "Mistral 初の時系列予測モデル群 Timestral を公開。CPU でも動き、社内環境にも置けます。",
+   "points": [
+    "5M〜209M パラメーターの4サイズ",
+    "209M モデルは複数の予測ベンチマークで1位と発表"
+   ],
+   "url": "https://mistral.ai/news/timestral/",
+   "src": "Mistral 公式",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "o-2026-10-14-grok-voice-3",
+   "cat": "other",
+   "maker": "xAI",
+   "title": "xAI が音声対話モデル「Grok Voice 3.0」",
+   "date": "2026-10-14",
+   "desc": "xAI が音声で会話するAIモデル Grok Voice 3.0 を開発者向けAPIで提供開始。応答は1秒未満です。",
+   "points": [
+    "料金は前世代と同じ1分$0.08",
+    "日本語音声の評価結果は今後公開予定"
+   ],
+   "url": "https://aipicks.jp/news/20261015-xai-grok-voice-3-0-1-0-08-1",
+   "src": "AIPICKS",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "o-2026-10-13-gemini-4-argon",
+   "cat": "other",
+   "maker": "Google",
+   "title": "Gemini 4 Argon が Gemini Enterprise で正式提供",
+   "date": "2026-10-13",
+   "desc": "Google の新モデル Gemini 4 Argon が、企業向け Gemini Enterprise のアプリと開発ツールで正式提供になりました。",
+   "points": [
+    "アプリでは初期設定オフ、10月27日から既定でオン",
+    "10月14日にはワークフロー機能でも正式提供"
+   ],
+   "url": "https://docs.cloud.google.com/gemini/enterprise/docs/release-notes",
+   "src": "Google Cloud リリースノート",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "o-2026-10-12-muse-wonder",
+   "cat": "other",
+   "maker": "Meta",
+   "title": "Meta が新モデル「Muse Wonder」を公開",
+   "date": "2026-10-12",
+   "desc": "Meta が最も高性能なモデル Muse Wonder と上位版の Wonder Full を発表しました。会話をまたいで覚える Active Memory が特長です。",
+   "points": [
+    "API料金は入力$4／出力$20（100万トークンあたり）",
+    "Muse アプリへは有料会員から順次導入予定"
+   ],
+   "url": "https://es.euronews.com/2026/10/13/meta-lanza-muse-wonder-sus-modelos-de-ia-mas-potentes-hasta-ahora",
+   "src": "Euronews",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "o-2026-10-12-maia-300",
+   "cat": "other",
+   "maker": "Microsoft",
+   "title": "Microsoft が自社AIチップ「Maia 300」を発表",
+   "date": "2026-10-12",
+   "desc": "推論向けの第3世代AIチップ Maia 300 を発表。2027年に本格導入する計画です。",
+   "points": [
+    "GPU系より電力あたり40%多く処理できると主張",
+    "前世代 Maia 200 は Copilot などで稼働中"
+   ],
+   "url": "https://www.datacenterknowledge.com/data-center-chips/microsoft-pushes-custom-ai-chips-with-azure-maia-300",
+   "src": "Data Center Knowledge",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "o-2026-10-08-gemini-agent",
+   "cat": "other",
+   "maker": "Google",
+   "title": "Gemini に「仕事を任せられる」統合エージェント",
+   "date": "2026-10-08",
+   "desc": "Google が、目標を渡すと計画して作業まで進める Gemini のエージェントを企業向けに発表しました。一般向けは後日です。",
+   "points": [
+    "Workspace・Microsoft 365・Slack・MCP などとつながる",
+    "エージェントに専用のメールアドレスが付き、操作は記録に残る",
+    "モデルは選択でき、Claude も選べる"
+   ],
+   "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+   "src": "TechCrunch",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "o-2026-10-06-mistral-large-4",
+   "cat": "other",
+   "maker": "Mistral",
+   "title": "Mistral Large 4 をプレビュー公開",
+   "date": "2026-10-06",
+   "desc": "Mistral が1兆パラメーターのオープンウェイトモデル Mistral Large 4 をAPIでプレビュー公開しました。",
+   "points": [
+    "重みは今月末までに公開予定",
+    "料金は入力$1.36／出力$4.18（100万トークンあたり）",
+    "サイバーセキュリティ性能の高さを強調"
+   ],
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "src": "Mistral 公式",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "o-2026-10-02-devday",
+   "cat": "other",
+   "maker": "OpenAI",
+   "title": "OpenAI DevDay 2026：GPT-6.1 Sol など",
+   "date": "2026-10-02",
+   "desc": "OpenAI が開発者イベントで、コーディングやPC操作に強い GPT-6.1 Sol などを発表しました。",
+   "points": [
+    "GPT-6.1 Sol は上位モデルに近い性能を5分の1の料金で",
+    "Agents API でPC画面を操作する機能",
+    "Codex がクラウドでも動くように"
+   ],
+   "url": "https://www.infoq.com/news/2026/10/openai-devday-2026/",
+   "src": "InfoQ",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "o-2026-10-02-dots-space",
+   "cat": "other",
+   "maker": "OpenAI",
+   "title": "ChatGPT に常駐エージェント「Dots」と共有空間",
+   "date": "2026-10-02",
+   "desc": "DevDay で、続く作業を引き受ける常駐エージェント Dots と、チームとエージェントが同じ情報で作業する ChatGPT Space が紹介されました。",
+   "points": [
+    "ChatGPT 向けプラグインで独自の画面も作れるように"
+   ],
+   "url": "https://www.infoq.com/news/2026/10/openai-devday-2026/",
+   "src": "InfoQ",
+   "addedAt": "2026-10-16"
+  },
+  {
+   "id": "o-2026-09-16-mistral-mozilla",
+   "cat": "other",
+   "maker": "Mistral",
+   "title": "Mistral と Mozilla がブラウザでAI",
+   "date": "2026-09-16",
+   "desc": "Mistral と Mozilla が、オープンでプライバシーに配慮した多言語AIを Webブラウザに組み込む取り組みを発表しました。",
+   "url": "https://mistral.ai/news/mistral-x-mozilla/",
+   "src": "Mistral 公式",
+   "addedAt": "2026-10-16"
+  }
+ ]
+}

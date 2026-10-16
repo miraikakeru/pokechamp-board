@@ -77,6 +77,14 @@ const BOARDS = [
     chips: ['公式グッズ', 'コラボ', '毎週土曜4時に更新'],
     url: 'goods/',
     icon: '<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\' aria-hidden=\'true\'><path d=\'M5 8h14l-1 12H6z\'/><path d=\'M9 8V6a3 3 0 0 1 6 0v2\'/></svg>'
+  },
+  {
+    title: 'AI情報ボード',
+    tag: 'Claude · Generative AI',
+    desc: 'Claude と Claude Code の使い方、Claude のアップデート・修正情報、ほかの生成AIの話題をまとめています。',
+    chips: ['使い方', 'アップデート', 'ほかの生成AI', '毎朝6時に自動更新'],
+    url: 'ai/',
+    icon: '<svg viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\' aria-hidden=\'true\'><path d=\'M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z\'/><path d=\'M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z\'/></svg>'
   }
 ];
 const esc = s => String(s).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));

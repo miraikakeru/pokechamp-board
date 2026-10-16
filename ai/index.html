@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang='ja'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1,viewport-fit=cover'>
+<meta name='robots' content='noindex'>
+<title>AI情報ボード</title>
+<link rel='icon' href='../favicon.svg' type='image/svg+xml'>
+<link rel='preconnect' href='https://fonts.googleapis.com'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap'>
+<style>
+/* Layout: 濃い紫の見出し帯（細い格子）→ フィルター列 → 分類ごとのカード一覧（新しい順） */
+:root{
+  --bg:#f3f1fb; --surface:#ffffff; --sunk:#e9e5f7; --ink:#1a1433; --muted:#5d5683; --line:#dcd6f0;
+  --band:#1b1240; --band-2:#3a2390; --band-ink:#f3efff; --band-muted:#b9acec; --glow:#b69cff;
+  --accent:#6a3fd6; --accent-ink:#ffffff; --star:#d49a00; --new:#e0457b;
+  --c-tips:#c8641e; --c-update:#2f6fd1; --c-other:#1a8f69;
+  --f-body:'Zen Kaku Gothic New','Hiragino Sans','Noto Sans JP',system-ui,sans-serif;
+  --f-data:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0d0a1a; --surface:#161130; --sunk:#201a40; --ink:#ece8ff; --muted:#a49cc8; --line:#2c2552;
+  --band:#120c2c; --band-2:#2a1a6a; --band-muted:#a898e0;
+  --accent:#b69cff; --accent-ink:#140c2c; --star:#ffc53d; --new:#ff6f9f;
+  --c-tips:#ff9d57; --c-update:#6fb0ff; --c-other:#4fd1a5; color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.65}
+a{color:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--glow);outline-offset:2px}
+button{font:inherit;cursor:pointer}
+
+.band{color:var(--band-ink);background:linear-gradient(120deg,var(--band) 0%,var(--band) 50%,var(--band-2) 100%);position:relative;overflow:hidden;
+  padding:calc(22px + env(safe-area-inset-top,0px)) 16px 22px}
+.band::after{content:'';position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:28px 28px;
+  mask-image:linear-gradient(90deg,transparent,#000 60%)}
+.band-in{max-width:1180px;margin:0 auto;position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:14px 24px;align-items:flex-end;justify-content:space-between}
+.back{display:inline-block;font-size:12.5px;color:var(--band-muted);text-decoration:none;margin-bottom:10px}
+.back:hover{text-decoration:underline;color:var(--band-ink)}
+.eyebrow{font-family:var(--f-data);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--band-muted);display:flex;align-items:center;gap:10px}
+.eyebrow::before{content:'';width:24px;height:2px;background:var(--glow)}
+h1{margin:6px 0 6px;font-weight:900;font-size:clamp(24px,3.6vw,36px);line-height:1.2;letter-spacing:.03em;text-wrap:balance}
+.lead{margin:0;color:var(--band-muted);font-size:13px;max-width:62ch}
+.stats{display:flex;flex-wrap:wrap;gap:8px}
+.stat{border:1px solid rgba(255,255,255,.16);border-radius:10px;padding:6px 14px;min-width:96px;background:rgba(255,255,255,.05)}
+.stat .k{font-size:10px;letter-spacing:.1em;color:var(--band-muted)}
+.stat .v{font-family:var(--f-data);font-size:15px;font-weight:700;font-variant-numeric:tabular-nums}
+
+.wrap{max-width:1180px;margin:0 auto;padding:18px 16px calc(48px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:14px}
+.lastrun{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--new);border-radius:10px;padding:10px 14px;font-size:13px;color:var(--muted)}
+.lastrun b{color:var(--ink)}
+.filters{display:flex;flex-direction:column;gap:10px}
+.row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.row .lbl{font-size:11px;letter-spacing:.08em;color:var(--muted);min-width:4.5em}
+.pill{border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:99px;padding:5px 13px;font-size:13px;display:inline-flex;gap:6px;align-items:center}
+.pill .n{font-family:var(--f-data);font-size:11px;opacity:.8}
+.pill[aria-pressed='true']{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
+.pill .dot{width:8px;height:8px;border-radius:50%;background:var(--c)}
+#q{flex:1;min-width:0;max-width:340px;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:6px 14px}
+
+.sec h2{font-size:15px;margin:10px 0 8px;display:flex;align-items:center;gap:8px}
+.sec h2::before{content:'';width:10px;height:10px;border-radius:3px;background:var(--c)}
+.sec h2 .n{font-family:var(--f-data);font-size:12px;color:var(--muted);background:var(--sunk);border-radius:99px;padding:0 8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr));gap:12px}
+.card{--c:var(--accent);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;grid-template-columns:62px 1fr;gap:4px 12px;min-width:0;position:relative}
+.card::before{content:'';position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:0 3px 3px 0;background:var(--c)}
+.date{font-family:var(--f-data);text-align:center;line-height:1.15;grid-row:span 6}
+.date .y{font-size:10px;color:var(--muted)}
+.date .md{font-size:17px;font-weight:700;font-variant-numeric:tabular-nums}
+.date .w{font-size:11px;color:var(--muted)}
+.date .lbl{font-size:11px;font-weight:700;color:var(--muted);word-break:keep-all}
+.tags{display:flex;flex-wrap:wrap;gap:5px;align-items:center;min-width:0}
+.tag{font-size:10.5px;font-weight:700;letter-spacing:.04em;padding:1px 8px;border-radius:4px;background:var(--sunk);color:var(--muted)}
+.tag.cat{color:var(--c);background:color-mix(in srgb,var(--c) 14%,var(--surface))}
+.tag.prod{color:var(--accent);background:color-mix(in srgb,var(--accent) 12%,var(--surface))}
+.tag.new{color:#fff;background:var(--new)}
+.title{font-weight:700;font-size:15px;line-height:1.4;min-width:0;word-break:break-word}
+.desc{margin:0;font-size:13px;color:var(--muted);min-width:0}
+.pts{margin:2px 0 0;padding-left:1.2em;font-size:12.5px;min-width:0}
+.pts li{margin:1px 0;word-break:break-word}
+.pts li::marker{color:var(--c)}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:4px;font-size:11.5px;color:var(--muted);min-width:0}
+.foot a{color:var(--accent);font-weight:700;text-decoration:none;white-space:nowrap}
+.foot a:hover{text-decoration:underline}
+.star{border:1px solid var(--line);background:var(--surface);border-radius:8px;width:30px;height:30px;color:var(--muted);font-size:15px;line-height:1;flex:none}
+.star[aria-pressed='true']{color:var(--star);border-color:var(--star)}
+.empty{color:var(--muted);background:var(--surface);border:1.5px dashed var(--line);border-radius:12px;padding:20px;text-align:center}
+footer{font-size:12px;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class='band'>
+  <div class='band-in'>
+    <div>
+      <a class='back' href='../'>← メインメニュー</a>
+      <div class='eyebrow'>Claude · Claude Code · Generative AI</div>
+      <h1>AI情報ボード</h1>
+      <p class='lead'>Claude と Claude Code の効果的な使い方、Claude のアップデートや修正、ほかの生成AIの話題をまとめています。毎朝6時に更新。</p>
+    </div>
+    <div class='stats'>
+      <div class='stat'><div class='k'>新着（14日）</div><div class='v' id='stNew'>—</div></div>
+      <div class='stat'><div class='k'>掲載</div><div class='v' id='stAll'>—</div></div>
+      <div class='stat'><div class='k'>最終更新</div><div class='v' id='stUpd'>—</div></div>
+    </div>
+  </div>
+</header>
+
+<div class='wrap'>
+  <div class='lastrun' id='lastrun' hidden></div>
+  <div class='filters'>
+    <div class='row' id='rowCat'><span class='lbl'>分類</span></div>
+    <div class='row' id='rowProd' hidden><span class='lbl'>対象</span></div>
+    <div class='row' id='rowStat'><span class='lbl'>表示</span><input id='q' type='search' placeholder='キーワードで絞り込み（例：CLAUDE.md、サブエージェント、Gemini）' aria-label='キーワードで絞り込み'></div>
+  </div>
+  <div id='list'></div>
+  <footer>内容は公開時点の情報です。機能や料金は変わることがあるので、使う前にリンク先で確認してください。お気に入り（☆）はこのブラウザに保存されます。</footer>
+</div>
+
+<script>
+const CATS = [
+  {k:'all', label:'すべて'},
+  {k:'update', label:'アップデート・修正', c:'var(--c-update)'},
+  {k:'tips', label:'使い方', c:'var(--c-tips)'},
+  {k:'other', label:'ほかの生成AI', c:'var(--c-other)'}
+];
+const PRODS = [{k:'all',label:'すべて'},{k:'claude',label:'Claude（アプリ）'},{k:'code',label:'Claude Code'},{k:'api',label:'API・開発者向け'}];
+const PRODNAME = {claude:'Claude', code:'Claude Code', api:'API'};
+const STATS = [{k:'all',label:'すべて'},{k:'new',label:'新着（14日以内）'},{k:'fav',label:'★ お気に入り'}];
+const WD = ['日','月','火','水','木','金','土'];
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s==null?'':s).replace(/[&<>'\x22]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','\x22':'&quot;','\'':'&#39;'}[c]));
+const safeUrl = u => /^https?:\/\//i.test(String(u||'')) ? String(u) : '#';
+const state = {cat:'all', prod:'all', stat:'all', q:''};
+let DATA = {items:[]};
+let favs = new Set();
+try{ favs = new Set(JSON.parse(localStorage.getItem('ai-favs-v1')||'[]')); }catch(e){}
+const saveFavs = () => { try{ localStorage.setItem('ai-favs-v1', JSON.stringify([...favs])); }catch(e){} };
+
+function daysAgoJST(n){ const d = new Date(Date.now()+9*3600e3-n*864e5); return d.toISOString().slice(0,10); }
+function isRecent(it){ const d = it.date || it.addedAt || ''; return d >= daysAgoJST(14); }
+function isNew(it){ return (DATA.lastRun && (DATA.lastRun.added||[]).includes(it.id)); }
+function match(it){
+  if(state.cat!=='all' && it.cat!==state.cat) return false;
+  if(state.cat!=='all' && state.cat!=='other' && state.prod!=='all' && it.prod!==state.prod) return false;
+  if(state.stat==='new' && !isRecent(it)) return false;
+  if(state.stat==='fav' && !favs.has(it.id)) return false;
+  if(state.q){ const t=[it.title,it.desc,(it.points||[]).join(' '),it.maker,it.src,it.level,PRODNAME[it.prod]].join(' '); if(!t.toLowerCase().includes(state.q.toLowerCase())) return false; }
+  return true;
+}
+function pills(el, list, key, counts){
+  el.querySelectorAll('.pill').forEach(p=>p.remove());
+  list.forEach(o => {
+    const b = document.createElement('button');
+    b.type='button'; b.className='pill'; b.dataset.k=o.k; b.setAttribute('aria-pressed', String(state[key]===o.k));
+    if(o.c) b.style.setProperty('--c', o.c);
+    b.innerHTML = (o.c?'<span class=\x22dot\x22></span>':'') + esc(o.label) + (counts && counts[o.k]!=null ? ` <span class='n'>${counts[o.k]}</span>` : '');
+    b.addEventListener('click', () => { state[key]=o.k; if(key==='cat') state.prod='all'; render(); });
+    if(key==='stat') el.insertBefore(b, $('#q')); else el.appendChild(b);
+  });
+}
+function dateBlock(it){
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(it.date||'')) return `<div class='date'><div class='lbl'>${esc(it.dateLabel||'日付なし')}</div></div>`;
+  const [y,m,d] = it.date.split('-'); const w = WD[new Date(Date.UTC(+y,+m-1,+d)).getUTCDay()];
+  return `<div class='date'><div class='y'>${y}</div><div class='md'>${m}.${d}</div><div class='w'>${w}</div></div>`;
+}
+function card(it){
+  const c = CATS.find(x=>x.k===it.cat); const on = favs.has(it.id);
+  const who = it.cat==='other' ? (it.maker||'') : (PRODNAME[it.prod]||'');
+  const pts = (it.points||[]).filter(Boolean).slice(0,5);
+  return `<article class='card' style='--c:${c?c.c:'var(--accent)'}'>
+    ${dateBlock(it)}
+    <div class='tags'><span class='tag cat'>${esc(c?c.label:'')}</span>${who?`<span class='tag prod'>${esc(who)}</span>`:''}${it.level?`<span class='tag'>${esc(it.level)}</span>`:''}${isNew(it)?`<span class='tag new'>NEW</span>`:''}</div>
+    <div class='title'>${esc(it.title)}</div>
+    ${it.desc?`<p class='desc'>${esc(it.desc)}</p>`:''}
+    ${pts.length?`<ul class='pts'>${pts.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>`:''}
+    <div class='foot'><span>出典：${esc(it.src)}</span><span style='display:flex;gap:8px;align-items:center'><a href='${esc(safeUrl(it.url))}' target='_blank' rel='noopener'>詳しく見る ↗</a><button class='star' type='button' data-id='${esc(it.id)}' aria-pressed='${on}' aria-label='${on?'お気に入りから外す':'お気に入りに保存'}'>${on?'★':'☆'}</button></span></div>
+  </article>`;
+}
+const byDate = (a,b) => (b.date||b.addedAt||'').localeCompare(a.date||a.addedAt||'');
+function section(cat, list){
+  if(!list.length) return '';
+  return `<section class='sec' style='--c:${cat.c}'><h2>${esc(cat.label)} <span class='n'>${list.length}</span></h2><div class='grid'>${list.sort(byDate).map(card).join('')}</div></section>`;
+}
+function render(){
+  const items = (DATA.items||[]);
+  const cc = {all:items.length}; items.forEach(i=>cc[i.cat]=(cc[i.cat]||0)+1);
+  pills($('#rowCat'), CATS, 'cat', cc);
+  const showProd = state.cat==='tips' || state.cat==='update';
+  $('#rowProd').hidden = !showProd;
+  if(showProd){ const pc={all:cc[state.cat]||0}; items.filter(i=>i.cat===state.cat).forEach(i=>pc[i.prod]=(pc[i.prod]||0)+1); pills($('#rowProd'), PRODS, 'prod', pc); }
+  pills($('#rowStat'), STATS, 'stat', {new:items.filter(isRecent).length, fav:favs.size});
+  const list = items.filter(match);
+  const html = CATS.slice(1).map(cat => section(cat, list.filter(i=>i.cat===cat.k))).join('');
+  $('#list').innerHTML = html || (items.length ? `<p class='empty'>条件に合う情報はありません。絞り込みを変えてみてください。</p>` : `<p class='empty'>AI情報を読み込み中です。表示されない場合は、毎朝6時の更新後にもう一度開いてください。</p>`);
+  $('#stNew').textContent = items.filter(isRecent).length + '件';
+  $('#stAll').textContent = items.length + '件';
+}
+function header(){
+  let u='—'; try{ const d=new Date(DATA.updatedAt); if(!isNaN(d)) u=d.toLocaleString('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}); }catch(e){}
+  $('#stUpd').textContent = u;
+  const lr = DATA.lastRun;
+  if(lr && lr.summary){ $('#lastrun').hidden=false; $('#lastrun').innerHTML = `<b>前回の更新（${esc(lr.date)}）</b>：新着 ${(lr.added||[]).length}件・変更 ${(lr.changed||[]).length}件。${esc(lr.summary)}`; }
+}
+document.addEventListener('click', e => {
+  const s = e.target.closest('.star'); if(!s) return;
+  const id = s.dataset.id; favs.has(id) ? favs.delete(id) : favs.add(id); saveFavs(); render();
+});
+let qt; $('#q').addEventListener('input', e => { clearTimeout(qt); qt=setTimeout(()=>{ state.q=e.target.value.trim(); render(); },120); });
+render();
+fetch('data.json?t='+Date.now()).then(r=>r.json()).then(d=>{ if(d && Array.isArray(d.items)){ DATA=d; header(); render(); } }).catch(()=>{ $('#list').innerHTML=`<p class='empty'>データを読み込めませんでした。時間をおいて開き直してください。</p>`; });
+</script>
+</body>
+</html>
