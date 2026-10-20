@@ -462,7 +462,9 @@
    "sub": "2490",
    "title": "Paul",
    "url": "https://x.com/paul_chua_/status/2107780103027474898",
-   "who": "@Paul_Chua_"
+   "who": "@Paul_Chua_",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -482,7 +484,9 @@
    "sub": "2478",
    "title": "ヤシの木",
    "url": "https://x.com/xx_z2z/status/2107738199154172361",
-   "who": "@xx_z2z"
+   "who": "@xx_z2z",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -502,7 +506,9 @@
    "sub": "2439",
    "title": "せいた",
    "url": "https://x.com/seita_poke/status/2107716968883376615",
-   "who": "@seita_poke"
+   "who": "@seita_poke",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -522,7 +528,9 @@
    "sub": "2432",
    "title": "Online",
    "url": "https://x.com/online_poke/status/2107730195939770792",
-   "who": "@online_poke"
+   "who": "@online_poke",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -542,7 +550,9 @@
    "sub": "2414",
    "title": "yura",
    "url": "https://x.com/yurayura_pon/status/2107730887748304942",
-   "who": "@yurayura_pon"
+   "who": "@yurayura_pon",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -562,7 +572,9 @@
    "sub": "2409",
    "title": "リンヤ",
    "url": "https://x.com/gozira2004/status/2107768621770625092",
-   "who": "@gozira2004"
+   "who": "@gozira2004",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -582,7 +594,9 @@
    "sub": "2400",
    "title": "은조순",
    "url": "https://x.com/IamSliverfish/status/2107722622410842592",
-   "who": "@IamSliverfish"
+   "who": "@IamSliverfish",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -602,7 +616,166 @@
    "sub": "2315",
    "title": "Xena｜構築記事あり",
    "url": "https://note.com/rich_dahlia235/n/n4cb6f5c36bd0",
-   "who": "@Xenagaming248"
+   "who": "@Xenagaming248",
+   "sets": [
+    {
+     "item": "ボーマンダナイト",
+     "ability": "スカイスキン",
+     "nature": "せっかち",
+     "moves": [
+      "すてみタックル",
+      "ハイパーボイス",
+      "おいかぜ",
+      "まもる"
+     ],
+     "stats": {
+      "H": 183,
+      "A": 156,
+      "B": 90,
+      "C": 130,
+      "D": 128,
+      "S": 158
+     },
+     "pts": {
+      "H": 13,
+      "A": 1,
+      "D": 28,
+      "S": 24
+     },
+     "memo": "雨や特殊アグロに対応するせっかちHDS。おいかぜで荒らしイダイトウに繋ぐ"
+    },
+    {
+     "item": "ライチュウナイトY",
+     "ability": "ノーガード",
+     "nature": "おくびょう",
+     "moves": [
+      "ねこだまし",
+      "でんじほう",
+      "アンコール",
+      "まもる"
+     ],
+     "stats": {
+      "H": 167,
+      "A": 99,
+      "B": 77,
+      "C": 110,
+      "D": 103,
+      "S": 174
+     },
+     "pts": {
+      "H": 32,
+      "B": 2,
+      "D": 3,
+      "S": 29
+     },
+     "memo": "総合耐久重視でH最大。読み合いを避けて安定して勝つための型"
+    },
+    {
+     "item": "ようせいのはね",
+     "ability": "フェアリースキン",
+     "nature": "ひかえめ",
+     "moves": [
+      "ハイパーボイス",
+      "はかいこうせん",
+      "でんこうせっか",
+      "みきり"
+     ],
+     "stats": {
+      "H": 195,
+      "A": 76,
+      "B": 91,
+      "C": 165,
+      "D": 150,
+      "S": 97
+     },
+     "pts": {
+      "H": 25,
+      "B": 6,
+      "C": 20,
+      "S": 17
+     },
+     "memo": "基本選出の全体技アタッカー。はかいこうせんはブリジュラス・ジャラランガ用"
+    },
+    {
+     "item": "きあいのタスキ",
+     "ability": "てきおうりょく",
+     "nature": "ようき",
+     "moves": [
+      "アクアブレイク",
+      "おはかまいり",
+      "アクアジェット",
+      "まもる"
+     ],
+     "stats": {
+      "H": 195,
+      "A": 164,
+      "B": 87,
+      "C": 90,
+      "D": 98,
+      "S": 143
+     },
+     "pts": {
+      "A": 32,
+      "B": 2,
+      "S": 32
+     },
+     "memo": "オオニューラに強い〆役。AS最大"
+    },
+    {
+     "item": "ヨプのみ",
+     "ability": "まけんき",
+     "nature": "いじっぱり",
+     "moves": [
+      "ドゲザン",
+      "アイアンヘッド",
+      "ふいうち",
+      "けたぐり"
+     ],
+     "stats": {
+      "H": 207,
+      "A": 187,
+      "B": 142,
+      "C": 72,
+      "D": 113,
+      "S": 79
+     },
+     "pts": {
+      "H": 32,
+      "A": 15,
+      "B": 2,
+      "D": 8,
+      "S": 9
+     },
+     "memo": "耐性を活かした引き先。B182オオニューラのインファイト確定耐え。まもる無し。A11n"
+    },
+    {
+     "item": "いのちのたま",
+     "ability": "いかく",
+     "nature": "いじっぱり",
+     "moves": [
+      "ねこだまし",
+      "フレアドライブ",
+      "DDラリアット",
+      "インファイト"
+     ],
+     "stats": {
+      "H": 172,
+      "A": 183,
+      "B": 110,
+      "C": 90,
+      "D": 110,
+      "S": 112
+     },
+     "pts": {
+      "H": 2,
+      "A": 32,
+      "S": 32
+     },
+     "memo": "初見殺し枠。インファイト+DDラリアットでブリジュラスに圧"
+    }
+   ],
+   "detail": "ok",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -2018,7 +2191,9 @@
    "sub": "2350",
    "title": "＠すぷりんぐ",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "@7nananana90"
+   "who": "@7nananana90",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -2038,7 +2213,9 @@
    "sub": "2347",
    "title": "Victor Matos",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "@victormatosRD"
+   "who": "@victormatosRD",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -2058,7 +2235,9 @@
    "sub": "2345",
    "title": "やなぎ",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "@yanagiT_poke"
+   "who": "@yanagiT_poke",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -2078,7 +2257,9 @@
    "sub": "2328",
    "title": "ゆヌぽんヌ",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "@yunuponnu"
+   "who": "@yunuponnu",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -2098,7 +2279,9 @@
    "sub": "2325",
    "title": "AKP｜こげぱん",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "@kogepannachan"
+   "who": "@kogepannachan",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -2118,7 +2301,9 @@
    "sub": "",
    "title": "Light",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "@Light826poke"
+   "who": "@Light826poke",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -2138,7 +2323,9 @@
    "sub": "2323",
    "title": "じゅんや",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "@jun_poke918"
+   "who": "@jun_poke918",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -2158,7 +2345,44 @@
    "sub": "2319",
    "title": "ベテ",
    "url": "https://colonel-vete.hatenablog.com/entry/2026/10/03/144300",
-   "who": "@colonel_vete"
+   "who": "@colonel_vete",
+   "sets": [
+    {},
+    {
+     "moves": [
+      "サイコファング",
+      "じだんだ",
+      "バレットパンチ",
+      "アイアンローラー"
+     ],
+     "memo": "サイコファング+バレットパンチでメガガブリアスZ等を落とせるA。S準速"
+    },
+    {
+     "moves": [
+      "ソウルクラッシュ",
+      "すてゼリフ"
+     ],
+     "memo": "HBベース。両壁採用。ゴリランダーの種ウッドハンマー等を意識"
+    },
+    {
+     "item": "こだわりスカーフ",
+     "moves": [
+      "ドラゴンダイブ"
+     ],
+     "memo": "A振り切り。Sは準速ミラー等を意識"
+    },
+    {
+     "moves": [
+      "ぼうふう"
+     ],
+     "memo": "HB。S158（臆病サーフゴー抜き150以上）"
+    },
+    {
+     "memo": "メガガブリアスZのりゅうせいぐんを耐えるHD基調"
+    }
+   ],
+   "detail": "partial",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -3555,7 +3779,9 @@
    "sub": "2337",
    "title": "갈참",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "갈참（cheolhwan yeom）"
+   "who": "갈참（cheolhwan yeom）",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -3575,7 +3801,9 @@
    "sub": "",
    "title": "ショコラ",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "ショコラ"
+   "who": "ショコラ",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -3595,7 +3823,9 @@
    "sub": "2319",
    "title": "だいすけ",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "だいすけ"
+   "who": "だいすけ",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "fmt": "double",
@@ -10811,7 +11041,9 @@
     "オオニューラ"
    ],
    "url": "https://yakkun.com/bbs/party/n8891",
-   "src": "ポケモン徹底攻略（GameWith掲載）"
+   "src": "ポケモン徹底攻略（GameWith掲載）",
+   "detail": "none",
+   "detailAt": "2026-10-20"
   },
   {
    "id": "s-m6-gw298",
