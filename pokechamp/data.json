@@ -2402,7 +2402,9 @@
    "sub": "2314",
    "title": "SS | DDee!",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "@ddee_ssbu"
+   "who": "@ddee_ssbu",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "fmt": "double",
@@ -2422,7 +2424,9 @@
    "sub": "2313",
    "title": "Onion",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "@0nion_poke"
+   "who": "@0nion_poke",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "fmt": "double",
@@ -2442,7 +2446,9 @@
    "sub": "2309",
    "title": "HRK",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "@hrk_pokechamp"
+   "who": "@hrk_pokechamp",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "fmt": "double",
@@ -2462,7 +2468,9 @@
    "sub": "2287",
    "title": "Leonardo Bonanomi",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "@IlbonaVGC"
+   "who": "@IlbonaVGC",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "fmt": "double",
@@ -2504,7 +2512,9 @@
    "sub": "1874",
    "title": "Jack",
    "url": "https://www.youtube.com/watch?v=EgrE9W2ZwTA",
-   "who": "@ScooteezyVGC"
+   "who": "@ScooteezyVGC",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "fmt": "double",
@@ -2524,7 +2534,9 @@
    "sub": "1857",
    "title": "DidiVGC",
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
-   "who": "@DidiVGC"
+   "who": "@DidiVGC",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "fmt": "double",
@@ -2744,7 +2756,9 @@
    "sub": "13-3",
    "title": "ボルチモア・リージョナル",
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-baltimore-pokemon-vgc-regional-championships/",
-   "who": "Brady Smith"
+   "who": "Brady Smith",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "fmt": "double",
@@ -2764,7 +2778,9 @@
    "sub": "13-3",
    "title": "ボルチモア・リージョナル",
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-baltimore-pokemon-vgc-regional-championships/",
-   "who": "Blaik Thompson"
+   "who": "Blaik Thompson",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "fmt": "double",
@@ -3499,7 +3515,9 @@
    "sub": "12-2",
    "title": "レシフェ・リージョナル",
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-recife-pokemon-vgc-regional-championships/",
-   "who": "Luciano Begot"
+   "who": "Luciano Begot",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "fmt": "double",
@@ -3519,7 +3537,9 @@
    "sub": "10-3",
    "title": "レシフェ・リージョナル",
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-recife-pokemon-vgc-regional-championships/",
-   "who": "Nader El bacha"
+   "who": "Nader El bacha",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "fmt": "double",
@@ -3845,7 +3865,9 @@
    "sub": "2313",
    "title": "りょうま＠ダブル勢",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "りょうま＠ダブル勢"
+   "who": "りょうま＠ダブル勢",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "fmt": "double",
@@ -3865,7 +3887,9 @@
    "sub": "2310",
    "title": "ねっち",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "ねっち"
+   "who": "ねっち",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "fmt": "double",
@@ -3885,7 +3909,9 @@
    "sub": "2309",
    "title": "あゆむん＠3児パパトレーナー",
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
-   "who": "あゆむん＠3児パパトレーナー"
+   "who": "あゆむん＠3児パパトレーナー",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "fmt": "double",
@@ -11163,7 +11189,52 @@
     "キュウコン"
    ],
    "url": "https://app-date.net/tailwindbullet/",
-   "src": "ブログ（GameWith掲載）"
+   "src": "ブログ（GameWith掲載）",
+   "sets": [
+    {
+     "item": "リリバのみ",
+     "ability": "いたずらごころ",
+     "moves": [
+      "おいかぜ",
+      "アンコール"
+     ],
+     "memo": "最速ガブリアス抜き。いのちのたまサーフゴーのゴールドラッシュ高乱数耐え、残り特攻"
+    },
+    {
+     "ability": "フェアリーオーラ",
+     "moves": [
+      "はめつのひかり"
+     ],
+     "memo": "メガシンカ枠のエース"
+    },
+    {
+     "item": "きあいのタスキ",
+     "moves": [
+      "ワイドフォース",
+      "トリックルーム",
+      "ふういん",
+      "ハイパーボイス"
+     ]
+    },
+    {
+     "item": "いのちのたま",
+     "ability": "どくげしょう"
+    },
+    {
+     "item": "こだわりスカーフ",
+     "nature": "ひかえめ",
+     "memo": "準速（おくびょうだと打点不足のため）"
+    },
+    {
+     "ability": "ひでり",
+     "moves": [
+      "ねっさのだいち"
+     ],
+     "memo": "原種。ねっさのだいちでヒスイウインディを返り討ち"
+    }
+   ],
+   "detail": "partial",
+   "detailAt": "2026-10-21"
   },
   {
    "id": "d-m6-gw90",
@@ -11183,7 +11254,65 @@
     "*グソクムシャ"
    ],
    "url": "https://note.com/gostraightvgc/n/n6e1611b3a6ec",
-   "src": "note（GameWith掲載）"
+   "src": "note（GameWith掲載）",
+   "sets": [
+    {
+     "item": "いのちのたま",
+     "ability": "すりぬけ",
+     "moves": [
+      "りゅうせいぐん",
+      "おにび"
+     ],
+     "memo": "火力重視。最速スカーフペリッパー抜き。壁構築への回答"
+    },
+    {
+     "item": "サイコシード",
+     "moves": [
+      "とぐろをまく",
+      "だくりゅう",
+      "さいみんじゅつ"
+     ],
+     "memo": "とぐろをまくで命中を上げるサポーター。配分は適当"
+    },
+    {
+     "item": "ゴツゴツメット",
+     "moves": [
+      "トリックルーム",
+      "サイコキネシス"
+     ],
+     "memo": "HP16n、B特化、D余り、最遅。トリルは相手の追い風へのカウンター"
+    },
+    {
+     "item": "きあいのタスキ",
+     "ability": "もらいび",
+     "moves": [
+      "ワイドフォース",
+      "アーマーキャノン",
+      "まもる"
+     ],
+     "memo": "火力重視のフィニッシャー。リザードンが重くもらいび"
+    },
+    {
+     "item": "ムクホークナイト",
+     "moves": [
+      "インファイト",
+      "はねやすめ",
+      "ブレイブバード"
+     ],
+     "memo": "火力重視、最速メガバンギラス抜き。はねやすめ効率でHP奇数"
+    },
+    {
+     "item": "グソクムシャナイト",
+     "moves": [
+      "つるぎのまい",
+      "ふいうち",
+      "アイアンヘッド"
+     ],
+     "memo": "火力重視。ミラー意識でSに1振り（3振りは下降50族と同速）"
+    }
+   ],
+   "detail": "partial",
+   "detailAt": "2026-10-21"
   },
   {
    "id": "d-m6-gw120",
@@ -11203,7 +11332,134 @@
     "*グソクムシャ"
    ],
    "url": "https://note.com/big_luv_graceon/n/n03c4ccce40e5",
-   "src": "note（GameWith掲載）"
+   "src": "note（GameWith掲載）",
+   "sets": [
+    {
+     "item": "こだわりスカーフ",
+     "moves": [
+      "ウッドハンマー",
+      "グラススライダー",
+      "とんぼがえり",
+      "10まんばりき"
+     ],
+     "stats": {
+      "H": 179,
+      "A": 194,
+      "B": 110,
+      "D": 91,
+      "S": 134
+     },
+     "pts": {
+      "H": 4,
+      "A": 32,
+      "D": 1,
+      "S": 29
+     },
+     "memo": "A特化。Sはスカーフ込みで最速メガライチュウY抜き。とんぼがえりで天候操作"
+    },
+    {
+     "item": "しめったいわ",
+     "moves": [
+      "おいかぜ"
+     ],
+     "stats": {
+      "H": 167,
+      "B": 143,
+      "C": 132,
+      "D": 97,
+      "S": 85
+     },
+     "pts": {
+      "H": 32,
+      "B": 10,
+      "C": 17,
+      "D": 7
+     },
+     "memo": "雨始動役。ワイドガードではなくおいかぜを採用"
+    },
+    {
+     "item": "たべのこし",
+     "moves": [
+      "エレクトロビーム",
+      "まもる",
+      "りゅうのはどう",
+      "はどうだん"
+     ],
+     "stats": {
+      "H": 195,
+      "B": 151,
+      "C": 145,
+      "D": 111,
+      "S": 125
+     },
+     "pts": {
+      "H": 30,
+      "B": 1,
+      "D": 26,
+      "S": 9
+     },
+     "memo": "Sはミラー意識でできるだけ速く。はどうだんはミラーやドドゲザン用"
+    },
+    {
+     "item": "きあいのタスキ",
+     "nature": "ひかえめ",
+     "moves": [
+      "だくりゅう"
+     ],
+     "stats": {
+      "H": 195,
+      "B": 86,
+      "C": 167,
+      "D": 96,
+      "S": 130
+     },
+     "pts": {
+      "B": 1,
+      "C": 32,
+      "D": 1,
+      "S": 32
+     },
+     "memo": "控えめCS"
+    },
+    {
+     "item": "ラグラージナイト",
+     "moves": [
+      "10まんばりき",
+      "れいとうパンチ"
+     ],
+     "stats": {
+      "H": 177,
+      "A": 222,
+      "B": 130,
+      "D": 130,
+      "S": 122
+     },
+     "pts": {
+      "H": 2,
+      "A": 32,
+      "S": 32
+     },
+     "memo": "ASぶっぱの雨エース（実数値はメガ後）。じしんを切り10まんばりき、ボーマンダ用れいとうパンチ"
+    },
+    {
+     "item": "グソクムシャナイト",
+     "stats": {
+      "H": 182,
+      "A": 222,
+      "B": 195,
+      "D": 142,
+      "S": 60
+     },
+     "pts": {
+      "H": 32,
+      "A": 32,
+      "D": 2
+     },
+     "memo": "HAぶっぱ（実数値はメガ後）"
+    }
+   ],
+   "detail": "partial",
+   "detailAt": "2026-10-21"
   },
   {
    "id": "d-m6-gw252",
@@ -11223,7 +11479,52 @@
     "ゾロアーク"
    ],
    "url": "https://note.com/dm_emperor/n/n03cf08da819a",
-   "src": "note（GameWith掲載）"
+   "src": "note（GameWith掲載）",
+   "sets": [
+    {
+     "item": "バクーダナイト",
+     "moves": [
+      "げんしのちから"
+     ],
+     "memo": "B4振りで晴れ下メガグソクムシャのアクアブレイク耐え（乱数）。トリル無しでも動かすためふんか不採用"
+    },
+    {
+     "item": "グラスシード",
+     "moves": [
+      "サイコキネシス"
+     ],
+     "memo": "調整はM-Bから据え置き"
+    },
+    {
+     "item": "きせきのタネ",
+     "memo": "疑似チョッキ型でSに下降補正。トリル下のアタッカーも兼ねる"
+    },
+    {
+     "item": "こだわりスカーフ",
+     "moves": [
+      "クイックターン",
+      "アクアジェット"
+     ],
+     "memo": "ゴリランダーのグラススライダー耐え調整。Sは130族（メガライチュウY）抜き"
+    },
+    {
+     "item": "ようせいのハネ",
+     "moves": [
+      "まもる"
+     ],
+     "memo": "B4振り。ゾロアークと技を揃えるためみきりでなくまもる。リキキリンと同速"
+    },
+    {
+     "item": "きあいのタスキ",
+     "moves": [
+      "バークアウト",
+      "じごくづき"
+     ],
+     "memo": "原種。バークアウト+じごくづきでメガサーナイト対策"
+    }
+   ],
+   "detail": "partial",
+   "detailAt": "2026-10-21"
   },
   {
    "id": "d-m6-gw271",
@@ -11243,7 +11544,66 @@
     "ジャラランガ"
    ],
    "url": "https://note.com/morikamome/n/ncfcabb8566d0",
-   "src": "note（GameWith掲載）"
+   "src": "note（GameWith掲載）",
+   "sets": [
+    {
+     "item": "イトケのみ",
+     "moves": [
+      "いわなだれ",
+      "はたきおとす",
+      "けたぐり"
+     ],
+     "memo": "Hぶっぱ、A11n、余りD"
+    },
+    {
+     "item": "きあいのタスキ",
+     "moves": [
+      "じしん"
+     ],
+     "memo": "ASタスキ。いわなだれは不採用"
+    },
+    {
+     "item": "オボンのみ",
+     "moves": [
+      "おいかぜ",
+      "ビルドアップ",
+      "はねやすめ"
+     ],
+     "memo": "Hぶっぱ、B11n、追い風下メガムクホーク抜きS90、余りD"
+    },
+    {
+     "item": "メガストーン",
+     "moves": [
+      "ヘドロウェーブ",
+      "パワージェム",
+      "だいちのちから",
+      "まもる"
+     ],
+     "memo": "最速（リザY・メガサーナイト・メガカイリュー意識）、H16n、残りC"
+    },
+    {
+     "item": "リザードナイトX",
+     "moves": [
+      "ドラゴンクロー",
+      "やけっぱち",
+      "ニトロチャージ",
+      "まもる"
+     ],
+     "memo": "H16n-1、A11n、最速60族抜き（追い風下スカーフサザンドラ抜き）、余りB"
+    },
+    {
+     "item": "たべのこし",
+     "moves": [
+      "スケイルノイズ",
+      "はどうだん",
+      "ソウルビート",
+      "まもる"
+     ],
+     "memo": "S134（1積みで130族抜き）、H16n-1、C11n+1、余りD"
+    }
+   ],
+   "detail": "partial",
+   "detailAt": "2026-10-21"
   },
   {
    "id": "s-m6-129-ua",
@@ -11378,7 +11738,9 @@
     "フシギバナ"
    ],
    "url": "https://victoryroad.pro/2027-louisville/",
-   "src": "Victory Road"
+   "src": "Victory Road",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "id": "d-lou-3",
@@ -11398,7 +11760,9 @@
     "フシギバナ"
    ],
    "url": "https://victoryroad.pro/2027-louisville/",
-   "src": "Victory Road"
+   "src": "Victory Road",
+   "detail": "none",
+   "detailAt": "2026-10-21"
   },
   {
    "id": "d-lou-4",
