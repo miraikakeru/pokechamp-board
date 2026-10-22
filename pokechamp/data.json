@@ -795,7 +795,9 @@
    "sub": "17-0",
    "title": "フランクフルト・リージョナル（1,173人）",
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-frankfurt-pokemon-vgc-regional-championships/",
-   "who": "Eric Rios ／ 9/26-27"
+   "who": "Eric Rios ／ 9/26-27",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -815,7 +817,9 @@
    "sub": "",
    "title": "ブリスベン・リージョナル（360人）",
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-brisbane-pokemon-vgc-regional-championships/",
-   "who": "Kiran Singh ／ 9/26-27"
+   "who": "Kiran Singh ／ 9/26-27",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -835,7 +839,77 @@
    "sub": "13-2",
    "title": "Maddo's Cup #12（388人）",
    "url": "https://play.limitlesstcg.com/tournament/6a9c5234a4272c53be6480bf/player/luca/teamlist",
-   "who": "Luca ／ 9/19"
+   "who": "Luca ／ 9/19",
+   "sets": [
+    {
+     "item": "ボーマンダナイト",
+     "ability": "いかく",
+     "nature": "おくびょう",
+     "moves": [
+      "ハイパーボイス",
+      "りゅうせいぐん",
+      "おいかぜ",
+      "まもる"
+     ]
+    },
+    {
+     "item": "ライチュナイトY",
+     "ability": "ひらいしん",
+     "nature": "おくびょう",
+     "moves": [
+      "でんじほう",
+      "きあいだま",
+      "ねこだまし",
+      "まもる"
+     ]
+    },
+    {
+     "item": "きあいのタスキ",
+     "ability": "いしあたま",
+     "nature": "ようき",
+     "moves": [
+      "フレアドライブ",
+      "もろはのずつき",
+      "しんそく",
+      "まもる"
+     ]
+    },
+    {
+     "item": "ようせいのハネ",
+     "ability": "フェアリースキン",
+     "nature": "ひかえめ",
+     "moves": [
+      "ハイパーボイス",
+      "はかいこうせん",
+      "でんこうせっか",
+      "みきり"
+     ]
+    },
+    {
+     "item": "いのちのたま",
+     "ability": "おうごんのからだ",
+     "nature": "おくびょう",
+     "moves": [
+      "ゴールドラッシュ",
+      "シャドーボール",
+      "わるだくみ",
+      "まもる"
+     ]
+    },
+    {
+     "item": "きせきのタネ",
+     "ability": "グラスメイカー",
+     "nature": "いじっぱり",
+     "moves": [
+      "ねこだまし",
+      "グラススライダー",
+      "ウッドハンマー",
+      "10まんばりき"
+     ]
+    }
+   ],
+   "detail": "ok",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -855,7 +929,9 @@
    "sub": "10-0",
    "title": "VR September Challenge #2（253人）",
    "url": "https://victoryroad.pro/vr-sep26-2/",
-   "who": "Didi ／ 9/19-20"
+   "who": "Didi ／ 9/19-20",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -875,7 +951,77 @@
    "sub": "10-1",
    "title": "Coupe Critique Champions #4（128人）",
    "url": "https://play.limitlesstcg.com/tournament/6aa7f40ef1243e65f9800feb/player/fardeen_003x/teamlist",
-   "who": "Mahir X ／ 9/19"
+   "who": "Mahir X ／ 9/19",
+   "sets": [
+    {
+     "item": "ラグラージナイト",
+     "ability": "げきりゅう",
+     "nature": "いじっぱり",
+     "moves": [
+      "ウェーブタックル",
+      "じしん",
+      "れいとうパンチ",
+      "まもる"
+     ]
+    },
+    {
+     "item": "オボンのみ",
+     "ability": "あめふらし",
+     "nature": "ずぶとい",
+     "moves": [
+      "ウェザーボール",
+      "ぼうふう",
+      "おいかぜ",
+      "ワイドガード"
+     ]
+    },
+    {
+     "item": "たべのこし",
+     "ability": "じきゅうりょく",
+     "nature": "おだやか",
+     "moves": [
+      "エレクトロビーム",
+      "りゅうのはどう",
+      "ラスターカノン",
+      "まもる"
+     ]
+    },
+    {
+     "item": "ひかりのねんど",
+     "ability": "いたずらごころ",
+     "nature": "なまいき",
+     "moves": [
+      "ひかりのかべ",
+      "リフレクター",
+      "すてゼリフ",
+      "じゃれつく"
+     ]
+    },
+    {
+     "item": "リザードナイトY",
+     "ability": "もうか",
+     "nature": "ひかえめ",
+     "moves": [
+      "ウェザーボール",
+      "ねっぷう",
+      "ぼうふう",
+      "まもる"
+     ]
+    },
+    {
+     "item": "きあいのタスキ",
+     "ability": "ようりょくそ",
+     "nature": "ひかえめ",
+     "moves": [
+      "リーフストーム",
+      "ねむりごな",
+      "ヘドロばくだん",
+      "まもる"
+     ]
+    }
+   ],
+   "detail": "ok",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -895,7 +1041,77 @@
    "sub": "11-0",
    "title": "TARTAN TAKEDOWN #39（105人）",
    "url": "https://play.limitlesstcg.com/tournament/6aa9276138886b36383c0b0d/player/vinnamon/teamlist",
-   "who": "Vinnamon ／ 9/22"
+   "who": "Vinnamon ／ 9/22",
+   "sets": [
+    {
+     "item": "グラスシード",
+     "ability": "テイルアーマー",
+     "nature": "れいせい",
+     "moves": [
+      "トリックルーム",
+      "サイコキネシス",
+      "まもる",
+      "てだすけ"
+     ]
+    },
+    {
+     "item": "いのちのたま",
+     "ability": "グラスメイカー",
+     "nature": "いじっぱり",
+     "moves": [
+      "グラススライダー",
+      "ねこだまし",
+      "ウッドハンマー",
+      "10まんばりき"
+     ]
+    },
+    {
+     "item": "ようせいのハネ",
+     "ability": "フェアリースキン",
+     "nature": "れいせい",
+     "moves": [
+      "ハイパーボイス",
+      "でんこうせっか",
+      "はかいこうせん",
+      "みきり"
+     ]
+    },
+    {
+     "item": "バクーダナイト",
+     "ability": "ハードロック",
+     "nature": "れいせい",
+     "moves": [
+      "だいちのちから",
+      "ねっぷう",
+      "まもる",
+      "げんしのちから"
+     ]
+    },
+    {
+     "item": "ガブリアスナイトZ",
+     "ability": "さめはだ",
+     "nature": "ひかえめ",
+     "moves": [
+      "りゅうせいぐん",
+      "だいちのちから",
+      "かえんほうしゃ",
+      "まもる"
+     ]
+    },
+    {
+     "item": "オボンのみ",
+     "ability": "いかく",
+     "nature": "しんちょう",
+     "moves": [
+      "ねこだまし",
+      "フレアドライブ",
+      "すてゼリフ",
+      "じごくづき"
+     ]
+    }
+   ],
+   "detail": "ok",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -915,7 +1131,77 @@
    "sub": "11-0",
    "title": "Tenki's Cart Weekly #119",
    "url": "https://play.limitlesstcg.com/tournament/6aad0d0ae905c1db68744103/player/dartsvgc/teamlist",
-   "who": "dartsvgc"
+   "who": "dartsvgc",
+   "sets": [
+    {
+     "item": "ゴツゴツメット",
+     "ability": "サイコメイカー",
+     "nature": "のんき",
+     "moves": [
+      "サイコキネシス",
+      "トリックルーム",
+      "てだすけ",
+      "このゆびとまれ"
+     ]
+    },
+    {
+     "item": "ゲンガナイト",
+     "ability": "のろわれボディ",
+     "nature": "おくびょう",
+     "moves": [
+      "シャドーボール",
+      "ヘドロばくだん",
+      "こごえるかぜ",
+      "まもる"
+     ]
+    },
+    {
+     "item": "いのちのたま",
+     "ability": "もらいび",
+     "nature": "ひかえめ",
+     "moves": [
+      "アーマーキャノン",
+      "ワイドフォース",
+      "トリックルーム",
+      "まもる"
+     ]
+    },
+    {
+     "item": "こだわりスカーフ",
+     "ability": "へんげんじざい",
+     "nature": "いじっぱり",
+     "moves": [
+      "はたきおとす",
+      "トリックフラワー",
+      "トリプルアクセル",
+      "とんぼがえり"
+     ]
+    },
+    {
+     "item": "きあいのタスキ",
+     "ability": "まけんき",
+     "nature": "いじっぱり",
+     "moves": [
+      "インファイト",
+      "ゴーストダイブ",
+      "いわなだれ",
+      "まもる"
+     ]
+    },
+    {
+     "item": "サーナイトナイト",
+     "ability": "トレース",
+     "nature": "ひかえめ",
+     "moves": [
+      "ハイパーボイス",
+      "ワイドフォース",
+      "10まんボルト",
+      "まもる"
+     ]
+    }
+   ],
+   "detail": "ok",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -935,7 +1221,9 @@
    "sub": "",
    "title": "ポケモンWCS2026 マスター",
    "url": "https://bulbagarden.net/threads/2026-pokemon-vgc-world-championships-results-and-teams-takuma-yamazaki-is-your-2026-world-champion.311448/",
-   "who": "Takuma Yamazaki ／ 8/28-30"
+   "who": "Takuma Yamazaki ／ 8/28-30",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -955,7 +1243,9 @@
    "sub": "",
    "title": "ポケモンWCS2026 マスター",
    "url": "https://bulbagarden.net/threads/2026-pokemon-vgc-world-championships-results-and-teams-takuma-yamazaki-is-your-2026-world-champion.311448/",
-   "who": "Hiroshi Onishi（cona）"
+   "who": "Hiroshi Onishi（cona）",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "single",
@@ -2556,7 +2846,9 @@
    "sub": "1841",
    "title": "Len",
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
-   "who": "@LenVGC"
+   "who": "@LenVGC",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -2576,7 +2868,9 @@
    "sub": "1837",
    "title": "CK",
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
-   "who": "@javi_RMCF1997"
+   "who": "@javi_RMCF1997",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -2596,7 +2890,9 @@
    "sub": "1837",
    "title": "Edu",
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
-   "who": "@MeninoJardim"
+   "who": "@MeninoJardim",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -2616,7 +2912,9 @@
    "sub": "1830",
    "title": "ナーク",
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
-   "who": "@UB_SLOW"
+   "who": "@UB_SLOW",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -2636,7 +2934,9 @@
    "sub": "1828",
    "title": "Dathluke",
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
-   "who": "@Dathluke1"
+   "who": "@Dathluke1",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -2656,7 +2956,9 @@
    "sub": "1824",
    "title": "Rubenmendu",
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
-   "who": "@rubenmendu"
+   "who": "@rubenmendu",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -2676,7 +2978,9 @@
    "sub": "1824",
    "title": "YURIN",
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
-   "who": "@yurin_625"
+   "who": "@yurin_625",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -2696,7 +3000,9 @@
    "sub": "1821",
    "title": "ぶんば",
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
-   "who": "@bunbachan"
+   "who": "@bunbachan",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -2716,7 +3022,9 @@
    "sub": "15-2",
    "title": "ボルチモア・リージョナル",
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-baltimore-pokemon-vgc-regional-championships/",
-   "who": "Joseph Ugarte"
+   "who": "Joseph Ugarte",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -2736,7 +3044,9 @@
    "sub": "15-2",
    "title": "ボルチモア・リージョナル",
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-baltimore-pokemon-vgc-regional-championships/",
-   "who": "Aditya Subramanian"
+   "who": "Aditya Subramanian",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
@@ -2800,7 +3110,9 @@
    "sub": "13-2",
    "title": "ボルチモア・リージョナル",
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-baltimore-pokemon-vgc-regional-championships/",
-   "who": "Lorenzo Arce"
+   "who": "Lorenzo Arce",
+   "detail": "none",
+   "detailAt": "2026-10-22"
   },
   {
    "fmt": "double",
