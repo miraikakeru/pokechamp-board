@@ -3132,7 +3132,9 @@
    "sub": "12-3",
    "title": "ボルチモア・リージョナル",
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-baltimore-pokemon-vgc-regional-championships/",
-   "who": "Cole Basham"
+   "who": "Cole Basham",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "fmt": "double",
@@ -3152,7 +3154,77 @@
    "sub": "12-0",
    "title": "ValkrixVGC Pokemon Champions League #03",
    "url": "https://play.limitlesstcg.com/tournament/6a8aefa281741245b151cb61/player/lightoz/teamlist",
-   "who": "Lightoz"
+   "who": "Lightoz",
+   "sets": [
+    {
+     "item": "サイコシード",
+     "ability": "かるわざ",
+     "nature": "いじっぱり",
+     "moves": [
+      "インファイト",
+      "フェイタルクロー",
+      "じごくづき",
+      "まもる"
+     ]
+    },
+    {
+     "item": "きあいのタスキ",
+     "ability": "サイコメイカー",
+     "nature": "おくびょう",
+     "moves": [
+      "ワイドフォース",
+      "てだすけ",
+      "トリックルーム",
+      "まもる"
+     ]
+    },
+    {
+     "item": "ようせいのハネ",
+     "ability": "フェアリースキン",
+     "nature": "ひかえめ",
+     "moves": [
+      "ハイパーボイス",
+      "はかいこうせん",
+      "でんこうせっか",
+      "みきり"
+     ]
+    },
+    {
+     "item": "いのちのたま",
+     "ability": "てきおうりょく",
+     "nature": "いじっぱり",
+     "moves": [
+      "ウェーブタックル",
+      "おはかまいり",
+      "アクアジェット",
+      "まもる"
+     ]
+    },
+    {
+     "item": "カイリューナイト",
+     "ability": "マルチスケイル",
+     "nature": "ひかえめ",
+     "moves": [
+      "りゅうのはどう",
+      "ねっぷう",
+      "おいかぜ",
+      "まもる"
+     ]
+    },
+    {
+     "item": "オボンのみ",
+     "ability": "いかく",
+     "nature": "いじっぱり",
+     "moves": [
+      "フレアドライブ",
+      "じごくづき",
+      "ねこだまし",
+      "すてゼリフ"
+     ]
+    }
+   ],
+   "detail": "ok",
+   "detailAt": "2026-10-23"
   },
   {
    "fmt": "double",
@@ -3172,7 +3244,77 @@
    "sub": "10-0",
    "title": "Final Weekly Qualifier",
    "url": "https://play.limitlesstcg.com/tournament/6aaf3bf7f127b1b52c27d981/player/zaygm/teamlist",
-   "who": "ZayGM"
+   "who": "ZayGM",
+   "sets": [
+    {
+     "item": "ボーマンダナイト",
+     "ability": "いかく",
+     "nature": "おくびょう",
+     "moves": [
+      "りゅうせいぐん",
+      "ハイパーボイス",
+      "おいかぜ",
+      "まもる"
+     ]
+    },
+    {
+     "item": "しろいハーブ",
+     "ability": "かるわざ",
+     "nature": "ようき",
+     "moves": [
+      "ねこだまし",
+      "フェイタルクロー",
+      "インファイト",
+      "まもる"
+     ]
+    },
+    {
+     "item": "きせきのタネ",
+     "ability": "グラスメイカー",
+     "nature": "いじっぱり",
+     "moves": [
+      "ねこだまし",
+      "グラススライダー",
+      "ウッドハンマー",
+      "10まんばりき"
+     ]
+    },
+    {
+     "item": "バンギラスナイト",
+     "ability": "すなおこし",
+     "nature": "いじっぱり",
+     "moves": [
+      "いわなだれ",
+      "はたきおとす",
+      "ほのおのパンチ",
+      "まもる"
+     ]
+    },
+    {
+     "item": "いのちのたま",
+     "ability": "おうごんのからだ",
+     "nature": "おくびょう",
+     "moves": [
+      "ゴールドラッシュ",
+      "シャドーボール",
+      "まもる",
+      "わるだくみ"
+     ]
+    },
+    {
+     "item": "きあいのタスキ",
+     "ability": "すなかき",
+     "nature": "ようき",
+     "moves": [
+      "10まんばりき",
+      "いわなだれ",
+      "アイアンヘッド",
+      "まもる"
+     ]
+    }
+   ],
+   "detail": "ok",
+   "detailAt": "2026-10-23"
   },
   {
    "fmt": "double",
@@ -3192,7 +3334,9 @@
    "sub": "9-1",
    "title": "Copa Oak Stadium #11",
    "url": "https://www.pikalytics.com/ai/topteams/championstournaments",
-   "who": "BentoRS"
+   "who": "BentoRS",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "fmt": "double",
@@ -3212,7 +3356,9 @@
    "sub": "8-1",
    "title": "VGC Reg M-C Ingame Tour #8",
    "url": "https://www.pikalytics.com/ai/topteams/championstournaments",
-   "who": "CloudDino"
+   "who": "CloudDino",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "fmt": "single",
@@ -3871,7 +4017,9 @@
    "sub": "10-3",
    "title": "レシフェ・リージョナル",
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-recife-pokemon-vgc-regional-championships/",
-   "who": "Hugo Nascimento Vilela dos Santos"
+   "who": "Hugo Nascimento Vilela dos Santos",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "fmt": "single",
@@ -4243,7 +4391,163 @@
    "sub": "1810",
    "title": "PSYSPAM VIOLENCE",
    "url": "https://liberty-note.com/2026/10/06/gc2027-1-131th/",
-   "who": "メテオール"
+   "who": "メテオール",
+   "sets": [
+    {
+     "item": "ゴツゴツメット",
+     "ability": "サイコメイカー",
+     "nature": "のんき",
+     "moves": [
+      "サイコキネシス",
+      "てだすけ",
+      "このゆびとまれ",
+      "トリックルーム"
+     ],
+     "stats": {
+      "H": 177,
+      "A": 75,
+      "B": 128,
+      "C": 115,
+      "D": 127,
+      "S": 94
+     },
+     "pts": {
+      "H": 32,
+      "B": 32,
+      "D": 2
+     },
+     "memo": "H16n+1。A205ドドゲザンのドゲザン87.5%耐え。Dは余り"
+    },
+    {
+     "item": "いのちのたま",
+     "ability": "もらいび",
+     "nature": "ひかえめ",
+     "moves": [
+      "ねっぷう",
+      "ワイドフォース",
+      "はどうだん",
+      "まもる"
+     ],
+     "stats": {
+      "H": 163,
+      "A": 72,
+      "B": 120,
+      "C": 193,
+      "D": 100,
+      "S": 127
+     },
+     "pts": {
+      "H": 3,
+      "C": 31,
+      "S": 32
+     },
+     "memo": "A200ガブリアスのじしん12.5%耐え、C212メガライチュウYのでんじほう75%耐え。準速"
+    },
+    {
+     "item": "きあいのタスキ",
+     "ability": "かるわざ",
+     "nature": "ようき",
+     "moves": [
+      "フェイタルクロー",
+      "インファイト",
+      "いわなだれ",
+      "ねこだまし"
+     ],
+     "stats": {
+      "H": 155,
+      "A": 182,
+      "B": 82,
+      "C": 54,
+      "D": 100,
+      "S": 189
+     },
+     "pts": {
+      "A": 32,
+      "B": 2,
+      "S": 32
+     },
+     "memo": "威嚇込みA146ファイアローの1.2倍ダブルウィングを最高乱数以外耐え"
+    },
+    {
+     "item": "ボーマンダナイト",
+     "ability": "スカイスキン",
+     "nature": "おくびょう",
+     "moves": [
+      "りゅうせいぐん",
+      "ハイパーボイス",
+      "おいかぜ",
+      "まもる"
+     ],
+     "stats": {
+      "H": 171,
+      "A": 139,
+      "B": 100,
+      "C": 148,
+      "D": 115,
+      "S": 167
+     },
+     "pts": {
+      "H": 1,
+      "C": 18,
+      "D": 15,
+      "S": 32
+     },
+     "memo": "威嚇込みヒスイウインディのもろはのずつき→しんそく耐え、C193メガガブのりゅうのはどう87.5%耐え。最速"
+    },
+    {
+     "item": "メタグロスナイト",
+     "ability": "かたいツメ",
+     "nature": "ようき",
+     "moves": [
+      "アイアンローラー",
+      "サイコファング",
+      "じだんだ",
+      "まもる"
+     ],
+     "stats": {
+      "H": 169,
+      "A": 175,
+      "B": 150,
+      "C": 103,
+      "D": 110,
+      "S": 134
+     },
+     "pts": {
+      "H": 14,
+      "A": 20,
+      "S": 32
+     },
+     "memo": "A222メガラグラージの10まんばりき耐え、C203サーフゴーのシャドーボール耐え。最速"
+    },
+    {
+     "item": "くろいメガネ",
+     "ability": "まけんき",
+     "nature": "いじっぱり",
+     "moves": [
+      "ドゲザン",
+      "ふいうち",
+      "つるぎのまい",
+      "まもる"
+     ],
+     "stats": {
+      "H": 205,
+      "A": 205,
+      "B": 140,
+      "C": 72,
+      "D": 108,
+      "S": 71
+     },
+     "pts": {
+      "H": 30,
+      "A": 32,
+      "D": 3,
+      "S": 1
+     },
+     "memo": "A222メガラグラージの10まんばりき耐え。おいかぜ時準速88族抜き"
+    }
+   ],
+   "detail": "ok",
+   "detailAt": "2026-10-23"
   },
   {
    "fmt": "double",
@@ -4263,7 +4567,9 @@
    "sub": "9-2",
    "title": "CROWN FIGHT Bo3 TOUR #89（131人）",
    "url": "https://www.pokemon-zone.com/champions/tournaments/champions-reg-m-c-crown-fight-bo3-tour-89/",
-   "who": "CCManny ／ 10/9"
+   "who": "CCManny ／ 10/9",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "fmt": "double",
@@ -4283,7 +4589,9 @@
    "sub": "10-1",
    "title": "Sitrus-Series Champions-MC #79（119人）",
    "url": "https://www.pokemon-zone.com/champions/tournaments/sitrus-serieschampions-mc79/",
-   "who": "mir_merchant ／ 10/7"
+   "who": "mir_merchant ／ 10/7",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "fmt": "double",
@@ -4303,7 +4611,9 @@
    "sub": "11-1",
    "title": "Talon's FIGHT CLUB #105（89人）",
    "url": "https://www.pokemon-zone.com/champions/tournaments/talons-fight-club-105-pokemon-champions-reg-m-c/",
-   "who": "VGCDan ／ 10/8"
+   "who": "VGCDan ／ 10/8",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "fmt": "single",
@@ -12094,7 +12404,9 @@
     "ヤバソチャ"
    ],
    "url": "https://victoryroad.pro/2027-louisville/",
-   "src": "Victory Road"
+   "src": "Victory Road",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "id": "d-lou-5",
@@ -12114,7 +12426,9 @@
     "ゴリランダー"
    ],
    "url": "https://victoryroad.pro/2027-louisville/",
-   "src": "Victory Road"
+   "src": "Victory Road",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "id": "d-lou-6",
@@ -12134,7 +12448,9 @@
     "リキキリン"
    ],
    "url": "https://victoryroad.pro/2027-louisville/",
-   "src": "Victory Road"
+   "src": "Victory Road",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "id": "d-lou-7",
@@ -12154,7 +12470,9 @@
     "ゴリランダー"
    ],
    "url": "https://victoryroad.pro/2027-louisville/",
-   "src": "Victory Road"
+   "src": "Victory Road",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "id": "d-lou-8",
@@ -12174,7 +12492,9 @@
     "ゴリランダー"
    ],
    "url": "https://victoryroad.pro/2027-louisville/",
-   "src": "Victory Road"
+   "src": "Victory Road",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "id": "d-teru5off-1",
@@ -12194,7 +12514,9 @@
     "メタグロス"
    ],
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
-   "src": "リバティノート"
+   "src": "リバティノート",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "id": "d-teru5off-2",
@@ -12214,7 +12536,9 @@
     "ボーマンダ"
    ],
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
-   "src": "リバティノート"
+   "src": "リバティノート",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "id": "d-teru5off-3a",
@@ -12234,7 +12558,9 @@
     "ニョロトノ"
    ],
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
-   "src": "リバティノート"
+   "src": "リバティノート",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "id": "d-teru5off-3b",
@@ -12254,7 +12580,9 @@
     "ゴリランダー"
    ],
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
-   "src": "リバティノート"
+   "src": "リバティノート",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "id": "d-teru5off-5a",
@@ -12274,7 +12602,9 @@
     "ミロカロス"
    ],
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
-   "src": "リバティノート"
+   "src": "リバティノート",
+   "detail": "none",
+   "detailAt": "2026-10-23"
   },
   {
    "id": "d-teru5off-5b",
