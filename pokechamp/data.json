@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-17T01:10:00+09:00",
+ "updatedAt": "2026-10-23T12:00:00+09:00",
  "regulation": "M-C（〜12/2）",
  "season": "M-7（10/7〜11/4）",
  "notes": {
   "double": {
-   "offline": "国内ダブルのオフ会は、てるチャレChampions #5 Offline（10/4）の上位構築記事が公開されしだい追加します。次回はてるチャレChampions #6 Online（11/14・定員512）。海外のリージョナル（オフライン大会）は「大会」タブにあります。",
+   "offline": "国内ダブルのオフ会は、てるチャレChampions #5 Offline（10/4・249人）の上位8名を追加しました（メガシンカの有無は記事に記載なしのためメガ表記なし）。次回はてるチャレChampions #6 Online（11/14・定員512）。海外のリージョナルは「大会」タブにあります。",
    "rank": "M-6ダブル最終トップ100はリバティノートにまとまっています（申告制のためメガ表記なし）。ここではパーティが判明している上位を抜粋しています。GameWith の上位構築まとめ掲載分も追加しています。",
    "tourney": "レシフェ・リージョナル（10/3-4）は Pokémon Zone の最終順位（スイス順）上位4名。メガストーンを2つ登録しているチームは両方に * を付けています。グローバルチャレンジⅠとランクマのダブル上位は、メガシンカの有無が公表されていないものがあり、その場合はメガ表記なしです。 ルイビル・リージョナル（10/10-11）は Victory Road の上位8名（メガ表記は同ページのメガ表示個体のみ）。"
   },
@@ -12175,6 +12175,246 @@
    ],
    "url": "https://victoryroad.pro/2027-louisville/",
    "src": "Victory Road"
+  },
+  {
+   "id": "d-teru5off-1",
+   "fmt": "double",
+   "kind": "offline",
+   "grp": "てるチャレChampions #5 Offline（249人・10/4）",
+   "place": "優勝",
+   "sub": "",
+   "title": "てるチャレChampions #5 Offline",
+   "who": "アルカナ",
+   "mons": [
+    "ペリッパー",
+    "ブリジュラス",
+    "オーロンゲ",
+    "リザードン",
+    "ガブリアス",
+    "メタグロス"
+   ],
+   "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
+   "src": "リバティノート"
+  },
+  {
+   "id": "d-teru5off-2",
+   "fmt": "double",
+   "kind": "offline",
+   "grp": "てるチャレChampions #5 Offline（249人・10/4）",
+   "place": "準優勝",
+   "sub": "",
+   "title": "てるチャレChampions #5 Offline",
+   "who": "もすかてる",
+   "mons": [
+    "ブリジュラス",
+    "ペリッパー",
+    "メタグロス",
+    "イダイトウ♀",
+    "イエッサン♂",
+    "ボーマンダ"
+   ],
+   "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
+   "src": "リバティノート"
+  },
+  {
+   "id": "d-teru5off-3a",
+   "fmt": "double",
+   "kind": "offline",
+   "grp": "てるチャレChampions #5 Offline（249人・10/4）",
+   "place": "3位",
+   "sub": "",
+   "title": "てるチャレChampions #5 Offline",
+   "who": "りと",
+   "mons": [
+    "ゲンガー",
+    "ガオガエン",
+    "ゴリランダー",
+    "ブリジュラス",
+    "コノヨザル",
+    "ニョロトノ"
+   ],
+   "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
+   "src": "リバティノート"
+  },
+  {
+   "id": "d-teru5off-3b",
+   "fmt": "double",
+   "kind": "offline",
+   "grp": "てるチャレChampions #5 Offline（249人・10/4）",
+   "place": "3位",
+   "sub": "",
+   "title": "てるチャレChampions #5 Offline",
+   "who": "アーニャ",
+   "mons": [
+    "イダイトウ♂",
+    "オオニューラ",
+    "ドドゲザン",
+    "ボーマンダ",
+    "フラエッテ",
+    "ゴリランダー"
+   ],
+   "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
+   "src": "リバティノート"
+  },
+  {
+   "id": "d-teru5off-5a",
+   "fmt": "double",
+   "kind": "offline",
+   "grp": "てるチャレChampions #5 Offline（249人・10/4）",
+   "place": "5位",
+   "sub": "",
+   "title": "てるチャレChampions #5 Offline",
+   "who": "モロ",
+   "mons": [
+    "グソクムシャ",
+    "ムクホーク",
+    "イエッサン♀",
+    "グレンアルマ",
+    "ドラパルト",
+    "ミロカロス"
+   ],
+   "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
+   "src": "リバティノート"
+  },
+  {
+   "id": "d-teru5off-5b",
+   "fmt": "double",
+   "kind": "offline",
+   "grp": "てるチャレChampions #5 Offline（249人・10/4）",
+   "place": "5位",
+   "sub": "",
+   "title": "てるチャレChampions #5 Offline",
+   "who": "みんてぃあ",
+   "mons": [
+    "ユキメノコ",
+    "オオニューラ",
+    "ゴリランダー",
+    "ウルガモス",
+    "カイリュー",
+    "イダイトウ♂"
+   ],
+   "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
+   "src": "リバティノート"
+  },
+  {
+   "id": "d-teru5off-5c",
+   "fmt": "double",
+   "kind": "offline",
+   "grp": "てるチャレChampions #5 Offline（249人・10/4）",
+   "place": "5位",
+   "sub": "",
+   "title": "てるチャレChampions #5 Offline",
+   "who": "トヨタ",
+   "mons": [
+    "サザンドラ",
+    "サーナイト",
+    "コータス",
+    "ガブリアス",
+    "イエッサン♀",
+    "オオニューラ"
+   ],
+   "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
+   "src": "リバティノート"
+  },
+  {
+   "id": "d-teru5off-5d",
+   "fmt": "double",
+   "kind": "offline",
+   "grp": "てるチャレChampions #5 Offline（249人・10/4）",
+   "place": "5位",
+   "sub": "",
+   "title": "てるチャレChampions #5 Offline",
+   "who": "シゲル",
+   "mons": [
+    "フラエッテ",
+    "ボーマンダ",
+    "オオニューラ",
+    "サーフゴー",
+    "ゴリランダー",
+    "ガオガエン"
+   ],
+   "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
+   "src": "リバティノート"
+  },
+  {
+   "id": "d-teru4on-1",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "てるチャレChampions #4 Online（126人・8/25）",
+   "place": "優勝",
+   "sub": "",
+   "title": "てるチャレChampions #4 Online",
+   "who": "teddy",
+   "mons": [
+    "ドラミドロ",
+    "カメックス",
+    "オオニューラ",
+    "ヤバソチャ",
+    "ガオガエン",
+    "ドドゲザン"
+   ],
+   "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-4-online-result/",
+   "src": "リバティノート"
+  },
+  {
+   "id": "d-teru4on-2",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "てるチャレChampions #4 Online（126人・8/25）",
+   "place": "準優勝",
+   "sub": "",
+   "title": "てるチャレChampions #4 Online",
+   "who": "natsumewato",
+   "mons": [
+    "カイリュー",
+    "オオニューラ",
+    "イダイトウ♂",
+    "ドドゲザン",
+    "ガブリアス",
+    "フラエッテ"
+   ],
+   "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-4-online-result/",
+   "src": "リバティノート"
+  },
+  {
+   "id": "d-teru4on-3a",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "てるチャレChampions #4 Online（126人・8/25）",
+   "place": "3位",
+   "sub": "",
+   "title": "てるチャレChampions #4 Online",
+   "who": "クロ",
+   "mons": [
+    "プテラ",
+    "ドドゲザン",
+    "ニンフィア",
+    "ガブリアス",
+    "リザードン",
+    "リキキリン"
+   ],
+   "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-4-online-result/",
+   "src": "リバティノート"
+  },
+  {
+   "id": "d-teru4on-3b",
+   "fmt": "double",
+   "kind": "tourney",
+   "grp": "てるチャレChampions #4 Online（126人・8/25）",
+   "place": "3位",
+   "sub": "",
+   "title": "てるチャレChampions #4 Online",
+   "who": "みんてぃあ",
+   "mons": [
+    "リザードン",
+    "ガブリアス",
+    "エルフーン",
+    "フラエッテ",
+    "イダイトウ♂",
+    "ドドゲザン"
+   ],
+   "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-4-online-result/",
+   "src": "リバティノート"
   }
  ]
 }
