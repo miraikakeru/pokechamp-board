@@ -1,12 +1,127 @@
 {
- "updatedAt": "2026-10-17T01:05:00+09:00",
+ "updatedAt": "2026-10-23T01:30:00+09:00",
  "lastRun": {
-  "date": "2026-10-17",
-  "added": [],
+  "date": "2026-10-23",
+  "added": [
+   "u-2026-10-22-skills-donation",
+   "u-2026-10-22-gcp-managed",
+   "u-2026-10-21-api-version",
+   "u-2026-10-21-claude-duet",
+   "u-2026-10-20-user-profiles",
+   "u-code-2-1-309",
+   "o-2026-10-21-chatgpt-ads"
+  ],
   "changed": [],
-  "summary": "新しい情報はありませんでした"
+  "summary": "Claude Duet、API新バージョンとSDK刷新、Agent Skills寄贈、Claude Code 2.1.309までのまとめを追加しました。"
  },
  "items": [
+  {
+   "id": "u-2026-10-22-skills-donation",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Agent Skills をAgentic AI Foundationに寄贈",
+   "date": "2026-10-22",
+   "desc": "Anthropic が、AIエージェントに専門知識や手順を持たせるオープン標準「Agent Skills」を Agentic AI Foundation に寄贈すると発表しました。",
+   "points": [
+    "2025年12月以降、70以上のエージェント基盤が対応",
+    "特定の会社に縛られない共通の仕組みになる"
+   ],
+   "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+   "src": "Anthropic 公式ニュース",
+   "addedAt": "2026-10-23"
+  },
+  {
+   "id": "u-2026-10-22-gcp-managed",
+   "cat": "update",
+   "prod": "api",
+   "title": "Google Cloud 経由で Claude API を利用可能に",
+   "date": "2026-10-22",
+   "desc": "Anthropic が運用する Claude API を Google Cloud プロジェクトから使えるようになりました。",
+   "points": [
+    "IAM でのアクセス管理と Marketplace 課金に対応",
+    "Opus 5.5 の高速モードも利用可能"
+   ],
+   "url": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed",
+   "src": "Claude API リリースノート",
+   "addedAt": "2026-10-23"
+  },
+  {
+   "id": "u-2026-10-21-api-version",
+   "cat": "update",
+   "prod": "api",
+   "title": "API バージョン 2026-10-21 と各SDKの新メジャー版",
+   "date": "2026-10-21",
+   "desc": "新しい API バージョンが公開され、各言語のSDKとCLIが新メジャー版になりました。破壊的変更を含み、ライセンスも MIT から Apache 2.0 に変わります。",
+   "points": [
+    "Python SDK 2.0.0、TypeScript SDK 1.0.0 など",
+    "移行ガイドを確認してから更新する"
+   ],
+   "url": "https://platform.claude.com/docs/en/api/migration-2026-10-21",
+   "src": "Claude API リリースノート",
+   "addedAt": "2026-10-23"
+  },
+  {
+   "id": "u-2026-10-21-claude-duet",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Claude Duet（研究プレビュー）が Pro・Max で利用可能に",
+   "date": "2026-10-21",
+   "desc": "Claude が先回りして動くエージェント型の新アプリ「Claude Duet」が、Pro と Max プランで研究プレビューとして始まりました。",
+   "points": [
+    "Pro・Max プラン向け",
+    "研究プレビューなので仕様は変わることがある"
+   ],
+   "url": "https://claude.com/resources/articles/claude-duet",
+   "src": "Claude アプリ リリースノート",
+   "addedAt": "2026-10-23"
+  },
+  {
+   "id": "u-2026-10-20-user-profiles",
+   "cat": "update",
+   "prod": "api",
+   "title": "ユーザープロファイル API と組織管理の強化",
+   "date": "2026-10-20",
+   "desc": "ユーザープロファイル（/v1/user_profiles）が始まり、管理者向けの設定も強化されました。",
+   "points": [
+    "推論フックは Enterprise でベータ終了",
+    "組織 Webhook はベータ",
+    "Web fetch の無効化やドメイン制限をコンソールで設定可能"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude API リリースノート",
+   "addedAt": "2026-10-23"
+  },
+  {
+   "id": "u-code-2-1-309",
+   "cat": "update",
+   "prod": "code",
+   "title": "Claude Code 2.1.302〜2.1.309 のまとめ",
+   "desc": "この期間は、サンドボックスの安全性向上、Code Review の強化、新API版への移行支援が中心です。",
+   "points": [
+    "2.1.309：サンドボックス内のBashがシェル起動ファイルを外で実行しないように",
+    "2.1.307：/claude-api api-version で API 2026-10-21 へ移行、@claude review stop を追加",
+    "2.1.304：Code Review に Quick・Standard・Deep のレベル、/auto-mode-setup を追加",
+    "2.1.302：Claude Design 単体版は2026年12月14日に終了予定"
+   ],
+   "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+   "src": "Claude Code 変更履歴",
+   "addedAt": "2026-10-23"
+  },
+  {
+   "id": "o-2026-10-21-chatgpt-ads",
+   "cat": "other",
+   "maker": "OpenAI",
+   "title": "ChatGPT の広告が89か国に拡大",
+   "date": "2026-10-21",
+   "desc": "OpenAI が ChatGPT の広告提供を新たに26か国へ広げ、合計89か国になりました。",
+   "points": [
+    "10月5日には新しい広告フォーマットのテストも発表",
+    "最初は Free と Go プランで試験"
+   ],
+   "url": "https://www.securities.io/openai-expands-chatgpt-ads-to-26-more-countries-and-89-total/",
+   "src": "Securities.io",
+   "addedAt": "2026-10-23"
+  },
   {
    "id": "u-2026-10-15-opus-fast-ga",
    "cat": "update",
