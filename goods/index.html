@@ -88,6 +88,9 @@ dt{color:var(--muted)} dd{margin:0;min-width:0;word-break:break-word}
 .empty{color:var(--muted);background:var(--surface);border:1.5px dashed var(--line);border-radius:12px;padding:20px;text-align:center}
 footer{font-size:12px;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.card{align-content:start}
+.thumb{grid-column:1/-1;display:block;margin:0 0 8px;border-radius:8px;overflow:hidden;background:var(--sunk);aspect-ratio:16/9}
+.thumb img{display:block;width:100%;height:100%;object-fit:contain}
 </style>
 </head>
 <body>
@@ -136,6 +139,8 @@ const WD = ["日","月","火","水","木","金","土"];
 const $ = s => document.querySelector(s);
 const esc = s => String(s==null?"":s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const safeUrl = u => /^https?:\/\//i.test(String(u||"")) ? String(u) : "#";
+const safeImg = u => /^https:\/\//i.test(String(u||"")) ? String(u) : "";
+document.addEventListener("error", e => { const t = e.target; if(t && t.tagName==="IMG" && t.closest(".thumb")) t.closest(".thumb").remove(); }, true);
 const state = {cat:"all", sub:"all", kind:"all", stat:"all", q:""};
 let DATA = {items:[]};
 let favs = new Set();
@@ -176,6 +181,7 @@ function card(it){
   const fr = it.cat==="hoyo" ? (SUBNAME[it.sub]||"HoYoverse") : (CATNAME[it.cat]||"");
   const until = it.until ? `<dt>期間</dt><dd>〜${esc(it.until.slice(5).replace("-","/"))}</dd>` : "";
   return `<article class="card" style="--c:${c?c.c:"var(--accent)"}">
+    ${safeImg(it.img)?`<a class="thumb" href="${esc(safeUrl(it.url))}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${esc(safeImg(it.img))}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a>`:""}
     ${dateBlock(it)}
     <div class="tags"><span class="tag fr">${esc(fr)}</span><span class="tag ${it.kind==="collab"?"collab":""}">${it.kind==="collab"?"コラボ":"公式"}</span>${isSoon(it)?'<span class="tag soon">発売予定</span>':""}${isNew(it)?'<span class="tag new">NEW</span>':""}</div>
     <div class="grp">${esc(it.grp)}</div>
