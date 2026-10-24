@@ -96,7 +96,9 @@
      "item": "こだわりスカーフ",
      "memo": "悪波・流星・放射が主軸、気合玉は剣舞ドドゲザンの保険、龍波も言及あり"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -269,7 +271,9 @@
      },
      "memo": "Sは準速アシレーヌ抜き、余りをHDに振った調整"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -291,7 +295,9 @@
    "url": "https://yakkun.com/bbs/party/list/?soft=4&min_season=5&max_season=7&rule=0&sort=new",
    "who": "QUBES_poke",
    "detail": "none",
-   "detailAt": "2026-10-16"
+   "detailAt": "2026-10-16",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -313,7 +319,9 @@
    "url": "https://yakkun.com/bbs/party/list/?soft=4&min_season=5&max_season=7&rule=0&sort=new",
    "who": "cocecco12",
    "detail": "none",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -332,7 +340,9 @@
    "url": "https://champs.pokedb.tokyo/",
    "who": "インドラ",
    "detail": "none",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -354,7 +364,8 @@
    "url": "https://game8.jp/pokemon-champions/779319",
    "who": "サイクル寄り",
    "detail": "none",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-10-24"
   },
   {
    "fmt": "single",
@@ -376,7 +387,8 @@
    "url": "https://game8.jp/pokemon-champions/779319",
    "who": "グラスフィールド展開",
    "detail": "none",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-10-24"
   },
   {
    "fmt": "single",
@@ -398,7 +410,8 @@
    "url": "https://game8.jp/pokemon-champions/779319",
    "who": "対面寄り",
    "detail": "none",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-10-24"
   },
   {
    "fmt": "single",
@@ -420,7 +433,8 @@
    "url": "https://game8.jp/pokemon-champions/779319",
    "who": "かげふみ",
    "detail": "none",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-10-24"
   },
   {
    "fmt": "double",
@@ -442,7 +456,9 @@
    "url": "https://x.com/namak_po/status/2107714023198486919",
    "who": "@namak_po",
    "detail": "none",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -464,7 +480,9 @@
    "url": "https://x.com/paul_chua_/status/2107780103027474898",
    "who": "@Paul_Chua_",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -486,7 +504,9 @@
    "url": "https://x.com/xx_z2z/status/2107738199154172361",
    "who": "@xx_z2z",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -508,7 +528,9 @@
    "url": "https://x.com/seita_poke/status/2107716968883376615",
    "who": "@seita_poke",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -530,7 +552,9 @@
    "url": "https://x.com/online_poke/status/2107730195939770792",
    "who": "@online_poke",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -552,7 +576,9 @@
    "url": "https://x.com/yurayura_pon/status/2107730887748304942",
    "who": "@yurayura_pon",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -574,7 +600,9 @@
    "url": "https://x.com/gozira2004/status/2107768621770625092",
    "who": "@gozira2004",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -596,7 +624,9 @@
    "url": "https://x.com/IamSliverfish/status/2107722622410842592",
    "who": "@IamSliverfish",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -775,7 +805,9 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -797,7 +829,9 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-frankfurt-pokemon-vgc-regional-championships/",
    "who": "Eric Rios ／ 9/26-27",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-26",
+   "dateEnd": "2026-09-27"
   },
   {
    "fmt": "double",
@@ -819,7 +853,9 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-brisbane-pokemon-vgc-regional-championships/",
    "who": "Kiran Singh ／ 9/26-27",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-26",
+   "dateEnd": "2026-09-27"
   },
   {
    "fmt": "double",
@@ -909,7 +945,8 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-19"
   },
   {
    "fmt": "double",
@@ -931,7 +968,9 @@
    "url": "https://victoryroad.pro/vr-sep26-2/",
    "who": "Didi ／ 9/19-20",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-19",
+   "dateEnd": "2026-09-20"
   },
   {
    "fmt": "double",
@@ -1021,7 +1060,8 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-19"
   },
   {
    "fmt": "double",
@@ -1111,7 +1151,8 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-22"
   },
   {
    "fmt": "double",
@@ -1201,7 +1242,8 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-24"
   },
   {
    "fmt": "double",
@@ -1223,7 +1265,9 @@
    "url": "https://bulbagarden.net/threads/2026-pokemon-vgc-world-championships-results-and-teams-takuma-yamazaki-is-your-2026-world-champion.311448/",
    "who": "Takuma Yamazaki ／ 8/28-30",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-08-28",
+   "dateEnd": "2026-08-30"
   },
   {
    "fmt": "double",
@@ -1245,7 +1289,9 @@
    "url": "https://bulbagarden.net/threads/2026-pokemon-vgc-world-championships-results-and-teams-takuma-yamazaki-is-your-2026-world-champion.311448/",
    "who": "Hiroshi Onishi（cona）",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-08-28",
+   "dateEnd": "2026-08-30"
   },
   {
    "fmt": "single",
@@ -1267,7 +1313,9 @@
    "url": "https://pokesol.app/u/m0r1min_poke/articles/96073793b397a61e",
    "who": "モリミン",
    "detail": "none",
-   "detailAt": "2026-10-16"
+   "detailAt": "2026-10-16",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -1335,7 +1383,9 @@
      ],
      "memo": "当初はメガライチュウYのくさむすび耐えHD、現在はHBベースにA少し。ばかぢから不採用"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -1421,7 +1471,9 @@
      ],
      "memo": "C特化で火力確保、準速で巧みサーフゴーの上を取る。光合成で受けを成立"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -1493,7 +1545,9 @@
      ],
      "memo": "HBいじガブ地震2耐え、HDイエッサンのワイドフォース耐えの補完枠"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -1594,7 +1648,9 @@
      },
      "memo": "両受けのHBD振り、S5は余り。うずしお・ほろびのうた型"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -1671,7 +1727,9 @@
      ],
      "memo": "H16n+1の受け崩し枠。カバ・マンダに強く、ゴリラと組んで崩す"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -1752,7 +1810,9 @@
      ],
      "memo": "A極振り残り耐久。積みから一掃する崩し役のメガ枠"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -1802,7 +1862,9 @@
      ],
      "memo": "滅びの歌から鬼火に戻した。かげふみで交代を縛る"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -1860,7 +1922,9 @@
      ],
      "memo": "1:1で先に持っていき裏の襷剥がし。ヘド爆は3割狙い"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -1932,7 +1996,9 @@
      ],
      "memo": "H4n-1、HBで陽気ガブの岩封確定耐え、Sミラー意識の20振り、残りC"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -1979,7 +2045,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -2046,7 +2114,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -2117,7 +2187,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -2180,7 +2252,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -2262,7 +2336,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -2284,7 +2360,8 @@
    "url": "https://note.com/huyuno/n/n8c50154970c5",
    "who": "ふゆの ／ チームID E2E9MW0BQ7",
    "detail": "none",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-09-18"
   },
   {
    "fmt": "single",
@@ -2362,7 +2439,8 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-09-18"
   },
   {
    "fmt": "single",
@@ -2384,7 +2462,8 @@
    "url": "https://pokesol.app/u/in_dex_order/articles/c21332af1cb272aa",
    "who": "獅馬猿 ／ 9/12",
    "detail": "none",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-09-12"
   },
   {
    "fmt": "single",
@@ -2483,7 +2562,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "@7nananana90",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -2505,7 +2586,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "@victormatosRD",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -2527,7 +2610,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "@yanagiT_poke",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -2549,7 +2634,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "@yunuponnu",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -2571,7 +2658,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "@kogepannachan",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -2593,7 +2682,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "@Light826poke",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -2615,7 +2706,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "@jun_poke918",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -2672,7 +2765,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -2694,7 +2789,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "@ddee_ssbu",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -2716,7 +2813,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "@0nion_poke",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -2738,7 +2837,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "@hrk_pokechamp",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -2760,7 +2861,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "@IlbonaVGC",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -2782,7 +2885,9 @@
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
    "who": "@mihono_suica",
    "detail": "none",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-09-25",
+   "dateEnd": "2026-09-28"
   },
   {
    "fmt": "double",
@@ -2804,7 +2909,9 @@
    "url": "https://www.youtube.com/watch?v=EgrE9W2ZwTA",
    "who": "@ScooteezyVGC",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-25",
+   "dateEnd": "2026-09-28"
   },
   {
    "fmt": "double",
@@ -2826,7 +2933,9 @@
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
    "who": "@DidiVGC",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-25",
+   "dateEnd": "2026-09-28"
   },
   {
    "fmt": "double",
@@ -2848,7 +2957,9 @@
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
    "who": "@LenVGC",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-25",
+   "dateEnd": "2026-09-28"
   },
   {
    "fmt": "double",
@@ -2870,7 +2981,9 @@
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
    "who": "@javi_RMCF1997",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-25",
+   "dateEnd": "2026-09-28"
   },
   {
    "fmt": "double",
@@ -2892,7 +3005,9 @@
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
    "who": "@MeninoJardim",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-25",
+   "dateEnd": "2026-09-28"
   },
   {
    "fmt": "double",
@@ -2914,7 +3029,9 @@
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
    "who": "@UB_SLOW",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-25",
+   "dateEnd": "2026-09-28"
   },
   {
    "fmt": "double",
@@ -2936,7 +3053,9 @@
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
    "who": "@Dathluke1",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-25",
+   "dateEnd": "2026-09-28"
   },
   {
    "fmt": "double",
@@ -2958,7 +3077,9 @@
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
    "who": "@rubenmendu",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-25",
+   "dateEnd": "2026-09-28"
   },
   {
    "fmt": "double",
@@ -2980,7 +3101,9 @@
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
    "who": "@yurin_625",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-25",
+   "dateEnd": "2026-09-28"
   },
   {
    "fmt": "double",
@@ -3002,7 +3125,9 @@
    "url": "https://liberty-note.com/2026/09/28/gc2027-i-top150/",
    "who": "@bunbachan",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-25",
+   "dateEnd": "2026-09-28"
   },
   {
    "fmt": "double",
@@ -3024,7 +3149,9 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-baltimore-pokemon-vgc-regional-championships/",
    "who": "Joseph Ugarte",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-18",
+   "dateEnd": "2026-09-20"
   },
   {
    "fmt": "double",
@@ -3046,7 +3173,9 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-baltimore-pokemon-vgc-regional-championships/",
    "who": "Aditya Subramanian",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-18",
+   "dateEnd": "2026-09-20"
   },
   {
    "fmt": "double",
@@ -3068,7 +3197,9 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-baltimore-pokemon-vgc-regional-championships/",
    "who": "Brady Smith",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-18",
+   "dateEnd": "2026-09-20"
   },
   {
    "fmt": "double",
@@ -3090,7 +3221,9 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-baltimore-pokemon-vgc-regional-championships/",
    "who": "Blaik Thompson",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-18",
+   "dateEnd": "2026-09-20"
   },
   {
    "fmt": "double",
@@ -3112,7 +3245,9 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-baltimore-pokemon-vgc-regional-championships/",
    "who": "Lorenzo Arce",
    "detail": "none",
-   "detailAt": "2026-10-22"
+   "detailAt": "2026-10-22",
+   "date": "2026-09-18",
+   "dateEnd": "2026-09-20"
   },
   {
    "fmt": "double",
@@ -3134,7 +3269,9 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-baltimore-pokemon-vgc-regional-championships/",
    "who": "Cole Basham",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-09-18",
+   "dateEnd": "2026-09-20"
   },
   {
    "fmt": "double",
@@ -3224,7 +3361,8 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-09-12"
   },
   {
    "fmt": "double",
@@ -3314,7 +3452,8 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-09-24"
   },
   {
    "fmt": "double",
@@ -3336,7 +3475,8 @@
    "url": "https://www.pikalytics.com/ai/topteams/championstournaments",
    "who": "BentoRS",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-09-23"
   },
   {
    "fmt": "double",
@@ -3358,7 +3498,8 @@
    "url": "https://www.pikalytics.com/ai/topteams/championstournaments",
    "who": "CloudDino",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-09-28"
   },
   {
    "fmt": "single",
@@ -3433,7 +3574,9 @@
      ],
      "memo": "襷で行動保証しセグレイブ・カバルドンへ打点。ミラーは厳しい"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -3514,7 +3657,9 @@
      ],
      "memo": "CS振り切り余りD。メガの顔で偽装しガブZの奇襲を補助"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -3592,7 +3737,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -3614,7 +3761,9 @@
    "url": "https://pokesol.app/u/yossi/articles/705822f24b8d974e",
    "who": "ヨッシー",
    "detail": "none",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -3684,7 +3833,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -3807,7 +3958,9 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -3882,7 +4035,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -3931,7 +4086,9 @@
     {}
    ],
    "detail": "partial",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -3953,7 +4110,9 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-recife-pokemon-vgc-regional-championships/",
    "who": "juan salerno",
    "detail": "none",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-10-03",
+   "dateEnd": "2026-10-04"
   },
   {
    "fmt": "double",
@@ -3975,7 +4134,9 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-recife-pokemon-vgc-regional-championships/",
    "who": "Luciano Begot",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-10-03",
+   "dateEnd": "2026-10-04"
   },
   {
    "fmt": "double",
@@ -3997,7 +4158,9 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-recife-pokemon-vgc-regional-championships/",
    "who": "Nader El bacha",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-10-03",
+   "dateEnd": "2026-10-04"
   },
   {
    "fmt": "double",
@@ -4019,7 +4182,9 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/vgc/2027-recife-pokemon-vgc-regional-championships/",
    "who": "Hugo Nascimento Vilela dos Santos",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-03",
+   "dateEnd": "2026-10-04"
   },
   {
    "fmt": "single",
@@ -4093,7 +4258,9 @@
      "memo": "風船サーフゴー対策のHD振り。クイックターンで風船を割る"
     },
     {}
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -4178,7 +4345,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -4239,7 +4408,8 @@
     {}
    ],
    "detail": "partial",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-10-04"
   },
   {
    "fmt": "double",
@@ -4261,7 +4431,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "갈참（cheolhwan yeom）",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -4283,7 +4455,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "ショコラ",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -4305,7 +4479,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "だいすけ",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -4327,7 +4503,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "りょうま＠ダブル勢",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -4349,7 +4527,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "ねっち",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -4371,7 +4551,9 @@
    "url": "https://liberty-note.com/2026/10/07/champions-seasonm6-top100/",
    "who": "あゆむん＠3児パパトレーナー",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -4547,7 +4729,9 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-09-25",
+   "dateEnd": "2026-09-28"
   },
   {
    "fmt": "double",
@@ -4569,7 +4753,8 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/champions-reg-m-c-crown-fight-bo3-tour-89/",
    "who": "CCManny ／ 10/9",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-09"
   },
   {
    "fmt": "double",
@@ -4591,7 +4776,8 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/sitrus-serieschampions-mc79/",
    "who": "mir_merchant ／ 10/7",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-07"
   },
   {
    "fmt": "double",
@@ -4613,7 +4799,8 @@
    "url": "https://www.pokemon-zone.com/champions/tournaments/talons-fight-club-105-pokemon-champions-reg-m-c/",
    "who": "VGCDan ／ 10/8",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-08"
   },
   {
    "fmt": "single",
@@ -4666,7 +4853,9 @@
      ],
      "memo": "CはH4ガブリアスをれいとうビーム確定1発、D11n。地面半減のシュカのみ"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -4687,7 +4876,9 @@
    "url": "https://pokesol.app/u/uki_pokemon/articles/052c710f7b5d0f14",
    "who": "uki_pokemon（雨季） ／ 10/10 公開",
    "detail": "none",
-   "detailAt": "2026-10-16"
+   "detailAt": "2026-10-16",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -4757,7 +4948,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -4830,7 +5023,9 @@
      ],
      "memo": "普通のミミッキュとの記載のみ"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -4911,7 +5106,9 @@
      ],
      "memo": "マジックガード+命の珠で攻め、アンコールで受けを拒否"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "fmt": "single",
@@ -4933,7 +5130,9 @@
    "url": "https://pokesol.app/u/yatoru_poke/articles/d41ee42d123f67e3",
    "who": "yatoru",
    "detail": "none",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw2",
@@ -5101,7 +5300,9 @@
      },
      "memo": "A11n、Sは意地っ張り32振り、HBは陽気基準の調整"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw3",
@@ -5149,7 +5350,9 @@
      "item": "グソクムシャナイト",
      "memo": "H16n-1、S11nで準速グソク意識のアシレーヌやアーマーガアを抜く"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw6",
@@ -5314,7 +5517,9 @@
      },
      "memo": "技を打つ回数が多いのでA振り切り。Sはメガゲッコウガやミラー意識"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw7",
@@ -5493,7 +5698,9 @@
      },
      "memo": "C振り切り、メガZやスカーフイダイトウを意識して最速"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw9",
@@ -5669,7 +5876,9 @@
      },
      "memo": "CS振り、H1B1で陽気ガブのスケイルショット4発で倒される確率を僅かに下げる"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw12",
@@ -5736,7 +5945,9 @@
      ],
      "memo": "HBはメガボーマンダの捨て身耐え意識でH高め、Sは準速"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw24",
@@ -5907,7 +6118,9 @@
      },
      "memo": "Cは11n、HB・HDは計算意識で調整"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw34",
@@ -5929,7 +6142,9 @@
    "url": "https://gokugokupoke.hatenablog.com/entry/2026/10/07/192310?_gl=1*ub1jry*_gcl_au*MTAzNTc5Njc0Ny4xNzg5Mzc4Mjky",
    "src": "はてなブログ（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-16"
+   "detailAt": "2026-10-16",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw35",
@@ -6056,7 +6271,9 @@
      },
      "memo": "HD厚めでネット撒き役、Sはカバルドンを抜かない程度に抑える"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw41",
@@ -6119,7 +6336,9 @@
      "item": "オボンのみ",
      "memo": "HB振りで特化マンダの捨て身タックルを耐える、残りC"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw47",
@@ -6278,7 +6497,9 @@
      },
      "memo": "持ち物はメガストーン表記。HDは特殊アタッカーの攻撃耐えを意識、余りA"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw49",
@@ -6300,7 +6521,9 @@
    "url": "https://ngopoke.hatenablog.com/entry/2026/10/07/174333",
    "src": "はてなブログ（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-16"
+   "detailAt": "2026-10-16",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw52",
@@ -6362,7 +6585,9 @@
      ],
      "memo": "A特化、Sは遅いロトムやアシレーヌを抜くため準速、端数B。テンポ確保要員"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw53",
@@ -6538,7 +6763,9 @@
      },
      "memo": "最速個体は環境に少ないため最速に。AS振りで火力不足を補う。残り2枠は試行錯誤"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw57",
@@ -6715,7 +6942,9 @@
      },
      "memo": "H16n-1、Sミラー意識の最速。影踏みで交代を封じ鬼火で崩す"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw58",
@@ -6799,7 +7028,9 @@
      ],
      "memo": "H奇数特化、B偶数特化で雪効率。ゴツメでB方面を硬くする"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw62",
@@ -6955,7 +7186,9 @@
      },
      "memo": "ライチュウと役割分担。マジカルシャインでガブ・カバルドンを削る"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw66",
@@ -6977,7 +7210,9 @@
    "url": "https://note.com/lively_serval576/n/n6b945def211b",
    "src": "note（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-16"
+   "detailAt": "2026-10-16",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw71",
@@ -7150,7 +7385,9 @@
      },
      "memo": "火力意識のC特化、Sは準速で初手置きの対面駒"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw73",
@@ -7320,7 +7557,9 @@
      },
      "memo": "A火力ぶっぱ、Sは最速パーモット等に合わせた調整"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw75",
@@ -7399,7 +7638,9 @@
      ],
      "memo": "物理クッション役、HB特化、Sは最遅で下から蜻蛉帰り"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw77",
@@ -7576,7 +7817,9 @@
      },
      "memo": "先人のC131に倣い余りS、Aは削りたくなかった"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw79",
@@ -7622,7 +7865,9 @@
      "ability": "ほのおのからだ",
      "memo": "命の珠で受け崩し、サイコキネシス確定で火力確保"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw80",
@@ -7644,7 +7889,9 @@
    "url": "https://tanpaku-pk2.hatenablog.com/entry/2026/10/08/161851",
    "src": "はてなブログ（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-16"
+   "detailAt": "2026-10-16",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw84",
@@ -7666,7 +7913,9 @@
    "url": "https://blog.naver.com/huyeon1784/224434566716",
    "src": "ブログ（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-16"
+   "detailAt": "2026-10-16",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw89",
@@ -7737,7 +7986,9 @@
      ],
      "memo": "顔面がアシレーヌに強く、トリックでスカーフを押し付ける役"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw96",
@@ -7859,7 +8110,9 @@
      },
      "memo": "HD特化でイエッサン+カメックスの攻撃をオボン込み確定耐え"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw108",
@@ -7942,7 +8195,9 @@
      ],
      "memo": "CS全振り。頑丈+レッドカードで先発からステロを撒きタスキを潰す"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw109",
@@ -7964,7 +8219,9 @@
    "url": "https://korokorokoro.hatenablog.com/entry/2026/10/05/131955",
    "src": "はてなブログ（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-16"
+   "detailAt": "2026-10-16",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw116",
@@ -8046,7 +8303,9 @@
      ],
      "memo": "AS振り。剣舞ウドハンでカバを飛ばす対面駒"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw128",
@@ -8208,7 +8467,9 @@
      },
      "memo": "竜舞メガエース。1舞で最速ボーマンダ抜き。ネットと組みガブ抜き"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw140",
@@ -8384,7 +8645,9 @@
      },
      "memo": "C少なめ振りの火力型。鋼・カバルドン・ミラーへの打点を確保"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw142",
@@ -8482,7 +8745,9 @@
      ],
      "memo": "臆病CSでメガZの上を取る。スカーフで読まれにくい奇襲型"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw145",
@@ -8536,7 +8801,9 @@
      "item": "のろいのおふだ",
      "memo": "AB振り。トリルミミイダイミラーが多いためS下降で採用"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw155",
@@ -8664,7 +8931,9 @@
      },
      "memo": "防御高めでメガボーマンダ抜き、オボン込み地震2発耐え"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw156",
@@ -8842,7 +9111,9 @@
      },
      "memo": "A補正で火力寄り。スケイルショット3発で襷ガブ突破、S最速135族+2"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw162",
@@ -8932,7 +9203,9 @@
      ],
      "memo": "H極振り、A11n、S余り。ドラゴンテールで荒らしルカリオZの圏内へ"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw164",
@@ -9109,7 +9382,9 @@
      },
      "memo": "ひかえめCSで炎技搭載。ハッサム・メガグソク・ロトムを崩す2メガ枠"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw178",
@@ -9276,7 +9551,9 @@
      },
      "memo": "ASぶっぱの対面操作アタッカー。うちおとすで重いリザYを処理する"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw180",
@@ -9403,7 +9680,9 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw189",
@@ -9468,7 +9747,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw197",
@@ -9547,7 +9828,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw199",
@@ -9569,7 +9852,9 @@
    "url": "https://m.blog.naver.com/hsh5300/224434343811",
    "src": "ブログ（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw203",
@@ -9591,7 +9876,9 @@
    "url": "https://sea-bell.hatenablog.com/entry/2026/10/08/194817",
    "src": "はてなブログ（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw209",
@@ -9613,7 +9900,9 @@
    "url": "https://m.cafe.naver.com/ca-fe/web/cafes/nivrlair/articles/4436?useCafeId=false&tc",
    "src": "ブログ（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw210",
@@ -9682,7 +9971,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw223",
@@ -9704,7 +9995,9 @@
    "url": "https://yakkun.com/bbs/party/n8920",
    "src": "ポケモン徹底攻略（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw227",
@@ -9777,7 +10070,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw229",
@@ -9851,7 +10146,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw230",
@@ -10020,7 +10317,9 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-17"
+   "detailAt": "2026-10-17",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw232",
@@ -10080,7 +10379,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw235",
@@ -10124,7 +10425,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw239",
@@ -10201,7 +10504,9 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw245",
@@ -10376,7 +10681,9 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw247",
@@ -10550,7 +10857,9 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw248",
@@ -10721,7 +11030,9 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw252",
@@ -10743,7 +11054,9 @@
    "url": "https://kanata-k.hatenadiary.com/entry/2026/10/07/203410",
    "src": "ブログ（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw254",
@@ -10862,7 +11175,9 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw257",
@@ -10919,7 +11234,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw258",
@@ -10994,7 +11311,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw266",
@@ -11040,7 +11359,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw267",
@@ -11116,7 +11437,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw271",
@@ -11191,7 +11514,9 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw278",
@@ -11213,7 +11538,9 @@
    "url": "https://rye-poke.hatenablog.com/entry/2026/10/07/220925",
    "src": "はてなブログ（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw287",
@@ -11281,7 +11608,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw288",
@@ -11365,7 +11694,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-18"
+   "detailAt": "2026-10-18",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw291",
@@ -11490,7 +11821,9 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw294",
@@ -11669,7 +12002,9 @@
     }
    ],
    "detail": "ok",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw296",
@@ -11691,7 +12026,9 @@
    "url": "https://yakkun.com/bbs/party/n8891",
    "src": "ポケモン徹底攻略（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-20"
+   "detailAt": "2026-10-20",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw298",
@@ -11769,7 +12106,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-gw299",
@@ -11791,7 +12130,9 @@
    "url": "https://pokesol.app/u/nn256/articles/42e421e2316c480a",
    "src": "ポケノート（GameWith掲載）",
    "detail": "none",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "d-m6-gw81",
@@ -11856,7 +12197,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "d-m6-gw90",
@@ -11934,7 +12277,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "d-m6-gw120",
@@ -12081,7 +12426,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "d-m6-gw252",
@@ -12146,7 +12493,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "d-m6-gw271",
@@ -12225,7 +12574,9 @@
     }
    ],
    "detail": "partial",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "s-m6-129-ua",
@@ -12318,7 +12669,9 @@
      ],
      "memo": "設置要員。毒菱をまかせ、ミロカロスの見れる範囲を広げる"
     }
-   ]
+   ],
+   "date": "2026-09-09",
+   "dateEnd": "2026-10-07"
   },
   {
    "id": "d-lou-1",
@@ -12340,7 +12693,9 @@
    "url": "https://victoryroad.pro/2027-louisville/",
    "src": "Victory Road",
    "detail": "none",
-   "detailAt": "2026-10-19"
+   "detailAt": "2026-10-19",
+   "date": "2026-10-10",
+   "dateEnd": "2026-10-11"
   },
   {
    "id": "d-lou-2",
@@ -12362,7 +12717,9 @@
    "url": "https://victoryroad.pro/2027-louisville/",
    "src": "Victory Road",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-10-10",
+   "dateEnd": "2026-10-11"
   },
   {
    "id": "d-lou-3",
@@ -12384,7 +12741,9 @@
    "url": "https://victoryroad.pro/2027-louisville/",
    "src": "Victory Road",
    "detail": "none",
-   "detailAt": "2026-10-21"
+   "detailAt": "2026-10-21",
+   "date": "2026-10-10",
+   "dateEnd": "2026-10-11"
   },
   {
    "id": "d-lou-4",
@@ -12406,7 +12765,9 @@
    "url": "https://victoryroad.pro/2027-louisville/",
    "src": "Victory Road",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-10",
+   "dateEnd": "2026-10-11"
   },
   {
    "id": "d-lou-5",
@@ -12428,7 +12789,9 @@
    "url": "https://victoryroad.pro/2027-louisville/",
    "src": "Victory Road",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-10",
+   "dateEnd": "2026-10-11"
   },
   {
    "id": "d-lou-6",
@@ -12450,7 +12813,9 @@
    "url": "https://victoryroad.pro/2027-louisville/",
    "src": "Victory Road",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-10",
+   "dateEnd": "2026-10-11"
   },
   {
    "id": "d-lou-7",
@@ -12472,7 +12837,9 @@
    "url": "https://victoryroad.pro/2027-louisville/",
    "src": "Victory Road",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-10",
+   "dateEnd": "2026-10-11"
   },
   {
    "id": "d-lou-8",
@@ -12494,7 +12861,9 @@
    "url": "https://victoryroad.pro/2027-louisville/",
    "src": "Victory Road",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-10",
+   "dateEnd": "2026-10-11"
   },
   {
    "id": "d-teru5off-1",
@@ -12516,7 +12885,8 @@
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
    "src": "リバティノート",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-04"
   },
   {
    "id": "d-teru5off-2",
@@ -12538,7 +12908,8 @@
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
    "src": "リバティノート",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-04"
   },
   {
    "id": "d-teru5off-3a",
@@ -12560,7 +12931,8 @@
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
    "src": "リバティノート",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-04"
   },
   {
    "id": "d-teru5off-3b",
@@ -12582,7 +12954,8 @@
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
    "src": "リバティノート",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-04"
   },
   {
    "id": "d-teru5off-5a",
@@ -12604,7 +12977,8 @@
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
    "src": "リバティノート",
    "detail": "none",
-   "detailAt": "2026-10-23"
+   "detailAt": "2026-10-23",
+   "date": "2026-10-04"
   },
   {
    "id": "d-teru5off-5b",
@@ -12624,7 +12998,8 @@
     "イダイトウ♂"
    ],
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
-   "src": "リバティノート"
+   "src": "リバティノート",
+   "date": "2026-10-04"
   },
   {
    "id": "d-teru5off-5c",
@@ -12644,7 +13019,8 @@
     "オオニューラ"
    ],
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
-   "src": "リバティノート"
+   "src": "リバティノート",
+   "date": "2026-10-04"
   },
   {
    "id": "d-teru5off-5d",
@@ -12664,7 +13040,8 @@
     "ガオガエン"
    ],
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-5-offline-result/",
-   "src": "リバティノート"
+   "src": "リバティノート",
+   "date": "2026-10-04"
   },
   {
    "id": "d-teru4on-1",
@@ -12684,7 +13061,8 @@
     "ドドゲザン"
    ],
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-4-online-result/",
-   "src": "リバティノート"
+   "src": "リバティノート",
+   "date": "2026-08-25"
   },
   {
    "id": "d-teru4on-2",
@@ -12704,7 +13082,8 @@
     "フラエッテ"
    ],
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-4-online-result/",
-   "src": "リバティノート"
+   "src": "リバティノート",
+   "date": "2026-08-25"
   },
   {
    "id": "d-teru4on-3a",
@@ -12724,7 +13103,8 @@
     "リキキリン"
    ],
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-4-online-result/",
-   "src": "リバティノート"
+   "src": "リバティノート",
+   "date": "2026-08-25"
   },
   {
    "id": "d-teru4on-3b",
@@ -12744,7 +13124,8 @@
     "ドドゲザン"
    ],
    "url": "https://liberty-note.com/2026/10/16/terurun-challenge-champions-4-online-result/",
-   "src": "リバティノート"
+   "src": "リバティノート",
+   "date": "2026-08-25"
   },
   {
    "id": "d-27-nice-1",
@@ -12764,7 +13145,9 @@
     "イダイトウ♀"
    ],
    "url": "https://vrpastes.com/pTEJiTz5",
-   "src": "Victory Road（海外大会）"
+   "src": "Victory Road（海外大会）",
+   "date": "2026-10-17",
+   "dateEnd": "2026-10-18"
   },
   {
    "id": "d-27-nice-2",
@@ -12784,7 +13167,9 @@
     "ゴリランダー"
    ],
    "url": "https://vrpastes.com/Q2c7BsIz",
-   "src": "Victory Road（海外大会）"
+   "src": "Victory Road（海外大会）",
+   "date": "2026-10-17",
+   "dateEnd": "2026-10-18"
   },
   {
    "id": "d-27-nice-3",
@@ -12804,7 +13189,9 @@
     "ヤバソチャ"
    ],
    "url": "https://vrpastes.com/DQq4V46H",
-   "src": "Victory Road（海外大会）"
+   "src": "Victory Road（海外大会）",
+   "date": "2026-10-17",
+   "dateEnd": "2026-10-18"
   },
   {
    "id": "d-27-nice-4",
@@ -12824,7 +13211,9 @@
     "イダイトウ♀"
    ],
    "url": "https://vrpastes.com/8qvQepU5",
-   "src": "Victory Road（海外大会）"
+   "src": "Victory Road（海外大会）",
+   "date": "2026-10-17",
+   "dateEnd": "2026-10-18"
   },
   {
    "id": "d-27-nice-5",
@@ -12844,7 +13233,9 @@
     "エルフーン"
    ],
    "url": "https://vrpastes.com/cVByGCBQ",
-   "src": "Victory Road（海外大会）"
+   "src": "Victory Road（海外大会）",
+   "date": "2026-10-17",
+   "dateEnd": "2026-10-18"
   },
   {
    "id": "d-27-nice-6",
@@ -12864,7 +13255,9 @@
     "ゴリランダー"
    ],
    "url": "https://vrpastes.com/NjkV4CHa",
-   "src": "Victory Road（海外大会）"
+   "src": "Victory Road（海外大会）",
+   "date": "2026-10-17",
+   "dateEnd": "2026-10-18"
   },
   {
    "id": "d-27-nice-7",
@@ -12884,7 +13277,9 @@
     "エルフーン"
    ],
    "url": "https://vrpastes.com/Lr8Fhw3z",
-   "src": "Victory Road（海外大会）"
+   "src": "Victory Road（海外大会）",
+   "date": "2026-10-17",
+   "dateEnd": "2026-10-18"
   },
   {
    "id": "d-27-nice-8",
@@ -12904,7 +13299,9 @@
     "ゴリランダー"
    ],
    "url": "https://vrpastes.com/C4AiVIbE",
-   "src": "Victory Road（海外大会）"
+   "src": "Victory Road（海外大会）",
+   "date": "2026-10-17",
+   "dateEnd": "2026-10-18"
   }
  ]
 }

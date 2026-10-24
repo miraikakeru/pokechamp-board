@@ -179,6 +179,9 @@ footer a{color:var(--muted)}
  .team .pk:nth-child(3n+1) .pop{left:0;transform:none}
  .team .pk:nth-child(3n) .pop{left:auto;right:0;transform:none}
 }
+.grp h3{flex-wrap:wrap}
+.grp h3 .gdate{display:inline-flex;align-items:center;gap:6px;flex:none;font-size:12px;letter-spacing:0;color:var(--ink);background:var(--sunk);border:1px solid var(--line);border-radius:99px;padding:2px 10px;font-weight:700}
+.grp h3 .gdate em{font-style:normal;font-weight:500;color:var(--muted)}
 </style>
 </head>
 <body>
@@ -336,6 +339,35 @@ function renderHeader(){
   let u = "—"; try{ const d = new Date(DATA.updatedAt); if(!isNaN(d)) u = d.toLocaleString("ja-JP",{timeZone:"Asia/Tokyo",month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"}); }catch(e){}
   $("#stUpd").textContent = u;
 }
+const WDAYS = ["日","月","火","水","木","金","土"];
+function ymd(s){ const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s||""); return m ? {y:+m[1], m:+m[2], d:+m[3]} : null; }
+function guessDates(g){
+  const m = /(\d{1,2})\/(\d{1,2})(?:\s*[-〜~]\s*(?:(\d{1,2})\/)?(\d{1,2}))?/.exec(g||"");
+  if(!m) return null;
+  const base = new Date(DATA.updatedAt || Date.now()); let y = base.getFullYear(); const mo = +m[1];
+  if(mo > base.getMonth()+2) y--;
+  const p = n => String(n).padStart(2,"0");
+  const s = `${y}-${p(mo)}-${p(+m[2])}`;
+  return {s, e: m[4] ? `${y}-${p(m[3] ? +m[3] : mo)}-${p(+m[4])}` : s};
+}
+function grpDates(items){
+  let s = "", e = "";
+  items.forEach(b => { if(b.date && (!s || b.date < s)) s = b.date; const x = b.dateEnd || b.date; if(x && (!e || x > e)) e = x; });
+  if(!s){ const g = guessDates(items[0].grp); if(g) return g; }
+  return {s, e: e || s};
+}
+function dayLabel(o, withY){ const w = WDAYS[new Date(Date.UTC(o.y,o.m-1,o.d)).getUTCDay()]; return `${withY ? o.y+"年" : ""}${o.m}月${o.d}日（${w}）`; }
+function dateLabel(r){
+  const a = ymd(r.s), b = ymd(r.e); if(!a) return "";
+  if(!b || r.e === r.s) return dayLabel(a, true);
+  return dayLabel(a, true) + "〜" + dayLabel(b, a.y !== b.y);
+}
+function agoLabel(e){
+  const b = ymd(e); if(!b) return "";
+  const now = new Date(Date.now()+9*3600e3); const today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+  const n = Math.round((today - Date.UTC(b.y,b.m-1,b.d))/864e5);
+  if(n < 0) return "開催予定"; if(n === 0) return "今日"; if(n <= 30) return n+"日前"; return "";
+}
 function renderPane(fmt){
   const k = state[fmt], q = state.q;
   const list = (DATA.builds||[]).filter(b => b.fmt===fmt && (k==="all"||b.kind===k) && matches(b,q));
@@ -346,10 +378,14 @@ function renderPane(fmt){
   (k==="all" ? [] : [k]).forEach(kk => {
     if(notes[kk]){ const ln = NOTE_LINKS[fmt+":"+kk]; html += `<div class="note-box">${esc(notes[kk])}${ln?" "+ln:""}</div>`; }
   });
-  const rk = b => { const m = /^(\d+)位/.exec(b.place||""); return m ? +m[1] : 1e9; };
-  groups.forEach(items => { if(items.every(b=>b.kind==="rank")) items.sort((a,b)=>rk(a)-rk(b)); });
-  groups.forEach((items,g) => {
-    html += `<div class="grp"><h3>${esc(g)}</h3><div class="cards">` + items.map(b => {
+  const PO = {"優勝":1,"準優勝":2,"ベスト4":3,"ベスト8":5,"ベスト16":9,"ベスト32":17};
+  const rk = b => { const p = b.place||""; if(PO[p]) return PO[p]; const m = /^(\d+)位/.exec(p); return m ? +m[1] : 1e9; };
+  groups.forEach(items => items.sort((a,b)=>rk(a)-rk(b)));
+  const glist = [...groups].map(([g,items]) => ({g, items, r:grpDates(items), mine:items.some(b=>b.kind==="mine")}));
+  glist.sort((x,y) => (y.mine-x.mine) || (y.r.e||"").localeCompare(x.r.e||""));
+  glist.forEach(({g,items,r}) => {
+    const lbl = dateLabel(r), ago = agoLabel(r.e);
+    html += `<div class="grp"><h3>${esc(g)}${lbl?`<span class="gdate">${esc(lbl)}${ago?`<em>${esc(ago)}</em>`:""}</span>`:""}</h3><div class="cards">` + items.map(b => {
       const on = favs.has(b.id);
       return `<article class="card${b.kind==="mine"?" mine":""}">
         <div class="place">${esc(b.place)}${b.sub?`<small>${esc(b.sub)}</small>`:""}</div>
