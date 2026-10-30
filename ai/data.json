@@ -1,20 +1,82 @@
 {
- "updatedAt": "2026-10-23T01:30:00+09:00",
+ "updatedAt": "2026-10-30T01:30:00+09:00",
  "lastRun": {
-  "date": "2026-10-23",
+  "date": "2026-10-30",
   "added": [
-   "u-2026-10-22-skills-donation",
-   "u-2026-10-22-gcp-managed",
-   "u-2026-10-21-api-version",
-   "u-2026-10-21-claude-duet",
-   "u-2026-10-20-user-profiles",
-   "u-code-2-1-309",
-   "o-2026-10-21-chatgpt-ads"
+   "u-code-2-1-314",
+   "u-2026-10-29-usage-cost-api",
+   "u-2026-10-28-request-size",
+   "u-2026-10-23-claude-tag-api"
   ],
   "changed": [],
-  "summary": "Claude Duet、API新バージョンとSDK刷新、Agent Skills寄贈、Claude Code 2.1.309までのまとめを追加しました。"
+  "summary": "Claude Code 2.1.314までのまとめと、API の分析・Claude Tag・リクエスト上限拡大を追加しました。"
  },
  "items": [
+  {
+   "id": "u-code-2-1-314",
+   "cat": "update",
+   "prod": "code",
+   "title": "Claude Code 2.1.310〜2.1.314 のまとめ",
+   "date": "2026-10-30",
+   "desc": "書き込み先の制限設定や、Bedrock・Vertex・Foundry での Monitor ツール対応などが入りました。",
+   "points": [
+    "permissions.blockWritesOutsideWorkingDirectories で、作業ディレクトリ外への書き込み・編集をすべての権限モードで拒否できる",
+    "Bedrock・Vertex・Foundry で Monitor ツールとプラグインのモニターが使える",
+    "VS Code と Claude Desktop の Code タブで、放置された長い会話を自動要約",
+    "200K トークン超で「1M context に利用クレジットが必要」と止まる問題を、圧縮して続行するよう修正",
+    "claude -p が起動失敗時に終了コード0で無出力になる問題を修正（エラー表示と終了コード1に）"
+   ],
+   "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+   "src": "Claude Code 変更履歴",
+   "addedAt": "2026-10-30"
+  },
+  {
+   "id": "u-2026-10-29-usage-cost-api",
+   "cat": "update",
+   "prod": "api",
+   "title": "使用量・コスト分析API（ベータ）が登場",
+   "date": "2026-10-29",
+   "desc": "Claude Console と Claude Enterprise の組織向けに、トークン使用量とコストを取得できる新しいAPIが追加されました。",
+   "points": [
+    "/v1/organizations/analytics/usage と /cost の2つのエンドポイント",
+    "モデル・ワークスペース・APIキー・ユーザーなどで絞り込み・グループ化できる",
+    "ベータヘッダー analytics-usage-cost-2026-08-24 が必要",
+    "従来の Usage and Cost API は legacy 扱い（引き続き利用可）"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude API リリースノート",
+   "addedAt": "2026-10-30"
+  },
+  {
+   "id": "u-2026-10-28-request-size",
+   "cat": "update",
+   "prod": "api",
+   "title": "Messages API のリクエスト上限が 128MB に拡大",
+   "date": "2026-10-28",
+   "desc": "Messages API とトークンカウントAPIの最大リクエストサイズが 32MB から 128MB になりました（Claude API 直接利用の場合）。",
+   "points": [
+    "大きなPDFや画像をまとめて送りやすくなる"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude API リリースノート",
+   "addedAt": "2026-10-30"
+  },
+  {
+   "id": "u-2026-10-23-claude-tag-api",
+   "cat": "update",
+   "prod": "api",
+   "title": "Claude Tag API（ベータ）が公開",
+   "date": "2026-10-23",
+   "desc": "Claude Enterprise 組織向けに、Slack での Claude Tag の設定をAPIで読み書きできるようになりました。",
+   "points": [
+    "/v1/organizations/claude_tag/ のエンドポイントで設定の参照・変更",
+    "ベータヘッダー experimental-claude-tag-2026-10-21 と、read:claude_tag／write:claude_tag スコープの管理者APIキーが必要",
+    "Claude Console 組織では使えない"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude API リリースノート",
+   "addedAt": "2026-10-30"
+  },
   {
    "id": "u-2026-10-22-skills-donation",
    "cat": "update",
