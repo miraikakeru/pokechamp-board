@@ -1,13 +1,13 @@
 {
- "updatedAt": "2026-10-23T04:30:00+09:00",
+ "updatedAt": "2026-10-30T19:10:00+09:00",
  "notes": {},
  "lastRun": {
-  "date": "2026-10-23",
+  "date": "2026-10-30",
   "added": [
-   "pk-polaroid-2026-10"
+   "sr-yokohama-2026-10"
   ],
   "changed": [],
-  "summary": "ポケモン1件を追加（マーベル・HoYoverseは新情報なし）"
+  "summary": "崩壊：スターレイルの横浜市コラボ1件を追加（ほかは新情報なし）"
  },
  "items": [
   {
@@ -301,6 +301,22 @@
    "src": "コラボカフェ",
    "addedAt": "2026-10-23",
    "img": "https://collabo-cafe.com/wp-content/uploads/pokemon-polaroid-main.jpg"
+  },
+  {
+   "id": "sr-yokohama-2026-10",
+   "cat": "hoyo",
+   "sub": "starrail",
+   "kind": "collab",
+   "grp": "自治体コラボ",
+   "title": "崩壊：スターレイル × 横浜市「スターレイル開拓ゲーム in 横浜」",
+   "release": "2026-10-31",
+   "until": "2026-11-10",
+   "price": "—",
+   "where": "みなとみらい線全駅（オリジナル一日乗車券）、横浜市内の対象約230店舗（オリジナルフォトカード配布）",
+   "desc": "星神アッハを探して横浜を巡るコラボ企画。オリジナルデザインの一日乗車券（11/30まで販売予定）や、指定メニュー利用で全10種のフォトカードがもらえる。",
+   "url": "https://www.welcome.city.yokohama.jp/hottopics/houkaistarrail/",
+   "src": "横浜市観光情報サイト",
+   "addedAt": "2026-10-30"
   }
  ]
 }
