@@ -8127,7 +8127,9 @@
     "イダイトウ♂"
    ],
    "url": "https://x.com/mariruripokemo2/status/2117833031776133293",
-   "src": "X（リバティノート掲載）"
+   "src": "X（リバティノート掲載）",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-m7-4",
@@ -8152,24 +8154,34 @@
    "src": "note（バトルデータベース掲載）",
    "sets": [
     {
-     "item": "リザードナイトY"
+     "memo": "HB振り。A200ガブリアスのいわなだれ15/16耐え、S最速ドリュウズ+1、C余り"
     },
     {
-     "item": "ラグラージナイト"
+     "memo": "A特化。すいすい時に準速スカーフガブリアス抜き、H余り。スイーパー"
     },
     {
-     "item": "じしゃく"
+     "item": "じしゃく",
+     "nature": "ひかえめ",
+     "memo": "CS振り。じしゃくエレクトロビームの初手アタッカー"
     },
     {
-     "item": "こだわりスカーフ"
+     "item": "こだわりスカーフ",
+     "nature": "おくびょう",
+     "memo": "CS振り。ブリジュラスのサポート兼スイーパー"
     },
     {
-     "item": "きあいのタスキ"
+     "item": "きあいのタスキ",
+     "nature": "ひかえめ",
+     "memo": "CS振り。ガオガエン等への削り役"
     },
     {
-     "item": "ゴツゴツメット"
+     "item": "ゴツゴツメット",
+     "nature": "のんき",
+     "memo": "HB振り。先発サポートでブリジュラスを先制技から守る"
     }
-   ]
+   ],
+   "detail": "partial",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-m7-5",
@@ -8191,7 +8203,9 @@
     "リキキリン"
    ],
    "url": "https://x.com/jun_poke918/status/2117840945588953328",
-   "src": "X（リバティノート掲載）"
+   "src": "X（リバティノート掲載）",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-m7-6",
@@ -8213,7 +8227,9 @@
     "ニンフィア"
    ],
    "url": "https://x.com/Rosenkreutz_VGC/status/2117921598095155308",
-   "src": "X（リバティノート掲載）"
+   "src": "X（リバティノート掲載）",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-m7-7",
@@ -8235,7 +8251,9 @@
     "ライチュウ"
    ],
    "url": "https://x.com/kim0227poke/status/2117842708094230634",
-   "src": "X（リバティノート掲載）"
+   "src": "X（リバティノート掲載）",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-m7-9",
@@ -8257,7 +8275,9 @@
     "ゴリランダー"
    ],
    "url": "https://x.com/victormatosrd/status/2117831627640610948",
-   "src": "X（リバティノート掲載）"
+   "src": "X（リバティノート掲載）",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-m7-10",
@@ -8279,7 +8299,9 @@
     "ドドゲザン"
    ],
    "url": "https://x.com/xx_z2z/status/2117867428894118037",
-   "src": "X（リバティノート掲載）"
+   "src": "X（リバティノート掲載）",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-m7-13",
@@ -8301,7 +8323,9 @@
     "ギルガルド"
    ],
    "url": "https://x.com/SPY_Anya11/status/2117849627458498731",
-   "src": "X（リバティノート掲載）"
+   "src": "X（リバティノート掲載）",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-m7-15",
@@ -8323,7 +8347,9 @@
     "ガオガエン"
    ],
    "url": "https://x.com/unironicpanda/status/2117837732190024149",
-   "src": "X（リバティノート掲載）"
+   "src": "X（リバティノート掲載）",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-m7-18",
@@ -8345,7 +8371,9 @@
     "ドドゲザン"
    ],
    "url": "https://x.com/146_poke/status/2117870409144324344",
-   "src": "X（リバティノート掲載）"
+   "src": "X（リバティノート掲載）",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-m7-20",
@@ -8367,7 +8395,9 @@
     "アシレーヌ"
    ],
    "url": "https://x.com/syokoractvdd/status/2117930676335030581",
-   "src": "X（リバティノート掲載）"
+   "src": "X（リバティノート掲載）",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-m7-21",
@@ -8389,7 +8419,9 @@
     "オオニューラ"
    ],
    "url": "https://x.com/MeLuCaVGC/status/2117831765050143074",
-   "src": "X（リバティノート掲載）"
+   "src": "X（リバティノート掲載）",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-m7-22",
@@ -8411,7 +8443,9 @@
     "フラエッテ"
    ],
    "url": "https://x.com/hyt192837/status/2117846983826424169",
-   "src": "X（リバティノート掲載）"
+   "src": "X（リバティノート掲載）",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-m7-25",
@@ -9169,7 +9203,64 @@
     "ユキメノコ"
    ],
    "url": "https://note.com/mihhi21/n/n027e8fa0456a",
-   "src": "note"
+   "src": "note",
+   "sets": [
+    {
+     "item": "たべのこし",
+     "moves": [
+      "めいそう",
+      "ねこだまし",
+      "まもる"
+     ],
+     "memo": "A200オオニューラのフェイタルクロー15/16耐え、追い風時最速120族抜き"
+    },
+    {
+     "item": "きあいのタスキ",
+     "ability": "どくしゅ",
+     "nature": "ようき",
+     "moves": [
+      "ねこだまし",
+      "フェイタルクロー",
+      "インファイト",
+      "いわなだれ"
+     ],
+     "memo": "AS型。ねこだましでアシレーヌの瞑想を補助"
+    },
+    {
+     "moves": [
+      "おいかぜ",
+      "ハイパーボイス",
+      "りゅうせいぐん"
+     ],
+     "memo": "追い風型。アシレーヌの素早さ補助"
+    },
+    {
+     "item": "きせきのタネ",
+     "moves": [
+      "ねこだまし",
+      "ウッドハンマー",
+      "10まんばりき",
+      "グラススライダー"
+     ],
+     "memo": "A200オオニューラのフェイタルクロー・C172メガボーマンダのハイパーボイス耐え、準速ペリッパー抜き"
+    },
+    {
+     "item": "ヨプのみ",
+     "moves": [
+      "アイアンヘッド",
+      "ふいうち"
+     ],
+     "memo": "B振りでA187オオニューラのインファイト15/16耐え。ライチュウ対策"
+    },
+    {
+     "moves": [
+      "オーロラベール"
+     ],
+     "memo": "最速。雪下でドドゲザンのふいうち15/16耐え。オーロラベールで耐久補助"
+    }
+   ],
+   "detail": "partial",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-27-gdansk-1",
@@ -9235,7 +9326,9 @@
    "url": "https://www.vrpastes.com/Tx7ZoBAV",
    "src": "Victory Road（海外大会）",
    "date": "2026-10-31",
-   "dateEnd": "2026-11-01"
+   "dateEnd": "2026-11-01",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-27-gdansk-4",
@@ -9257,7 +9350,9 @@
    "url": "https://www.vrpastes.com/6N5OLiDw",
    "src": "Victory Road（海外大会）",
    "date": "2026-10-31",
-   "dateEnd": "2026-11-01"
+   "dateEnd": "2026-11-01",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-27-gdansk-5",
@@ -9279,7 +9374,9 @@
    "url": "https://www.vrpastes.com/1ObUo8wA",
    "src": "Victory Road（海外大会）",
    "date": "2026-10-31",
-   "dateEnd": "2026-11-01"
+   "dateEnd": "2026-11-01",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-27-gdansk-6",
@@ -9301,7 +9398,9 @@
    "url": "https://www.vrpastes.com/qdHGZCxs",
    "src": "Victory Road（海外大会）",
    "date": "2026-10-31",
-   "dateEnd": "2026-11-01"
+   "dateEnd": "2026-11-01",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-27-gdansk-7",
@@ -9323,7 +9422,9 @@
    "url": "https://www.vrpastes.com/l8YqmEJ2",
    "src": "Victory Road（海外大会）",
    "date": "2026-10-31",
-   "dateEnd": "2026-11-01"
+   "dateEnd": "2026-11-01",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   },
   {
    "id": "d-27-gdansk-8",
@@ -9345,7 +9446,9 @@
    "url": "https://www.vrpastes.com/NLiiCAwn",
    "src": "Victory Road（海外大会）",
    "date": "2026-10-31",
-   "dateEnd": "2026-11-01"
+   "dateEnd": "2026-11-01",
+   "detail": "none",
+   "detailAt": "2026-11-06"
   }
  ]
 }
