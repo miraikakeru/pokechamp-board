@@ -1,13 +1,13 @@
 {
- "updatedAt": "2026-10-30T19:10:00+09:00",
+ "updatedAt": "2026-11-06T04:30:00+09:00",
  "notes": {},
  "lastRun": {
-  "date": "2026-10-30",
+  "date": "2026-11-06",
   "added": [
-   "sr-yokohama-2026-10"
+   "sr-animate-aha-2026-11"
   ],
   "changed": [],
-  "summary": "崩壊：スターレイルの横浜市コラボ1件を追加（ほかは新情報なし）"
+  "summary": "崩壊：スターレイルのアニメイト・アッハ実装記念フェア1件を追加（ほかは新情報なし）"
  },
  "items": [
   {
@@ -317,6 +317,22 @@
    "url": "https://www.welcome.city.yokohama.jp/hottopics/houkaistarrail/",
    "src": "横浜市観光情報サイト",
    "addedAt": "2026-10-30"
+  },
+  {
+   "id": "sr-animate-aha-2026-11",
+   "cat": "hoyo",
+   "sub": "starrail",
+   "kind": "collab",
+   "grp": "アニメイト",
+   "title": "星神★アッハ実装記念フェア（街ぶらり旅シリーズ アクリルスタンド ほか）",
+   "release": "2026-11-13",
+   "until": "2026-12-20",
+   "price": "アクリルスタンド1,760円",
+   "where": "全国のアニメイト店舗（通販除く）、池袋本店・仙台・大阪日本橋でオンリーショップ",
+   "desc": "アッハ実装を記念したアニメイトのフェア。期間中に関連グッズを買うとイラストカード（全3種・ランダム）がもらえ、一部店舗ではオンリーショップも開かれる。",
+   "url": "https://koubo.jp/press-release/prtimes/c16756_r9164",
+   "src": "PR TIMES（Koubo掲載）",
+   "addedAt": "2026-11-06"
   }
  ]
 }
