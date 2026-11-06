@@ -1,15 +1,16 @@
 {
- "updatedAt": "2026-10-30T01:30:00+09:00",
+ "updatedAt": "2026-11-07T01:10:00+09:00",
  "lastRun": {
-  "date": "2026-10-30",
+  "date": "2026-11-07",
   "added": [
-   "u-code-2-1-314",
-   "u-2026-10-29-usage-cost-api",
-   "u-2026-10-28-request-size",
-   "u-2026-10-23-claude-tag-api"
+   "u-code-2-1-318",
+   "u-2026-11-02-message-threads",
+   "u-2026-11-05-ip-allowlist",
+   "u-2026-11-05-personal-finance",
+   "u-2026-11-05-enterprise-security"
   ],
   "changed": [],
-  "summary": "Claude Code 2.1.314までのまとめと、API の分析・Claude Tag・リクエスト上限拡大を追加しました。"
+  "summary": "Claude Code 2.1.318までのまとめ、メッセージスレッドとIP制限（API）、Personal Finance、Enterprise管理強化を追加しました。"
  },
  "items": [
   {
@@ -895,6 +896,85 @@
    "url": "https://mistral.ai/news/mistral-x-mozilla/",
    "src": "Mistral 公式",
    "addedAt": "2026-10-16"
+  },
+  {
+   "id": "u-code-2-1-318",
+   "cat": "update",
+   "prod": "code",
+   "title": "Claude Code 2.1.316〜2.1.318 のまとめ",
+   "date": "2026-11-06",
+   "desc": "サブエージェントの努力レベル指定、ゲートウェイ機能の強化、各種不具合修正が入りました。",
+   "points": [
+    "CLAUDE_CODE_SUBAGENT_EFFORT でサブエージェントの努力レベルを指定できる",
+    "Opus 4.8 の高速モードは廃止予定（2026年11月30日削除、Opus 5.5への移行を案内）",
+    "--continue で会話が失われる不具合（2.1.314由来）を修正",
+    "バックグラウンドのサブエージェントのシェルコマンドは3分後にバックグラウンドへ移行"
+   ],
+   "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
+   "src": "Claude Code 変更履歴",
+   "addedAt": "2026-11-07"
+  },
+  {
+   "id": "u-2026-11-02-message-threads",
+   "cat": "update",
+   "prod": "api",
+   "title": "メッセージスレッド（ベータ）：会話をサーバー側で保持",
+   "date": "2026-11-02",
+   "desc": "サーバーが会話を保持し、以降のリクエストでは新しいメッセージだけ送れば済みます。長い会話やエージェントのループ向けです。",
+   "points": [
+    "ベータヘッダー message-threads-2026-08-12 を使う",
+    "スレッドは最後のリクエストから5分で失効し、最長1時間以内に削除",
+    "Claude API、AWS上のClaude Platform、Google Cloud、Microsoft Foundryで利用可能"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "API リリースノート",
+   "addedAt": "2026-11-07"
+  },
+  {
+   "id": "u-2026-11-05-ip-allowlist",
+   "cat": "update",
+   "prod": "api",
+   "title": "API の IP アドレス制限（ベータ）と全端末サインアウト",
+   "date": "2026-11-05",
+   "desc": "組織単位で API にアクセスできる IP を制限でき、漏えいしたキーの悪用範囲を狭められます。",
+   "points": [
+    "IPv4/IPv6 やCIDR範囲を組織あたり最大1,000件登録",
+    "許可外のアドレスからのリクエストは拒否される",
+    "Admin API でEnterpriseメンバーを全端末からサインアウトさせることも可能（ベータ）"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "API リリースノート",
+   "addedAt": "2026-11-07"
+  },
+  {
+   "id": "u-2026-11-05-personal-finance",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Claude に家計管理「Personal Finance」（ベータ）",
+   "date": "2026-11-05",
+   "desc": "銀行・クレジットカード・ローン・投資口座を連携し、残高や支出を一画面で確認、Claudeに質問できます。",
+   "points": [
+    "Pro・Max・Ultra プランの米国のみ",
+    "ベータ提供"
+   ],
+   "url": "https://support.claude.com/en/articles/12138966-release-notes",
+   "src": "Claude アプリ リリースノート",
+   "addedAt": "2026-11-07"
+  },
+  {
+   "id": "u-2026-11-05-enterprise-security",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Claude Enterprise のセキュリティ・管理機能を強化",
+   "date": "2026-11-05",
+   "desc": "セキュリティセンター、推論フック、一元管理、アクセス制御などが追加されました（一部ベータ）。",
+   "points": [
+    "セキュリティセンターと推論フック",
+    "一元管理とアクセス制御の拡充"
+   ],
+   "url": "https://support.claude.com/en/articles/12138966-release-notes",
+   "src": "Claude アプリ リリースノート",
+   "addedAt": "2026-11-07"
   }
  ]
 }
