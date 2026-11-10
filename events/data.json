@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T08:00:00+09:00",
+ "updatedAt": "2026-11-11T08:10:00+09:00",
  "home": "小平駅",
  "items": [
   {
@@ -1162,48 +1162,42 @@
    ],
    "url": "https://www.muse-tokorozawa.or.jp/event/detail/20270111/",
    "src": "所沢ミューズ公式"
+  },
+  {
+   "id": "2026-12-kodaira-rune-lunch71",
+   "cat": "music",
+   "title": "ルネこだいら ランチタイム・コンサート Vol.71",
+   "desc": "フルート・トロンボーン・バスクラリネットなどの奏者が出演する、平日昼のワンコインクラスのコンサート（前回シリーズは全席指定500円）。",
+   "start": "2026-12-23",
+   "venue": "ルネこだいら",
+   "area": "小平市",
+   "train": {
+    "kodaira": {
+     "min": 10,
+     "note": "小平駅から徒歩約5分"
+    },
+    "hitotsubashi": {
+     "min": 10,
+     "note": "多摩湖線で青梅街道方面／小平駅から徒歩"
+    }
+   },
+   "car": {
+    "min": 10,
+    "parking": "あり（有料）"
+   },
+   "tags": [
+    "クラシック",
+    "地元"
+   ],
+   "url": "https://www.runekodaira.jp/pdf/20261223lunch71chirashiura.pdf",
+   "src": "ルネこだいら"
   }
  ],
  "lastRun": {
   "date": "2026-11-11",
   "added": [
-   "2026-11-higashikurume-shimin-matsuri",
-   "2026-11-nishitokyo-shiminmatsuri",
-   "2026-11-kodaira-hagiyama-lightup",
-   "2026-11-shinjuku-hanazono-otori",
-   "2026-12-setagaya-boroichi",
-   "2026-12-tama-christmas-night-market",
-   "2026-11-saitama-cocoon-christmas",
-   "2026-11-yokohama-akarenga-xmas",
-   "2026-11-yokohama-minatomirai-xmas",
-   "2026-11-tama-parthenon-marche",
-   "2026-11-machida-kagoyamaichi",
-   "2026-11-kawagoe-wine-festa",
-   "2026-12-tokorozawa-marche-tokonoel",
-   "2026-11-ikebukuro-nippon-bussanten",
-   "2026-11-ikebukuro-tamago-fes",
-   "2026-11-shibuya-sake-park-7hai",
-   "2026-11-takadanobaba-ramen-rally",
-   "2026-11-edogawa-zennikusai",
-   "2026-12-odaiba-fish1-gp",
-   "2026-08-kanda-curry-rally",
-   "2026-11-tokorozawa-danish-bigband",
-   "2026-12-tokorozawa-disney-on-classic",
-   "2026-12-tokorozawa-celtic-christmas",
-   "2026-12-tokorozawa-sado-daiku",
-   "2026-12-tokorozawa-zoorasian-silvester",
-   "2027-01-tokorozawa-tso-new-year",
-   "2026-12-chiyoda-countdown-musical",
-   "2026-12-sumida-njp-daiku",
-   "2026-12-sumida-njp-silvester",
-   "2026-12-minato-sado-daiku-suntory",
-   "2026-11-hino-tama-zoo-africa-fair",
-   "2026-11-shinjuku-pokemon-athlete-waza",
-   "2026-11-chuo-pokemon-legend-research",
-   "2026-12-toshima-dr-stone-ten",
-   "2026-12-toshima-acosta-sunshine",
-   "2026-11-suginami-shinei-50th"
+   "2026-12-kodaira-rune-lunch71"
   ],
-  "summary": "掲載を9件から45件に拡充し、お祭り・グルメ・音楽・家族趣味の36件を新規追加しました。期限切れの削除はありません。"
+  "summary": "前回更新直後のため期限切れの削除はなく、ルネこだいらのランチタイム・コンサート1件を追加しました。ほかは既存45件の日程が変わっていないことを確認しました。"
  }
 }
