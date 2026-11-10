@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>おでかけイベントボード</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: 朱色の見出し帯 → 絞り込み → 開催中／月ごとのカード一覧（日付順） */
+:root{
+  --bg:#faf3ee; --surface:#ffffff; --sunk:#f4e6dc; --ink:#2a1610; --muted:#7a5a4c; --line:#ecd8ca;
+  --band:#5a1a0e; --band-2:#9a3412; --band-ink:#fff4ec; --band-muted:#f3c4a8; --glow:#ffb547;
+  --accent:#c2410c; --accent-ink:#ffffff; --star:#d49a00; --new:#d6336c; --live:#15803d;
+  --c-fest:#d9480f; --c-food:#b7791f; --c-music:#7048e8; --c-family:#0c8599;
+  --f-body:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+  --f-data:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#150b07; --surface:#21130d; --sunk:#2d1b13; --ink:#f6e9e1; --muted:#c3a293; --line:#3a2419;
+  --band:#3a1009; --band-2:#7c2d12; --band-muted:#f0b896;
+  --accent:#ff8a4c; --accent-ink:#1d0b04; --star:#ffc53d; --new:#ff6f9f; --live:#4ade80;
+  --c-fest:#ff8a4c; --c-food:#f2c14e; --c-music:#a78bfa; --c-family:#3bc9db; color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.65}
+a{color:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--glow);outline-offset:2px}
+button{font:inherit;cursor:pointer}
+
+.band{color:var(--band-ink);background:linear-gradient(120deg,var(--band) 0%,var(--band) 45%,var(--band-2) 100%);position:relative;overflow:hidden;
+  padding:calc(22px + env(safe-area-inset-top,0px)) 16px 22px}
+.band::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:radial-gradient(rgba(255,255,255,.07) 1.2px,transparent 1.4px);background-size:18px 18px;
+  mask-image:linear-gradient(90deg,transparent,#000 65%)}
+.band-in{max-width:1180px;margin:0 auto;position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:14px 24px;align-items:flex-end;justify-content:space-between}
+.back{display:inline-block;font-size:12.5px;color:var(--band-muted);text-decoration:none;margin-bottom:10px}
+.back:hover{text-decoration:underline;color:var(--band-ink)}
+.eyebrow{font-family:var(--f-data);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--band-muted);display:flex;align-items:center;gap:10px}
+.eyebrow::before{content:"";width:24px;height:2px;background:var(--glow)}
+h1{margin:6px 0 6px;font-weight:900;font-size:clamp(24px,3.6vw,36px);line-height:1.2;letter-spacing:.03em;text-wrap:balance}
+.lead{margin:0;color:var(--band-muted);font-size:13px;max-width:64ch}
+.stats{display:flex;flex-wrap:wrap;gap:8px}
+.stat{border:1px solid rgba(255,255,255,.16);border-radius:10px;padding:6px 14px;min-width:92px;background:rgba(255,255,255,.06)}
+.stat .k{font-size:10px;letter-spacing:.1em;color:var(--band-muted)}
+.stat .v{font-family:var(--f-data);font-size:15px;font-weight:700;font-variant-numeric:tabular-nums}
+
+.wrap{max-width:1180px;margin:0 auto;padding:18px 16px calc(48px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:14px}
+.lastrun{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--new);border-radius:10px;padding:10px 14px;font-size:13px;color:var(--muted)}
+.lastrun b{color:var(--ink)}
+.filters{display:flex;flex-direction:column;gap:10px}
+.row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.row .lbl{font-size:11px;letter-spacing:.08em;color:var(--muted);min-width:4.5em}
+.pill{border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:99px;padding:5px 13px;font-size:13px;display:inline-flex;gap:6px;align-items:center}
+.pill .n{font-family:var(--f-data);font-size:11px;opacity:.8}
+.pill[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
+.pill .dot{width:8px;height:8px;border-radius:50%;background:var(--c)}
+#q{flex:1;min-width:0;max-width:340px;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:6px 14px}
+.note{font-size:12px;color:var(--muted);margin:0}
+
+.sec h2{font-size:15px;margin:10px 0 8px;display:flex;align-items:center;gap:8px}
+.sec h2 .n{font-family:var(--f-data);font-size:12px;color:var(--muted);background:var(--sunk);border-radius:99px;padding:0 8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr));gap:12px}
+.card{--c:var(--accent);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;grid-template-columns:66px 1fr;gap:4px 12px;align-content:start;min-width:0;position:relative}
+.card::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:0 3px 3px 0;background:var(--c)}
+.thumb{grid-column:1/-1;display:block;margin:0 0 8px;border-radius:8px;overflow:hidden;background:var(--sunk);aspect-ratio:16/9}
+.thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.date{font-family:var(--f-data);text-align:center;line-height:1.15;grid-row:span 7}
+.date .md{font-size:17px;font-weight:700;font-variant-numeric:tabular-nums}
+.date .w{font-size:11px;color:var(--muted)}
+.date .to{font-size:10px;color:var(--muted);margin:2px 0}
+.date .md2{font-size:13px;font-weight:700}
+.date .lbl{font-size:11px;font-weight:700;color:var(--ink);word-break:keep-all}
+.tags{display:flex;flex-wrap:wrap;gap:5px;align-items:center;min-width:0}
+.tag{font-size:10.5px;font-weight:700;letter-spacing:.04em;padding:1px 8px;border-radius:4px;background:var(--sunk);color:var(--muted)}
+.tag.cat{color:var(--c);background:color-mix(in srgb,var(--c) 14%,var(--surface))}
+.tag.free{color:var(--live);background:color-mix(in srgb,var(--live) 13%,var(--surface))}
+.tag.live{color:#fff;background:var(--live)}
+.tag.wk{color:var(--accent-ink);background:var(--accent)}
+.tag.new{color:#fff;background:var(--new)}
+.title{font-weight:700;font-size:15px;line-height:1.4;min-width:0;word-break:break-word}
+.desc{margin:0;font-size:13px;color:var(--muted);min-width:0}
+dl{margin:2px 0 0;display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:12.5px;min-width:0}
+dt{color:var(--muted)} dd{margin:0;min-width:0;word-break:break-word}
+.acc{display:flex;flex-wrap:wrap;gap:4px 12px}
+.acc span{white-space:nowrap}
+.acc b{font-family:var(--f-data);font-variant-numeric:tabular-nums}
+.foot{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px 8px;margin-top:6px;font-size:11.5px;color:var(--muted);min-width:0}
+.links{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.links a{color:var(--accent);font-weight:700;text-decoration:none;white-space:nowrap}
+.links a:hover{text-decoration:underline}
+.star{border:1px solid var(--line);background:var(--surface);border-radius:8px;width:30px;height:30px;color:var(--muted);font-size:15px;line-height:1;flex:none}
+.star[aria-pressed="true"]{color:var(--star);border-color:var(--star)}
+.empty{color:var(--muted);background:var(--surface);border:1.5px dashed var(--line);border-radius:12px;padding:20px;text-align:center}
+footer{font-size:12px;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="band">
+  <div class="band-in">
+    <div>
+      <a class="back" href="../">← メインメニュー</a>
+      <div class="eyebrow">Festivals · Food · Music · Family</div>
+      <h1>おでかけイベントボード</h1>
+      <p class="lead">小平から電車・車でおおむね90分以内で行けるお祭り・花火、グルメフェス、音楽フェス、家族向けイベントを開催日順にまとめています。毎週土曜の朝3時に更新。</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="k">今週末</div><div class="v" id="stWk">—</div></div>
+      <div class="stat"><div class="k">掲載イベント</div><div class="v" id="stAll">—</div></div>
+      <div class="stat"><div class="k">最終更新</div><div class="v" id="stUpd">—</div></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="lastrun" id="lastrun" hidden></div>
+  <div class="filters">
+    <div class="row" id="rowWhen"><span class="lbl">時期</span></div>
+    <div class="row" id="rowCat"><span class="lbl">種類</span></div>
+    <div class="row" id="rowDist"><span class="lbl">移動時間</span></div>
+    <div class="row" id="rowEtc"><span class="lbl">その他</span><input id="q" type="search" placeholder="キーワードで絞り込み（例：花火、立川、無料）" aria-label="キーワードで絞り込み"></div>
+    <p class="note">移動時間は小平駅を起点にした目安です（🚃 電車／🚗 車）。絞り込みは電車と車の速いほうで判定します。</p>
+  </div>
+  <div id="list"></div>
+  <footer>開催日時・料金・中止の有無は変わることがあります。お出かけ前にリンク先の公式情報で確認してください。お気に入り（☆）はこのブラウザに保存されます。</footer>
+</div>
+
+<script>
+const CATS = [
+  {k:"all", label:"すべて"},
+  {k:"fest", label:"お祭り・花火・季節行事", c:"var(--c-fest)"},
+  {k:"food", label:"グルメ・マルシェ", c:"var(--c-food)"},
+  {k:"music", label:"音楽・フェス", c:"var(--c-music)"},
+  {k:"family", label:"家族・趣味", c:"var(--c-family)"}
+];
+const CATNAME = {fest:"お祭り・季節行事", food:"グルメ・マルシェ", music:"音楽・フェス", family:"家族・趣味"};
+const WHENS = [{k:"all",label:"すべて"},{k:"wk",label:"今週末"},{k:"2w",label:"2週間以内"},{k:"month",label:"今月"},{k:"later",label:"来月以降"},{k:"fav",label:"★ お気に入り"}];
+const DISTS = [{k:"all",label:"すべて"},{k:"30",label:"〜30分"},{k:"60",label:"〜60分"},{k:"90",label:"〜90分"}];
+const WD = ["日","月","火","水","木","金","土"];
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s==null?"":s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl = u => /^https?:\/\//i.test(String(u||"")) ? String(u) : "#";
+const safeImg = u => /^https:\/\//i.test(String(u||"")) ? String(u) : "";
+const isDate = s => /^\d{4}-\d{2}-\d{2}$/.test(s||"");
+document.addEventListener("error", e => { const t = e.target; if(t && t.tagName==="IMG" && t.closest(".thumb")) t.closest(".thumb").remove(); }, true);
+
+const state = {when:"all", cat:"all", dist:"all", free:false, q:""};
+let DATA = {items:[]};
+let favs = new Set();
+try{ favs = new Set(JSON.parse(localStorage.getItem("events-favs-v1")||"[]")); }catch(e){}
+const saveFavs = () => { try{ localStorage.setItem("events-favs-v1", JSON.stringify([...favs])); }catch(e){} };
+
+function ymd(d){ return d.toISOString().slice(0,10); }
+function today(){ return ymd(new Date(Date.now()+9*3600e3)); }
+function addDays(s,n){ const d=new Date(s+"T00:00:00Z"); d.setUTCDate(d.getUTCDate()+n); return ymd(d); }
+function endOf(it){ return isDate(it.end) ? it.end : it.start; }
+// 今週末＝次の土日（土日当日ならその週末）
+function weekend(){ const t=today(); const wd=new Date(t+"T00:00:00Z").getUTCDay(); const sat = wd===0 ? addDays(t,-1) : addDays(t,(6-wd)); return [wd===0?t:sat, addDays(sat,1)]; }
+function overlaps(it,a,b){ return isDate(it.start) && it.start<=b && endOf(it)>=a; }
+function isLive(it){ const t=today(); return isDate(it.start) && it.start<=t && endOf(it)>=t; }
+function isPast(it){ return isDate(it.start) && endOf(it)<today(); }
+function isWk(it){ const [a,b]=weekend(); return overlaps(it,a,b); }
+function isNew(it){ return DATA.lastRun && (DATA.lastRun.added||[]).includes(it.id); }
+function minMin(it){ const v=[it.train&&it.train.min, it.car&&it.car.min].filter(x=>typeof x==="number"); return v.length?Math.min(...v):null; }
+
+function match(it){
+  const t=today();
+  if(state.cat!=="all" && it.cat!==state.cat) return false;
+  if(state.when==="wk" && !isWk(it)) return false;
+  if(state.when==="2w" && !overlaps(it,t,addDays(t,14))) return false;
+  if(state.when==="month" && !overlaps(it,t,t.slice(0,8)+"31")) return false;
+  if(state.when==="later" && !(isDate(it.start) && it.start.slice(0,7)>t.slice(0,7))) return false;
+  if(state.when==="fav" && !favs.has(it.id)) return false;
+  if(state.dist!=="all"){ const m=minMin(it); if(m==null || m>+state.dist) return false; }
+  if(state.free && !it.free) return false;
+  if(state.q){ const s=[it.title,it.desc,it.venue,it.area,it.price,it.time,it.src,CATNAME[it.cat],(it.tags||[]).join(" ")].join(" ").toLowerCase(); if(!s.includes(state.q.toLowerCase())) return false; }
+  return true;
+}
+function pills(el, list, key, counts){
+  el.querySelectorAll(".pill").forEach(p=>p.remove());
+  list.forEach(o => {
+    const b = document.createElement("button");
+    b.type="button"; b.className="pill"; b.setAttribute("aria-pressed", String(state[key]===o.k));
+    if(o.c) b.style.setProperty("--c", o.c);
+    b.innerHTML = (o.c?'<span class="dot"></span>':"") + esc(o.label) + (counts && counts[o.k]!=null ? ` <span class="n">${counts[o.k]}</span>` : "");
+    b.addEventListener("click", () => { state[key]=o.k; render(); });
+    el.appendChild(b);
+  });
+}
+function md(s){ const [y,m,d]=s.split("-"); return {md:`${+m}/${+d}`, w:WD[new Date(Date.UTC(+y,+m-1,+d)).getUTCDay()]}; }
+function dateBlock(it){
+  if(it.dateLabel || !isDate(it.start)) return `<div class="date"><div class="lbl">${esc(it.dateLabel||"日程未定")}</div></div>`;
+  const a=md(it.start);
+  if(!isDate(it.end) || it.end===it.start) return `<div class="date"><div class="md">${a.md}</div><div class="w">${a.w}</div></div>`;
+  const b=md(it.end);
+  return `<div class="date"><div class="md">${a.md}</div><div class="w">${a.w}</div><div class="to">〜</div><div class="md2">${b.md}</div><div class="w">${b.w}</div></div>`;
+}
+function gcal(it){
+  if(!isDate(it.start)) return "";
+  const s=it.start.replace(/-/g,""), e=addDays(endOf(it),1).replace(/-/g,"");
+  const p=new URLSearchParams({action:"TEMPLATE",text:it.title,dates:`${s}/${e}`,location:[it.venue,it.area].filter(Boolean).join(" "),details:(it.url||"")});
+  return "https://calendar.google.com/calendar/render?"+p.toString();
+}
+function gmap(it){ const q=[it.venue,it.area].filter(Boolean).join(" "); return q ? "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q) : ""; }
+function access(it){
+  const tr = it.train && typeof it.train.min==="number" ? `<span>🚃 <b>約${it.train.min}分</b>${it.train.note?`（${esc(it.train.note)}）`:""}</span>` : "";
+  const car = it.car && typeof it.car.min==="number" ? `<span>🚗 <b>約${it.car.min}分</b>${it.car.parking?`（駐車場：${esc(it.car.parking)}）`:""}</span>` : "";
+  return tr||car ? `<dt>アクセス</dt><dd class="acc">${tr}${car}</dd>` : "";
+}
+function card(it){
+  const c = CATS.find(x=>x.k===it.cat); const on = favs.has(it.id);
+  const cal=gcal(it), map=gmap(it);
+  return `<article class="card" style="--c:${c?c.c:"var(--accent)"}">
+    ${safeImg(it.img)?`<a class="thumb" href="${esc(safeUrl(it.url))}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${esc(safeImg(it.img))}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a>`:""}
+    ${dateBlock(it)}
+    <div class="tags"><span class="tag cat">${esc(CATNAME[it.cat]||"イベント")}</span>${it.area?`<span class="tag">${esc(it.area)}</span>`:""}${it.free?'<span class="tag free">無料</span>':""}${isLive(it)?'<span class="tag live">開催中</span>':(isWk(it)?'<span class="tag wk">今週末</span>':"")}${isNew(it)?'<span class="tag new">NEW</span>':""}</div>
+    <div class="title">${esc(it.title)}</div>
+    ${it.desc?`<p class="desc">${esc(it.desc)}</p>`:""}
+    <dl>${it.time?`<dt>時間</dt><dd>${esc(it.time)}</dd>`:""}${it.venue?`<dt>会場</dt><dd>${esc(it.venue)}</dd>`:""}${it.price?`<dt>料金</dt><dd>${esc(it.price)}</dd>`:""}${access(it)}</dl>
+    <div class="foot"><span>出典：${esc(it.src)}</span><span class="links">${map?`<a href="${esc(map)}" target="_blank" rel="noopener">地図</a>`:""}${cal?`<a href="${esc(cal)}" target="_blank" rel="noopener">カレンダーに追加</a>`:""}<a href="${esc(safeUrl(it.url))}" target="_blank" rel="noopener">詳しく見る ↗</a><button class="star" type="button" data-id="${esc(it.id)}" aria-pressed="${on}" aria-label="${on?"お気に入りから外す":"お気に入りに保存"}">${on?"★":"☆"}</button></span></div>
+  </article>`;
+}
+function render(){
+  const items = (DATA.items||[]).filter(it=>!isPast(it));
+  const cc = {all:items.length}; items.forEach(i=>cc[i.cat]=(cc[i.cat]||0)+1);
+  pills($("#rowWhen"), WHENS, "when", {wk:items.filter(isWk).length, fav:items.filter(i=>favs.has(i.id)).length});
+  pills($("#rowCat"), CATS, "cat", cc);
+  pills($("#rowDist"), DISTS, "dist");
+  const etc=$("#rowEtc"); etc.querySelectorAll(".pill").forEach(p=>p.remove());
+  const fb=document.createElement("button"); fb.type="button"; fb.className="pill"; fb.setAttribute("aria-pressed",String(state.free)); fb.textContent="無料のみ";
+  fb.addEventListener("click",()=>{ state.free=!state.free; render(); }); etc.insertBefore(fb,$("#q"));
+  const list = items.filter(match).sort((a,b)=>(a.start||"9999").localeCompare(b.start||"9999") || (minMin(a)||999)-(minMin(b)||999));
+  const groups = new Map();
+  const live = list.filter(isLive);
+  if(live.length) groups.set("開催中", live);
+  list.filter(i=>!isLive(i)).forEach(i=>{ const k = isDate(i.start) ? `${+i.start.slice(0,4)}年${+i.start.slice(5,7)}月` : "日程未定"; if(!groups.has(k)) groups.set(k,[]); groups.get(k).push(i); });
+  let html="";
+  groups.forEach((arr,k)=>{ html += `<section class="sec"><h2>${esc(k)} <span class="n">${arr.length}</span></h2><div class="grid">${arr.map(card).join("")}</div></section>`; });
+  if(!html) html = items.length ? `<p class="empty">条件に合うイベントはありません。絞り込みを変えてみてください。</p>` : `<p class="empty">イベント情報を読み込み中です。表示されない場合は、毎週土曜朝3時の更新後にもう一度開いてください。</p>`;
+  $("#list").innerHTML = html;
+  $("#stWk").textContent = items.filter(isWk).length + "件";
+  $("#stAll").textContent = items.length + "件";
+}
+function header(){
+  let u="—"; try{ const d=new Date(DATA.updatedAt); if(!isNaN(d)) u=d.toLocaleString("ja-JP",{timeZone:"Asia/Tokyo",month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"}); }catch(e){}
+  $("#stUpd").textContent = u;
+  const lr = DATA.lastRun;
+  if(lr && lr.summary){ $("#lastrun").hidden=false; $("#lastrun").innerHTML = `<b>前回の更新（${esc(lr.date)}）</b>：新着 ${(lr.added||[]).length}件。${esc(lr.summary)}`; }
+}
+document.addEventListener("click", e => {
+  const s = e.target.closest(".star"); if(!s) return;
+  const id = s.dataset.id; favs.has(id) ? favs.delete(id) : favs.add(id); saveFavs(); render();
+});
+let qt; $("#q").addEventListener("input", e => { clearTimeout(qt); qt=setTimeout(()=>{ state.q=e.target.value.trim(); render(); },120); });
+render();
+fetch("data.json?t="+Date.now()).then(r=>r.json()).then(d=>{ if(d && Array.isArray(d.items)){ DATA=d; header(); render(); } }).catch(()=>{ $("#list").innerHTML='<p class="empty">データを読み込めませんでした。時間をおいて開き直してください。</p>'; });
+</script>
+</body>
+</html>
