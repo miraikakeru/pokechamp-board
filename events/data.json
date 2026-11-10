@@ -1,1 +1,260 @@
-{"updatedAt": null, "home": "小平駅", "items": [], "lastRun": null}
+{
+ "updatedAt": "2026-11-11T07:35:00+09:00",
+ "home": "小平駅",
+ "items": [
+  {
+   "id": "2026-11-tachikawa-rakuichi",
+   "cat": "fest",
+   "title": "たちかわ楽市2026",
+   "desc": "市民まつり・商業まつり・農業まつりが集まる立川の地域イベント。花みどり文化センターでは農産物の展示や市民演奏、アニメ展示・販売もあります。",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "time": "10:00〜16:00",
+   "venue": "国営昭和記念公園 みどりの文化ゾーン・夢ひろば",
+   "area": "立川市",
+   "price": "入場無料（公園入園料は別途）",
+   "free": true,
+   "train": {
+    "min": 30,
+    "note": "西武国分寺線・JR中央線 小平→国分寺→西立川"
+   },
+   "car": {
+    "min": 25,
+    "parking": "あり（有料）"
+   },
+   "tags": [
+    "地域まつり",
+    "屋外"
+   ],
+   "url": "https://www.showakinen-koen.jp/event/75638/",
+   "src": "国営昭和記念公園",
+   "img": "https://www.showakinen-koen.jp/wp-content/uploads/2026/10/IMG_7793.jpg"
+  },
+  {
+   "id": "2026-11-showa-koyo",
+   "cat": "fest",
+   "title": "黄葉・紅葉まつり＆秋の夜散歩2026",
+   "desc": "かたらいのイチョウ並木・カナール・日本庭園が夜にライトアップされる秋の恒例行事。昼の紅葉と夜景を両方楽しめます。",
+   "start": "2026-10-29",
+   "end": "2026-11-29",
+   "time": "開園9:30〜21:00／点灯16:30〜20:30",
+   "venue": "国営昭和記念公園",
+   "area": "立川市",
+   "price": "入園料のほか、夜の日本庭園は観賞券 大人1,200円",
+   "free": false,
+   "train": {
+    "min": 30,
+    "note": "西武国分寺線・JR中央線 小平→国分寺→西立川"
+   },
+   "car": {
+    "min": 25,
+    "parking": "あり（有料）"
+   },
+   "tags": [
+    "紅葉",
+    "ライトアップ",
+    "屋外"
+   ],
+   "url": "https://www.showakinen-koen.jp/event/58732/",
+   "src": "国営昭和記念公園"
+  },
+  {
+   "id": "2026-12-showa-sippo",
+   "cat": "family",
+   "title": "Sippo Festa 2026 Winter（しっぽフェスタ）",
+   "desc": "愛犬と一緒に遊び・学べるペットイベント。ドッグ競技の決勝やビンゴ、物販ブースなどがあります。",
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "time": "10:00〜16:00",
+   "venue": "国営昭和記念公園 みどりの文化ゾーン・夢ひろば",
+   "area": "立川市",
+   "price": "入場無料（一部有料プログラムあり、駐車場は別料金）",
+   "free": true,
+   "train": {
+    "min": 30,
+    "note": "西武国分寺線・JR中央線 小平→国分寺→西立川"
+   },
+   "car": {
+    "min": 25,
+    "parking": "あり（有料）"
+   },
+   "tags": [
+    "ペット",
+    "屋外"
+   ],
+   "url": "https://www.showakinen-koen.jp/event/76869/",
+   "src": "国営昭和記念公園",
+   "img": "https://www.showakinen-koen.jp/wp-content/uploads/2026/11/IMG_7981-2.jpg"
+  },
+  {
+   "id": "2026-11-tachikawa-illumi",
+   "cat": "fest",
+   "title": "2026 たちかわイルミネーション",
+   "desc": "立川駅北口のサンサンロードのケヤキ並木、約550mが約60万球で彩られます。12月の5日間はグルメやマーケットが並ぶウィンターマーケットも。",
+   "start": "2026-11-01",
+   "end": "2027-01-17",
+   "time": "日没〜24:00",
+   "venue": "サンサンロード（立川駅北口）",
+   "area": "立川市",
+   "price": "無料",
+   "free": true,
+   "train": {
+    "min": 30,
+    "note": "西武国分寺線・JR中央線 小平→国分寺→立川"
+   },
+   "car": {
+    "min": 25
+   },
+   "tags": [
+    "イルミネーション",
+    "屋外"
+   ],
+   "url": "https://tachikawaillumination.com/",
+   "src": "公式サイト"
+  },
+  {
+   "id": "2026-10-yomiuriland-jewel",
+   "cat": "fest",
+   "title": "よみうりランド ジュエルミネーション",
+   "desc": "丘の上の遊園地全体が宝石のような光に包まれる大型イルミネーション。夜景とアトラクションの両方が楽しめます。",
+   "start": "2026-10-29",
+   "end": "2027-04-04",
+   "time": "16:00〜20:30頃（季節で変動）",
+   "venue": "よみうりランド",
+   "area": "稲城市",
+   "price": "大人1,800円ほか（入園料込み・のりもの別）",
+   "free": false,
+   "train": {
+    "min": 55,
+    "note": "京王線 京王よみうりランド駅（ゴンドラ）ほか経由"
+   },
+   "car": {
+    "min": 40
+   },
+   "tags": [
+    "イルミネーション",
+    "遊園地"
+   ],
+   "url": "https://illumi.walkerplus.com/detail/ar0313e17494/",
+   "src": "ウォーカープラス",
+   "img": "https://image.walkerplus.com/wpimg/walkertouch/wtd/event/94/n/17494_13.jpg"
+  },
+  {
+   "id": "2026-10-tokyo-megaillumi",
+   "cat": "fest",
+   "title": "東京メガイルミ（大井競馬場）",
+   "desc": "競馬場の広い敷地を使った都内最大級のイルミネーション。来場日で料金が変わる変動制です。",
+   "start": "2026-10-31",
+   "end": "2027-01-10",
+   "time": "16:30〜21:00（最終入場20:00）",
+   "venue": "大井競馬場",
+   "area": "品川区",
+   "price": "当日券 18歳以上1,000円〜（日により変動）",
+   "free": false,
+   "train": {
+    "min": 80,
+    "note": "JR・東京モノレール経由 大井競馬場前駅"
+   },
+   "car": {
+    "min": 70,
+    "parking": "あり（普通車2,000円/日）"
+   },
+   "tags": [
+    "イルミネーション",
+    "屋外"
+   ],
+   "url": "https://illumi.walkerplus.com/detail/ar0313e323872/",
+   "src": "ウォーカープラス",
+   "img": "https://image.walkerplus.com/wpimg/walkertouch/wtd/event/72/n/323872_15.jpg"
+  },
+  {
+   "id": "2026-10-otsukemen-haku",
+   "cat": "food",
+   "title": "大つけ麺博 presents ラー1グランプリ",
+   "desc": "人気ラーメン店がハーフサイズで登場し、ファン投票で次世代の王者を決めるグルメイベント。食べ比べが楽しめます。",
+   "start": "2026-10-10",
+   "end": "2026-11-15",
+   "time": "11:00〜21:00（売り切れ次第終了）",
+   "venue": "新宿・大久保公園",
+   "area": "新宿区",
+   "price": "ハーフ800円/杯",
+   "free": false,
+   "train": {
+    "min": 40,
+    "note": "西武新宿線 小平→高田馬場→新大久保方面"
+   },
+   "car": {
+    "min": 50,
+    "parking": "少ない（公共交通推奨）"
+   },
+   "tags": [
+    "ラーメン",
+    "屋外"
+   ],
+   "url": "https://www.walkerplus.com/event/ar0313e480693/",
+   "src": "ウォーカープラス",
+   "img": "https://image.walkerplus.com/wpimg/walkertouch/wtd/event/93/n/480693_2.jpg"
+  },
+  {
+   "id": "2026-11-tokyo-xmas-market",
+   "cat": "fest",
+   "title": "東京クリスマスマーケット（新豊洲）",
+   "desc": "ベイエリアの新豊洲で今年初開催となるクリスマスマーケット。芝公園会場は12月4日〜25日の開催です。",
+   "start": "2026-11-20",
+   "end": "2026-12-25",
+   "time": "11:00〜21:30（初日は16:00〜、最終入場20:30）",
+   "venue": "新豊洲（江東区豊洲6-4）",
+   "area": "江東区",
+   "train": {
+    "min": 75,
+    "note": "新宿線・中央線経由 豊洲／新豊洲方面"
+   },
+   "car": {
+    "min": 70
+   },
+   "tags": [
+    "クリスマス",
+    "グルメ"
+   ],
+   "url": "https://tokyochristmas.net/",
+   "src": "公式サイト"
+  },
+  {
+   "id": "2026-11-fuchu-tori",
+   "cat": "fest",
+   "title": "大國魂神社 酉の市（二の酉）",
+   "desc": "今年は一の酉（11/7）と二の酉の2回。二の酉は商売繁盛を願う熊手を求めて参拝者が訪れます。",
+   "start": "2026-11-19",
+   "venue": "大國魂神社",
+   "area": "府中市",
+   "train": {
+    "min": 35,
+    "note": "西武線・JR武蔵野線経由 府中駅"
+   },
+   "car": {
+    "min": 30
+   },
+   "tags": [
+    "酉の市",
+    "神社"
+   ],
+   "url": "https://www.ookunitamajinja.or.jp/wp/info/192.html",
+   "src": "大國魂神社"
+  }
+ ],
+ "lastRun": {
+  "date": "2026-11-11",
+  "added": [
+   "2026-11-tachikawa-rakuichi",
+   "2026-11-showa-koyo",
+   "2026-12-showa-sippo",
+   "2026-11-tachikawa-illumi",
+   "2026-10-yomiuriland-jewel",
+   "2026-10-tokyo-megaillumi",
+   "2026-10-otsukemen-haku",
+   "2026-11-tokyo-xmas-market",
+   "2026-11-fuchu-tori"
+  ],
+  "summary": "データが空だったため、確認できた9件（立川・昭和記念公園、イルミネーション、新宿ラーメン、新豊洲クリスマスマーケット、府中酉の市）を新規登録しました。音楽・ライブ系は公式日程を確認できず今回は見送りました。"
+ }
+}
