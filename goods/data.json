@@ -1,13 +1,14 @@
 {
- "updatedAt": "2026-11-06T04:30:00+09:00",
+ "updatedAt": "2026-11-13T04:30:00+09:00",
  "notes": {},
  "lastRun": {
-  "date": "2026-11-06",
+  "date": "2026-11-13",
   "added": [
-   "sr-animate-aha-2026-11"
+   "pk-center-maps-2026-11",
+   "gs-mcdonalds-2026-11"
   ],
   "changed": [],
-  "summary": "崩壊：スターレイルのアニメイト・アッハ実装記念フェア1件を追加（ほかは新情報なし）"
+  "summary": "ポケモンセンター歴代マップグッズと原神×マクドナルドの2件を追加"
  },
  "items": [
   {
@@ -333,6 +334,38 @@
    "url": "https://koubo.jp/press-release/prtimes/c16756_r9164",
    "src": "PR TIMES（Koubo掲載）",
    "addedAt": "2026-11-06"
+  },
+  {
+   "id": "pk-center-maps-2026-11",
+   "cat": "pokemon",
+   "kind": "official",
+   "grp": "ポケモンセンター新商品",
+   "title": "ポケットモンスター歴代マップ グッズ（ジオラマオルゴール・ペーパークラフト・額装入りタウンマップ）",
+   "release": "2026-11-12",
+   "price": "ジオラマオルゴール12,100円／ペーパークラフト2,750円〜／額装入りタウンマップ16,500円",
+   "where": "ポケモンセンターオンライン（数量限定・予約商品）",
+   "desc": "赤・緑からスカーレット・バイオレットまで歴代9作品の道路や名所を再現したグッズ。オルゴールとペーパークラフトは全作品分が揃う。",
+   "url": "https://dengekionline.com/article/202611/93307",
+   "img": "https://cimg.kgl-systems.io/camion/files/93307/ogp_fdnb.jpg?x=1280",
+   "src": "電撃オンライン／ポケモンセンターオンライン",
+   "addedAt": "2026-11-13"
+  },
+  {
+   "id": "gs-mcdonalds-2026-11",
+   "cat": "hoyo",
+   "sub": "genshin",
+   "kind": "collab",
+   "grp": "飲食コラボ",
+   "title": "原神 × マクドナルド（ヴァレサ＆エスコフィエのてりやきマックバーガー限定パッケージ）",
+   "release": "2026-11-18",
+   "until": "2026-12-08",
+   "price": "—",
+   "where": "全国のマクドナルド（マクドナルド公式アプリ・Xキャンペーンあり）",
+   "desc": "ヴァレサとエスコフィエを描いたコラボパッケージのてりやきマック系バーガーが登場。アプリ経由でゲーム内アイテムセットも受け取れ、マックカードが当たるXキャンペーンも実施。",
+   "url": "https://www.famitsu.com/article/202611/93460",
+   "img": "https://cimg.kgl-systems.io/camion/files/93460/thumbnail_QgFQ.jpeg?x=1280",
+   "src": "ファミ通.com",
+   "addedAt": "2026-11-13"
   }
  ]
 }
