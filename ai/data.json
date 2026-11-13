@@ -1,16 +1,14 @@
 {
- "updatedAt": "2026-11-07T01:10:00+09:00",
+ "updatedAt": "2026-11-14T01:10:00+09:00",
  "lastRun": {
-  "date": "2026-11-07",
+  "date": "2026-11-14",
   "added": [
-   "u-code-2-1-318",
-   "u-2026-11-02-message-threads",
-   "u-2026-11-05-ip-allowlist",
-   "u-2026-11-05-personal-finance",
-   "u-2026-11-05-enterprise-security"
+   "u-2026-11-09-fable-5-2",
+   "u-2026-11-12-self-hosted-managed-agents",
+   "u-code-2-1-323"
   ],
   "changed": [],
-  "summary": "Claude Code 2.1.318までのまとめ、メッセージスレッドとIP制限（API）、Personal Finance、Enterprise管理強化を追加しました。"
+  "summary": "Fable 5.2/Mythos 5.2、Managed Agents の自社運用、Claude Code 2.1.323までのまとめを追加しました。"
  },
  "items": [
   {
@@ -975,6 +973,56 @@
    "url": "https://support.claude.com/en/articles/12138966-release-notes",
    "src": "Claude アプリ リリースノート",
    "addedAt": "2026-11-07"
+  },
+  {
+   "id": "u-2026-11-09-fable-5-2",
+   "cat": "update",
+   "prod": "api",
+   "title": "Claude Fable 5.2 と Mythos 5.2 が登場",
+   "date": "2026-11-09",
+   "desc": "難しい推論や長時間のエージェント作業向けの最上位モデル。Mythos 5.2 は Anthropic の認証プログラムで確認された組織のみが使えます。",
+   "points": [
+    "モデルID は claude-fable-5-2。コンテキスト 100万トークン、最大出力 12.8万トークン",
+    "料金は入力 $8／出力 $40（100万トークンあたり）。高速モードは $16／$80",
+    "30日間のデータ保持が必要（ゼロデータ保持は原則不可）",
+    "旧 computer_20251124 ツールは 400 エラーになり、computer_toolset_20260801 へ移行が必要"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude API リリースノート",
+   "addedAt": "2026-11-13"
+  },
+  {
+   "id": "u-2026-11-12-self-hosted-managed-agents",
+   "cat": "update",
+   "prod": "api",
+   "title": "Claude Managed Agents を自社環境で運用可能に",
+   "date": "2026-11-12",
+   "desc": "サンドボックスだけでなく、Managed Agents のサービス全体を自社インフラで動かせるようになりました。",
+   "points": [
+    "エージェント、セッション、履歴を自社に保存できる",
+    "モデルへのリクエスト先は選択可能（初期設定は Anthropic）",
+    "利用には Anthropic の担当チームへの問い合わせが必要"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude API リリースノート",
+   "addedAt": "2026-11-13"
+  },
+  {
+   "id": "u-code-2-1-323",
+   "cat": "update",
+   "prod": "code",
+   "title": "Claude Code 2.1.319〜2.1.323 のまとめ",
+   "date": "2026-11-12",
+   "desc": "Fable 5.2 対応、Code Mode（実験的）、Bash 権限チェックの穴の修正などが入りました。",
+   "points": [
+    "2.1.321 で claude-fable-5-2 が追加され、Fable の既定モデルに",
+    "Code Mode（実験的）：Claude が JavaScript でツールを呼び出す",
+    "Bash の権限チェックの抜け穴や MCP OAuth の秘密情報漏えいを修正",
+    "permissions.denyInsteadOfPrompting を追加。Vertex でも高速モードに対応"
+   ],
+   "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
+   "src": "Claude Code 変更履歴",
+   "addedAt": "2026-11-13"
   }
  ]
 }
