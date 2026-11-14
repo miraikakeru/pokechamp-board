@@ -1,14 +1,278 @@
 {
- "updatedAt": "2026-11-14T01:10:00+09:00",
+ "updatedAt": "2026-11-14T15:16:55+09:00",
  "lastRun": {
   "date": "2026-11-14",
   "added": [
-   "u-2026-11-09-fable-5-2",
-   "u-2026-11-12-self-hosted-managed-agents",
-   "u-code-2-1-323"
+   "g-claude-plans",
+   "g-claude-pro-max-ultra",
+   "g-claude-team-enterprise",
+   "g-claude-usage-limits",
+   "g-claude-apps",
+   "g-claude-models-effort",
+   "g-claude-cowork",
+   "g-claude-artifacts",
+   "g-claude-memory",
+   "g-claude-research",
+   "g-claude-connectors",
+   "g-claude-skills",
+   "g-claude-in-chrome",
+   "g-claude-voice",
+   "g-claude-duet",
+   "g-claude-personal-finance",
+   "g-claude-privacy",
+   "g-code-overview",
+   "g-code-quickstart",
+   "g-code-platforms",
+   "g-code-vscode",
+   "g-code-jetbrains",
+   "g-code-desktop",
+   "g-code-cloud",
+   "g-code-costs",
+   "g-code-claude-md",
+   "g-code-permissions",
+   "g-code-extend",
+   "g-code-plugins",
+   "g-api-overview",
+   "g-api-get-started",
+   "g-api-models",
+   "g-api-choosing-model",
+   "g-api-pricing",
+   "g-api-prompt-caching",
+   "g-api-batch",
+   "g-api-tool-use",
+   "g-api-streaming",
+   "g-api-agent-sdk",
+   "g-api-managed-agents",
+   "g-api-google-cloud",
+   "m-claude-fable-5-2",
+   "m-claude-mythos-5-2",
+   "m-claude-opus-5-5",
+   "m-claude-sonnet-5-5",
+   "m-claude-haiku-5-5",
+   "m-claude-fable-5-1",
+   "m-claude-mythos-5-1",
+   "m-claude-fable-5",
+   "m-claude-mythos-5",
+   "m-claude-opus-5",
+   "m-claude-sonnet-5",
+   "m-claude-opus-4-8",
+   "m-claude-opus-4-7",
+   "m-claude-opus-4-6",
+   "m-claude-sonnet-4-6",
+   "m-claude-opus-4-5",
+   "m-claude-sonnet-4-5",
+   "m-claude-haiku-4-5",
+   "u-2026-11-12-claude-meetings",
+   "u-2026-11-06-project-tags",
+   "u-2026-11-03-text-watermark",
+   "u-2026-10-30-opus48-fast-deprecated",
+   "u-2026-10-08-usage-policy",
+   "u-2026-10-07-sonnet55-cache-price",
+   "u-2026-10-07-managed-agents-webfetch",
+   "u-2026-10-06-cyber-verification",
+   "u-2026-10-06-models-api-capabilities",
+   "u-2026-09-30-admin-api-sdk-ga",
+   "u-2026-09-15-salesforce",
+   "u-2026-09-10-smart-reports",
+   "u-2026-09-10-managed-agents-auto",
+   "u-2026-09-03-ant-apply",
+   "u-2026-08-20-python-sdk-1",
+   "u-2026-08-19-computer-browser-use",
+   "u-2026-08-19-files-skills-ga",
+   "u-2026-08-18-playground",
+   "u-2026-08-10-sonnet5-price",
+   "u-2026-08-06-skill-scanning",
+   "u-2026-08-05-inference-hooks",
+   "u-2026-08-26-compliance-sessions",
+   "o-2026-05-05-gpt-5-5-instant",
+   "o-2026-05-07-gpt-realtime-2",
+   "o-2026-05-14-codex-mobile",
+   "o-2026-05-15-personal-finance",
+   "o-2026-07-08-gpt-live",
+   "o-2026-07-09-gpt-5-6",
+   "o-2026-07-28-gpt-transcribe",
+   "o-2026-07-30-api-price-cut",
+   "o-2026-08-07-daybreak",
+   "o-2026-08-26-assistants-api-end",
+   "o-2026-09-03-gpt-6-astra",
+   "o-2026-09-10-gpt-live-api",
+   "o-2026-09-22-gpt-6-sol-luna",
+   "o-2026-09-24-sora-api-end",
+   "o-2026-09-29-pro-500",
+   "o-2026-10-07-intelligent-ui",
+   "o-2026-10-16-gpt-live-voices",
+   "o-2026-10-26-gpt-6-1-terra",
+   "o-2026-10-28-api-credits",
+   "o-2026-11-04-images-2-6",
+   "o-2026-11-05-gpt-6-cyber",
+   "o-2026-11-09-control-room",
+   "o-2026-11-10-businesses-chatgpt",
+   "o-2026-11-13-chatgpt-wallet",
+   "m-gpt-6-astra",
+   "m-gpt-6-1-sol",
+   "m-gpt-6-1-terra",
+   "m-gpt-6-luna",
+   "m-gpt-6-cyber",
+   "m-gpt-image-2-6-sunburst",
+   "m-gpt-image-2-6-flare",
+   "m-gpt-live-1",
+   "m-gpt-realtime-2-1",
+   "m-gpt-realtime-translate",
+   "m-gpt-transcribe",
+   "m-text-embedding-3-large",
+   "m-gpt-oss-120b",
+   "o-2026-05-19-gemini-3-5-flash",
+   "o-2026-05-19-gemini-omni",
+   "o-2026-05-19-gemini-app-spark",
+   "o-2026-05-19-search-ai-mode",
+   "o-2026-05-19-google-ai-ultra-plans",
+   "o-2026-06-03-gemma-4-12b",
+   "o-2026-06-08-notebooklm-upgrade",
+   "o-2026-06-09-live-translate",
+   "o-2026-06-30-nano-banana-2-lite",
+   "o-2026-07-16-gemini-notebook",
+   "o-2026-07-21-gemini-3-6-flash",
+   "o-2026-08-11-gemini-1b-users",
+   "o-2026-08-13-gemini-3-7-flash",
+   "o-2026-09-02-gemini-3-8-flash",
+   "o-2026-09-04-lyria-3-5-gemini",
+   "o-2026-09-10-gemini-windows",
+   "o-2026-09-30-gemini-4-argon",
+   "o-2026-10-06-embeddinggemma-2",
+   "o-2026-10-27-genie-4",
+   "o-2026-10-29-jules-turndown",
+   "o-2026-11-05-gemini-omni-1-2-flash",
+   "o-2026-11-10-gemini-4-carbon",
+   "o-2026-11-12-gemini-4-hydrogen",
+   "m-gemini-4-carbon",
+   "m-gemini-4-argon",
+   "m-gemini-4-hydrogen",
+   "m-gemini-3-8-flash",
+   "m-gemini-3-5-flash-lite",
+   "m-gemini-3-8-live",
+   "m-gemini-3-8-flash-tts",
+   "m-gemini-3-5-transcribe",
+   "m-nano-banana-2-1",
+   "m-nano-banana-2-lite",
+   "m-gemini-omni-1-2-flash",
+   "m-lyria-3-5",
+   "m-gemma-4",
+   "m-gemini-embedding-2",
+   "o-2026-05-29-grok-build-0-1",
+   "o-2026-06-16-grok-imagine-video-1-5",
+   "o-2026-07-06-spacexai",
+   "o-2026-08-grok-bot",
+   "o-2026-08-12-grok-4-6",
+   "o-2026-09-21-grok-4-7",
+   "o-2026-07-07-muse-image",
+   "o-2026-07-09-muse-spark-1-1-api",
+   "o-2026-08-10-muse-glimmer",
+   "o-2026-09-08-muse-agent",
+   "o-2026-10-15-muse-spark-open",
+   "o-2026-11-09-muse-ember",
+   "o-2026-06-02-mai-seven-models",
+   "o-2026-06-16-copilot-cowork-ga",
+   "o-2026-09-03-mai-transcribe-2",
+   "o-2026-09-25-new-copilot",
+   "o-2026-10-15-mai-base-2",
+   "o-2026-10-27-mai-image-2-7",
+   "o-2026-06-08-siri-ai",
+   "o-2026-09-14-ios-27-siri-ai",
+   "o-2026-10-26-ios-27-2-siri-ai-japanese",
+   "o-2026-07-28-nova-refocus",
+   "o-2026-10-05-nova-2-5-sonic",
+   "o-2026-10-29-alexa-plus-japan",
+   "m-grok-4-7",
+   "m-grok-build-0-1",
+   "m-grok-imagine-video-1-5",
+   "m-muse-wonder",
+   "m-muse-spark-1-3",
+   "m-muse-ember",
+   "m-muse-spark-open",
+   "m-muse-glimmer",
+   "m-mai-thinking-1",
+   "m-mai-image-2-6",
+   "m-mai-transcribe-2",
+   "m-nova-2-lite",
+   "m-nova-2-5-sonic",
+   "o-2026-05-20-command-a-plus",
+   "o-2026-05-22-mistral-medium-3-5",
+   "o-2026-06-01-minimax-m3",
+   "o-2026-07-16-kimi-k3",
+   "o-2026-07-31-minimax-h3",
+   "o-2026-08-03-qwen3-8-max",
+   "o-2026-08-13-deepseek-v4-pro-ga",
+   "o-2026-08-14-glm-5-3",
+   "o-2026-08-26-glm-5-3-flash",
+   "o-2026-09-08-mistral-series-d",
+   "o-2026-09-10-deepseek-v4-1-flash",
+   "o-2026-09-30-cohere-embed-5",
+   "o-2026-10-20-voxtral-3",
+   "o-2026-10-23-kimi-k3-1-pro",
+   "o-2026-10-29-mistral-large-4-weights",
+   "o-2026-10-30-cohere-canada",
+   "o-2026-11-11-qwen4-max-preview",
+   "o-2026-11-13-deepseek-app-apis",
+   "m-deepseek-v4-1-flash",
+   "m-deepseek-v4-pro",
+   "m-qwen3-8-max",
+   "m-qwen4-max-preview",
+   "m-kimi-k3-1-pro",
+   "m-glm-5-3",
+   "m-glm-5-3-flash",
+   "m-minimax-m3",
+   "m-minimax-h3",
+   "m-mistral-large-4",
+   "m-mistral-small-4",
+   "m-voxtral-small-transcribe-3",
+   "m-command-a-plus",
+   "m-cohere-embed-5",
+   "o-2026-05-21-runway-aleph-2",
+   "o-2026-05-26-elevenlabs-music-v2",
+   "o-2026-06-03-suno-series-d",
+   "o-2026-07-08-seedream-5-pro",
+   "o-2026-07-23-runway-media-router",
+   "o-2026-07-23-flux-3",
+   "o-2026-07-31-seedance-2-5",
+   "o-2026-07-31-gema-suno",
+   "o-2026-08-13-suno-studio-2",
+   "o-2026-08-31-runway-solaris",
+   "o-2026-09-09-suno-v6",
+   "o-2026-09-28-eleven-v4",
+   "o-2026-10-01-flux-3-image",
+   "o-2026-10-15-flux-3-image-klein",
+   "o-2026-10-28-suno-mcp",
+   "o-2026-11-10-adobe-firefly-max",
+   "o-2026-11-10-scribe-v3",
+   "o-2026-11-11-elevenlabs-summit",
+   "o-2026-11-11-runway-praxis-1",
+   "m-flux-3-image",
+   "m-flux-3-image-klein",
+   "m-flux-3-video",
+   "m-runway-aleph-2",
+   "m-kling-4",
+   "m-seedance-2-5",
+   "m-seedream-5-pro",
+   "m-suno-v6",
+   "m-eleven-v4",
+   "m-scribe-v3",
+   "m-firefly-image-5"
   ],
-  "changed": [],
-  "summary": "Fable 5.2/Mythos 5.2、Managed Agents の自社運用、Claude Code 2.1.323までのまとめを追加しました。"
+  "changed": [
+   "o-2026-10-21-chatgpt-ads",
+   "o-2026-10-16-kling-4",
+   "o-2026-10-15-timestral",
+   "o-2026-10-14-grok-voice-3",
+   "o-2026-10-13-gemini-4-argon",
+   "o-2026-10-12-muse-wonder",
+   "o-2026-10-12-maia-300",
+   "o-2026-10-08-gemini-agent",
+   "o-2026-10-06-mistral-large-4",
+   "o-2026-10-02-devday",
+   "o-2026-10-02-dots-space",
+   "o-2026-09-16-mistral-mozilla"
+  ],
+  "summary": "ボードを改修し、Claudeの基本ガイド・各社の現行モデル一覧・ほかの生成AIのニュースを大きく追加しました。"
  },
  "items": [
   {
@@ -181,7 +445,8 @@
    ],
    "url": "https://www.securities.io/openai-expands-chatgpt-ads-to-26-more-countries-and-89-total/",
    "src": "Securities.io",
-   "addedAt": "2026-10-23"
+   "addedAt": "2026-10-23",
+   "brand": "ChatGPT"
   },
   {
    "id": "u-2026-10-15-opus-fast-ga",
@@ -734,7 +999,7 @@
   {
    "id": "o-2026-10-16-kling-4",
    "cat": "other",
-   "maker": "Kling AI",
+   "maker": "Kuaishou",
    "title": "動画生成「Kling 4.0」が世界で公開",
    "date": "2026-10-16",
    "desc": "Kling AI が動画生成モデル Kling 4.0 を世界向けに公開しました。1回で30秒の動画を作れます。",
@@ -745,7 +1010,8 @@
    ],
    "url": "https://www.manilatimes.net/2026/10/16/tmt-newswire/globenewswire/kling-ai-launches-kling-40-globally-with-professional-grade-output-stable-motion-and-multimodal-control/2447373",
    "src": "GlobeNewswire（Manila Times 掲載）",
-   "addedAt": "2026-10-16"
+   "addedAt": "2026-10-16",
+   "brand": "Kling"
   },
   {
    "id": "o-2026-10-15-timestral",
@@ -760,7 +1026,8 @@
    ],
    "url": "https://mistral.ai/news/timestral/",
    "src": "Mistral 公式",
-   "addedAt": "2026-10-16"
+   "addedAt": "2026-10-16",
+   "brand": "Timestral"
   },
   {
    "id": "o-2026-10-14-grok-voice-3",
@@ -775,7 +1042,8 @@
    ],
    "url": "https://aipicks.jp/news/20261015-xai-grok-voice-3-0-1-0-08-1",
    "src": "AIPICKS",
-   "addedAt": "2026-10-16"
+   "addedAt": "2026-10-16",
+   "brand": "Grok"
   },
   {
    "id": "o-2026-10-13-gemini-4-argon",
@@ -790,7 +1058,8 @@
    ],
    "url": "https://docs.cloud.google.com/gemini/enterprise/docs/release-notes",
    "src": "Google Cloud リリースノート",
-   "addedAt": "2026-10-16"
+   "addedAt": "2026-10-16",
+   "brand": "Gemini"
   },
   {
    "id": "o-2026-10-12-muse-wonder",
@@ -805,7 +1074,8 @@
    ],
    "url": "https://es.euronews.com/2026/10/13/meta-lanza-muse-wonder-sus-modelos-de-ia-mas-potentes-hasta-ahora",
    "src": "Euronews",
-   "addedAt": "2026-10-16"
+   "addedAt": "2026-10-16",
+   "brand": "Muse"
   },
   {
    "id": "o-2026-10-12-maia-300",
@@ -820,7 +1090,8 @@
    ],
    "url": "https://www.datacenterknowledge.com/data-center-chips/microsoft-pushes-custom-ai-chips-with-azure-maia-300",
    "src": "Data Center Knowledge",
-   "addedAt": "2026-10-16"
+   "addedAt": "2026-10-16",
+   "brand": "Maia"
   },
   {
    "id": "o-2026-10-08-gemini-agent",
@@ -836,7 +1107,8 @@
    ],
    "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
    "src": "TechCrunch",
-   "addedAt": "2026-10-16"
+   "addedAt": "2026-10-16",
+   "brand": "Gemini"
   },
   {
    "id": "o-2026-10-06-mistral-large-4",
@@ -852,7 +1124,8 @@
    ],
    "url": "https://mistral.ai/news/mistral-large-4/",
    "src": "Mistral 公式",
-   "addedAt": "2026-10-16"
+   "addedAt": "2026-10-16",
+   "brand": "Mistral Large"
   },
   {
    "id": "o-2026-10-02-devday",
@@ -868,7 +1141,8 @@
    ],
    "url": "https://www.infoq.com/news/2026/10/openai-devday-2026/",
    "src": "InfoQ",
-   "addedAt": "2026-10-16"
+   "addedAt": "2026-10-16",
+   "brand": "GPT"
   },
   {
    "id": "o-2026-10-02-dots-space",
@@ -882,7 +1156,8 @@
    ],
    "url": "https://www.infoq.com/news/2026/10/openai-devday-2026/",
    "src": "InfoQ",
-   "addedAt": "2026-10-16"
+   "addedAt": "2026-10-16",
+   "brand": "ChatGPT"
   },
   {
    "id": "o-2026-09-16-mistral-mozilla",
@@ -893,7 +1168,8 @@
    "desc": "Mistral と Mozilla が、オープンでプライバシーに配慮した多言語AIを Webブラウザに組み込む取り組みを発表しました。",
    "url": "https://mistral.ai/news/mistral-x-mozilla/",
    "src": "Mistral 公式",
-   "addedAt": "2026-10-16"
+   "addedAt": "2026-10-16",
+   "brand": "Le Chat"
   },
   {
    "id": "u-code-2-1-318",
@@ -1023,6 +1299,5053 @@
    "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
    "src": "Claude Code 変更履歴",
    "addedAt": "2026-11-13"
+  },
+  {
+   "id": "g-claude-plans",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "プラン",
+   "order": 10,
+   "title": "Claude のプランと料金の全体像",
+   "desc": "Claude には個人向けの Free・Pro・Max・Ultra と、組織向けの Team・Enterprise があります。上位プランほど使える量と機能が増えます。",
+   "points": [
+    "Free：無料。5時間ごと・週ごとの上限あり。Web検索・ファイル作成・メモリ・アーティファクトは使えるが Opus は対象外",
+    "Pro：月20ドル（年払いなら月17ドル相当・200ドル一括）。Claude Code・プロジェクト・リサーチ・Opus が使える",
+    "Max：月100ドル。Pro の5倍の利用量と毎月100ドル分の API クレジット",
+    "Ultra：月200ドル（月払いのみ）。週の利用量が Pro の10倍、毎月200ドル分の API クレジット",
+    "Team：2〜150席。標準席は年払い月20ドル／月払い25ドル、プレミアム席は年払い月100ドル／月払い125ドル（1席あたり）",
+    "Enterprise：20席から。年払いで1席月20ドル＋API料金ベースの利用料",
+    "価格は税抜きの米ドル表示で、変更されることがある"
+   ],
+   "url": "https://claude.com/pricing",
+   "src": "Claude 公式サイト（料金）",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-pro-max-ultra",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "プラン",
+   "order": 20,
+   "title": "個人向け有料プラン（Pro・Max・Ultra）の違い",
+   "desc": "Pro は日常使い、Max と Ultra はたくさん使う人向けです。Ultra は旧「Max 20x」の新しい名前で、確認済みアカウントなら5時間ごとの上限がありません。",
+   "points": [
+    "Max 20x は Ultra に改名され、既存の契約者は同じ価格のまま自動で移行",
+    "Ultra は週の利用量が Pro の10倍。確認済みアカウントは5時間上限なし（未確認の間は一時的な上限あり）",
+    "アカウントの確認は支払い履歴などをもとに自動で行われ、設定 > 使用量に「Current session」バーがなければ確認済み",
+    "Fable モデル：Pro は使用量クレジットで従量課金、Max・Ultra は週の上限の50%まで追加料金なしで使える",
+    "Max は毎月100ドル、Ultra は毎月200ドル分の Claude API クレジット付き（Claude アプリや Claude Code では使えない）",
+    "API クレジットは claude.ai の請求設定から Claude Console の組織を1つ連携して受け取り、翌月への繰り越しはない"
+   ],
+   "url": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-team-enterprise",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "プラン",
+   "order": 30,
+   "title": "組織向けプラン（Team・Enterprise）",
+   "desc": "Team は2〜150人のチーム向け、Enterprise は大きな組織向けのプランです。管理機能やセキュリティ機能が加わります。",
+   "points": [
+    "Team は最低2人・最大150席。標準席とプレミアム席を混ぜて契約できる",
+    "標準席は Pro の1.25倍、プレミアム席は Pro の6.25倍のセッション利用量（上限は1人ごとで、席の間で融通できない）",
+    "Team 標準席でも Claude Code・Cowork・プロジェクト・共有機能が使える",
+    "SSO・ドメイン管理・役割ごとの権限・支出上限などの管理機能がある",
+    "Team は席数に応じた API クレジット（標準席20ドル、プレミアム席100ドル、合計で月500ドルまで）が付く",
+    "Enterprise は20席から。SCIM・監査ログ・Compliance API・データ保持設定・IP 許可リスト・HIPAA 対応オプションなどを追加"
+   ],
+   "url": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-usage-limits",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "料金",
+   "order": 40,
+   "title": "利用上限のしくみと、上限に達したとき",
+   "desc": "有料プランには「5時間ごとのセッション上限」と「週の上限」があります。上限に達しても、使用量クレジットを有効にしておけば作業を続けられます。",
+   "points": [
+    "セッション上限は最初のメッセージから5時間の枠。残り時間は 設定 > 使用量 の「Current session」で確認",
+    "週の上限は全モデル共通。リセットの曜日と時刻はアカウントごとに固定",
+    "claude.ai・Claude Code・Claude Desktop の利用はすべて同じ上限にカウントされる",
+    "会話の長さ、使う機能、モデル、effort の高さで消費の速さが変わる",
+    "使用量クレジット（Pro・Max・Ultra など）を 設定 > 使用量 でオンにすると、上限後は API 料金で従量課金。月の支出上限や自動チャージ（Web のみ）も設定可",
+    "節約のコツ：日常作業は effort を下げる、不要なコネクタや Web 検索をオフ、長い会話は新しいチャットで始め直す"
+   ],
+   "url": "https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-apps",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "アプリ",
+   "order": 50,
+   "title": "Claude を使える場所",
+   "desc": "ブラウザの claude.ai のほか、デスクトップアプリ、スマホアプリ、Chrome 拡張、Slack などから使えます。",
+   "points": [
+    "Web：ブラウザで claude.ai を開くだけ",
+    "Claude Desktop：macOS 13 以降、Windows 10 以降、Linux（ベータ：Ubuntu 22.04 以降・Debian 12 以降）。claude.ai/download から入手",
+    "デスクトップ版だけの機能：クイック入力、ローカルフォルダの読み書き、デスクトップ拡張、コンピューター操作など",
+    "スマホ：iOS・Android アプリ",
+    "Claude in Chrome：Chrome 拡張で Web ページの操作を任せられる（有料プラン）",
+    "Claude Tag：Slack で @Claude と呼んで仕事を頼める（Team・Enterprise、ベータ）",
+    "利用には18歳以上で、対応地域にいることが必要"
+   ],
+   "url": "https://support.claude.com/en/articles/10065433-install-claude-desktop",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-models-effort",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "モデル選び",
+   "order": 60,
+   "title": "モデルと effort（考える量）の選び方",
+   "desc": "送信ボタンの横のモデル名から、モデルと effort（回答の丁寧さ）を選べます。ふだんは初期設定で十分で、難しい作業のときだけ上げるのがおすすめです。",
+   "points": [
+    "モデル名をクリックして切り替え。「More models」でほかのモデルも選べる。会話の途中でも変更可",
+    "effort は Low・Medium・High・Extra high・Max。上げるほど丁寧だが時間と使用量が増える",
+    "Opus 5.5・Fable 5.1・Fable 5.2 などは思考（thinking）が常にオン。減らしたいときは effort を下げる",
+    "日常の質問や文章作成は初期設定のままで OK。数学の証明や複雑な分析・コーディングは effort を上げる",
+    "Fable は Free では使えない。Pro と Team 標準席は使用量クレジットでの従量課金",
+    "Enterprise では管理者が役割ごとに使えるモデルや effort を制限できる"
+   ],
+   "url": "https://support.claude.com/en/articles/8664678",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-cowork",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "機能",
+   "order": 70,
+   "title": "Cowork：チャットのまま仕事を任せる",
+   "desc": "Cowork は、Claude Code と同じしくみで調べものや資料作りなど複数ステップの仕事をこなす機能です。新しい画面ではチャットと統合され、どの会話でも頼めます。",
+   "points": [
+    "有料プラン（Pro・Max・Ultra・Team・Enterprise）向け。Free は対象外",
+    "チャットと Cowork の統合は Pro・Max・Ultra に順次展開中。Team・Enterprise は管理者の設定しだい",
+    "作業はクラウドで動き、作ったファイルは Claude アカウントに保存される",
+    "ローカルファイル・ブラウザ操作・コンピューター操作は Claude Desktop を開いている間だけ使える",
+    "権限モードは Manual（毎回確認）・Auto（安全確認つきで自動）・Skip。Pro・Max・Ultra・Team は Auto が初期設定",
+    "/schedule で定期タスクを作成。クラウドで動くので PC がスリープでも実行される",
+    "複数ステップの作業は普通の質問より多く使用量を消費する"
+   ],
+   "url": "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-artifacts",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "機能",
+   "order": 90,
+   "title": "アーティファクト：ドキュメント・スライド・デザインを作る",
+   "desc": "会話の横のパネルに、ドキュメントやスライド、デザイン、小さなアプリなどを作ってくれる機能です。作ったものはサイドバーの「Artifacts」タブにまとまります。",
+   "points": [
+    "アーティファクトの作成は Free を含む全プランで使える",
+    "Docs・Slides・Design のテンプレートは全プラン、Data・Sheets・Whiteboards は Pro 以上",
+    "「Output > Design」を選ぶか、チャットで「〜のスライドを作って」と頼むだけで開始",
+    "ドキュメントは Word・PDF・Markdown・Google ドキュメント、スライドは PowerPoint・PDF・Google スライドで書き出せる",
+    "デザインは ZIP・PDF・PPTX・HTML などで書き出せ、Claude Code への引き継ぎも可能",
+    "アーティファクトは非公開で作られ、「Share」で閲覧・コメント・編集を許可できる",
+    "設定 > 機能 で「コード実行とファイル作成」をオンにしておく必要がある"
+   ],
+   "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-memory",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "機能",
+   "order": 100,
+   "title": "メモリと過去チャットの検索",
+   "desc": "Claude は会話の中で大事なことをトピックごとに記憶し、次の会話に生かします。覚えた内容は自分で確認・編集・削除できます。",
+   "points": [
+    "メモリは Free・Pro・Max・Ultra で初期設定オン。Team・Enterprise は管理者が可否を決める",
+    "覚えた内容は 設定 > Your Claude の「Your memory」から確認・編集・削除できる",
+    "チャットで「これを覚えて」「忘れて」と頼んでも変更できる",
+    "健康・政治・宗教などの話題は初期設定では記憶しない",
+    "過去チャットの検索は有料プランの機能。設定でオフにもできる",
+    "シークレット（Incognito）チャットは履歴にもメモリにも残らない",
+    "メモリの一時停止・完全リセット、ほかの AI からの取り込みもできる"
+   ],
+   "url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-research",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "機能",
+   "order": 110,
+   "title": "Web 検索とリサーチ（詳しい調査）",
+   "desc": "Claude は必要に応じて Web を検索します。大きなテーマは「リサーチ」を使うと、何度も検索を重ねて深く調べてくれます。",
+   "points": [
+    "リサーチは有料プラン（Pro・Max・Ultra・Team・Enterprise）向け。Web・デスクトップ・スマホで使える",
+    "「+」ボタンから「Research」を選ぶ。新しい画面では /deep-research でも開始できる",
+    "前提として Web 検索がオンになっている必要がある",
+    "Google Workspace などオンにしたコネクタも調べられる（スマホから始めた場合は Web のみ）",
+    "選んでいるモデルに関係なく Opus 5.5 で動き、必要に応じて Opus 4.8 を使う",
+    "通常の会話より使用量を多く消費するので、大きな問いに使うのがおすすめ"
+   ],
+   "url": "https://support.claude.com/en/articles/11088861-use-research-on-claude",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-connectors",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "機能",
+   "order": 120,
+   "title": "コネクタ（MCP）で外部サービスとつなぐ",
+   "desc": "コネクタを使うと、Gmail や Google ドライブ、Slack などのデータを Claude が読んだり操作したりできます。MCP に対応したサービスなら自分で追加することもできます。",
+   "points": [
+    "コネクタの一覧は claude.ai/connectors。チャットの「+」→ Connectors、または Customize > Connectors から管理",
+    "Claude はそのサービスでの自分の権限の範囲内でしか見られない",
+    "リモート MCP のカスタムコネクタは全プランで追加可（Free は1つまで）",
+    "「Interactive」バッジのコネクタは会話の中に操作画面を表示できる",
+    "Team・Enterprise では管理者が有効化し、メンバーがそれぞれ認証する",
+    "カスタムコネクタは Anthropic が検証していないので、信頼できるものだけをつなぐ"
+   ],
+   "url": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-skills",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "機能",
+   "order": 130,
+   "title": "スキルで手順や知識を教える",
+   "desc": "スキルは、作業の手順や専門知識をまとめたフォルダです。Claude は依頼内容に合うスキルを自動で使います。",
+   "points": [
+    "Free を含む全プランで使える",
+    "設定 > 機能 で「コード実行とファイル作成」をオンにしてから、Customize > Skills で個別にオン・オフ",
+    "Excel・Word・PowerPoint・PDF 用のスキルは最初から用意されていて自動で使われる",
+    "自作スキルは SKILL.md を含むフォルダを ZIP にしてアップロード。チャットで Claude に作ってもらうこともできる",
+    "Team・Enterprise では管理者が組織全体にスキルを配布できる",
+    "同じアカウントでログインすれば Claude Code（v2.1.273 以降）でも使える"
+   ],
+   "url": "https://support.claude.com/en/articles/12512180-use-skills-in-claude",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-in-chrome",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "アプリ",
+   "order": 140,
+   "title": "Claude in Chrome：ブラウザ操作を任せる",
+   "desc": "Chrome 拡張機能で、Claude が Web ページを読んだりクリックしたりして作業を代わりに進めます。",
+   "points": [
+    "Pro・Max・Ultra・Team・Enterprise で使える",
+    "対応は Google Chrome のみ（ほかの Chromium 系ブラウザやスマホは非対応）",
+    "Chrome ウェブストアから追加してログインし、ツールバーに固定する",
+    "サイドパネルで今見ているページについて会話できる。よく使う指示は「/」で呼び出すショートカットに保存",
+    "日次・週次などのスケジュール実行や、複数タブをまたいだ作業もできる",
+    "初期設定は自動承認モードで、必要なときだけ確認を求める。Web 上で直接操作するためリスクもあるので安全ガイドを確認"
+   ],
+   "url": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-voice",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "機能",
+   "order": 150,
+   "title": "音声モードで話しかける",
+   "desc": "音声モードを使うと、Claude と声で会話できます。スマホでの利用に向いています。",
+   "points": [
+    "全プランで使えるベータ機能。iOS・Android・デスクトップ・Web に対応",
+    "Web・デスクトップはチャット右下の波形アイコン、スマホは入力欄のアイコンから開始",
+    "初期設定はハンズフリー。うるさい場所では押している間だけ話すプッシュトゥトークが便利",
+    "声は用意されたものから選ぶ。Web 検索や Gmail・カレンダーなどのコネクタも使える",
+    "Fable モデルは音声モードでは使えない",
+    "録音は初期設定では保存されず、文字起こしだけが履歴に残る。使用量は通常の上限にカウント"
+   ],
+   "url": "https://support.claude.com/en/articles/11101966-use-voice-mode",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-duet",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "アプリ",
+   "order": 160,
+   "title": "Claude Duet：先回りして動くエージェントアプリ",
+   "desc": "Claude Duet は、メールや予定をチェックして必要なことを知らせ、頼んだ仕事をバックグラウンドで進めるスマホアプリです（研究プレビュー）。",
+   "points": [
+    "Pro・Max・Ultra 向け。研究プレビュー中は米国のみ、ウェイトリストから招待制",
+    "iPhone・Android のアプリ。Claude アカウントでサインインする",
+    "毎朝メールや予定のまとめが届き、文字か音声で仕事を頼める",
+    "Gmail・Slack・HubSpot などのコネクタや、自分専用のクラウドブラウザを使って作業する",
+    "メッセージ送信・支払い・署名・削除の前には必ず承認を求める。株の売買や口座間の送金はしない",
+    "研究プレビュー中は無料だが、プランの5時間・週の上限を消費する。モデルは Opus 5.5 固定"
+   ],
+   "url": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-personal-finance",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "機能",
+   "order": 170,
+   "title": "Personal Finance：銀行口座をつないで家計を相談",
+   "desc": "銀行やクレジットカードの口座を Plaid 経由でつなぎ、残高や支出について Claude に質問できる機能です（ベータ）。",
+   "points": [
+    "Pro・Max・Ultra 向けのベータで米国のみ。Free・Team・Enterprise は対象外",
+    "Web・デスクトップ・iOS・Android で、サイドメニューの「Personal Finance」から開始",
+    "Plaid で銀行にログインするので、Claude は銀行のパスワードを受け取らない",
+    "読めるのは残高・利用枠・最大24か月分の取引履歴など。お金の移動や投資はできない",
+    "最大16の銀行をつなげる。不要になったら「Manage linked accounts」から解除",
+    "Personal Finance 内のチャットはモデルの学習に使われず、口座データを使った会話はメモリに保存しない設計"
+   ],
+   "url": "https://support.claude.com/en/articles/18185620-use-personal-finance-in-claude",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-claude-privacy",
+   "cat": "guide",
+   "prod": "claude",
+   "topic": "はじめ方",
+   "order": 180,
+   "title": "データの扱いとプライバシー設定",
+   "desc": "個人向けプランでは、会話をモデルの改善に使うかどうかを自分で選べます。設定のプライバシー画面から切り替えます。",
+   "points": [
+    "対象は Free・Pro・Max（それらのプランでの Claude Code も含む）",
+    "設定 > プライバシー の「Help improve our AI models」でオン・オフ",
+    "オフにすると、新しい会話は今後の学習に使われない（すでに学習済みのモデルからは消えない）",
+    "学習を許可した場合、データは匿名化された形で最大5年保持されることがある",
+    "シークレット（Incognito）チャットは、学習の設定がオンでも使われない",
+    "会話を削除すると履歴からすぐ消え、バックエンドからも30日以内に削除される",
+    "Team・Enterprise・API などの法人向け製品は、初期設定では学習に使われない"
+   ],
+   "url": "https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings",
+   "src": "Anthropic プライバシーセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-code-overview",
+   "cat": "guide",
+   "prod": "code",
+   "topic": "全体像",
+   "order": 10,
+   "title": "Claude Code とは",
+   "desc": "コードを読み、ファイルを編集し、コマンドを実行してくれるエージェント型のコーディングツールです。ターミナル・IDE・デスクトップアプリ・ブラウザで使えます。",
+   "points": [
+    "機能追加・バグ修正・テスト作成・コミットやPR作成などを自然な言葉で頼める",
+    "ターミナル、VS Code、JetBrains、デスクトップアプリ、Web（claude.ai/code）で使える",
+    "多くの使い方で Claude の有料プランか Claude Console のアカウントが必要",
+    "ターミナル・VS Code・JetBrains は Bedrock などのクラウド提供先でも使える",
+    "どこで使っても同じエンジンで、CLAUDE.md・設定・MCP サーバーを共有できる",
+    "claude -p でパイプやCIに組み込むなど、スクリプトからも使える"
+   ],
+   "url": "https://code.claude.com/docs/en/overview",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-code-quickstart",
+   "cat": "guide",
+   "prod": "code",
+   "topic": "はじめ方",
+   "order": 20,
+   "title": "Claude Code のはじめ方（ターミナル）",
+   "desc": "インストールして、プロジェクトのフォルダで claude と打つだけで始められます。初回はブラウザでログインします。",
+   "points": [
+    "macOS・Linux・WSL：curl -fsSL https://claude.ai/install.sh | bash",
+    "Windows PowerShell：irm https://claude.ai/install.ps1 | iex（Homebrew・WinGet でも可）",
+    "claude --version でバージョンが出ればインストール成功",
+    "ログインは Pro・Max・Ultra・Team・Enterprise（推奨）、Console、クラウド提供先のいずれか",
+    "まず「このプロジェクトは何をする？」と聞いてみるのがおすすめ",
+    "claude -c で直前の会話を続行、/help でコマンド一覧、Shift+Tab で権限モード切替"
+   ],
+   "url": "https://code.claude.com/docs/en/quickstart",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-code-platforms",
+   "cat": "guide",
+   "prod": "code",
+   "topic": "使える場所",
+   "order": 30,
+   "title": "どこで使う？ CLI・デスクトップ・IDE・Web",
+   "desc": "同じエンジンが複数の場所で動きます。作業のしかたに合わせて選び、組み合わせて使えます。",
+   "points": [
+    "CLI：機能がいちばん揃っていて、スクリプトや Agent SDK は CLI だけ",
+    "デスクトップ：差分を見ながら確認、複数セッションを並べて実行",
+    "VS Code・JetBrains：エディタの中で差分表示や選択範囲の共有",
+    "Web：クラウドで動くので、PCを閉じても長い作業が続く",
+    "モバイル：Claude アプリからクラウドの作業を開始・確認できる",
+    "迷ったらまず CLI、ターミナルが苦手ならデスクトップから"
+   ],
+   "url": "https://code.claude.com/docs/en/platforms",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-code-vscode",
+   "cat": "guide",
+   "prod": "code",
+   "topic": "使える場所",
+   "order": 40,
+   "title": "VS Code で使う",
+   "desc": "拡張機能を入れると、エディタの中で Claude Code と会話し、変更を差分で確認できます。",
+   "points": [
+    "VS Code 1.94.0 以降が必要。拡張機能ビューで「Claude Code」を検索して入れる（Cursor にも対応）",
+    "有料プラン（Pro・Max・Ultra・Team・Enterprise）か Console アカウントで使える",
+    "選択中のテキストや開いているファイルが自動で文脈に入る",
+    "@ でファイルやフォルダを指定、プランはMarkdownで開いてコメントできる",
+    "CLI と会話履歴を共有し、claude --resume でターミナルに引き継げる",
+    "! のBashショートカットなど一部はCLI限定"
+   ],
+   "url": "https://code.claude.com/docs/en/vs-code",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-code-jetbrains",
+   "cat": "guide",
+   "prod": "code",
+   "topic": "使える場所",
+   "order": 50,
+   "title": "JetBrains IDE で使う",
+   "desc": "IntelliJ IDEA や PyCharm などで、IDE の差分ビューや選択範囲の共有を使いながら作業できます。",
+   "points": [
+    "IntelliJ IDEA・PyCharm・Android Studio・WebStorm・PhpStorm・GoLand などに対応",
+    "CLI を別に入れたうえで、JetBrains Marketplace からプラグインを入れる",
+    "Cmd+Esc（Mac）／Ctrl+Esc（Windows・Linux）ですぐ起動",
+    "変更は IDE の差分ビューで表示、選択範囲は自動で共有",
+    "外部ターミナルからは /ide で IDE に接続できる",
+    "有料プランか Console アカウントで利用、APIキーは不要"
+   ],
+   "url": "https://code.claude.com/docs/en/jetbrains",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-code-desktop",
+   "cat": "guide",
+   "prod": "code",
+   "topic": "使える場所",
+   "order": 60,
+   "title": "デスクトップアプリで使う",
+   "desc": "Claude デスクトップアプリの「Code」タブで、ターミナルなしに Claude Code を使えます。",
+   "points": [
+    "macOS・Windows（x64／ARM64）に対応。Linux（Ubuntu・Debian）はベータ",
+    "CLI を別に入れる必要はない。有料プランが必要",
+    "始める前に実行場所（Local・Cloud・SSH・WSL）、フォルダ、権限モード、モデルを選ぶ",
+    "変更を差分で確認し、行にコメントしてまとめて返せる",
+    "複数セッションを並べて実行、Git worktree で作業を分けられる",
+    "コンピューター操作や Dispatch は Pro・Max・Ultra 向け"
+   ],
+   "url": "https://code.claude.com/docs/en/desktop",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-code-cloud",
+   "cat": "guide",
+   "prod": "code",
+   "topic": "使える場所",
+   "order": 70,
+   "title": "クラウド（Web）で使う",
+   "desc": "claude.ai/code などから、Anthropic のクラウドでセッションを動かせます。PCを閉じても作業が続きます。",
+   "points": [
+    "Pro・Max・Ultra・Team と、Enterprise のプレミアム席などで利用可",
+    "ブラウザ、Claude アプリの Code タブ、デスクトップ、claude --cloud から開始",
+    "リポジトリの取得には GitHub 連携（GitHub App か /web-setup）が必要",
+    "claude --teleport でクラウドの作業をターミナルに引き取れる",
+    "利用はプランの使用量に含まれ、クラウドVMの追加料金はない",
+    "PRの自動修正（Auto-fix）で、CI失敗やレビューコメントに対応させられる"
+   ],
+   "url": "https://code.claude.com/docs/en/claude-code-on-the-web",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-code-costs",
+   "cat": "guide",
+   "prod": "code",
+   "topic": "料金",
+   "order": 80,
+   "title": "Claude Code の料金と使用量",
+   "desc": "サブスクリプション（Pro・Max・Ultra・Team・Enterprise）の枠内で使うか、API・クラウドのトークン従量で使います。",
+   "points": [
+    "個人プランは使用量がプランに含まれ、上限を超えたら使用量クレジットで続けられる",
+    "Team・Enterprise は席ごとの枠（5時間ごと・週ごとにリセット）を Claude チャットと共有",
+    "Console（API）やクラウド提供先はトークン単位の従量課金",
+    "企業での平均は開発者1人あたり稼働日約13ドル、月150〜250ドル（公式の目安）",
+    "/usage で使用量と、使いすぎの原因・改善案を確認できる",
+    "節約のコツ：作業の切り替えで /clear、普段は Sonnet、CLAUDE.md は200行以内"
+   ],
+   "url": "https://code.claude.com/docs/en/costs",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-code-claude-md",
+   "cat": "guide",
+   "prod": "code",
+   "topic": "機能",
+   "order": 90,
+   "title": "CLAUDE.md と自動メモリ",
+   "desc": "CLAUDE.md は毎回の会話の最初に読み込まれる指示書です。自動メモリは Claude が自分で書き残すメモです。",
+   "points": [
+    "置き場所：プロジェクト（./CLAUDE.md）、個人（~/.claude/CLAUDE.md）、組織（管理用）、個人のプロジェクト用（CLAUDE.local.md）",
+    "/init でコードを解析して最初の CLAUDE.md を自動作成",
+    "1ファイル200行以内が目安。@パス で別ファイルを読み込める",
+    "特定のファイルだけのルールは .claude/rules/ に分けられる",
+    "AGENTS.md しかないリポジトリでも、そのまま読み込める",
+    "自動メモリは初期設定でオン。/memory でオン・オフや中身を確認"
+   ],
+   "url": "https://code.claude.com/docs/en/memory",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-code-permissions",
+   "cat": "guide",
+   "prod": "code",
+   "topic": "機能",
+   "order": 100,
+   "title": "権限ルールと権限モード",
+   "desc": "Claude が確認なしにしてよいこと・してはいけないことを、ルールとモードで決められます。",
+   "points": [
+    "ファイルの読み取りは確認なし、コマンド実行やファイル編集は初期設定で確認あり",
+    "/permissions でルールの一覧と追加・削除ができる",
+    "ルールは deny → ask → allow の順に判定され、deny が最優先",
+    "例：\"Bash(npm run *)\" を allow、\"Bash(git push *)\" を deny",
+    "モード：Manual（default）・acceptEdits・plan・auto・dontAsk・bypassPermissions",
+    "CLAUDE.md の指示と違い、権限ルールは Claude Code 側で強制される"
+   ],
+   "url": "https://code.claude.com/docs/en/permissions",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-code-extend",
+   "cat": "guide",
+   "prod": "code",
+   "topic": "機能",
+   "order": 110,
+   "title": "拡張機能の使い分け（スキル・サブエージェント・フック・MCP）",
+   "desc": "CLAUDE.md、スキル、サブエージェント、フック、MCP、プラグインは役割が違います。困りごとに合わせて少しずつ足していきます。",
+   "points": [
+    "CLAUDE.md：毎回守ってほしいルール（例：npm でなく pnpm を使う）",
+    "スキル：必要なときだけ読む手順や知識。/deploy のように呼び出せる",
+    "サブエージェント：別の文脈で調べものをして、要約だけ返す",
+    "フック：編集後に必ず lint など、毎回確実に実行したい処理",
+    "MCP：データベースや Slack など外部サービスとの接続",
+    "プラグイン：これらをまとめて配布・再利用する仕組み"
+   ],
+   "url": "https://code.claude.com/docs/en/features-overview",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-code-plugins",
+   "cat": "guide",
+   "prod": "code",
+   "topic": "機能",
+   "order": 120,
+   "title": "プラグインを入れる",
+   "desc": "プラグインは、スキル・エージェント・フック・MCP サーバーなどを1つにまとめたものです。マーケットプレイスから入れられます。",
+   "points": [
+    "ターミナルで /plugin を開き、Discover タブから選んで入れる",
+    "Anthropic 公式マーケットプレイスは初回起動時に自動で追加される",
+    "入れる範囲：ユーザー（全プロジェクト）・プロジェクト（チーム共有）・ローカル",
+    "プラグインのスキルは /プラグイン名:スキル名 の形で呼び出す",
+    "有効なプラグインは毎回の文脈を少し使うので、使わないものは無効化",
+    "プラグインはあなたの権限で動くので、入れる前に中身を確認"
+   ],
+   "url": "https://code.claude.com/docs/en/plugins/overview",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-api-overview",
+   "cat": "guide",
+   "prod": "api",
+   "topic": "全体像",
+   "order": 10,
+   "title": "Claude API の全体像",
+   "desc": "Claude API は https://api.anthropic.com で提供される REST API です。Anthropic から直接使うほか、各社クラウド経由でも使えます。",
+   "points": [
+    "使うには Claude Console のアカウントと API キーが必要",
+    "主な API：Messages、Message Batches、トークン数計測、Models、Files、Skills",
+    "Managed Agents 用の Agents・Sessions・Environments API はベータ",
+    "リクエストには anthropic-version ヘッダー（例：2026-10-21）が必要",
+    "直接利用は最新モデル・機能をすぐ使え、請求とサポートは Anthropic",
+    "クラウド経由（AWS・Google Cloud・Azure）は各社の請求・IAMと統合、機能の対応は提供先ごとに異なる"
+   ],
+   "url": "https://platform.claude.com/docs/en/api/overview",
+   "src": "Claude API 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-api-get-started",
+   "cat": "guide",
+   "prod": "api",
+   "topic": "はじめ方",
+   "order": 20,
+   "title": "API のはじめ方（最初の呼び出し）",
+   "desc": "Console でアカウントを作り、認証を設定して Messages API にリクエストを送ります。",
+   "points": [
+    "Claude Console でアカウント作成",
+    "認証は ant CLI でのサインイン（ant auth login、ローカル開発で推奨）か API キー",
+    "API キーは環境変数 ANTHROPIC_API_KEY に入れると SDK・CLI が読み込む",
+    "Python：pip install anthropic、TypeScript：npm install @anthropic-ai/sdk",
+    "ほかに C#・Go・Java・PHP・Ruby の公式SDKがある",
+    "POST /v1/messages に model・max_tokens・messages を送ると応答が返る"
+   ],
+   "url": "https://platform.claude.com/docs/en/get-started",
+   "src": "Claude API 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-api-models",
+   "cat": "guide",
+   "prod": "api",
+   "topic": "モデル選び",
+   "order": 30,
+   "title": "現在のモデル一覧",
+   "desc": "現行モデルは Fable 5.2・Opus 5.5・Sonnet 5.5・Haiku 5.5 の4つです。迷ったら Opus 5.5 から始めるのが公式のおすすめです。",
+   "points": [
+    "Fable 5.2（claude-fable-5-2）：高度な推論や長時間のエージェント作業向け。入力8ドル／出力40ドル（100万トークンあたり）",
+    "Opus 5.5（claude-opus-5-5）：長時間のコーディングや知的作業向け。入力4ドル／出力20ドル",
+    "Sonnet 5.5（claude-sonnet-5-5）：速さと賢さのバランス。入力2ドル／出力10ドル",
+    "Haiku 5.5（claude-haiku-5-5）：最速。分類・抽出などの大量処理向け。入力0.10ドル〜／出力0.50ドル〜",
+    "4モデルともコンテキスト100万トークン、最大出力12.8万トークン",
+    "Models API（GET /v1/models）で各モデルの上限や機能を取得できる"
+   ],
+   "url": "https://platform.claude.com/docs/en/models/overview",
+   "src": "Claude API 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-api-choosing-model",
+   "cat": "guide",
+   "prod": "api",
+   "topic": "モデル選び",
+   "order": 40,
+   "title": "モデルの選び方",
+   "desc": "性能・速さ・コストのバランスで選びます。モデルを替える前に effort（考える量）の調整も有効です。",
+   "points": [
+    "効率優先：Haiku 5.5 で作って試し、足りない部分があれば上位モデルへ",
+    "性能優先：Opus 5.5 で作り、あとで effort を下げたり軽いモデルに替えたりする",
+    "Opus 5.5 の xhigh・max でも足りない難しい課題は Fable 5.2 へ",
+    "effort の初期値は Opus 5.5・Haiku 5.5 が medium、Fable 5.2・Sonnet 5.5 が high",
+    "高速モードは最大2.5倍の出力速度（割増料金、対応モデルのみ）",
+    "判断は自分の用途のテスト（評価セット）で比べるのがいちばん大事"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/choosing-a-model",
+   "src": "Claude API 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-api-pricing",
+   "cat": "guide",
+   "prod": "api",
+   "topic": "料金",
+   "order": 50,
+   "title": "API 料金のしくみ",
+   "desc": "料金は入力・出力のトークン数で決まり、キャッシュやバッチなどで変わります。価格はすべて米ドルです。",
+   "points": [
+    "基本は 100万トークン（MTok）あたりの入力・出力単価",
+    "バッチ処理は入力・出力とも50%引き",
+    "キャッシュの読み出しは入力単価の一部（多くは10%、Opus 5.5・Sonnet 5.5 は5%）",
+    "Haiku 5.5 はプロンプトが10万トークンを超えると高い単価になる",
+    "inference_geo で米国内処理を指定すると1.1倍（4.6世代以降）",
+    "Web 検索ツールは1,000回あたり10ドル＋トークン料金",
+    "Bedrock・Google Cloud（Google管理）の価格は各クラウドが設定"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "src": "Claude API 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-api-prompt-caching",
+   "cat": "guide",
+   "prod": "api",
+   "topic": "機能",
+   "order": 60,
+   "title": "プロンプトキャッシュ",
+   "desc": "毎回同じ長いプロンプト（システムプロンプトや資料）をキャッシュして、コストと待ち時間を減らす機能です。",
+   "points": [
+    "リクエストに \"cache_control\": {\"type\": \"ephemeral\"} を付けると自動キャッシュ",
+    "有効期間は5分（初期値、使うたびに延長）か1時間（\"ttl\": \"1h\"）",
+    "書き込みは入力単価の1.25倍（5分）／2倍（1時間）、読み出しは原則0.1倍",
+    "明示的なキャッシュ区切りは1リクエストに最大4つ",
+    "ツール定義やシステムプロンプトを変えると、それ以降のキャッシュは無効",
+    "応答の cache_read_input_tokens などでヒットしたか確認できる"
+   ],
+   "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+   "src": "Claude API 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-api-batch",
+   "cat": "guide",
+   "prod": "api",
+   "topic": "機能",
+   "order": 70,
+   "title": "バッチ処理（Message Batches API）",
+   "desc": "すぐに結果がいらない大量のリクエストをまとめて送り、半額で処理できます。",
+   "points": [
+    "料金は通常の50%（入力・出力とも）",
+    "1バッチは最大10万リクエストか256MBまで",
+    "多くは1時間以内に完了。24時間で終わらない分は期限切れ",
+    "結果は作成から29日間ダウンロードできる",
+    "processing_status が ended になったら結果を取得",
+    "大量データの処理や評価の一括実行に向く"
+   ],
+   "url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing",
+   "src": "Claude API 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-api-tool-use",
+   "cat": "guide",
+   "prod": "api",
+   "topic": "機能",
+   "order": 80,
+   "title": "ツール使用（Function Calling）",
+   "desc": "Claude に関数や外部サービスを呼び出させる機能です。自分のアプリで実行するツールと、Anthropic 側で実行するツールがあります。",
+   "points": [
+    "クライアントツール：tools で定義 → Claude が tool_use を返す → 自分で実行して tool_result を返す",
+    "サーバーツール：Web検索・Web取得・コード実行などは Anthropic 側で実行される",
+    "tool_choice で「自動」「必ずツールを使う」などを指定できる",
+    "strict: true で入力がスキーマどおりになることを保証",
+    "SDK の tool runner を使えば往復処理を自動化できる",
+    "ツール定義もトークンとして課金。サーバーツールは別料金がかかる場合あり"
+   ],
+   "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview",
+   "src": "Claude API 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-api-streaming",
+   "cat": "guide",
+   "prod": "api",
+   "topic": "機能",
+   "order": 90,
+   "title": "ストリーミング",
+   "desc": "\"stream\": true を付けると、応答を少しずつ（サーバー送信イベント）受け取れます。",
+   "points": [
+    "イベントの流れ：message_start → content_block_start／delta／stop → message_delta → message_stop",
+    "文字は text_delta、ツール入力は input_json_delta で届く",
+    "途中で ping や error（例：overloaded_error）イベントが来ることがある",
+    "Python・TypeScript などの SDK にストリーミング用の関数がある",
+    "max_tokens が大きいときは、SDK がタイムアウト回避のためストリーミングを求める",
+    "最終結果だけ欲しいときは get_final_message() などでまとめて受け取れる"
+   ],
+   "url": "https://platform.claude.com/docs/en/build-with-claude/streaming",
+   "src": "Claude API 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-api-agent-sdk",
+   "cat": "guide",
+   "prod": "api",
+   "topic": "エージェント",
+   "order": 100,
+   "title": "Claude Agent SDK",
+   "desc": "Claude Code と同じツール・エージェントループ・文脈管理を、Python や TypeScript のライブラリとして使えます。",
+   "points": [
+    "自分のアプリに Claude Code のエージェントを組み込み、自分の環境で動かす",
+    "ファイル操作・コマンド実行・Web検索などの組み込みツール付き",
+    "フック、サブエージェント、MCP、権限、セッション、スキルにも対応",
+    "認証は API キー方式。他社製品で claude.ai ログインを使うことは原則不可",
+    "自分でループを書くなら Client SDK、ホストを任せるなら Managed Agents",
+    "他の言語からは claude -p をサブプロセスとして使う方法もある"
+   ],
+   "url": "https://code.claude.com/docs/en/agent-sdk/overview",
+   "src": "Claude Code 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-api-managed-agents",
+   "cat": "guide",
+   "prod": "api",
+   "topic": "エージェント",
+   "order": 110,
+   "title": "Claude Managed Agents",
+   "desc": "エージェントの実行基盤を Anthropic が用意してくれるサービスです。長時間の作業や非同期の処理に向きます。",
+   "points": [
+    "4つの要素：エージェント（モデル・指示・ツール）、環境、セッション、イベント",
+    "クラウドのサンドボックスで、Bash・ファイル操作・Web検索・MCP などを使える",
+    "自社インフラのサンドボックスで動かすこともできる",
+    "現在ベータ。リクエストに managed-agents-2026-04-01 ヘッダーが必要（SDKは自動で付与）",
+    "API アカウントなら初期設定で利用可能",
+    "Claude API・Claude Platform on AWS・Google Cloud（Anthropic管理）で使える"
+   ],
+   "url": "https://platform.claude.com/docs/en/managed-agents/overview",
+   "src": "Claude API 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "g-api-google-cloud",
+   "cat": "guide",
+   "prod": "api",
+   "topic": "提供先",
+   "order": 120,
+   "title": "Google Cloud で Claude を使う（2つの方式）",
+   "desc": "Google Cloud では、Anthropic が運用する方式と Google が運用する方式の2通りで Claude を使えます。",
+   "points": [
+    "Anthropic 管理：Claude API と同じ形式で使え、請求は Google Cloud Marketplace",
+    "Google 管理：Google Cloud の Agent Platform（Model Garden）の一部として提供",
+    "どちらも Google Cloud の認証情報を使い、料金は Google Cloud の請求書に載る",
+    "レート制限は Anthropic 管理なら Anthropic、Google 管理なら Google Cloud が管理",
+    "4.6世代以降のモデルはどちらも Claude API と同じモデルID",
+    "公式SDKは両方式に対応（GoogleCloud／Vertex のクライアント）"
+   ],
+   "url": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/overview",
+   "src": "Claude API 公式ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-claude-fable-5-2",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Fable 5.2",
+   "desc": "一般向けに提供される Claude で最も高性能なモデル。難しい推論や長時間のエージェント作業向け。",
+   "points": [
+    "長時間のエージェント作業・深いリサーチに強い",
+    "コンテキスト 100万トークン・最大出力 12.8万トークン",
+    "思考（適応型）が常にオン",
+    "高速モード（最大2.5倍）は 入力$16／出力$80"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-11-09",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude アプリ・Claude API・Amazon Bedrock・Google Cloud・Microsoft Foundry",
+   "price": "入力 $8／出力 $40（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-mythos-5-2",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Mythos 5.2",
+   "desc": "Fable 5.2 と同じ能力で、サイバー・生物分野の一部の安全制限を外したモデル。認証を受けた組織だけが使える。",
+   "points": [
+    "Cyber Verification Program などの認証プログラム参加組織のみ",
+    "コンテキスト 100万トークン・最大出力 12.8万トークン",
+    "Claude Enterprise では Claude Security から利用可"
+   ],
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "src": "Anthropic 公式",
+   "addedAt": "2026-11-14",
+   "date": "2026-11-09",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude API・Claude Security（認証済み組織のみ）",
+   "price": "入力 $8／出力 $40（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-opus-5-5",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Opus 5.5",
+   "desc": "長時間のエージェント型コーディングや知的作業向けの主力モデル。迷ったらまずこれ、と公式が推奨。",
+   "points": [
+    "自律的なコーディング・大規模リファクタリングに強い",
+    "コンテキスト 100万トークン・最大出力 12.8万トークン",
+    "思考（適応型）が常にオン、既定 effort は medium",
+    "高速モードに対応"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-22",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude アプリ・Claude API・Amazon Bedrock・Google Cloud・Microsoft Foundry",
+   "price": "入力 $4／出力 $20（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-sonnet-5-5",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Sonnet 5.5",
+   "desc": "速さと賢さのバランスが最も良いモデル。日常のコーディングや業務に向く。",
+   "points": [
+    "コード生成・データ分析・ツール利用に向く",
+    "コンテキスト 100万トークン・最大出力 12.8万トークン",
+    "キャッシュ読み込みは $0.10／100万トークン"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-28",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude アプリ・Claude API・Amazon Bedrock・Google Cloud・Microsoft Foundry",
+   "price": "入力 $2／出力 $10（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-haiku-5-5",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Haiku 5.5",
+   "desc": "分類・抽出・振り分けなど、大量で速さが必要な処理向けの最速・低価格モデル。",
+   "points": [
+    "現行で最も低遅延・低価格",
+    "コンテキスト 100万トークン・最大出力 12.8万トークン",
+    "適応型思考と effort に対応",
+    "プロンプトが10万トークン超だと 入力$0.50／出力$2.50"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-07",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード",
+    "軽量"
+   ],
+   "avail": "Claude アプリ・Claude API・Amazon Bedrock・Google Cloud・Microsoft Foundry",
+   "price": "入力 $0.10／出力 $0.50（100万トークンあたり。プロンプト10万トークン以下）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-fable-5-1",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Fable 5.1",
+   "desc": "Fable 5.2 の一つ前の版。コーディングと知的作業向けの最上位モデルとして公開された。",
+   "points": [
+    "コンテキスト 100万トークン・最大出力 12.8万トークン",
+    "提供終了は 2027-09-01 以降の予定"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-01",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude API",
+   "price": "入力 $10／出力 $50（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-mythos-5-1",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Mythos 5.1",
+   "desc": "Mythos 5.2 の一つ前の版。認証を受けた組織向けの限定提供モデル。",
+   "points": [
+    "認証プログラム参加組織のみ利用可",
+    "コンテキスト 100万トークン・最大出力 12.8万トークン"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-01",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude API（認証済み組織のみ）",
+   "price": "入力 $10／出力 $50（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-fable-5",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Fable 5",
+   "desc": "Fable シリーズ最初のモデル。すべての顧客に公開された。",
+   "points": [
+    "コンテキスト 100万トークン・最大出力 12.8万トークン",
+    "提供終了は 2027-06-09 以降の予定"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-06-09",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude API",
+   "price": "入力 $10／出力 $50（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-mythos-5",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Mythos 5",
+   "desc": "Mythos シリーズ最初のモデル。認証を受けた組織向けの限定提供。",
+   "points": [
+    "認証プログラム参加組織のみ利用可",
+    "コンテキスト 100万トークン・最大出力 12.8万トークン"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-06-09",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude API（認証済み組織のみ）",
+   "price": "入力 $10／出力 $50（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-opus-5",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Opus 5",
+   "desc": "Opus 5.5 の一つ前の Opus。思考が既定でオン。",
+   "points": [
+    "コンテキスト 100万トークン・最大出力 12.8万トークン",
+    "高速モード（研究プレビュー）に対応"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-07-24",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude API",
+   "price": "入力 $5／出力 $25（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-sonnet-5",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Sonnet 5",
+   "desc": "Sonnet 5.5 の一つ前の Sonnet。導入価格だった $2／$10 がそのまま標準価格になった。",
+   "points": [
+    "コンテキスト 100万トークン・最大出力 12.8万トークン",
+    "提供終了は 2027-06-30 以降の予定"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-06-30",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude API",
+   "price": "入力 $2／出力 $10（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-opus-4-8",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Opus 4.8",
+   "desc": "Claude 4 世代最後の Opus。",
+   "points": [
+    "コンテキスト 100万トークン・最大出力 12.8万トークン",
+    "高速モードは 2026-11-30 に廃止予定"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-05-28",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude API",
+   "price": "入力 $5／出力 $25（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-opus-4-7",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Opus 4.7",
+   "desc": "新しいトークナイザーを初めて採用した Opus。",
+   "points": [
+    "コンテキスト 100万トークン・最大出力 12.8万トークン",
+    "提供終了は 2027-04-16 以降の予定"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-04-16",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude API",
+   "price": "入力 $5／出力 $25（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-opus-4-6",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Opus 4.6",
+   "desc": "日付なしのモデルIDを採用した最初の世代の Opus。",
+   "points": [
+    "コンテキスト 100万トークン・最大出力 12.8万トークン",
+    "提供終了は 2027-02-05 以降の予定"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-02-05",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude API",
+   "price": "入力 $5／出力 $25（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-sonnet-4-6",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Sonnet 4.6",
+   "desc": "Claude 4.6 世代の Sonnet。",
+   "points": [
+    "コンテキスト 100万トークン・最大出力 12.8万トークン",
+    "提供終了は 2027-02-17 以降の予定"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2026-02-17",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude API",
+   "price": "入力 $3／出力 $15（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-opus-4-5",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Opus 4.5",
+   "desc": "Claude 4.5 世代の Opus。",
+   "points": [
+    "コンテキスト 20万トークン・最大出力 6.4万トークン"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2025-11-24",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude API",
+   "price": "入力 $5／出力 $25（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "m-claude-sonnet-4-5",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Sonnet 4.5",
+   "desc": "Claude 4.5 世代の Sonnet。提供終了が決まっており、Sonnet 5.5 への移行が推奨されている。",
+   "points": [
+    "コンテキスト 20万トークン・最大出力 6.4万トークン",
+    "後継の推奨は Claude Sonnet 5.5"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "src": "Claude Docs（モデルの提供終了）",
+   "addedAt": "2026-11-14",
+   "date": "2025-09-29",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Claude API",
+   "price": "入力 $3／出力 $15（100万トークンあたり）",
+   "status": "提供終了予定 2026-11-30"
+  },
+  {
+   "id": "m-claude-haiku-4-5",
+   "cat": "model",
+   "maker": "Anthropic",
+   "brand": "Claude",
+   "title": "Claude Haiku 4.5",
+   "desc": "Claude 4.5 世代の軽量・高速モデル。",
+   "points": [
+    "コンテキスト 20万トークン・最大出力 6.4万トークン"
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "Claude Docs（モデル概要）",
+   "addedAt": "2026-11-14",
+   "date": "2025-10-15",
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード",
+    "軽量"
+   ],
+   "avail": "Claude API",
+   "price": "入力 $1／出力 $5（100万トークンあたり）",
+   "status": "提供中"
+  },
+  {
+   "id": "u-2026-11-12-claude-meetings",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Claude Meetings（ベータ）：Google Meet に Claude が参加",
+   "desc": "Google Meet の通話に Claude が参加者として入り、メモ取り・質問への回答・資料作成を行う。",
+   "points": [
+    "Team・Enterprise プラン向けにベータ提供（Claude と Claude Desktop）",
+    "通話後に要約・ToDo・文字起こしをまとめたページができる",
+    "音声は保存せず、文字起こしと要約を保存",
+    "Google カレンダーの接続が必要"
+   ],
+   "url": "https://support.claude.com/en/articles/18325154-use-claude-meetings",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "u-2026-11-06-project-tags",
+   "cat": "update",
+   "prod": "claude",
+   "title": "プロジェクトにタグを付けて費用を集計（ベータ）",
+   "desc": "Enterprise で、プロジェクトに部門コードや案件番号などのタグを付け、タグごとに利用額を確認できるように。",
+   "points": [
+    "対象の Enterprise 組織向けのベータ",
+    "既存のチャージコードなどをそのままタグに使える"
+   ],
+   "url": "https://support.claude.com/en/articles/18251257-track-spend-by-project-with-tags",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14",
+   "date": "2026-11-06"
+  },
+  {
+   "id": "u-2026-11-03-text-watermark",
+   "cat": "update",
+   "prod": "api",
+   "title": "Claude の出力テキストに電子透かし",
+   "desc": "Claude Mythos 5・Opus 4.7・Sonnet 4.6 が生成したテキストに、Anthropic のテキスト透かしが入るように。",
+   "points": [
+    "対象プラットフォームはヘルプセンターの記事で案内",
+    "Sonnet 4.6 で temperature などを既定以外にすると透かしが入らない場合がある"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-11-03"
+  },
+  {
+   "id": "u-2026-10-30-opus48-fast-deprecated",
+   "cat": "update",
+   "prod": "api",
+   "title": "Opus 4.8 の高速モードが廃止へ",
+   "desc": "Claude Opus 4.8 の高速モードが非推奨になり、2026-11-30 に廃止される。",
+   "points": [
+    "廃止後は speed: \"fast\" 指定のリクエストがエラーに",
+    "高速モードを続けるなら Opus 5.5 へ移行"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-30"
+  },
+  {
+   "id": "u-2026-10-08-usage-policy",
+   "cat": "update",
+   "prod": "claude",
+   "title": "利用ポリシーを改定（11月12日発効）",
+   "desc": "Anthropic が利用ポリシーを改定。偽装・世論工作の禁止をまとめ、監視や兵器などの規定を明確にした。",
+   "points": [
+    "偽アカウントや影響工作などを禁じる項目を新設",
+    "選挙関連は有権者への欺瞞や妨害に絞って整理",
+    "ドローンなどの武装や、同意のない追跡・監視ツール作りを明記して禁止",
+    "モデルへの極端で執拗な虐待も禁止対象に"
+   ],
+   "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+   "src": "Anthropic 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-08"
+  },
+  {
+   "id": "u-2026-10-07-sonnet55-cache-price",
+   "cat": "update",
+   "prod": "api",
+   "title": "Sonnet 5.5 のキャッシュ読み込みが半額に",
+   "desc": "Claude Sonnet 5.5 のプロンプトキャッシュ読み込み料金が、100万トークンあたり $0.20 から $0.10 に下がった。",
+   "points": [
+    "基本入力価格の 0.1倍 → 0.05倍に",
+    "キャッシュ書き込みなど他の料金は据え置き"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-07"
+  },
+  {
+   "id": "u-2026-10-07-managed-agents-webfetch",
+   "cat": "update",
+   "prod": "api",
+   "title": "Managed Agents の Web 取得を安全側に制限",
+   "desc": "Claude Managed Agents の web_fetch が、会話にすでに出てきた URL しか取得しないように変わった。",
+   "points": [
+    "データ持ち出しのリスクを減らすための変更",
+    "ネットワーク制限ありの環境では allowed_hosts が web_search・web_fetch にも適用",
+    "取得させたい URL はユーザーメッセージで渡す"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-07"
+  },
+  {
+   "id": "u-2026-10-06-cyber-verification",
+   "cat": "update",
+   "prod": "api",
+   "title": "Cyber Verification Program を拡大",
+   "desc": "Project Glasswing と従来の CVP を統合し、審査を通ったセキュリティ専門家により強力なモデルを提供する3段階の制度にした。",
+   "points": [
+    "防御・レッドチーム・特別の3つのアクセス区分",
+    "各区分で Opus 5.5・Sonnet 5.5・Mythos 5.1 などを利用可",
+    "一般提供モデルはサイバー作業の多くを止める安全策を維持"
+   ],
+   "url": "https://www.anthropic.com/news/cyber-verification-program",
+   "src": "Anthropic 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-06"
+  },
+  {
+   "id": "u-2026-10-06-models-api-capabilities",
+   "cat": "update",
+   "prod": "api",
+   "title": "Models API でモデルの系統や対応機能を取得可能に",
+   "desc": "Models API の応答に、モデルの系統（line）や、思考オフ・サーバーツールへの対応状況が加わった。",
+   "points": [
+    "10/1：line フィールド（例：opus）を追加",
+    "10/5：思考を無効にできるかを示す項目を追加",
+    "10/6：Web検索・コード実行ツールへの対応を示す項目を追加"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-06"
+  },
+  {
+   "id": "u-2026-09-30-admin-api-sdk-ga",
+   "cat": "update",
+   "prod": "api",
+   "title": "Admin API が SDK と CLI で正式提供に",
+   "desc": "組織・メンバー・ワークスペース・APIキーなどを扱う Admin API が、各SDKと ant CLI で正式機能になった。",
+   "points": [
+    "8/26 に CLI と各SDKでベータ提供を開始",
+    "client.organization／ant organization で呼び出せる",
+    "Python・TypeScript・Go・Java など主要SDKが対応"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-30"
+  },
+  {
+   "id": "u-2026-09-15-salesforce",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Salesforce in Claude（ベータ）",
+   "desc": "営業担当の顧客・商談・パイプライン情報を Claude に取り込むプラグイン。",
+   "points": [
+    "37個の営業向けスキルを同梱",
+    "有料プラン全体でベータ（Salesforce の承認が必要）"
+   ],
+   "url": "https://claude.com/blog/salesforce-in-claude",
+   "src": "Claude 公式ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-15"
+  },
+  {
+   "id": "u-2026-09-10-smart-reports",
+   "cat": "update",
+   "prod": "claude",
+   "title": "Smart reports（ベータ）：チームの Claude 活用を分析",
+   "desc": "チームの Claude の使い方を分析し、完了した仕事・コスト・つまずき・共有スキル化できる繰り返し作業をレポートする。",
+   "points": [
+    "Claude Enterprise プラン向けのベータ",
+    "共有スキルにできるパターンを提案"
+   ],
+   "url": "https://support.claude.com/en/articles/16893491-get-started-with-smart-reports",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-10"
+  },
+  {
+   "id": "u-2026-09-10-managed-agents-auto",
+   "cat": "update",
+   "prod": "api",
+   "title": "Managed Agents に「auto」権限ポリシー",
+   "desc": "Claude Managed Agents のツール呼び出しを、サーバーが判断して実行・拒否・承認待ちに振り分ける auto ポリシーが追加された。",
+   "points": [
+    "判定結果はイベントの evaluation フィールドで確認",
+    "ant CLI 1.32.0 で端末からセッションに接続する sessions connect も追加"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-10"
+  },
+  {
+   "id": "u-2026-09-03-ant-apply",
+   "cat": "update",
+   "prod": "api",
+   "title": "ant CLI に「ant apply」：設定ファイルでリソース管理",
+   "desc": "エージェント・環境・スキル・メモリストアなどをリポジトリのファイルで定義し、ant apply で作成・更新できるように。",
+   "points": [
+    "ant CLI 1.30.0 で追加",
+    "実行前に計画を表示して承認",
+    "claude-lock.json をコミットすれば CI でも同じリソースを更新"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-03"
+  },
+  {
+   "id": "u-2026-08-20-python-sdk-1",
+   "cat": "update",
+   "prod": "api",
+   "title": "Python SDK 1.0 をリリース",
+   "desc": "Anthropic の Python SDK が v1.0 に。HTTP 層が httpx 互換の httpx2 に移り、古い機能が削除された。",
+   "points": [
+    "Python 3.10 以上が必要",
+    "旧 Text Completions API や temperature などの引数を削除",
+    "移行ガイドが GitHub で公開"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-08-20"
+  },
+  {
+   "id": "u-2026-08-19-computer-browser-use",
+   "cat": "update",
+   "prod": "api",
+   "title": "Computer Use が正式提供、Browser Use ツールも登場",
+   "desc": "Computer Use ツールがベータを終えて computer_toolset_20260801 として正式提供。ブラウザ操作に特化した Browser Use ツールも公開された。",
+   "points": [
+    "1ターンで複数操作できるバッチ操作に対応、ズームが既定で有効",
+    "Browser Use はページ構造・フォーム・タブを読み取って操作",
+    "Fable 5・Opus 5・Sonnet 5・Opus 4.8 などで利用可"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-08-19"
+  },
+  {
+   "id": "u-2026-08-19-files-skills-ga",
+   "cat": "update",
+   "prod": "api",
+   "title": "Files API と Skills API が正式提供に",
+   "desc": "Files API と Agent Skills／Skills API がベータを終え、ベータヘッダーなしで使えるようになった。",
+   "points": [
+    "Files API にファイルの有効期限とページ送りを追加",
+    "Claude Enterprise 向けユーザー管理 API も正式提供に",
+    "既存のベータヘッダー付きリクエストも引き続き動作"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-08-19"
+  },
+  {
+   "id": "u-2026-08-18-playground",
+   "cat": "update",
+   "prod": "api",
+   "title": "Workbench が「playground」に刷新",
+   "desc": "Claude Console の Workbench が playground に名前を変え、Messages API のすべての引数に対応した。",
+   "points": [
+    "コード実行や Web 検索などのテンプレートを用意",
+    "実行ごとに SDK のリクエストと API の応答を表示"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-08-18"
+  },
+  {
+   "id": "u-2026-08-10-sonnet5-price",
+   "cat": "update",
+   "prod": "api",
+   "title": "Sonnet 5 の $2／$10 が標準価格に",
+   "desc": "Claude Sonnet 5 の導入価格（入力 $2／出力 $10）がそのまま標準価格になった。",
+   "points": [
+    "9月1日に予定されていた $3／$15 への値上げは中止"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-08-10"
+  },
+  {
+   "id": "u-2026-08-06-skill-scanning",
+   "cat": "update",
+   "prod": "claude",
+   "title": "スキル・プラグインの安全性スキャン（ベータ）",
+   "desc": "Enterprise プランで、外部のスキルやプラグインをアップロード・編集したときに悪意ある内容がないか自動で確認する。",
+   "points": [
+    "Enterprise プラン向けのベータ",
+    "アップロード時と編集時に自動チェック"
+   ],
+   "url": "https://support.claude.com/en/articles/15927065",
+   "src": "Anthropic ヘルプセンター",
+   "addedAt": "2026-11-14",
+   "date": "2026-08-06"
+  },
+  {
+   "id": "u-2026-08-05-inference-hooks",
+   "cat": "update",
+   "prod": "claude",
+   "title": "推論フック（ベータ）：社内のセキュリティサーバーで事前チェック",
+   "desc": "Claude Enterprise で、claude.ai・Cowork・Claude Code へのプロンプトを社内の AI セキュリティサーバーに送り、許可されてから推論するように設定できる。",
+   "points": [
+    "Claude Enterprise 向けのベータ",
+    "リクエストは署名付き、失敗時の扱いを設定可能",
+    "拒否はすべて監査用のアクティビティフィードに記録"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-08-05"
+  },
+  {
+   "id": "u-2026-08-26-compliance-sessions",
+   "cat": "update",
+   "prod": "api",
+   "title": "Compliance API でセッション記録を取得",
+   "desc": "Compliance API で Cowork や Claude Code のセッション記録を取得するエンドポイントが正式提供に。Web・モバイルの Cowork 記録なども順次対象に。",
+   "points": [
+    "8/3：Web・モバイルの Cowork セッション記録をベータで取得可能に",
+    "8/26：Cowork・Claude Code のセッション取得が正式提供",
+    "Claude Science や Microsoft 365 内のセッションもベータで対象に"
+   ],
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "src": "Claude Docs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-08-26"
+  },
+  {
+   "id": "o-2026-05-05-gpt-5-5-instant",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "ChatGPT",
+   "title": "GPT-5.5 Instant が ChatGPT の標準モデルに",
+   "date": "2026-05-05",
+   "desc": "ChatGPT の全ユーザーの標準モデルが GPT-5.3 Instant から GPT-5.5 Instant に切り替わりました。",
+   "points": [
+    "ふだんの回答の正確さ・わかりやすさ・簡潔さを改善",
+    "画像の読み取りも向上"
+   ],
+   "url": "https://openai.com/index/gpt-5-5-instant/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-05-07-gpt-realtime-2",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "OpenAI API",
+   "title": "音声モデル GPT-Realtime-2 と同時通訳モデルを公開",
+   "date": "2026-05-07",
+   "desc": "API に推論できる音声モデル GPT-Realtime-2、ライブ翻訳の GPT-Realtime-Translate、逐次文字起こしの GPT-Realtime-Whisper が加わりました。",
+   "points": [
+    "GPT-Realtime-2 はコンテキストが32Kから128Kに拡大",
+    "複数のツールを同時に呼び出しながら話せる",
+    "Translate は70以上の言語から13言語へ話す速さに合わせて翻訳"
+   ],
+   "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-05-14-codex-mobile",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "Codex",
+   "title": "Codex が ChatGPT スマホアプリから使えるように（プレビュー）",
+   "date": "2026-05-14",
+   "desc": "ChatGPT の iOS／Android アプリから、接続した Mac で動いている Codex の作業を見守ったり指示したりできるようになりました。",
+   "points": [
+    "Free と Go を含む全プランで順次提供（対応地域）",
+    "外出先から作業の進み具合を確認・軌道修正できる"
+   ],
+   "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+   "src": "ChatGPT リリースノート",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-05-15-personal-finance",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "ChatGPT",
+   "title": "ChatGPT に家計管理機能（米国 Pro 向け）",
+   "date": "2026-05-15",
+   "desc": "米国の Pro ユーザーが Plaid 経由で金融口座をつなぎ、支出・請求・サブスクリプションをまとめて見られるようになりました。",
+   "points": [
+    "ChatGPT が送金したり投資助言をしたりはしない",
+    "段階的に提供"
+   ],
+   "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+   "src": "ChatGPT リリースノート",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-07-08-gpt-live",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "ChatGPT",
+   "title": "ChatGPT の音声が新モデル GPT-Live に",
+   "date": "2026-07-08",
+   "desc": "聞きながら同時に話せる全二重の音声モデル GPT-Live が ChatGPT Voice に搭載されました。難しい質問は裏で上位モデルに任せます。",
+   "points": [
+    "Free を含む個人向けプランで Web・iOS・Android に提供開始",
+    "従来の Advanced／Standard 音声は 2026-12-11 に終了予定"
+   ],
+   "url": "https://openai.com/index/introducing-gpt-live/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-07-09-gpt-5-6",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "GPT",
+   "title": "GPT-5.6（Sol・Terra・Luna）を一般提供",
+   "date": "2026-07-09",
+   "desc": "6月の限定プレビューを経て、上位の Sol、バランス型の Terra、軽量な Luna の3モデル構成で GPT-5.6 が ChatGPT・Codex・API に登場しました。",
+   "points": [
+    "推論の強さに新たに「max」を追加",
+    "Sol はコーディング・科学・サイバーセキュリティに強い上位モデル"
+   ],
+   "url": "https://openai.com/index/gpt-5-6/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-07-28-gpt-transcribe",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "OpenAI API",
+   "title": "文字起こしモデル GPT-Transcribe と GPT-Live-Transcribe",
+   "date": "2026-07-28",
+   "desc": "音声ファイル向けの高精度な GPT-Transcribe と、リアルタイム向けで遅延の少ない GPT-Live-Transcribe が API に加わりました。",
+   "points": [
+    "GPT-Transcribe は1分あたり $0.0045",
+    "whisper-1 や gpt-4o-transcribe は 2027-02-26 に提供終了予定"
+   ],
+   "url": "https://developers.openai.com/api/docs/changelog",
+   "src": "OpenAI API Changelog",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-07-30-api-price-cut",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "OpenAI API",
+   "title": "GPT-5.6 Luna を80%値下げ、Terra も20%値下げ",
+   "date": "2026-07-30",
+   "desc": "API で GPT-5.6 Luna の料金が80%、GPT-5.6 Terra が20%引き下げられました。",
+   "points": [
+    "優先処理（Priority Processing）は「Fast モード」に置き換え",
+    "8月21日には GPT-5.6 Sol も値下げ"
+   ],
+   "url": "https://developers.openai.com/api/docs/changelog",
+   "src": "OpenAI API Changelog",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-08-07-daybreak",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "OpenAI Daybreak",
+   "title": "セキュリティ向けの Daybreak と GPT-5.6 Cyber",
+   "date": "2026-08-07",
+   "desc": "防御側のセキュリティ担当者向けに、利用者を確認したうえで使える Daybreak Blue／Red と、脆弱性調査用の GPT-5.6 Cyber が始まりました。",
+   "points": [
+    "Blue は GPT-5.6 Sol ベースで多くの防御担当者向け",
+    "GPT-5.6 Cyber は Daybreak Red で個別承認を得た組織が利用"
+   ],
+   "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-08-26-assistants-api-end",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "OpenAI API",
+   "title": "Assistants API が提供終了",
+   "date": "2026-08-26",
+   "desc": "以前から予告されていた Assistants API がこの日に終了しました。",
+   "points": [
+    "同日、旧来の文字起こしモデル（whisper-1 など）の終了予定日 2027-02-26 も告知"
+   ],
+   "url": "https://developers.openai.com/api/docs/changelog",
+   "src": "OpenAI API Changelog",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-09-03-gpt-6-astra",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "GPT",
+   "title": "最上位モデル GPT-6 Astra を発表",
+   "date": "2026-09-03",
+   "desc": "OpenAI が「もっとも賢く、もっとも整合性の高いモデル」とする GPT-6 Astra を発表し、ChatGPT・Codex・API で段階的に提供を始めました。",
+   "points": [
+    "PC操作・コーディング・サイバーセキュリティ・科学に強い",
+    "同社の安全基準でサイバー能力が初めて「Critical」水準に",
+    "API は入力 $10／出力 $50（100万トークンあたり）"
+   ],
+   "url": "https://openai.com/index/gpt-6-astra/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-09-10-gpt-live-api",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "OpenAI API",
+   "title": "音声モデル GPT-Live-1 が API で一般提供",
+   "date": "2026-09-10",
+   "desc": "ChatGPT の音声で使われている GPT-Live-1 が API でも使えるようになりました。",
+   "points": [
+    "音声セッションは1分 $0.05（秒単位の課金）",
+    "同日に Agents API のパブリックベータも開始"
+   ],
+   "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-09-22-gpt-6-sol-luna",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "GPT",
+   "title": "GPT-6 Sol と GPT-6 Luna を公開",
+   "date": "2026-09-22",
+   "desc": "GPT-6 Astra より手ごろな GPT-6 Sol と、軽量な GPT-6 Luna が API・Codex・ChatGPT に登場しました。",
+   "points": [
+    "ChatGPT では Work と Codex で Plus・Pro・Business・Enterprise・Edu 向けに提供",
+    "Luna は API で入力 $0.10／出力 $0.50（100万トークンあたり）"
+   ],
+   "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-09-24-sora-api-end",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "Sora",
+   "title": "Sora 2 の API（Videos API）が終了日に",
+   "date": "2026-09-24",
+   "desc": "Sora のアプリと Web は4月26日に終了しており、sora-2 系モデルと Videos API もこの日が提供終了日とされていました。",
+   "points": [
+    "後継モデルは案内されていない",
+    "作成済みの動画は終了ページから書き出し可能と案内"
+   ],
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "src": "OpenAI API ドキュメント（非推奨一覧）",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-09-29-pro-500",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "ChatGPT",
+   "title": "月額500ドルの新プラン「Pro 500」",
+   "date": "2026-09-29",
+   "desc": "ChatGPT Pro に、いちばん多く使える月額500ドルの Pro 500 が加わりました。",
+   "points": [
+    "高速版の GPT-6 Astra Ultrafast と GPT-6.1 Sol Ultrafast は Pro 500 だけ",
+    "既存の Pro 200 は月額200ドルのまま（予告していた利用枠の縮小は撤回）"
+   ],
+   "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+   "src": "OpenAI ヘルプセンター",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-10-07-intelligent-ui",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "ChatGPT",
+   "title": "ChatGPT に GPT-6 と「Intelligent UI」",
+   "date": "2026-10-07",
+   "desc": "ChatGPT が答えに合わせて操作できる画面（インタラクティブなUI）をその場で作って返す Intelligent UI が、GPT-6 とともに提供され始めました。",
+   "points": [
+    "有料プランは GPT-6 Sol、Free と Go は GPT-6 Luna で動くと発表",
+    "Web と更新済みアプリで利用可能"
+   ],
+   "url": "https://openai.com/index/gpt-6-for-everyone/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-10-16-gpt-live-voices",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "OpenAI API",
+   "title": "GPT-Live に新しい声と、文章から声を作る機能",
+   "date": "2026-10-16",
+   "desc": "API で、文章の説明から声を作る prompt-to-voice が全顧客に開放され、GPT-Live に自然な声が9種類加わりました。",
+   "points": [
+    "ChatGPT 側でも GPT-Live-1.1 として新しい声やアクセントの改善を展開"
+   ],
+   "url": "https://developers.openai.com/api/docs/changelog",
+   "src": "OpenAI API Changelog",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-10-26-gpt-6-1-terra",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "GPT",
+   "title": "GPT-6.1 Terra：速くて安いPC操作向けモデル",
+   "date": "2026-10-26",
+   "desc": "画像の読み取りと正確なPC操作が得意で、GPT-5.6 Terra から大きく性能を上げた GPT-6.1 Terra が登場しました。",
+   "points": [
+    "API 料金は GPT-6.1 Sol の半額（入力 $1／出力 $5、100万トークンあたり）",
+    "GPT-6 Astra や GPT-6.1 Sol より3倍以上速く作業を終えると説明"
+   ],
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-10-28-api-credits",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "OpenAI API",
+   "title": "ChatGPT Pro／Business 契約者に毎月最大500ドルの API クレジット",
+   "date": "2026-10-28",
+   "desc": "条件を満たす ChatGPT Pro と Business の契約者が、毎月最大500ドル分の API クレジットを受け取れるようになりました。",
+   "points": [
+    "受け取りは申請制"
+   ],
+   "url": "https://developers.openai.com/api/docs/changelog",
+   "src": "OpenAI API Changelog",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-11-04-images-2-6",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "ChatGPT Images",
+   "title": "ChatGPT Images 2.6：GIFアニメや細かい編集",
+   "date": "2026-11-04",
+   "desc": "画像生成が 2.6 に更新され、ループするGIFアニメの作成や、描き込みで場所を指定する編集ができるようになりました。",
+   "points": [
+    "API に GPT-Image-2.6 Sunburst（精細）と Flare（高速）",
+    "SVG 出力や細かさ（complexity）の調整にも対応"
+   ],
+   "url": "https://openai.com/index/introducing-images-2-6/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-11-05-gpt-6-cyber",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "OpenAI Daybreak",
+   "title": "セキュリティ専用モデル GPT-6 Cyber",
+   "date": "2026-11-05",
+   "desc": "脆弱性の調査、許可されたテスト環境での再現、修正の確認を行うセキュリティ向けモデル GPT-6 Cyber が登場しました。",
+   "points": [
+    "まずは承認済みの Daybreak Red 顧客に API と Codex で提供",
+    "GPT-5.6 Cyber は Daybreak Red の全顧客へ拡大"
+   ],
+   "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-11-09-control-room",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "OpenAI",
+   "title": "研究中のAIを止める仕組み「Control Room」を公表",
+   "date": "2026-11-09",
+   "desc": "社内の研究基盤で動くモデルの処理を一元的に把握し、安全上の問題があればすぐ止める仕組みを公表しました。",
+   "points": [
+    "止めると判断してから35秒以内に出力を停止",
+    "Control Room が落ちたときは推論をすべて拒否する安全側の設計"
+   ],
+   "url": "https://openai.com/index/control-room/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-11-10-businesses-chatgpt",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "ChatGPT",
+   "title": "企業が ChatGPT 上の情報を管理できる「Businesses in ChatGPT」（ベータ）",
+   "date": "2026-11-10",
+   "desc": "企業が ChatGPT 上の自社情報を登録・更新し、言及数やクリック数などを確認できる仕組みがベータで始まりました。",
+   "points": [
+    "本人確認後に商品情報や価格を登録できる",
+    "米国の一部の EC・オンラインサービスは顧客対応用の Business Agent も作成可能"
+   ],
+   "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-11-13-chatgpt-wallet",
+   "cat": "other",
+   "maker": "OpenAI",
+   "brand": "ChatGPT",
+   "title": "エージェントが代わりに支払う「ChatGPT Wallet」",
+   "date": "2026-11-13",
+   "desc": "ChatGPT のエージェントが、カード番号そのものを見ずにユーザーの代わりに買い物の支払いをできる ChatGPT Wallet が始まりました。",
+   "points": [
+    "購入のたびに Face ID などの生体認証で確認",
+    "まずは米国の Pro ユーザー（対象カードのみ）に限定提供"
+   ],
+   "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gpt-6-astra",
+   "cat": "model",
+   "maker": "OpenAI",
+   "brand": "GPT",
+   "title": "GPT-6 Astra",
+   "date": "2026-09-03",
+   "desc": "OpenAI の最上位モデル。難しい推論、コーディング、PC操作、調査、文書作成など負荷の高い仕事向けです。",
+   "points": [
+    "コンテキスト 1,050,000 トークン、最大出力 128,000 トークン",
+    "推論の強さを low〜max で選べる",
+    "Web検索・ファイル検索・PC操作などのツールに対応"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "ChatGPT（有料プラン）・Codex・API",
+   "price": "入力 $10／出力 $50（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+   "src": "OpenAI API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gpt-6-1-sol",
+   "cat": "model",
+   "maker": "OpenAI",
+   "brand": "GPT",
+   "title": "GPT-6.1 Sol",
+   "date": "2026-09-29",
+   "desc": "Astra に近い性能を低い料金で使える上位モデル。複雑なコーディングやPC操作、仕事の作業向けです。",
+   "points": [
+    "コンテキスト 1,050,000 トークン、最大出力 128,000 トークン",
+    "より速い Ultrafast モードあり"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "ChatGPT（有料プランの Work）・Codex・API",
+   "price": "入力 $2／出力 $10（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+   "src": "OpenAI API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gpt-6-1-terra",
+   "cat": "model",
+   "maker": "OpenAI",
+   "brand": "GPT",
+   "title": "GPT-6.1 Terra",
+   "date": "2026-10-26",
+   "desc": "速くて効率のよい中位モデル。画像の読み取り、正確なPC操作、文章の作成や推敲が得意です。",
+   "points": [
+    "コンテキスト 1,050,000 トークン",
+    "推論なし（none）から max まで調整可能",
+    "商品写真とカタログの照合や図面の読み取りなどに向く"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力"
+   ],
+   "avail": "API",
+   "price": "入力 $1／出力 $5（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+   "src": "OpenAI API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gpt-6-luna",
+   "cat": "model",
+   "maker": "OpenAI",
+   "brand": "GPT",
+   "title": "GPT-6 Luna",
+   "date": "2026-09-22",
+   "desc": "もっとも効率のよい軽量モデル。量の多い決まった作業を安く速くこなします。",
+   "points": [
+    "コンテキスト 1,050,000 トークン、最大出力 128,000 トークン",
+    "ChatGPT では Free と Go の GPT-6 を担当と発表"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "軽量"
+   ],
+   "avail": "ChatGPT・Codex・API",
+   "price": "入力 $0.10／出力 $0.50（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+   "src": "OpenAI API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gpt-6-cyber",
+   "cat": "model",
+   "maker": "OpenAI",
+   "brand": "GPT",
+   "title": "GPT-6 Cyber",
+   "date": "2026-11-05",
+   "desc": "セキュリティ専用モデル。脆弱性の調査、許可されたテスト環境での再現、修正の確認を行います。",
+   "points": [
+    "利用には Daybreak Red での個別承認が必要",
+    "GPT-5.6 Cyber から大きく性能向上"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "コード"
+   ],
+   "avail": "API・Codex（承認済みの Daybreak Red 顧客のみ）",
+   "status": "提供中",
+   "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+   "src": "OpenAI 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gpt-image-2-6-sunburst",
+   "cat": "model",
+   "maker": "OpenAI",
+   "brand": "GPT Image",
+   "title": "GPT-Image-2.6 Sunburst",
+   "date": "2026-11-04",
+   "desc": "細部まで作り込む画像の生成・編集向けモデル。編集の正確さを重視するときに選びます。",
+   "points": [
+    "描き込み（マークアップ）で場所を指定して編集",
+    "SVG とGIFアニメで出力可能",
+    "細かさ（complexity）を調整できる"
+   ],
+   "kind": [
+    "画像生成",
+    "画像入力"
+   ],
+   "avail": "API",
+   "price": "テキスト入力 $5／画像入力 $8／画像出力 $30（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+   "src": "OpenAI API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gpt-image-2-6-flare",
+   "cat": "model",
+   "maker": "OpenAI",
+   "brand": "GPT Image",
+   "title": "GPT-Image-2.6 Flare",
+   "date": "2026-11-04",
+   "desc": "速く試行錯誤するための画像生成・編集モデル。ふだん使いの画像作りに向きます。",
+   "points": [
+    "Sunburst と同じ料金体系",
+    "GIF アニメ出力やマークアップ編集に対応"
+   ],
+   "kind": [
+    "画像生成",
+    "画像入力"
+   ],
+   "avail": "API",
+   "price": "テキスト入力 $5／画像入力 $8／画像出力 $30（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://developers.openai.com/api/docs/models",
+   "src": "OpenAI API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gpt-live-1",
+   "cat": "model",
+   "maker": "OpenAI",
+   "brand": "GPT-Live",
+   "title": "GPT-Live-1",
+   "date": "2026-07-08",
+   "desc": "聞きながら同時に話せる全二重の音声モデル。会話の割り込みに自然に対応し、難しい処理は裏のエージェントに任せます。",
+   "points": [
+    "ChatGPT の音声会話に使われている",
+    "API では専用の Live エンドポイントで利用"
+   ],
+   "kind": [
+    "音声"
+   ],
+   "avail": "ChatGPT・API",
+   "price": "$0.05／分（音声セッション。裏で使うモデルとツールは別料金）",
+   "status": "提供中",
+   "url": "https://developers.openai.com/api/docs/models/gpt-live-1",
+   "src": "OpenAI API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gpt-realtime-2-1",
+   "cat": "model",
+   "maker": "OpenAI",
+   "brand": "GPT Realtime",
+   "title": "GPT-Realtime-2.1",
+   "date": "2026-07-06",
+   "desc": "音声エージェント向けの、推論とツール利用ができる音声対話モデル。GPT-Realtime-2 の改良版です。",
+   "points": [
+    "英数字の聞き取り、無音・雑音、割り込みへの対応を改善",
+    "コンテキスト 128,000 トークン",
+    "軽量版の GPT-Realtime-2.1 mini もある"
+   ],
+   "kind": [
+    "音声",
+    "推論",
+    "画像入力"
+   ],
+   "avail": "API",
+   "price": "テキスト 入力 $4／出力 $24、音声 入力 $32／出力 $64（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://developers.openai.com/api/docs/models/gpt-realtime-2.1",
+   "src": "OpenAI API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gpt-realtime-translate",
+   "cat": "model",
+   "maker": "OpenAI",
+   "brand": "GPT Realtime",
+   "title": "GPT-Realtime-Translate",
+   "date": "2026-05-07",
+   "desc": "話した言葉をその場で別の言語の音声に訳すライブ翻訳モデルです。",
+   "points": [
+    "70以上の言語から13言語へ翻訳",
+    "話す速さに合わせて訳す"
+   ],
+   "kind": [
+    "音声"
+   ],
+   "avail": "API",
+   "price": "$0.034／分",
+   "status": "提供中",
+   "url": "https://developers.openai.com/api/docs/models",
+   "src": "OpenAI API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gpt-transcribe",
+   "cat": "model",
+   "maker": "OpenAI",
+   "brand": "GPT Transcribe",
+   "title": "GPT-Transcribe",
+   "date": "2026-07-28",
+   "desc": "高精度な文字起こしモデル。音声ファイルにも、リアルタイム会話の確定した発話にも使えます。",
+   "points": [
+    "キーワードや言語のヒントで専門用語・多言語の精度を上げられる",
+    "低遅延版の GPT-Live-Transcribe もある"
+   ],
+   "kind": [
+    "音声"
+   ],
+   "avail": "API",
+   "price": "$0.0045／分",
+   "status": "提供中",
+   "url": "https://developers.openai.com/api/docs/models/gpt-transcribe",
+   "src": "OpenAI API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-text-embedding-3-large",
+   "cat": "model",
+   "maker": "OpenAI",
+   "brand": "Embeddings",
+   "title": "text-embedding-3-large",
+   "date": "2024-01-25",
+   "desc": "文章を数値ベクトルに変える埋め込みモデル。検索や分類、類似文書探しに使います。",
+   "points": [
+    "OpenAI の埋め込みモデルで最上位",
+    "安価な text-embedding-3-small もある"
+   ],
+   "kind": [
+    "埋め込み"
+   ],
+   "avail": "API",
+   "price": "入力 $0.13（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://developers.openai.com/api/docs/models",
+   "src": "OpenAI API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gpt-oss-120b",
+   "cat": "model",
+   "maker": "OpenAI",
+   "brand": "gpt-oss",
+   "title": "gpt-oss-120b",
+   "date": "2025-08-05",
+   "desc": "OpenAI のオープンウェイトモデルで最大のもの。Apache 2.0 ライセンスで自由に使えます。",
+   "points": [
+    "総パラメータ117B（動くのは5.1B）でH100 1枚に載る",
+    "コンテキスト 131,072 トークン",
+    "推論の強さ調整・関数呼び出し・ファインチューニングに対応",
+    "軽量版の gpt-oss-20b もある"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "オープンウェイト"
+   ],
+   "avail": "Hugging Face で配布・Amazon Bedrock など",
+   "status": "提供中",
+   "url": "https://developers.openai.com/api/docs/models/gpt-oss-120b",
+   "src": "OpenAI API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-05-19-gemini-3-5-flash",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Google I/O で Gemini 3.5 Flash を公開",
+   "date": "2026-05-19",
+   "desc": "Google I/O 2026 で、エージェント作業向けの Gemini 3.5 Flash が正式提供になりました。Gemini アプリと検索の AI モードの既定モデルにもなりました。",
+   "points": [
+    "コーディングやエージェントの評価で Gemini 3.1 Pro を上回ったと発表",
+    "出力の速さは他の最先端モデルの約4倍とうたう",
+    "API・Antigravity・Gemini Enterprise で利用可能",
+    "Gemini 3.5 Pro は社内利用中で、この時点では未公開"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-05-19-gemini-omni",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "どんな入力からでも作る「Gemini Omni」を発表",
+   "date": "2026-05-19",
+   "desc": "Google DeepMind が、文章・画像・動画・音声を組み合わせて生成できる新モデル Gemini Omni を発表しました。最初は動画の生成と編集から始まります。",
+   "points": [
+    "会話しながら動画を何度も手直しでき、人物や場面の一貫性を保つ",
+    "Gemini アプリと Flow で Google AI Plus・Pro・Ultra 向けに提供",
+    "YouTube ショートでは無料で利用可能",
+    "生成動画には SynthID の透かしが入る"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-05-19-gemini-app-spark",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini アプリを刷新、24時間動くエージェント「Gemini Spark」",
+   "date": "2026-05-19",
+   "desc": "Gemini アプリが新デザインになり、朝のまとめ「Daily Brief」や、クラウド上で動き続けるエージェント Gemini Spark が発表されました。",
+   "points": [
+    "新デザインは Web・Android・iOS で全ユーザーに展開",
+    "Daily Brief は Gmail とカレンダーから優先事項をまとめる（まず米国の有料プラン）",
+    "Spark は端末を閉じていても Gmail やドキュメントで作業し、支払いなど重要な操作の前には確認する",
+    "macOS 版アプリも全ユーザーに提供"
+   ],
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-05-19-search-ai-mode",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Google 検索",
+   "title": "Google 検索の AI モードが大型アップデート",
+   "date": "2026-05-19",
+   "desc": "検索の AI モードの既定モデルが Gemini 3.5 Flash になり、画像やファイルも入れられる新しい検索ボックスが発表されました。",
+   "points": [
+    "検索ボックスは「25年以上で最大の刷新」とされ、画像・ファイル・動画・Chrome のタブを入力できる",
+    "話題を見張って知らせる「情報エージェント」は夏に Pro・Ultra 向けから",
+    "AI による概要から AI モードへ続けて質問できる"
+   ],
+   "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-05-19-google-ai-ultra-plans",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Google AI Ultra に月100ドルのプラン、従来プランは200ドルに値下げ",
+   "date": "2026-05-19",
+   "desc": "Google が有料プランを見直し、月100ドルの新しい AI Ultra を追加し、従来の AI Ultra を月250ドルから200ドルに値下げしました（米国価格）。",
+   "points": [
+    "100ドル版は Gemini アプリと Antigravity で AI Pro の5倍の利用枠",
+    "200ドル版は AI Pro の20倍の利用枠",
+    "Gemini アプリの利用上限は5時間ごとに回復し、週の上限がある方式に"
+   ],
+   "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-06-03-gemma-4-12b",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemma",
+   "title": "オープンモデル Gemma 4 に 12B を追加",
+   "date": "2026-06-03",
+   "desc": "16GB メモリのノートPCでも動くオープンモデル Gemma 4 12B が公開されました。",
+   "points": [
+    "画像と音声の入力に対応",
+    "Apache 2.0 ライセンス",
+    "Hugging Face・Kaggle で公開、Ollama や LM Studio でも使える"
+   ],
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-06-08-notebooklm-upgrade",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "NotebookLM",
+   "title": "NotebookLM がコード実行やグラフ・スライド作成に対応",
+   "date": "2026-06-08",
+   "desc": "NotebookLM が Gemini 3.5 で動くようになり、ノートごとにコードを実行できるクラウドのコンピュータが付きました。",
+   "points": [
+    "データ分析のためのコード実行に対応",
+    "グラフ、Excel、PowerPoint、PDF などで出力できる",
+    "Web 検索で資料探しから始められる",
+    "まず Google AI Ultra と一部の Workspace 契約向け"
+   ],
+   "url": "https://blog.google/innovation-and-ai/products/notebooklm/better-research-notebooklm/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-06-09-live-translate",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "70以上の言語を同時通訳する Gemini 3.5 Live Translate",
+   "date": "2026-06-09",
+   "desc": "話し手の声の調子を保ったまま、ほぼリアルタイムで音声を通訳する新しい音声モデルが発表されました。",
+   "points": [
+    "言語は自動で判別",
+    "開発者向けに Live API でプレビュー提供",
+    "Google 翻訳アプリ（Android・iOS）でも使える"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-06-30-nano-banana-2-lite",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Nano Banana",
+   "title": "安くて速い画像モデル Nano Banana 2 Lite、Gemini Omni Flash も API で",
+   "date": "2026-06-30",
+   "desc": "低価格の画像生成モデル Nano Banana 2 Lite が公開され、動画モデル Gemini Omni Flash が API でプレビュー提供されました。",
+   "points": [
+    "Nano Banana 2 Lite は 1K 画像1枚 $0.034、約4秒で生成",
+    "Omni Flash の API は動画1秒 $0.10（プレビュー時）",
+    "画像モデルは検索の AI モードや Gemini アプリにも展開"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-07-16-gemini-notebook",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini Notebook",
+   "title": "NotebookLM が「Gemini Notebook」に名前を変更",
+   "date": "2026-07-16",
+   "desc": "NotebookLM が Gemini Notebook に改名されました。単独のサービスのまま、Gemini アプリとのつながりが深くなります。",
+   "points": [
+    "ノートは Gemini アプリと同期し、アプリ内でも作成できる",
+    "ノートごとのクラウドコンピュータでコードを実行",
+    "検索の AI モードでもノートを使えるようになる予定"
+   ],
+   "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-07-21-gemini-3-6-flash",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini 3.6 Flash と 3.5 Flash-Lite を公開",
+   "date": "2026-07-21",
+   "desc": "主力モデル Gemini 3.6 Flash と、最速・低価格の Gemini 3.5 Flash-Lite が公開されました。",
+   "points": [
+    "3.6 Flash は入力 $1.50／出力 $7.50（100万トークンあたり）",
+    "3.5 Flash-Lite は入力 $0.30／出力 $2.50",
+    "サイバー防御用の 3.5 Flash Cyber は限定提供"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-08-11-gemini-1b-users",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini アプリの月間利用者が10億人を突破",
+   "date": "2026-08-11",
+   "desc": "Google は、Gemini アプリの月間利用者が10億人を超え、同社史上最も速く成長した製品だと発表しました。",
+   "points": [
+    "利用者の63%が音声で直接話しかけている",
+    "1日に1億5,000万枚以上の画像を生成",
+    "iOS のアクティブユーザーは1億人以上"
+   ],
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-08-13-gemini-3-7-flash",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini 3.7 Flash を公開、導入価格は 3.6 Flash の半額",
+   "date": "2026-08-13",
+   "desc": "3.6 Flash の約3週間後に、コーディングとエージェント向けの Gemini 3.7 Flash が公開されました。",
+   "points": [
+    "2026年末までの導入価格は入力 $0.75／出力 $3.75（100万トークンあたり）",
+    "2027年1月から入力 $1.50／出力 $7.50",
+    "Gemini Spark でも Pro・Ultra 向けに利用可能"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-09-02-gemini-3-8-flash",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini 3.8 Flash を公開",
+   "date": "2026-09-02",
+   "desc": "3.7 Flash と同じ速さと価格のまま、推論とコーディングを強化した Gemini 3.8 Flash が公開されました。",
+   "points": [
+    "導入価格は2026年末まで入力 $0.75／出力 $3.75（100万トークンあたり）",
+    "Gemini アプリ・検索の AI モード・Google スプレッドシートで Pro・Ultra 向けに提供",
+    "脆弱性対策用の 3.8 Flash Cyber は Fairwind プログラムで限定提供"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-09-04-lyria-3-5-gemini",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Lyria",
+   "title": "音楽生成 Lyria 3.5 が Gemini アプリと API に",
+   "date": "2026-09-04",
+   "desc": "音楽生成モデル Lyria 3.5 が、Gemini アプリで全ユーザー向けに、また Gemini API で開発者向けに提供されました。",
+   "points": [
+    "歌声や編曲がより豊かに",
+    "ジャンルやボーカルの有無、曲の長さ（短め・長め）を選べる",
+    "7月29日に先行して Google Flow Music で公開"
+   ],
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-09-10-gemini-windows",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Windows 版 Gemini アプリが登場",
+   "date": "2026-09-10",
+   "desc": "Windows 10・11 向けの Gemini アプリが世界で公開されました。Alt + Space でどの画面からでも呼び出せます。",
+   "points": [
+    "Gemini Spark に複数ステップの作業を任せられる",
+    "Nano Banana で画像、Gemini Omni で動画を作れる",
+    "一部機能は有料プランが必要、18歳以上"
+   ],
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-09-30-gemini-4-argon",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "次世代モデル「Gemini 4 Argon」を発表",
+   "date": "2026-09-30",
+   "desc": "Google が Gemini 4 世代の最初のモデル Gemini 4 Argon を発表しました。まずはサイバー防御の専門家に限定して提供を始めました。",
+   "points": [
+    "出力の上限が6.4万から100万トークンに拡大",
+    "導入価格は入力 $2／出力 $10（100万トークンあたり）、その後 $4／$20",
+    "10月13日に開発者・企業・Gemini アプリ（Pro・Ultra）などへ提供拡大"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-10-06-embeddinggemma-2",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemma",
+   "title": "端末内で動くマルチモーダル埋め込み EmbeddingGemma 2",
+   "date": "2026-10-06",
+   "desc": "文章・画像・音声・動画をまとめて検索できる、7.4億パラメータのオープンな埋め込みモデルが公開されました。",
+   "points": [
+    "Apache 2.0 ライセンス",
+    "768次元（128次元まで縮められる）、コンテキストは8Kトークン",
+    "Hugging Face・Kaggle で公開"
+   ],
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-10-27-genie-4",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Genie",
+   "title": "リアルタイムで動く世界を生成する「Genie 4」",
+   "date": "2026-10-27",
+   "desc": "Google DeepMind が、操作できる仮想世界をリアルタイムに生成するワールドモデル Genie 4 を発表しました。",
+   "points": [
+    "環境音や音楽、会話の音声もその場で生成",
+    "言葉でカメラや天気、登場人物を変えられる",
+    "まず一部のテスターに提供、Google AI Ultra の Project Genie に近日対応"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-10-29-jules-turndown",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Jules",
+   "title": "コーディングエージェント Jules が2026年末で終了",
+   "date": "2026-10-29",
+   "desc": "Google はコーディングエージェント Jules の提供を2026年12月31日で終えると発表しました。今後は Google Antigravity に集約します。",
+   "points": [
+    "11月11日以降は読み取り専用",
+    "セッションや設定は Jules Tools CLI で書き出せる",
+    "コードとプルリクエストは GitHub に残る"
+   ],
+   "url": "https://jules.google/docs/changelog/2026-10-29/",
+   "src": "Jules 変更履歴",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-11-05-gemini-omni-1-2-flash",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "動画モデル Gemini Omni 1.2 Flash、15秒・約3割値下げ",
+   "date": "2026-11-05",
+   "desc": "動画の生成・編集モデル Gemini Omni 1.2 Flash が公開されました。最長15秒になり、料金は 1.1 より約30%安くなりました。",
+   "points": [
+    "720p 動画は1秒 $0.07",
+    "下書きは360p・720p、仕上げは1080p・4Kに拡大",
+    "Gemini API と Google Cloud で正式提供、Google Vids や Flow でも使える"
+   ],
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-11-10-gemini-4-carbon",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "最上位モデル Gemini 4 Carbon を一般提供",
+   "date": "2026-11-10",
+   "desc": "10月28日にサイバー防御向けで先行公開した最上位モデル Gemini 4 Carbon を、開発者・企業・一般ユーザーに広げました。",
+   "points": [
+    "API（有料）と Gemini for business で利用可能、Gemini アプリと AI モードは Google AI Ultra 向け",
+    "導入価格は11月30日まで入力 $2／出力 $10、その後 $4／$20（100万トークンあたり）",
+    "Antigravity で複数エージェントを動かす /swarm をプレビュー"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-11-12-gemini-4-hydrogen",
+   "cat": "other",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "速くて安い「Gemini 4 Hydrogen」を公開",
+   "date": "2026-11-12",
+   "desc": "日常のコーディングやエージェント作業向けの高速モデル Gemini 4 Hydrogen が世界で公開されました。無料ユーザーも自動選択で使えます。",
+   "points": [
+    "入力 $1.50／出力 $7.50（100万トークンあたり、全コンテキストで同一）",
+    "入力・出力とも最大100万トークン",
+    "思考レベルは low・medium・high・xhigh の4段階",
+    "Google 検索や Google スプレッドシートの Gemini にも搭載"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gemini-4-carbon",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini 4 Carbon",
+   "date": "2026-10-28",
+   "desc": "Google でいちばん強力なモデル。長時間のエージェント作業やサイバーセキュリティ、ソフトウェア開発が得意です。",
+   "points": [
+    "コンテキスト100万トークン",
+    "複雑なコーディングや科学の推論に強い",
+    "文章・画像・音声・動画・PDF を入力できる"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Gemini アプリ（Ultra）・検索の AI モード（Ultra）・Antigravity・API",
+   "price": "入力 $2／出力 $10（100万トークンあたり、2026-11-30まで。12月1日から入力 $4／出力 $20）",
+   "status": "提供中",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gemini-4-argon",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini 4 Argon",
+   "date": "2026-09-30",
+   "desc": "Carbon より1回あたりのトークン消費が少ない、効率のよい最先端の推論モデルです。",
+   "points": [
+    "入出力あわせて100万トークン",
+    "出力は最大100万トークン",
+    "ソフトウェア開発や法務・金融などの知的作業に強い"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Gemini アプリ（Pro以上）・検索の AI モード・Antigravity・API",
+   "price": "入力 $2／出力 $10（100万トークンあたり、2026-11-30まで。12月1日から入力 $4／出力 $20）",
+   "status": "提供中",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gemini-4-hydrogen",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini 4 Hydrogen",
+   "date": "2026-11-12",
+   "desc": "日常のコーディングやエージェント作業向けの、速くて安い Gemini 4 世代のモデルです。",
+   "points": [
+    "入力・出力とも最大100万トークン",
+    "思考レベルを4段階（low〜xhigh）で選べる",
+    "文書・表計算・音声・動画を入力できる"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Gemini アプリ（無料は自動選択）・Google 検索・Antigravity・API",
+   "price": "入力 $1.50／出力 $7.50（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gemini-3-8-flash",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini 3.8 Flash",
+   "date": "2026-09-02",
+   "desc": "前世代の Flash モデル。速さと安さを保ちつつ、コーディングやエージェント作業に対応します。",
+   "points": [
+    "ソフトウェア開発や複数ステップの推論が得意",
+    "企業のワークフロー向け"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Gemini アプリ（Pro以上）・検索の AI モード・Antigravity・API",
+   "price": "入力 $0.75／出力 $3.75（100万トークンあたり、2026-12-31まで。2027年1月から入力 $1.50／出力 $7.50）",
+   "status": "提供中",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gemini-3-5-flash-lite",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini 3.5 Flash-Lite",
+   "date": "2026-07-21",
+   "desc": "3.5 世代でもっとも速く安いモデル。大量処理や低遅延の用途向けです。",
+   "points": [
+    "エージェント検索や文書処理などの大量処理",
+    "文章・画像・動画・音声を入力できる"
+   ],
+   "kind": [
+    "テキスト",
+    "画像入力",
+    "軽量"
+   ],
+   "avail": "Google 検索・Gemini Enterprise・API",
+   "price": "入力 $0.30／出力 $2.50（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gemini-3-8-live",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini 3.8 Live",
+   "date": "2026-09-15",
+   "desc": "低遅延の音声対話エージェント向けモデル。深く考える Extended Thinking 版もあります。",
+   "points": [
+    "97言語を会話の途中で切り替えられる",
+    "話しながら裏でツールを実行できる",
+    "生成音声には SynthID の透かし"
+   ],
+   "kind": [
+    "音声",
+    "推論"
+   ],
+   "avail": "Gemini Live・Search Live・API",
+   "price": "テキスト 入力 $0.75／出力 $4.50、音声 入力 $3.00／出力 $12.00（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gemini-3-8-flash-tts",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini 3.8 Flash TTS",
+   "date": "2026-09-23",
+   "desc": "文章から表現豊かな音声を作る音声合成モデル。大量処理向けの Flash-Lite TTS もあります。",
+   "points": [
+    "100以上の言語・方言",
+    "言葉の指示で新しい声を作れる",
+    "2人の掛け合いや長い音声も生成"
+   ],
+   "kind": [
+    "音声"
+   ],
+   "avail": "Gemini Notebook・Google AI Studio・API",
+   "price": "テキスト入力 $0.50／音声出力 $9.00（100万トークンあたり、2026-12-31まで。2027年1月から $1.00／$18.00）",
+   "status": "提供中",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gemini-3-5-transcribe",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini 3.5 Transcribe",
+   "date": "2026-08-26",
+   "desc": "低遅延の文字起こしモデル。リアルタイム版と録音ファイル版があります。",
+   "points": [
+    "85以上の言語を自動判別",
+    "話者の区別と単語ごとのタイムスタンプ",
+    "専門用語を登録できる"
+   ],
+   "kind": [
+    "音声"
+   ],
+   "avail": "Gemini アプリ（macOS）・API",
+   "price": "音声入力 $2.00／テキスト出力 $12.00（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-nano-banana-2-1",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Nano Banana",
+   "title": "Nano Banana 2.1",
+   "date": "2026-10-06",
+   "desc": "画像の生成と編集のモデル。品質と、やり取りを重ねたときの一貫性が上がりました。",
+   "points": [
+    "最大4K画像を出力",
+    "ポスターや図の文字をきれいに描ける",
+    "複数の人物の一貫性を保つ"
+   ],
+   "kind": [
+    "画像生成",
+    "画像入力"
+   ],
+   "avail": "Gemini アプリ・検索の AI モード・Flow・API",
+   "price": "1K画像 $0.0336、2K画像 $0.0504、4K画像 $0.113（1枚あたり）",
+   "status": "提供中",
+   "url": "https://deepmind.google/models/model-cards/nano-banana-2-1/",
+   "src": "Google DeepMind",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-nano-banana-2-lite",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Nano Banana",
+   "title": "Nano Banana 2 Lite",
+   "date": "2026-06-30",
+   "desc": "いちばん速く安い画像生成モデルです。",
+   "points": [
+    "文章から約4秒で画像を生成",
+    "大量の画像生成に向く"
+   ],
+   "kind": [
+    "画像生成",
+    "軽量"
+   ],
+   "avail": "Gemini アプリ・検索の AI モード・API",
+   "price": "1K画像 $0.034（1枚あたり）",
+   "status": "提供中",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gemini-omni-1-2-flash",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini Omni 1.2 Flash",
+   "date": "2026-11-05",
+   "desc": "音声付きの動画を生成・編集するモデル。最長15秒の動画を作れます。",
+   "points": [
+    "3〜15秒を1秒単位で指定",
+    "1080p・4K へのアップスケール",
+    "会話しながら動画を編集できる"
+   ],
+   "kind": [
+    "動画生成",
+    "音声"
+   ],
+   "avail": "Gemini アプリ（Ultra）・Flow・Google Vids・API",
+   "price": "720p 動画 1秒あたり約 $0.07",
+   "status": "提供中",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-lyria-3-5",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Lyria",
+   "title": "Lyria 3.5",
+   "date": "2026-07-29",
+   "desc": "フルサイズの曲を作れる音楽生成モデルです。",
+   "points": [
+    "歌詞と歌声の表現力が向上",
+    "テンポや長さを指定しやすい",
+    "テキストや画像から曲を作れる"
+   ],
+   "kind": [
+    "音楽生成"
+   ],
+   "avail": "Gemini アプリ・Flow Music・Google Vids・API",
+   "price": "1曲あたり $0.08",
+   "status": "提供中",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gemma-4",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Gemma",
+   "title": "Gemma 4",
+   "date": "2026-04-02",
+   "desc": "Google のオープンモデル。E2B・E4B・12B・26B（MoE）・31B のサイズがあります。",
+   "points": [
+    "Apache 2.0 ライセンスで商用利用しやすい",
+    "コンテキストは E2B・E4B が128K、26B・31B が最大256Kトークン",
+    "画像・動画を入力でき、小型モデルは音声も",
+    "12B は16GB メモリのノートPCで動く"
+   ],
+   "kind": [
+    "テキスト",
+    "画像入力",
+    "オープンウェイト",
+    "軽量"
+   ],
+   "avail": "Hugging Face・Kaggle・Ollama・Google AI Studio・Vertex AI",
+   "status": "提供中",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-gemini-embedding-2",
+   "cat": "model",
+   "maker": "Google",
+   "brand": "Gemini",
+   "title": "Gemini Embedding 2",
+   "date": "2026-04-22",
+   "desc": "文章・画像・動画・音声・PDF を同じ空間でベクトル化できるマルチモーダル埋め込みモデルです。",
+   "points": [
+    "複数の種類のデータをまとめて検索できる",
+    "100以上の言語に対応",
+    "RAG や分類に使える"
+   ],
+   "kind": [
+    "埋め込み"
+   ],
+   "avail": "API・Gemini Enterprise Agent Platform",
+   "price": "テキスト入力 $0.20（100万トークンあたり）。画像・音声・動画は別料金",
+   "status": "提供中",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2-generally-available/",
+   "src": "Google 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-05-29-grok-build-0-1",
+   "cat": "other",
+   "maker": "xAI",
+   "brand": "Grok",
+   "title": "xAI がコーディング専用モデル「Grok Build 0.1」",
+   "desc": "ターミナル型のコーディングエージェント「Grok Build」を動かすモデル grok-build-0.1 を API で公開ベータ提供しました。",
+   "points": [
+    "エージェント型のコーディング（Web開発・デバッグ・MCP対応）向けに学習",
+    "毎秒100トークン以上の高速出力",
+    "API料金は入力 $1／出力 $2（100万トークンあたり）",
+    "OpenRouter・Vercel AI Gateway でも利用可能"
+   ],
+   "url": "https://x.ai/news/grok-build-0-1",
+   "src": "xAI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-05-29"
+  },
+  {
+   "id": "o-2026-06-16-grok-imagine-video-1-5",
+   "cat": "other",
+   "maker": "xAI",
+   "brand": "Grok",
+   "title": "動画生成「Grok Imagine Video 1.5」が正式提供",
+   "desc": "画像から動画を作る Grok Imagine Video 1.5 を API で一般提供し、アプリでは高速版の 1.5 Fast を公開しました。",
+   "points": [
+    "効果音・環境音・セリフを映像と同時に生成",
+    "動きや物理表現の一貫性が向上",
+    "1.5 Fast は6秒・720p動画を約25秒で生成",
+    "7月には文章からの動画生成や1080p出力にも対応"
+   ],
+   "url": "https://x.ai/news/grok-imagine-video-1-5",
+   "src": "xAI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-06-16"
+  },
+  {
+   "id": "o-2026-07-06-spacexai",
+   "cat": "other",
+   "maker": "xAI",
+   "brand": "Grok",
+   "title": "xAI が「SpaceXAI」に名称変更",
+   "desc": "SpaceX に買収された xAI が、ブランド名を SpaceXAI に改め、新しいロゴを公開しました。",
+   "points": [
+    "xAI は SpaceX 内の独立した会社としては活動しなくなる",
+    "X（旧Twitter）も SpaceXAI ブランドの下に入る",
+    "SpaceX のロケット関連アカウントは別に存続"
+   ],
+   "url": "https://www.engadget.com/2209300/xai-now-officially-spacexai/",
+   "src": "Engadget",
+   "addedAt": "2026-11-14",
+   "date": "2026-07-06"
+  },
+  {
+   "id": "o-2026-08-grok-bot",
+   "cat": "other",
+   "maker": "xAI",
+   "brand": "Grok",
+   "title": "常駐AIエージェント「Grok Bot」を公開",
+   "desc": "クラウド上のコンピューターで動き続け、仕事を任せられるAIチームメイト「Grok Bot」を開始しました。",
+   "points": [
+    "メッセージでやり取りし、重要な操作は承認を求める",
+    "コネクターで外部ツールと連携",
+    "定期実行（ルーチン）にも対応"
+   ],
+   "url": "https://docs.x.ai/docs/release-notes",
+   "src": "xAI ドキュメント（リリースノート）",
+   "addedAt": "2026-11-14",
+   "date": "2026-08"
+  },
+  {
+   "id": "o-2026-08-12-grok-4-6",
+   "cat": "other",
+   "maker": "xAI",
+   "brand": "Grok",
+   "title": "xAI が「Grok 4.6」を公開",
+   "desc": "Grok 4.5 を発展させた、長時間動くエージェントや調査・アプリ制作向けのモデルです。",
+   "points": [
+    "Cursor・Grok Build・API・OpenRouter などで提供",
+    "API料金は入力 $2／出力 $6（100万トークンあたり）から",
+    "2倍の料金で高速版も用意"
+   ],
+   "url": "https://x.ai/news/grok-4-6",
+   "src": "xAI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-08-12"
+  },
+  {
+   "id": "o-2026-09-21-grok-4-7",
+   "cat": "other",
+   "maker": "xAI",
+   "brand": "Grok",
+   "title": "xAI の最上位モデル「Grok 4.7」",
+   "desc": "コーディングと知的作業向けの最新フラッグシップで、Grok 4.6 と同じ料金・速度で提供されます。",
+   "points": [
+    "より大きなベースモデルと長い強化学習で性能向上",
+    "CursorBench 4.0 で 46.3%（Grok 4.6 は 40.4%）",
+    "コンテキストは50万トークン",
+    "拒否や脱獄耐性などの安全対策を強化"
+   ],
+   "url": "https://x.ai/news/grok-4-7",
+   "src": "xAI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-21"
+  },
+  {
+   "id": "o-2026-07-07-muse-image",
+   "cat": "other",
+   "maker": "Meta",
+   "brand": "Muse",
+   "title": "Meta が画像生成「Muse Image」と動画「Muse Video」プレビュー",
+   "desc": "Meta Superintelligence Labs が画像生成モデル Muse Image を公開し、音声付き動画モデル Muse Video をプレビューしました。",
+   "points": [
+    "指示に忠実な生成、正確な編集、複数画像の合成が得意",
+    "検索やコードのツールを使い、自分で出力を磨く",
+    "Meta AI アプリ・meta.ai・Instagram ストーリーズ（米国）などで提供",
+    "生成画像には見えない透かし「Content Seal」"
+   ],
+   "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+   "src": "Meta AI 公式ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-07-07"
+  },
+  {
+   "id": "o-2026-07-09-muse-spark-1-1-api",
+   "cat": "other",
+   "maker": "Meta",
+   "brand": "Muse",
+   "title": "Meta が有料API「Meta Model API」と Muse Spark 1.1",
+   "desc": "エージェント作業向けのマルチモーダル推論モデル Muse Spark 1.1 を、新しい Meta Model API の公開プレビューで提供開始しました。",
+   "points": [
+    "サブエージェントへの作業分担やコンピューター操作に対応",
+    "100万トークンのコンテキスト",
+    "Meta AI アプリの「Thinking」モードでも利用可能"
+   ],
+   "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+   "src": "Meta AI 公式ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-07-09"
+  },
+  {
+   "id": "o-2026-08-10-muse-glimmer",
+   "cat": "other",
+   "maker": "Meta",
+   "brand": "Muse",
+   "title": "Meta がオープンウェイトの「Muse Glimmer」を公開",
+   "desc": "ローカルで動くエージェント向けの30Bモデルを、Apache 2.0 ライセンスで重み公開しました。",
+   "points": [
+    "量子化すれば消費者向けGPU1枚の Mac や PC で動作",
+    "ツール呼び出しや失敗時の立て直しに強い",
+    "100以上の言語のデータで学習",
+    "Hugging Face で配布、Ollama・LM Studio なども対応"
+   ],
+   "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+   "src": "Meta 研究ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-08-10"
+  },
+  {
+   "id": "o-2026-09-08-muse-agent",
+   "cat": "other",
+   "maker": "Meta",
+   "brand": "Muse",
+   "title": "Meta が個人向けAIエージェント「Muse」を開始",
+   "desc": "メール送信や旅行の予約などを代わりに実行するエージェント「Muse」を米国で提供開始しました。",
+   "points": [
+    "専用アプリと WhatsApp から使える",
+    "購入やメール送信など重要な操作の前に確認",
+    "会話や作業データは広告には使わないと説明",
+    "多くの機能は無料、上位はサブスクリプション"
+   ],
+   "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+   "src": "Meta 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-08"
+  },
+  {
+   "id": "o-2026-10-15-muse-spark-open",
+   "cat": "other",
+   "maker": "Meta",
+   "brand": "Muse",
+   "title": "Meta が「Muse Spark Open」の重みを公開",
+   "desc": "総パラメーター8160億（アクティブ420億）のモデルを、独自の Muse Model License で公開しました。",
+   "points": [
+    "コーディングや長時間のエージェント作業向け",
+    "コンテキストは100万トークン",
+    "Hugging Face のほか SageMaker・Google Cloud・Microsoft Foundry でも入手可",
+    "オープンウェイト向けに追加の安全対策を実施"
+   ],
+   "url": "https://research.meta.ai/blog/muse-spark-open",
+   "src": "Meta 研究ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-15"
+  },
+  {
+   "id": "o-2026-11-09-muse-ember",
+   "cat": "other",
+   "maker": "Meta",
+   "brand": "Muse",
+   "title": "Meta が最小・低価格の「Muse Ember」",
+   "desc": "ツール呼び出しやデータ抽出など、エージェントの大量の下請け作業向けの小型モデルです。",
+   "points": [
+    "文字・画像・音声・動画を理解",
+    "API料金は入力 $0.10／出力 $0.50（100万トークンあたり、20万トークンまで）",
+    "Muse Code と Meta Model API で提供"
+   ],
+   "url": "https://research.meta.ai/blog/muse-ember",
+   "src": "Meta 研究ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-11-09"
+  },
+  {
+   "id": "o-2026-06-02-mai-seven-models",
+   "cat": "other",
+   "maker": "Microsoft",
+   "brand": "MAI",
+   "title": "Microsoft が自社開発の MAI モデル7種を発表",
+   "desc": "Build 2026 で、初の推論フラッグシップ MAI Thinking 1 など7つの自社モデルを発表しました。",
+   "points": [
+    "MAI Thinking 1（推論）、MAI Code 1 Flash（コーディング）を含む",
+    "画像の MAI Image 2.5、音声の MAI Voice 2、文字起こしの MAI Transcribe-1.5 も",
+    "Microsoft Foundry や OpenRouter などで提供"
+   ],
+   "url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+   "src": "Microsoft AI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-06-02"
+  },
+  {
+   "id": "o-2026-06-16-copilot-cowork-ga",
+   "cat": "other",
+   "maker": "Microsoft",
+   "brand": "Copilot",
+   "title": "「Copilot Cowork」が一般提供開始",
+   "desc": "複数のツールにまたがる長い作業を最後まで実行する Microsoft 365 Copilot のエージェント機能が、世界で一般提供になりました。",
+   "points": [
+    "クラウドで動くので PC を閉じても作業が続く",
+    "Microsoft 365 Copilot ライセンスに加え、使った分を Copilot Credits で課金",
+    "既定はオフで、管理者が有効化"
+   ],
+   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+   "src": "Microsoft Copilot 公式ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-06-16"
+  },
+  {
+   "id": "o-2026-09-03-mai-transcribe-2",
+   "cat": "other",
+   "maker": "Microsoft",
+   "brand": "MAI",
+   "title": "文字起こしモデル「MAI Transcribe 2」",
+   "desc": "60言語に対応し、話者の区別や単語ごとのタイムスタンプも出せる音声認識モデルです。",
+   "points": [
+    "言語の自動判別や、言語が混ざった会話にも対応",
+    "年末までの期間限定価格は音声1時間 $0.10",
+    "Microsoft Foundry・MAI Playground・OpenRouter で試せる"
+   ],
+   "url": "https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/",
+   "src": "Microsoft AI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-03"
+  },
+  {
+   "id": "o-2026-09-25-new-copilot",
+   "cat": "other",
+   "maker": "Microsoft",
+   "brand": "Copilot",
+   "title": "新しい Copilot：Home・Code・Autopilot",
+   "desc": "Microsoft 365 Copilot に、入口となる Home、アプリを作る Code、常駐エージェント Autopilot が加わりました。",
+   "points": [
+    "Word・Excel・PowerPoint を Copilot 内で直接作成・編集",
+    "Code は説明するだけでアプリやダッシュボードを作成",
+    "Autopilot（旧 Scout）は指示なしで定型業務を進める",
+    "まず Frontier プログラムやプレビューから順次展開"
+   ],
+   "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+   "src": "Microsoft 公式ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-25"
+  },
+  {
+   "id": "o-2026-10-15-mai-base-2",
+   "cat": "other",
+   "maker": "Microsoft",
+   "brand": "MAI",
+   "title": "Microsoft が大型基盤モデル「MAI-Base-2」の事前学習を完了",
+   "desc": "総パラメーター2.8兆（アクティブ800億）の MoE モデルで、現在は事後学習中です。",
+   "points": [
+    "Microsoft は、試したどのオープンウェイトモデルよりも高性能だと説明",
+    "将来、信頼できるパートナーに Foundry 経由で重みをライセンス予定",
+    "公開日は未定"
+   ],
+   "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
+   "src": "Microsoft AI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-15"
+  },
+  {
+   "id": "o-2026-10-27-mai-image-2-7",
+   "cat": "other",
+   "maker": "Microsoft",
+   "brand": "MAI",
+   "title": "画像編集モデル「MAI Image 2.7」をプレビュー公開",
+   "desc": "画風変更やライティング変更、画像内の文字の書き換えなど、難しい編集に強くなった画像モデルです。",
+   "points": [
+    "まず編集機能から提供し、文章からの画像生成は近日対応",
+    "Arena の画像編集ランキングで3位",
+    "MAI Playground などでプレビュー利用可能"
+   ],
+   "url": "https://microsoft.ai/news/mai-image-2-7-debut/",
+   "src": "Microsoft AI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "o-2026-06-08-siri-ai",
+   "cat": "other",
+   "maker": "Apple",
+   "brand": "Siri",
+   "title": "Apple が WWDC26 で「Siri AI」を発表",
+   "desc": "作り直した会話型の Siri と、次世代 Apple Intelligence を発表しました。",
+   "points": [
+    "Web の知識での回答、メールや写真など個人データの検索、画面の内容の理解に対応",
+    "会話履歴を残せる専用の Siri アプリ",
+    "次世代 Apple Foundation Models は Google の Gemini と協力して開発",
+    "Private Cloud Compute でプライバシーを保護"
+   ],
+   "url": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+   "src": "Apple Newsroom",
+   "addedAt": "2026-11-14",
+   "date": "2026-06-08"
+  },
+  {
+   "id": "o-2026-09-14-ios-27-siri-ai",
+   "cat": "other",
+   "maker": "Apple",
+   "brand": "Siri",
+   "title": "iOS 27 配信、Siri AI がベータで利用可能に",
+   "desc": "iOS 27 などの新OSとともに、Siri AI の英語ベータ版が提供開始されました。",
+   "points": [
+    "対応機種は iPhone 16 以降と iPhone 15 Pro／Pro Max など",
+    "EU の iOS・iPadOS・watchOS と中国では当初使えない",
+    "Siri AI などサーバー側の機能には1日の利用上限あり"
+   ],
+   "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+   "src": "Apple Newsroom",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-14"
+  },
+  {
+   "id": "o-2026-10-26-ios-27-2-siri-ai-japanese",
+   "cat": "other",
+   "maker": "Apple",
+   "brand": "Siri",
+   "title": "iOS 27.2 で Siri AI が日本語に対応",
+   "desc": "iOS 27.2 で、Siri AI がフランス語・日本語・韓国語・ポルトガル語・スペイン語に対応しました。",
+   "points": [
+    "過去の会話を覚えて答えに使えるように",
+    "メッセージの添付写真や留守番電話、Safari の履歴なども参照",
+    "EU と中国本土では利用不可"
+   ],
+   "url": "https://www.macrumors.com/2026/10/26/apple-releases-ios-27-2/",
+   "src": "MacRumors",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-26"
+  },
+  {
+   "id": "o-2026-07-28-nova-refocus",
+   "cat": "other",
+   "maker": "Amazon",
+   "brand": "Nova",
+   "title": "Amazon が Nova モデルの一部を縮小",
+   "desc": "Business Insider の報道によると、Amazon は一部の Nova モデルの開発を縮小し、新しいフロンティアモデルの開発に集中します。",
+   "points": [
+    "Amazon Bedrock での提供終了日は Nova Premier が9月14日、Nova Canvas と Nova Reel が9月30日",
+    "Nova 2 Lite・Nova 2 Sonic・Nova Forge・Nova Act は継続"
+   ],
+   "url": "https://www.eweek.com/news/amazon-nova-ai-overhaul/",
+   "src": "eWeek",
+   "addedAt": "2026-11-14",
+   "date": "2026-07-28"
+  },
+  {
+   "id": "o-2026-10-05-nova-2-5-sonic",
+   "cat": "other",
+   "maker": "Amazon",
+   "brand": "Nova",
+   "title": "音声対話モデル「Nova 2.5 Sonic」が Bedrock で提供開始",
+   "desc": "リアルタイムの音声エージェント向けの音声対話モデルで、Nova 2 Sonic より推論やツール呼び出しが向上しました。",
+   "points": [
+    "遅延が小さく、応答も簡潔に",
+    "会話を続けながら裏でツールを実行できる",
+    "東京リージョンでも利用可能"
+   ],
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-5-sonic.html",
+   "src": "Amazon Bedrock ドキュメント",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "o-2026-10-29-alexa-plus-japan",
+   "cat": "other",
+   "maker": "Amazon",
+   "brand": "Alexa+",
+   "title": "「Alexa+」が日本で提供開始",
+   "desc": "生成AIで強化された Alexa+ が、日本でアーリーアクセスとして順次提供開始されました。",
+   "points": [
+    "アーリーアクセス中は対象ユーザーに無料",
+    "正式提供後はプライム会員は追加料金なし、非会員は月額3,000円",
+    "amazon.co.jp/newalexa から申し込み、招待は順次"
+   ],
+   "url": "https://www.aboutamazon.com/news/devices/alexa-plus-international-launch",
+   "src": "Amazon 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-29"
+  },
+  {
+   "id": "m-grok-4-7",
+   "cat": "model",
+   "maker": "xAI",
+   "brand": "Grok",
+   "title": "Grok 4.7",
+   "desc": "xAI の最上位モデル。コーディングと知的作業、長時間のエージェント作業に向いています。",
+   "points": [
+    "コンテキストは50万トークン",
+    "Grok 4.6 より自分の作業の検証や長い文脈の扱いが向上",
+    "2倍の料金で高速版もあり"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "コード"
+   ],
+   "avail": "Grok Build・Cursor・xAI API",
+   "price": "入力 $2.00／出力 $6.00（100万トークンあたり。20万トークン未満のプロンプト）",
+   "status": "提供中",
+   "url": "https://x.ai/news/grok-4-7",
+   "src": "xAI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-21"
+  },
+  {
+   "id": "m-grok-build-0-1",
+   "cat": "model",
+   "maker": "xAI",
+   "brand": "Grok",
+   "title": "Grok Build 0.1",
+   "desc": "エージェント型コーディング向けの高速モデル。コーディングエージェント Grok Build の中身です。",
+   "points": [
+    "Web開発・デバッグ・MCP に対応",
+    "毎秒100トークン以上の高速出力",
+    "コンテキストは25.6万トークン"
+   ],
+   "kind": [
+    "コード",
+    "軽量"
+   ],
+   "avail": "Grok Build・xAI API・OpenRouter",
+   "price": "入力 $1.00／出力 $2.00（100万トークンあたり）",
+   "status": "ベータ",
+   "url": "https://x.ai/news/grok-build-0-1",
+   "src": "xAI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-05-29"
+  },
+  {
+   "id": "m-grok-imagine-video-1-5",
+   "cat": "model",
+   "maker": "xAI",
+   "brand": "Grok",
+   "title": "Grok Imagine Video 1.5",
+   "desc": "画像や文章から音声付きの動画を作る動画生成モデルです。",
+   "points": [
+    "効果音やセリフを映像と同時に生成",
+    "文章・画像・参照素材からの生成に対応",
+    "1080p 出力に対応"
+   ],
+   "kind": [
+    "動画生成"
+   ],
+   "avail": "Grok アプリ・grok.com・xAI API",
+   "price": "$0.08／秒",
+   "status": "提供中",
+   "url": "https://x.ai/news/grok-imagine-video-1-5",
+   "src": "xAI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-06-16"
+  },
+  {
+   "id": "m-muse-wonder",
+   "cat": "model",
+   "maker": "Meta",
+   "brand": "Muse",
+   "title": "Muse Wonder",
+   "desc": "Meta の最上位クラスのモデル。エージェント作業向けで、上位版の Muse Wonder Full もあります。",
+   "points": [
+    "文字・画像・動画・音声・PDF を入力できる",
+    "コンテキストは1,048,576トークン",
+    "Muse Code でも利用可能"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Meta Model API・Muse Code",
+   "price": "入力 $4.00／出力 $20.00（100万トークンあたり）",
+   "status": "プレビュー",
+   "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+   "src": "Meta 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "m-muse-spark-1-3",
+   "cat": "model",
+   "maker": "Meta",
+   "brand": "Muse",
+   "title": "Muse Spark 1.3",
+   "desc": "Meta Model API の推奨モデル。エージェント作業とコーディングに強い中核モデルです。",
+   "points": [
+    "長く複雑な指示を最後まで守りやすい",
+    "1.2 よりツール呼び出しと使用トークンを削減",
+    "コンテキストは1,048,576トークン"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Meta Model API・Muse Code",
+   "price": "入力 $1.25／出力 $4.25（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+   "src": "Meta 研究ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-02"
+  },
+  {
+   "id": "m-muse-ember",
+   "cat": "model",
+   "maker": "Meta",
+   "brand": "Muse",
+   "title": "Muse Ember",
+   "desc": "Muse シリーズで最小・最も効率的なモデル。エージェントの大量の下請け作業向けです。",
+   "points": [
+    "ツール呼び出し・データ抽出・長い文書の読み取りが得意",
+    "画面写真からコンピューターを操作できる",
+    "コンテキストは100万トークン、出力は最大51.2万トークン"
+   ],
+   "kind": [
+    "テキスト",
+    "画像入力",
+    "コード",
+    "軽量"
+   ],
+   "avail": "Meta Model API・Muse Code",
+   "price": "入力 $0.10／出力 $0.50（100万トークンあたり。20万トークンまで）",
+   "status": "提供中",
+   "url": "https://research.meta.ai/blog/muse-ember",
+   "src": "Meta 研究ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-11-09"
+  },
+  {
+   "id": "m-muse-spark-open",
+   "cat": "model",
+   "maker": "Meta",
+   "brand": "Muse",
+   "title": "Muse Spark Open",
+   "desc": "Meta のオープンウェイトモデル。総8160億・アクティブ420億パラメーターの MoE です。",
+   "points": [
+    "コーディングや長時間のエージェント作業向け",
+    "コンテキストは100万トークン",
+    "Muse Model License で配布（商用利用に条件あり）"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "コード",
+    "オープンウェイト"
+   ],
+   "avail": "Hugging Face・Amazon SageMaker・Google Cloud・Microsoft Foundry・各種APIプロバイダー",
+   "status": "提供中",
+   "url": "https://research.meta.ai/blog/muse-spark-open",
+   "src": "Meta 研究ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-15"
+  },
+  {
+   "id": "m-muse-glimmer",
+   "cat": "model",
+   "maker": "Meta",
+   "brand": "Muse",
+   "title": "Muse Glimmer",
+   "desc": "ローカルで動くエージェント向けの30Bオープンウェイトモデルです。",
+   "points": [
+    "Apache 2.0 ライセンス",
+    "量子化すれば消費者向けGPU1枚で動作",
+    "文字と画像の入力、ツール呼び出しに対応"
+   ],
+   "kind": [
+    "テキスト",
+    "画像入力",
+    "オープンウェイト",
+    "軽量"
+   ],
+   "avail": "Hugging Face・Ollama・LM Studio・OpenRouter など",
+   "status": "提供中",
+   "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+   "src": "Meta 研究ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-08-10"
+  },
+  {
+   "id": "m-mai-thinking-1",
+   "cat": "model",
+   "maker": "Microsoft",
+   "brand": "MAI",
+   "title": "MAI Thinking 1",
+   "desc": "Microsoft が自社で開発した初の推論フラッグシップモデルです。",
+   "points": [
+    "ソフトウェア開発や数学のベンチマークで競争力",
+    "ブラインド比較で Claude Sonnet 4.6 より好まれたと Microsoft が発表"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "コード"
+   ],
+   "avail": "Microsoft Foundry",
+   "status": "プレビュー",
+   "url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+   "src": "Microsoft AI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-06-02"
+  },
+  {
+   "id": "m-mai-image-2-6",
+   "cat": "model",
+   "maker": "Microsoft",
+   "brand": "MAI",
+   "title": "MAI Image 2.6",
+   "desc": "Microsoft の画像生成・編集モデル。高速な MAI Image 2.6 Flash もあります。",
+   "points": [
+    "複数画像を参照した編集に対応",
+    "Web の情報を使った生成（Web グラウンディング）",
+    "最大1.5K解像度、縦横比も自由"
+   ],
+   "kind": [
+    "画像生成"
+   ],
+   "avail": "Microsoft Foundry・MAI Playground",
+   "status": "プレビュー",
+   "url": "https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/",
+   "src": "Microsoft AI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-04"
+  },
+  {
+   "id": "m-mai-transcribe-2",
+   "cat": "model",
+   "maker": "Microsoft",
+   "brand": "MAI",
+   "title": "MAI Transcribe 2",
+   "desc": "60言語に対応する音声認識（文字起こし）モデルです。",
+   "points": [
+    "話者の区別と単語ごとのタイムスタンプ",
+    "言語の自動判別、言語が混ざった会話にも対応",
+    "逐語／整えた文の出力スタイルを選べる"
+   ],
+   "kind": [
+    "音声"
+   ],
+   "avail": "Microsoft Foundry・MAI Playground・OpenRouter",
+   "price": "$0.10／音声1時間（年末までの期間限定価格）",
+   "status": "提供中",
+   "url": "https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/",
+   "src": "Microsoft AI 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-03"
+  },
+  {
+   "id": "m-nova-2-lite",
+   "cat": "model",
+   "maker": "Amazon",
+   "brand": "Nova",
+   "title": "Amazon Nova 2 Lite",
+   "desc": "文書処理や顧客対応など、日常的な業務向けの低コストな推論モデルです。",
+   "points": [
+    "文字・画像・動画を入力できる",
+    "コンテキストは100万トークン",
+    "推論のオン・オフと強さ（低・中・高）を設定可能"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "軽量"
+   ],
+   "avail": "Amazon Bedrock",
+   "status": "提供中",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html",
+   "src": "Amazon Bedrock ドキュメント",
+   "addedAt": "2026-11-14",
+   "date": "2025-12-02"
+  },
+  {
+   "id": "m-nova-2-5-sonic",
+   "cat": "model",
+   "maker": "Amazon",
+   "brand": "Nova",
+   "title": "Amazon Nova 2.5 Sonic",
+   "desc": "リアルタイムの音声エージェント向けの音声対話（speech-to-speech）モデルです。",
+   "points": [
+    "会話の割り込みに自然に対応",
+    "会話を続けながら裏でツールを実行",
+    "途中で言語を切り替えられる",
+    "コンテキストは25.6万トークン"
+   ],
+   "kind": [
+    "音声"
+   ],
+   "avail": "Amazon Bedrock（東京リージョンなど）",
+   "status": "提供中",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-5-sonic.html",
+   "src": "Amazon Bedrock ドキュメント",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "o-2026-05-20-command-a-plus",
+   "cat": "other",
+   "maker": "Cohere",
+   "brand": "Command",
+   "title": "Cohere が「Command A+」を公開",
+   "date": "2026-05-20",
+   "desc": "Cohere が Command A シリーズの最終モデル Command A+ を公開しました。同社初の MoE モデルで、重みも Apache 2.0 で公開されています。",
+   "points": [
+    "総パラメーター218B・アクティブ25B の MoE",
+    "画像入力・推論・翻訳・エージェント作業を1つのモデルで",
+    "48言語に対応（EUの公用語をすべて含む）",
+    "B200 1枚または H100 2枚で動かせる"
+   ],
+   "url": "https://docs.cohere.com/changelog/command-a-plus-05-2026",
+   "src": "Cohere ドキュメント（変更履歴）",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-05-22-mistral-medium-3-5",
+   "cat": "other",
+   "maker": "Mistral",
+   "brand": "Mistral Vibe",
+   "title": "Mistral Medium 3.5 と Vibe のリモートエージェント",
+   "date": "2026-05-22",
+   "desc": "Mistral が128Bの密モデル Mistral Medium 3.5 を公開し、コーディングエージェント Vibe をクラウドで並行実行できる「リモートエージェント」を追加しました。",
+   "points": [
+    "Medium 3.5 は256kトークン、重みは修正MITライセンスで公開",
+    "Vibe のセッションをクラウドの隔離環境で非同期に実行し、完了後に GitHub のプルリクエストも作成",
+    "Le Chat に複数ステップの作業を任せる「Work mode」（プレビュー）"
+   ],
+   "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
+   "src": "Mistral 公式",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-06-01-minimax-m3",
+   "cat": "other",
+   "maker": "MiniMax",
+   "brand": "MiniMax",
+   "title": "MiniMax が「MiniMax M3」を公開",
+   "date": "2026-06-01",
+   "desc": "MiniMax が、100万トークンの文脈とネイティブのマルチモーダル入力に対応した新モデル MiniMax M3 を正式公開しました。",
+   "points": [
+    "独自の疎な注意機構 MSA で長い文脈を効率化",
+    "画像・動画入力に対応し、PCの操作もできる",
+    "MiniMax Code・Token Plan・API で利用可能、重みも後日公開"
+   ],
+   "url": "https://www.minimax.io/blog/minimax-m3",
+   "src": "MiniMax 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-07-16-kimi-k3",
+   "cat": "other",
+   "maker": "Moonshot",
+   "brand": "Kimi",
+   "title": "Moonshot AI が2.8兆パラメーターの「Kimi K3」",
+   "date": "2026-07-16",
+   "desc": "Moonshot AI が、総パラメーター2.8兆の MoE モデル Kimi K3 を公開しました。7月下旬にはオープンウェイトとして重みも公開されています。",
+   "points": [
+    "100万トークンの文脈、テキストと画像を扱える",
+    "Kimi アプリ・Kimi Work・Kimi Code・API で提供",
+    "重みは独自の「Kimi K3 License」で公開"
+   ],
+   "url": "https://pureai.com/articles/2026/07/17/china-moonshot-ai-releases-kimi-k3.aspx",
+   "src": "Pure AI",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-07-31-minimax-h3",
+   "cat": "other",
+   "maker": "MiniMax",
+   "brand": "MiniMax H3",
+   "title": "MiniMax が動画生成モデル「MiniMax H3」",
+   "date": "2026-07-31",
+   "desc": "MiniMax が、テキスト・画像・動画・音声をまとめて参照できる生成モデル MiniMax H3 を発表しました。音声付きの動画を作れます。",
+   "points": [
+    "最大15秒・2K解像度の動画をステレオ音声付きで生成",
+    "カメラワークは動画、人物は画像、声は音声など組み合わせて指定できる",
+    "重みも公開する方針を表明"
+   ],
+   "url": "https://minimax.io/blog/minimax-h3",
+   "src": "MiniMax 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-08-03-qwen3-8-max",
+   "cat": "other",
+   "maker": "Alibaba",
+   "brand": "Qwen",
+   "title": "Alibaba が「Qwen3.8-Max」を公開",
+   "date": "2026-08-03",
+   "desc": "Alibaba の Qwen チームが、総パラメーター2.4兆の旗艦モデル Qwen3.8-Max を公開しました。8月には重みも Hugging Face で公開されました。",
+   "points": [
+    "Qwen 史上最高性能とうたうコーディング・エージェント向けモデル",
+    "API 版は100万トークンの文脈",
+    "公開された重み（Qwen3.8-2.4T-A95B）はテキスト専用で、独自ライセンス"
+   ],
+   "url": "https://qwen.ai/blog?id=qwen3.8",
+   "src": "Qwen 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-08-13-deepseek-v4-pro-ga",
+   "cat": "other",
+   "maker": "DeepSeek",
+   "brand": "DeepSeek",
+   "title": "DeepSeek-V4-Pro が正式提供に",
+   "date": "2026-08-13",
+   "desc": "DeepSeek が4月にプレビュー公開した DeepSeek-V4-Pro を、アプリ・Web・API で正式提供しました。あわせて料金体系も変わりました。",
+   "points": [
+    "エージェント性能を強化し、Responses API にも対応（Codex で使える）",
+    "推論の深さを low／high／max から選べる",
+    "8月16日からピーク時と、半額になるオフピーク時の2段階料金に"
+   ],
+   "url": "https://api-docs.deepseek.com/updates/",
+   "src": "DeepSeek API ドキュメント（変更履歴）",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-08-14-glm-5-3",
+   "cat": "other",
+   "maker": "Zhipu",
+   "brand": "GLM",
+   "title": "Zhipu（Z.ai）が「GLM-5.3」を公開",
+   "date": "2026-08-14",
+   "desc": "Zhipu（Z.ai）が、オープンウェイトで最強のコーディングモデルとうたう GLM-5.3 を公開しました。土台は GLM-5.2 と同じで、追加学習だけで性能を伸ばしています。",
+   "points": [
+    "GLM Coding Plan で提供し、Claude Code などのコーディングエージェントでも使える",
+    "脆弱性探しに力を入れ、269件のプロジェクトで2,436件の脆弱性を見つけたと発表",
+    "重みは安全性確認の後に公開する方針"
+   ],
+   "url": "https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/",
+   "src": "The Decoder",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-08-26-glm-5-3-flash",
+   "cat": "other",
+   "maker": "Zhipu",
+   "brand": "GLM",
+   "title": "GLM-5.3-Flash を MIT ライセンスで公開",
+   "date": "2026-08-26",
+   "desc": "Z.ai が、GLM-5 シリーズで初めてのネイティブなマルチモーダルモデル GLM-5.3-Flash を公開しました。重みは MIT ライセンスです。",
+   "points": [
+    "総パラメーター320B・アクティブ18B の MoE",
+    "画像を理解でき、エージェント作業やビジュアルコーディング向け",
+    "API 料金は入力 $0.15／出力 $0.50（100万トークンあたり）"
+   ],
+   "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+   "src": "Hugging Face（Z.ai 公式）",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-09-08-mistral-series-d",
+   "cat": "other",
+   "maker": "Mistral",
+   "brand": "Mistral AI",
+   "title": "Mistral が30億ユーロを調達",
+   "date": "2026-09-08",
+   "desc": "Mistral AI がシリーズDで30億ユーロを調達しました。欧州のテック企業として過去最大の株式による資金調達だとしています。",
+   "points": [
+    "評価額は210億ユーロ超",
+    "Samsung Electronics が主導し、EQT の Scaleup Europe Fund と PSG Equity が共同主導",
+    "研究・計算資源・インフラ・海外展開を強化"
+   ],
+   "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+   "src": "Mistral 公式",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-09-10-deepseek-v4-1-flash",
+   "cat": "other",
+   "maker": "DeepSeek",
+   "brand": "DeepSeek",
+   "title": "DeepSeek-V4.1-Flash を公開",
+   "date": "2026-09-10",
+   "desc": "DeepSeek が新世代の小型モデル DeepSeek-V4.1-Flash を公開しました。画像を理解するマルチモーダル対応で、料金も値下げされました。",
+   "points": [
+    "モデル名「deepseek-flash」で呼び出す",
+    "旧 V4 Flash と V4 Flash Vision Exp は提供を終了",
+    "10月17日に改良版 V4.1-Flash-1017 へ更新"
+   ],
+   "url": "https://api-docs.deepseek.com/updates/",
+   "src": "DeepSeek API ドキュメント（変更履歴）",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-09-30-cohere-embed-5",
+   "cat": "other",
+   "maker": "Cohere",
+   "brand": "Embed",
+   "title": "Cohere が埋め込みモデル「Embed 5」",
+   "date": "2026-09-30",
+   "desc": "Cohere が埋め込みモデルの新シリーズ Embed 5 を一般提供しました。高品質な Pro と低コストな Fast の2種類です。",
+   "points": [
+    "テキスト・画像・その組み合わせを扱え、文脈は128Kトークン",
+    "100以上の言語に対応",
+    "Cohere API・Microsoft Foundry・Amazon SageMaker で利用可能"
+   ],
+   "url": "https://cohere.com/blog/embed-5",
+   "src": "Cohere 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-10-20-voxtral-3",
+   "cat": "other",
+   "maker": "Mistral",
+   "brand": "Voxtral",
+   "title": "Mistral が音声モデル「Voxtral 3」",
+   "date": "2026-10-20",
+   "desc": "Mistral が文字起こし・音声合成の新モデル群 Voxtral 3 と、音声エージェントを作るための SDK を公開しました。",
+   "points": [
+    "文字起こしは50以上の言語、話者の区別やリアルタイム処理（500ミリ秒未満）に対応",
+    "音声合成は35以上の言語、声のクローンや感情の指定も可能",
+    "音声エージェント API は1分あたり $0.04（Mistral Small 4 使用時）"
+   ],
+   "url": "https://mistral.ai/news/voxtral-3/",
+   "src": "Mistral 公式",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-10-23-kimi-k3-1-pro",
+   "cat": "other",
+   "maker": "Moonshot",
+   "brand": "Kimi",
+   "title": "Moonshot AI が「Kimi K3.1 Pro」",
+   "date": "2026-10-23",
+   "desc": "Moonshot AI が Kimi K3 を追加学習した Kimi K3.1 Pro を API で公開しました。その後、重みも Hugging Face で公開されています。",
+   "points": [
+    "コーディング・3Dモデリング・金融リサーチを強化",
+    "K3 より事実誤り（ハルシネーション）が少ないと説明",
+    "2〜3倍速い「K3.1 Pro Highspeed」も用意"
+   ],
+   "url": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart",
+   "src": "Kimi API Platform ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-10-29-mistral-large-4-weights",
+   "cat": "other",
+   "maker": "Mistral",
+   "brand": "Mistral Large",
+   "title": "Mistral Large 4 の重みを公開",
+   "date": "2026-10-29",
+   "desc": "Mistral が、10月にプレビュー公開した Mistral Large 4（愛称 Le Chonk）の改良版を、オープンウェイトとして公開しました。",
+   "points": [
+    "強化学習でコーディング・防御的サイバーセキュリティ・推論効率を改善",
+    "API 料金は入力 $0.70／出力 $2.10（100万トークンあたり）",
+    "Hugging Face・Microsoft Foundry・NVIDIA NIM などでも利用可能"
+   ],
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "src": "Mistral 公式",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-10-30-cohere-canada",
+   "cat": "other",
+   "maker": "Cohere",
+   "brand": "Cohere",
+   "title": "Cohere がカナダに40億カナダドル超を投資",
+   "date": "2026-10-30",
+   "desc": "Cohere が、2024〜2031年にカナダで研究開発とAIインフラに40億カナダドル超を投資する計画を発表しました。",
+   "points": [
+    "2031年までにカナダの従業員を1,500人以上増やす",
+    "2029年までに有給の学生ポジションを250以上用意",
+    "トロント大学・ウォータールー大学などと連携"
+   ],
+   "url": "https://cohere.com/blog/cohere-canada-commitment",
+   "src": "Cohere 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-11-11-qwen4-max-preview",
+   "cat": "other",
+   "maker": "Alibaba",
+   "brand": "Qwen",
+   "title": "次世代「Qwen4-Max」のプレビュー開始",
+   "date": "2026-11-11",
+   "desc": "Alibaba が次世代 Qwen ファミリーの旗艦モデル Qwen4-Max のプレビュー提供を始めました。",
+   "points": [
+    "画像・動画入力と最大100万トークンの文脈に対応",
+    "Token Plan のサブスクリプションで開発者が利用可能",
+    "Qwen アプリ・Qoder・QwenWork・QwenStudio でも先行利用できる"
+   ],
+   "url": "https://technode.com/2026/11/11/alibaba-opens-qwen4-max-preview-with-a-million-token-context-window/",
+   "src": "TechNode",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-11-13-deepseek-app-apis",
+   "cat": "other",
+   "maker": "DeepSeek",
+   "brand": "DeepSeek",
+   "title": "DeepSeek API にWeb検索・ファイル入力など",
+   "date": "2026-11-13",
+   "desc": "DeepSeek が API に、Web検索・ファイル入力・URL読み取り・安全性チェックなどアプリ向けの機能一式を追加しました。",
+   "points": [
+    "検索しながら考える「深い思考検索」に対応",
+    "PDF・Office ファイル・画像を入力できる",
+    "検索、OCR、音声認識、音声合成の単体 API も提供"
+   ],
+   "url": "https://api-docs.deepseek.com/updates/",
+   "src": "DeepSeek API ドキュメント（変更履歴）",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-deepseek-v4-1-flash",
+   "cat": "model",
+   "maker": "DeepSeek",
+   "brand": "DeepSeek",
+   "title": "DeepSeek-V4.1-Flash",
+   "date": "2026-09-10",
+   "desc": "DeepSeek の軽量・高速モデル。画像を理解でき、長い文脈のコーディングやエージェント作業に向きます。",
+   "points": [
+    "文脈は100万トークン、出力は最大384K",
+    "10月17日に V4.1-Flash-1017 へ更新（API名 deepseek-flash）",
+    "オフピーク時は料金が半額",
+    "重みは MIT ライセンスで公開"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード",
+    "オープンウェイト",
+    "軽量"
+   ],
+   "avail": "DeepSeek API・Hugging Face（重み）",
+   "price": "入力 $0.30／出力 $1.20（100万トークンあたり。ピーク時、オフピーク時は半額）",
+   "status": "提供中",
+   "url": "https://api-docs.deepseek.com/quick_start/pricing",
+   "src": "DeepSeek API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-deepseek-v4-pro",
+   "cat": "model",
+   "maker": "DeepSeek",
+   "brand": "DeepSeek",
+   "title": "DeepSeek-V4-Pro",
+   "date": "2026-04-24",
+   "desc": "DeepSeek の上位モデル。総パラメーター1.6兆の MoE で、8月に正式提供になりました。",
+   "points": [
+    "文脈は100万トークン、出力は最大384K",
+    "エージェント性能を強化し、Responses API にも対応",
+    "推論の深さを low／high／max から選べる"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "コード",
+    "オープンウェイト"
+   ],
+   "avail": "DeepSeek アプリ・Web・API・Hugging Face（重み）",
+   "price": "入力 $1.32／出力 $3.96（100万トークンあたり。ピーク時、オフピーク時は半額）",
+   "status": "提供中",
+   "url": "https://api-docs.deepseek.com/quick_start/pricing",
+   "src": "DeepSeek API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-qwen3-8-max",
+   "cat": "model",
+   "maker": "Alibaba",
+   "brand": "Qwen",
+   "title": "Qwen3.8-Max",
+   "date": "2026-08-03",
+   "desc": "Alibaba の Qwen3.8 世代の旗艦モデル。総パラメーター2.4兆の MoE で、コーディングやエージェント作業に強いモデルです。",
+   "points": [
+    "API 版は100万トークンの文脈、画像入力にも対応",
+    "思考モードあり（API版は思考なしも選べる）",
+    "重みは Qwen3.8-2.4T-A95B として公開（テキスト専用・独自ライセンス）"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード",
+    "オープンウェイト"
+   ],
+   "avail": "Qwen Cloud（Alibaba Cloud）API・Hugging Face（重み）",
+   "status": "提供中",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+   "src": "Hugging Face（Qwen 公式）",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-qwen4-max-preview",
+   "cat": "model",
+   "maker": "Alibaba",
+   "brand": "Qwen",
+   "title": "Qwen4-Max-Preview",
+   "date": "2026-11-11",
+   "desc": "次世代 Qwen4 の旗艦モデルのプレビュー版。テキスト・画像・動画を扱い、深い推論もできます。",
+   "points": [
+    "画像・動画入力に対応",
+    "最大100万トークンの文脈",
+    "まだプレビューで、ベンチマークなどの詳細は未公開"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード"
+   ],
+   "avail": "Token Plan・Qwen アプリ・Qoder など",
+   "status": "プレビュー",
+   "url": "https://docs.qwencloud.com/changelog/models",
+   "src": "Qwen Cloud ドキュメント（モデル更新履歴）",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-kimi-k3-1-pro",
+   "cat": "model",
+   "maker": "Moonshot",
+   "brand": "Kimi",
+   "title": "Kimi K3.1 Pro",
+   "date": "2026-10-23",
+   "desc": "Moonshot AI の最上位モデル。Kimi K3 を追加学習したオープンウェイトのマルチモーダル・エージェント向けモデルです。",
+   "points": [
+    "総パラメーター2.8兆・アクティブ104B の MoE",
+    "文脈は100万トークン、画像入力に対応",
+    "コーディング・3Dモデリング・金融リサーチが得意",
+    "高速版 K3.1 Pro Highspeed もある"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード",
+    "オープンウェイト"
+   ],
+   "avail": "Kimi API・Hugging Face（重み）",
+   "status": "提供中",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "src": "Hugging Face（Moonshot AI 公式）",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-glm-5-3",
+   "cat": "model",
+   "maker": "Zhipu",
+   "brand": "GLM",
+   "title": "GLM-5.3",
+   "date": "2026-08-14",
+   "desc": "Z.ai（Zhipu）の旗艦モデル。コーディングとエージェント作業を重視したテキストモデルです。",
+   "points": [
+    "文脈は100万トークン、出力は最大128K",
+    "推論は常にオンで、深さを low／high／max から選べる",
+    "関数呼び出し・構造化出力・キャッシュに対応",
+    "重みは独自の GLM-5.3 ライセンスで公開"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "コード",
+    "オープンウェイト"
+   ],
+   "avail": "Z.ai API・GLM Coding Plan・Hugging Face（重み）",
+   "price": "入力 $1.4／出力 $4.4（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://docs.z.ai/guides/llm/glm-5.3",
+   "src": "Z.ai ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-glm-5-3-flash",
+   "cat": "model",
+   "maker": "Zhipu",
+   "brand": "GLM",
+   "title": "GLM-5.3-Flash",
+   "date": "2026-08-26",
+   "desc": "GLM-5 シリーズ初のネイティブなマルチモーダルモデル。安くて速く、エージェント作業やビジュアルコーディング向けです。",
+   "points": [
+    "総パラメーター320B・アクティブ18B の MoE",
+    "画像を理解できる",
+    "重みは MIT ライセンスで公開"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード",
+    "オープンウェイト",
+    "軽量"
+   ],
+   "avail": "Z.ai API・Hugging Face（重み）",
+   "price": "入力 $0.15／出力 $0.50（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+   "src": "Hugging Face（Z.ai 公式）",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-minimax-m3",
+   "cat": "model",
+   "maker": "MiniMax",
+   "brand": "MiniMax",
+   "title": "MiniMax M3",
+   "date": "2026-06-01",
+   "desc": "MiniMax の主力モデル。100万トークンの文脈とネイティブのマルチモーダル入力を備え、コーディングに強いモデルです。",
+   "points": [
+    "独自の疎な注意機構 MSA で長文脈を効率化",
+    "画像・動画入力に対応し、PC操作もできる",
+    "思考モードのオン・オフを同じ料金で切り替え",
+    "入力が512Kトークンを超えると長文脈料金"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード",
+    "オープンウェイト"
+   ],
+   "avail": "MiniMax Code・Token Plan・API・Hugging Face（重み）",
+   "price": "入力 $0.30／出力 $1.20（100万トークンあたり。入力512Kトークン以下の標準料金）",
+   "status": "提供中",
+   "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+   "src": "MiniMax API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-minimax-h3",
+   "cat": "model",
+   "maker": "MiniMax",
+   "brand": "MiniMax H3",
+   "title": "MiniMax H3",
+   "date": "2026-07-31",
+   "desc": "MiniMax の動画生成モデル。テキスト・画像・動画・音声を参照して、音声付きの動画を作れます。",
+   "points": [
+    "最大15秒・2K解像度、ステレオ音声付き",
+    "参照素材を組み合わせてカメラワークや人物・声を指定できる",
+    "高速版・軽量版・Max版もある"
+   ],
+   "kind": [
+    "動画生成",
+    "音声",
+    "オープンウェイト"
+   ],
+   "avail": "MiniMax API・Hugging Face（重み）",
+   "price": "2K 出力1秒あたり $0.13、768P 出力1秒あたり $0.08",
+   "status": "提供中",
+   "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+   "src": "MiniMax API ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-mistral-large-4",
+   "cat": "model",
+   "maker": "Mistral",
+   "brand": "Mistral Large",
+   "title": "Mistral Large 4",
+   "date": "2026-10-06",
+   "desc": "Mistral の旗艦モデル（愛称 Le Chonk）。総パラメーター1兆のマルチモーダルなオープンウェイトモデルです。",
+   "points": [
+    "コーディングと防御的サイバーセキュリティに強い",
+    "推論の深さを Low／Medium／High から選べる",
+    "重みは Mistral Ecosystem Open-Weight ライセンスで公開"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード",
+    "オープンウェイト"
+   ],
+   "avail": "Mistral Studio・API・Microsoft Foundry・Hugging Face（重み）",
+   "price": "入力 $0.70／出力 $2.10（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "src": "Mistral 公式",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-mistral-small-4",
+   "cat": "model",
+   "maker": "Mistral",
+   "brand": "Mistral Small",
+   "title": "Mistral Small 4",
+   "date": "2026-03-16",
+   "desc": "Mistral の小型モデル。指示対応・推論・コーディングを1つにまとめた MoE モデルです。",
+   "points": [
+    "総パラメーター119B・アクティブ約6B",
+    "文脈は256kトークン、画像入力に対応",
+    "推論の深さを調整できる",
+    "Apache 2.0 で重みを公開"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "コード",
+    "オープンウェイト",
+    "軽量"
+   ],
+   "avail": "Mistral API・Hugging Face（重み）",
+   "status": "提供中",
+   "url": "https://mistral.ai/news/mistral-small-4/",
+   "src": "Mistral 公式",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-voxtral-small-transcribe-3",
+   "cat": "model",
+   "maker": "Mistral",
+   "brand": "Voxtral",
+   "title": "Voxtral Small Transcribe 3",
+   "date": "2026-10-20",
+   "desc": "Mistral の Voxtral 3 シリーズの主力文字起こしモデル。話者の区別（ダイアライゼーション）もできます。",
+   "points": [
+    "50以上の言語の文字起こしに対応",
+    "専門用語を指定して認識を補正できる",
+    "同シリーズにリアルタイム文字起こしや音声合成（TTS 3）もある"
+   ],
+   "kind": [
+    "音声"
+   ],
+   "avail": "Mistral API・Mistral Studio",
+   "price": "1分あたり $0.004",
+   "status": "提供中",
+   "url": "https://mistral.ai/news/voxtral-3/",
+   "src": "Mistral 公式",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-command-a-plus",
+   "cat": "model",
+   "maker": "Cohere",
+   "brand": "Command",
+   "title": "Command A+",
+   "date": "2026-05-20",
+   "desc": "Cohere の企業向け主力モデル。画像入力・推論・翻訳・エージェント作業を1つで担う MoE モデルです。",
+   "points": [
+    "総パラメーター218B・アクティブ25B",
+    "入力128K・出力64Kトークン",
+    "48言語に対応",
+    "Apache 2.0 で重みを公開"
+   ],
+   "kind": [
+    "テキスト",
+    "推論",
+    "画像入力",
+    "オープンウェイト"
+   ],
+   "avail": "Cohere API・Hugging Face（重み）",
+   "status": "提供中",
+   "url": "https://docs.cohere.com/docs/command-a-plus",
+   "src": "Cohere ドキュメント",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-cohere-embed-5",
+   "cat": "model",
+   "maker": "Cohere",
+   "brand": "Embed",
+   "title": "Embed 5 Pro",
+   "date": "2026-09-30",
+   "desc": "Cohere の最新の埋め込みモデル。検索や RAG 向けで、高速・低コスト版の Embed 5 Fast もあります。",
+   "points": [
+    "テキスト・画像・その組み合わせを扱える",
+    "文脈は128Kトークン、100以上の言語",
+    "出力次元を256〜2048から選べる"
+   ],
+   "kind": [
+    "埋め込み",
+    "画像入力"
+   ],
+   "avail": "Cohere API・Microsoft Foundry・Amazon SageMaker",
+   "price": "テキスト $0.12／画像 $0.40（100万トークンあたり）",
+   "status": "提供中",
+   "url": "https://cohere.com/blog/embed-5",
+   "src": "Cohere 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "o-2026-05-21-runway-aleph-2",
+   "cat": "other",
+   "maker": "Runway",
+   "brand": "Aleph",
+   "title": "Runway が動画編集モデル「Aleph 2.0」と Edit Studio",
+   "desc": "既存の動画を文章や見本の1コマで編集できるモデル Aleph 2.0 と、その専用画面 Edit Studio を公開。",
+   "points": [
+    "最長30秒・1080pの動画を編集できる",
+    "指示した部分だけを変え、ほかは元のまま保つ",
+    "複数カットの動画にまとめて同じ編集を適用",
+    "有料プランならデスクトップのWebアプリで利用可"
+   ],
+   "url": "https://runway.com/news/introducing-aleph-2-and-edit-studio",
+   "src": "Runway 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-05-21"
+  },
+  {
+   "id": "o-2026-05-26-elevenlabs-music-v2",
+   "cat": "other",
+   "maker": "ElevenLabs",
+   "brand": "Eleven Music",
+   "title": "ElevenLabs が音楽生成「Music v2」",
+   "desc": "ボーカル・楽器・アレンジを改善した音楽生成モデル。1曲の中でジャンルを自然に切り替えられる。",
+   "points": [
+    "曲の一部（サビやブリッジなど）だけを作り直せる",
+    "速いラップや詰まった歌詞にも対応",
+    "ElevenMusic と ElevenCreative で提供、API は近日",
+    "Music の API 料金を最大50%値下げ"
+   ],
+   "url": "https://elevenlabs.io/blog/introducing-music-v2",
+   "src": "ElevenLabs 公式ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-05-26"
+  },
+  {
+   "id": "o-2026-06-03-suno-series-d",
+   "cat": "other",
+   "maker": "Suno",
+   "brand": "Suno",
+   "title": "Suno が4億ドル超を調達、評価額54億ドル",
+   "desc": "音楽生成AIの Suno がシリーズDで4億ドル超を調達。評価額は54億ドルに。",
+   "points": [
+    "Bond Capital が主導",
+    "資金はチーム拡大・新製品・成長に使うと説明",
+    "大手レコード会社との訴訟は継続中"
+   ],
+   "url": "https://www.musicbusinessworldwide.com/suno-raises-over-400-million-pushing-valuation-to-5-4-billion/",
+   "src": "Music Business Worldwide",
+   "addedAt": "2026-11-14",
+   "date": "2026-06-03"
+  },
+  {
+   "id": "o-2026-07-08-seedream-5-pro",
+   "cat": "other",
+   "maker": "ByteDance",
+   "brand": "Seedream",
+   "title": "ByteDance が画像生成「Seedream 5.0 Pro」",
+   "desc": "ByteDance Seed がデザイン制作向けの画像生成モデルを発表。インフォグラフィックなど情報量の多い画像も作れる。",
+   "points": [
+    "範囲選択・ラフ画からの描画・レイヤー分解など細かな編集",
+    "肌の質感や光の表現を改善",
+    "中国語・英語・アラビア語など10以上の言語で文字を描ける"
+   ],
+   "url": "https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro",
+   "src": "ByteDance Seed 公式ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-07-08"
+  },
+  {
+   "id": "o-2026-07-23-runway-media-router",
+   "cat": "other",
+   "maker": "Runway",
+   "brand": "Runway Dev",
+   "title": "Runway が生成メディア用「Media Router」",
+   "desc": "リクエストごとに最適な画像・動画・音声モデルを自動で選ぶ仕組みを、開発者向け Runway Dev で公開。",
+   "points": [
+    "費用・品質・速度の優先度や価格上限を設定できる",
+    "どのモデルを選んだか理由つきで返す",
+    "コードを変えずに新しいモデルを使える"
+   ],
+   "url": "https://runway.com/news/company-news/introducing-runway-media-router",
+   "src": "Runway 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-07-23"
+  },
+  {
+   "id": "o-2026-07-23-flux-3",
+   "cat": "other",
+   "maker": "Black Forest Labs",
+   "brand": "FLUX",
+   "title": "Black Forest Labs が「FLUX 3」を発表",
+   "desc": "画像・動画・音声をひとつのモデルで学習したマルチモーダルモデル。ロボット向けの動作予測にも使う。",
+   "points": [
+    "動画は音声つきで最長20秒",
+    "まず FLUX 3 Video を早期アクセスで提供",
+    "オープンウェイト版も今後公開予定"
+   ],
+   "url": "https://bfl.ai/blog/flux-3",
+   "src": "Black Forest Labs 公式ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-07-23"
+  },
+  {
+   "id": "o-2026-07-31-seedance-2-5",
+   "cat": "other",
+   "maker": "ByteDance",
+   "brand": "Seedance",
+   "title": "ByteDance が動画生成「Seedance 2.5」",
+   "desc": "1回で30秒の動画を作れる動画生成モデル。続きを足してさらに長くできる。",
+   "points": [
+    "画像30枚・動画10本・音声10本まで参照に使える",
+    "Jimeng AI と Doubao の Pro 版から提供開始"
+   ],
+   "url": "https://technode.com/2026/07/31/bytedance-launches-seedance-2-5-video-generation-model/",
+   "src": "TechNode",
+   "addedAt": "2026-11-14",
+   "date": "2026-07-31"
+  },
+  {
+   "id": "o-2026-07-31-gema-suno",
+   "cat": "other",
+   "maker": "Suno",
+   "brand": "Suno",
+   "title": "ドイツの裁判所が Suno の著作権侵害を認定",
+   "desc": "ミュンヘン地裁は、Suno が GEMA 管理楽曲を許可なく学習・再現したとして著作権侵害を認めた。",
+   "points": [
+    "米国で行った学習について欧州の裁判所が判断した初の例",
+    "AI事業者には適切なライセンスと対価が必要と判断",
+    "GEMA は2025年11月にも OpenAI に勝訴している"
+   ],
+   "url": "https://www.gema.de/en/w/gema-prevails-over-suno",
+   "src": "GEMA 公式",
+   "addedAt": "2026-11-14",
+   "date": "2026-07-31"
+  },
+  {
+   "id": "o-2026-08-13-suno-studio-2",
+   "cat": "other",
+   "maker": "Suno",
+   "brand": "Suno Studio",
+   "title": "Suno の制作ツール「Studio 2.0」",
+   "desc": "Suno のDAW風制作ツールを大きく刷新。MIDI 編集やシンセなどを追加した。",
+   "points": [
+    "MIDI 編集とチャット欄からの生成",
+    "エフェクト・ウェーブテーブルシンセ・オートメーション",
+    "Premier プラン限定"
+   ],
+   "url": "https://suno.com/release-notes",
+   "src": "Suno リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-08-13"
+  },
+  {
+   "id": "o-2026-08-31-runway-solaris",
+   "cat": "other",
+   "maker": "Runway",
+   "brand": "Solaris",
+   "title": "Runway が画面そのものを生成する「Solaris」",
+   "desc": "アプリの画面をコードではなくAIが1コマずつ生成し、操作にリアルタイムで反応する新しいモデル群の第1弾。",
+   "points": [
+    "言葉で操作内容を指示できる",
+    "まだ一般公開されておらず、早期アクセスを受付中"
+   ],
+   "url": "https://runway.com/news/research/introducing-solaris",
+   "src": "Runway 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-08-31"
+  },
+  {
+   "id": "o-2026-09-09-suno-v6",
+   "cat": "other",
+   "maker": "Suno",
+   "brand": "Suno",
+   "title": "Suno が新モデル「v6」シリーズ",
+   "desc": "v6・v6-wild・v6-mini の3モデルを公開。Warner Music Group・BMG・Believe と協力して作ったとしている。",
+   "points": [
+    "曲の一部や歌詞1行だけを言葉で直せる",
+    "複数の曲を組み合わせるマッシュアップに対応",
+    "v6 と v6-wild は Pro・Premier、v6-mini は全員が利用可",
+    "旧モデルは v6 の展開に合わせて終了"
+   ],
+   "url": "https://suno.com/blog/introducing-v6",
+   "src": "Suno 公式ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-09"
+  },
+  {
+   "id": "o-2026-09-28-eleven-v4",
+   "cat": "other",
+   "maker": "ElevenLabs",
+   "brand": "ElevenLabs",
+   "title": "ElevenLabs が音声合成「Eleven v4」",
+   "desc": "感情表現を強めた読み上げモデル Eleven v4 と、低遅延の Eleven v4 Turbo を公開。",
+   "points": [
+    "90以上の言語に対応",
+    "タグや自然な文章で感情・アクセントを指示できる",
+    "約10秒の音声で声をクローン",
+    "ElevenAgents・ElevenCreative・API で提供"
+   ],
+   "url": "https://elevenlabs.io/blog/eleven-v4",
+   "src": "ElevenLabs 公式ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-09-28"
+  },
+  {
+   "id": "o-2026-10-01-flux-3-image",
+   "cat": "other",
+   "maker": "Black Forest Labs",
+   "brand": "FLUX",
+   "title": "「FLUX 3 Image」を API で提供開始",
+   "desc": "FLUX 3 の画像モデルを公開。生成と編集をひとつのエンドポイントで行える。",
+   "points": [
+    "参照画像は最大10枚",
+    "最大4K（約16MP）、15種類のアスペクト比",
+    "1枚 $0.041（768px角）〜$0.607（4K）"
+   ],
+   "url": "https://docs.bfl.ai/release-notes",
+   "src": "Black Forest Labs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-01"
+  },
+  {
+   "id": "o-2026-10-15-flux-3-image-klein",
+   "cat": "other",
+   "maker": "Black Forest Labs",
+   "brand": "FLUX",
+   "title": "オープンウェイトの「FLUX 3 Image Klein」",
+   "desc": "FLUX 3 Image の小型版（56億パラメータ）をオープンウェイトで公開。家庭用GPUでも動く。",
+   "points": [
+    "高速な蒸留版と、微調整向けの Base 版の2種類",
+    "RTX 3090 クラスのGPUから動作",
+    "FLUX Kommunity License で Hugging Face に公開"
+   ],
+   "url": "https://docs.bfl.ai/release-notes",
+   "src": "Black Forest Labs リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-15"
+  },
+  {
+   "id": "o-2026-10-28-suno-mcp",
+   "cat": "other",
+   "maker": "Suno",
+   "brand": "Suno",
+   "title": "Suno MCP（ベータ）で Claude や ChatGPT から作曲",
+   "desc": "MCP 対応のAIツールから Suno の曲作り・リミックスができる接続機能をベータ公開。",
+   "points": [
+    "Claude や ChatGPT などの MCP クライアントに対応",
+    "早期アクセスの申し込みを受付中"
+   ],
+   "url": "https://suno.com/release-notes",
+   "src": "Suno リリースノート",
+   "addedAt": "2026-11-14",
+   "date": "2026-10-28"
+  },
+  {
+   "id": "o-2026-11-10-adobe-firefly-max",
+   "cat": "other",
+   "maker": "Adobe",
+   "brand": "Firefly",
+   "title": "Adobe MAX 2026：Firefly にエージェントと新機能",
+   "desc": "Firefly AI Assistant（ベータ）を動かす Adobe Creative Agent や、新しい制作スペースを発表。",
+   "points": [
+    "実行前に計画を確認できるプランモードやモデル自動選択",
+    "Firefly Design・Firefly Graph（ベータ）を追加",
+    "Seedance 2.5・Kling 4.0 など他社モデルも利用可能",
+    "Edit Text・Retouch・Relight などは正式提供"
+   ],
+   "url": "https://news.adobe.com/news/2026/11/adobe-firefly-expands",
+   "src": "Adobe ニュースルーム",
+   "addedAt": "2026-11-14",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "o-2026-11-10-scribe-v3",
+   "cat": "other",
+   "maker": "ElevenLabs",
+   "brand": "ElevenLabs",
+   "title": "ElevenLabs が文字起こし「Scribe v3」",
+   "desc": "録音向けの Scribe v3 と、リアルタイム向けの Scribe v3 Live を公開。",
+   "points": [
+    "102言語で Scribe v2 より誤りが27%少ないとしている",
+    "Live 版でも話者の区別に対応",
+    "最大1,000語の専門用語を指定できる"
+   ],
+   "url": "https://elevenlabs.io/blog/scribe-v3",
+   "src": "ElevenLabs 公式ブログ",
+   "addedAt": "2026-11-14",
+   "date": "2026-11-10"
+  },
+  {
+   "id": "o-2026-11-11-elevenlabs-summit",
+   "cat": "other",
+   "maker": "ElevenLabs",
+   "brand": "ElevenAI",
+   "title": "ElevenLabs が会議メモアプリ「ElevenAI」など発表",
+   "desc": "ニューヨークのイベントで、仕事用アプリ ElevenAI や企業向けのモデル調整サービスを発表。",
+   "points": [
+    "ElevenAI は会議を聞いてメモとToDoを作る（無料の早期アクセス）",
+    "顧客の会話データでモデルを調整するサービスを数か月内に開始",
+    "エージェント向けにメモリとルーティン機能をプレビュー"
+   ],
+   "url": "https://thenextweb.com/news/elevenlabs-summit-nyc-elevenai-custom-models-partner-program",
+   "src": "The Next Web",
+   "addedAt": "2026-11-14",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "o-2026-11-11-runway-praxis-1",
+   "cat": "other",
+   "maker": "Runway",
+   "brand": "Praxis",
+   "title": "Runway がロボット向け「Praxis-1」をオープンウェイト公開",
+   "desc": "映像と動作を同時に予測するロボット向けモデル（270億パラメータ）を Apache 2.0 で公開。",
+   "points": [
+    "商用利用も可能なライセンス",
+    "LoRA で自分のロボットやカメラに合わせて調整できる",
+    "GitHub・Hugging Face で入手可能"
+   ],
+   "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+   "src": "Runway 公式ニュース",
+   "addedAt": "2026-11-14",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "m-flux-3-image",
+   "cat": "model",
+   "maker": "Black Forest Labs",
+   "brand": "FLUX",
+   "title": "FLUX 3 Image",
+   "date": "2026-10-01",
+   "desc": "Black Forest Labs の最新画像モデル。生成と編集をひとつのモデルで行う。",
+   "points": [
+    "参照画像は最大10枚",
+    "最大4K（約16MP）出力",
+    "幅・高さを指定してぴったりのサイズで出力できる"
+   ],
+   "kind": [
+    "画像生成",
+    "画像入力"
+   ],
+   "avail": "BFL API",
+   "price": "1枚 $0.041（768px角）／$0.048（1K）／$0.100（2K）／$0.607（4K）",
+   "status": "提供中",
+   "url": "https://docs.bfl.ai/release-notes",
+   "src": "Black Forest Labs リリースノート",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-flux-3-image-klein",
+   "cat": "model",
+   "maker": "Black Forest Labs",
+   "brand": "FLUX",
+   "title": "FLUX 3 Image Klein",
+   "date": "2026-10-15",
+   "desc": "FLUX 3 Image の56億パラメータ版。重みが公開されており、手元のGPUでも動かせる。",
+   "points": [
+    "生成・編集・複数参照に対応",
+    "最大4K出力、参照画像は最大10枚",
+    "微調整・LoRA 学習向けの Base 版もある"
+   ],
+   "kind": [
+    "画像生成",
+    "画像入力",
+    "オープンウェイト",
+    "軽量"
+   ],
+   "avail": "Hugging Face（FLUX Kommunity License）・BFL API",
+   "price": "1枚 $0.008（768px角）〜$0.036（4K）",
+   "status": "提供中",
+   "url": "https://docs.bfl.ai/release-notes",
+   "src": "Black Forest Labs リリースノート",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-flux-3-video",
+   "cat": "model",
+   "maker": "Black Forest Labs",
+   "brand": "FLUX",
+   "title": "FLUX 3 Video",
+   "date": "2026-08-04",
+   "desc": "音声つきの動画を生成する FLUX 3 の動画モデル。",
+   "points": [
+    "最長20秒、音声と同時に生成",
+    "テキスト・画像・キーフレームから動画、動画の続きも作れる",
+    "2K・4K 出力にも対応"
+   ],
+   "kind": [
+    "動画生成",
+    "音声",
+    "画像入力"
+   ],
+   "avail": "BFL API・一部のパートナー",
+   "price": "2K：1秒 $0.40／4K：1秒 $0.80（テキスト・画像から動画）",
+   "status": "提供中",
+   "url": "https://docs.bfl.ai/release-notes",
+   "src": "Black Forest Labs リリースノート",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-runway-aleph-2",
+   "cat": "model",
+   "maker": "Runway",
+   "brand": "Aleph",
+   "title": "Aleph 2.0",
+   "date": "2026-05-21",
+   "desc": "既存の動画を編集する Runway の動画編集モデル。",
+   "points": [
+    "最長30秒・1080pの動画を編集",
+    "見本の1コマを渡すとその見た目を動画に反映",
+    "複数カットにまとめて編集を適用"
+   ],
+   "kind": [
+    "動画生成",
+    "画像入力"
+   ],
+   "avail": "Runway（有料プラン）・Runway API",
+   "price": "1秒 $0.28（28クレジット）",
+   "status": "提供中",
+   "url": "https://runway.com/news/introducing-aleph-2-and-edit-studio",
+   "src": "Runway 公式ニュース",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-kling-4",
+   "cat": "model",
+   "maker": "Kuaishou",
+   "brand": "Kling",
+   "title": "Kling 4.0",
+   "date": "2026-10-15",
+   "desc": "Kuaishou の Kling AI による動画生成モデル。動きの安定性とプロ向けの品質を高めた。",
+   "points": [
+    "1回で最長30秒の動画を生成",
+    "参照素材は最大15個、キーフレームは最大10枚",
+    "速い動きや複雑なカメラワークでも安定"
+   ],
+   "kind": [
+    "動画生成",
+    "画像入力"
+   ],
+   "avail": "Kling AI",
+   "status": "提供中",
+   "url": "https://bernama.com/en/press/news.php?id=2622471",
+   "src": "Bernama（Kling AI プレスリリース）",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-seedance-2-5",
+   "cat": "model",
+   "maker": "ByteDance",
+   "brand": "Seedance",
+   "title": "Seedance 2.5",
+   "date": "2026-07-31",
+   "desc": "ByteDance Seed の動画生成モデル。長めの動画を一度に作れる。",
+   "points": [
+    "1回で30秒の動画を生成し、続きを足せる",
+    "画像・動画・音声を合わせて多数参照できる"
+   ],
+   "kind": [
+    "動画生成",
+    "画像入力"
+   ],
+   "avail": "Jimeng AI・Doubao（Pro）",
+   "status": "提供中",
+   "url": "https://technode.com/2026/07/31/bytedance-launches-seedance-2-5-video-generation-model/",
+   "src": "TechNode",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-seedream-5-pro",
+   "cat": "model",
+   "maker": "ByteDance",
+   "brand": "Seedream",
+   "title": "Seedream 5.0 Pro",
+   "date": "2026-07-08",
+   "desc": "ByteDance Seed のデザイン制作向け画像生成モデル。",
+   "points": [
+    "インフォグラフィックや図表など情報量の多い画像が得意",
+    "範囲選択・レイヤー分解などの細かな編集",
+    "多言語の文字を画像内に描ける"
+   ],
+   "kind": [
+    "画像生成",
+    "画像入力"
+   ],
+   "avail": "Dola・BytePlus",
+   "status": "提供中",
+   "url": "https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro",
+   "src": "ByteDance Seed 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-suno-v6",
+   "cat": "model",
+   "maker": "Suno",
+   "brand": "Suno",
+   "title": "Suno v6（v6-wild・v6-mini）",
+   "date": "2026-09-09",
+   "desc": "Suno の最新音楽生成モデル群。主力の v6、実験的な v6-wild、高速な v6-mini がある。",
+   "points": [
+    "テキスト・音声・画像・動画から曲を作れる",
+    "曲の一部や歌詞1行だけを言葉で修正",
+    "マッシュアップに対応"
+   ],
+   "kind": [
+    "音楽生成",
+    "音声"
+   ],
+   "avail": "Suno（v6・v6-wild は Pro・Premier、v6-mini は全プラン）",
+   "status": "提供中",
+   "url": "https://suno.com/blog/introducing-v6",
+   "src": "Suno 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-eleven-v4",
+   "cat": "model",
+   "maker": "ElevenLabs",
+   "brand": "ElevenLabs",
+   "title": "Eleven v4 / Eleven v4 Turbo",
+   "date": "2026-09-28",
+   "desc": "ElevenLabs の音声合成モデル。v4 は表現力重視、v4 Turbo は低遅延の会話向け。",
+   "points": [
+    "90以上の言語に対応",
+    "タグや文章で感情・アクセント・効果音を指示",
+    "約10秒の音声で声をクローン",
+    "v4 Turbo は応答の速さを重視"
+   ],
+   "kind": [
+    "音声"
+   ],
+   "avail": "ElevenCreative・ElevenAgents・ElevenAPI",
+   "status": "提供中",
+   "url": "https://elevenlabs.io/blog/eleven-v4",
+   "src": "ElevenLabs 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-scribe-v3",
+   "cat": "model",
+   "maker": "ElevenLabs",
+   "brand": "ElevenLabs",
+   "title": "Scribe v3 / Scribe v3 Live",
+   "date": "2026-11-10",
+   "desc": "ElevenLabs の文字起こしモデル。v3 は録音向け、v3 Live はリアルタイム向け。",
+   "points": [
+    "102言語に対応",
+    "話者の区別（ダイアライゼーション）に対応",
+    "最大1,000語の専門用語を指定可能"
+   ],
+   "kind": [
+    "音声"
+   ],
+   "avail": "ElevenLabs アプリ・ElevenAgents・ElevenAPI",
+   "status": "提供中",
+   "url": "https://elevenlabs.io/blog/scribe-v3",
+   "src": "ElevenLabs 公式ブログ",
+   "addedAt": "2026-11-14"
+  },
+  {
+   "id": "m-firefly-image-5",
+   "cat": "model",
+   "maker": "Adobe",
+   "brand": "Firefly",
+   "title": "Firefly Image Model 5",
+   "date": "2025-10-28",
+   "desc": "Adobe の画像生成・編集モデル。2025年10月にベータ公開され、2026年3月に正式提供。",
+   "points": [
+    "アップスケールなしで4MPの画像を生成",
+    "写実的な光・質感・人物表現",
+    "文章の指示で画像を編集できる"
+   ],
+   "kind": [
+    "画像生成",
+    "画像入力"
+   ],
+   "avail": "Adobe Firefly・Creative Cloud",
+   "status": "提供中",
+   "url": "https://gfxspeak.com/?p=83602",
+   "src": "GfxSpeak",
+   "addedAt": "2026-11-14"
   }
  ]
 }

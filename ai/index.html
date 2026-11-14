@@ -9,12 +9,12 @@
 <link rel='preconnect' href='https://fonts.googleapis.com'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap'>
 <style>
-/* Layout: 濃い紫の見出し帯（細い格子）→ フィルター列 → 分類ごとのカード一覧（新しい順） */
+/* Layout: 濃い紫の見出し帯 → 分類タブ → 対象／会社の絞り込み → セクションごとのカード一覧 */
 :root{
   --bg:#f3f1fb; --surface:#ffffff; --sunk:#e9e5f7; --ink:#1a1433; --muted:#5d5683; --line:#dcd6f0;
   --band:#1b1240; --band-2:#3a2390; --band-ink:#f3efff; --band-muted:#b9acec; --glow:#b69cff;
   --accent:#6a3fd6; --accent-ink:#ffffff; --star:#d49a00; --new:#e0457b;
-  --c-tips:#c8641e; --c-update:#2f6fd1; --c-other:#1a8f69;
+  --c-guide:#8a4fd8; --c-tips:#c8641e; --c-update:#2f6fd1; --c-other:#1a8f69; --c-model:#b03a6f;
   --f-body:'Zen Kaku Gothic New','Hiragino Sans','Noto Sans JP',system-ui,sans-serif;
   --f-data:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace;
   color-scheme:light;
@@ -23,7 +23,7 @@
   --bg:#0d0a1a; --surface:#161130; --sunk:#201a40; --ink:#ece8ff; --muted:#a49cc8; --line:#2c2552;
   --band:#120c2c; --band-2:#2a1a6a; --band-muted:#a898e0;
   --accent:#b69cff; --accent-ink:#140c2c; --star:#ffc53d; --new:#ff6f9f;
-  --c-tips:#ff9d57; --c-update:#6fb0ff; --c-other:#4fd1a5; color-scheme:dark}}
+  --c-guide:#c39bff; --c-tips:#ff9d57; --c-update:#6fb0ff; --c-other:#4fd1a5; --c-model:#ff7fb3; color-scheme:dark}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.65}
 a{color:inherit}
@@ -50,26 +50,35 @@ h1{margin:6px 0 6px;font-weight:900;font-size:clamp(24px,3.6vw,36px);line-height
 .wrap{max-width:1180px;margin:0 auto;padding:18px 16px calc(48px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:14px}
 .lastrun{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--new);border-radius:10px;padding:10px 14px;font-size:13px;color:var(--muted)}
 .lastrun b{color:var(--ink)}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;scrollbar-width:thin}
+.tab{flex:none;border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:10px;padding:8px 14px;font-size:13.5px;font-weight:700;display:inline-flex;gap:7px;align-items:center}
+.tab .dot{width:9px;height:9px;border-radius:3px;background:var(--c)}
+.tab .n{font-family:var(--f-data);font-size:11px;font-weight:500;opacity:.8}
+.tab[aria-selected='true']{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.tab[aria-selected='true'] .dot{background:var(--accent-ink)}
+.hint{font-size:12.5px;color:var(--muted);margin:-4px 2px 0}
 .filters{display:flex;flex-direction:column;gap:10px}
 .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .row .lbl{font-size:11px;letter-spacing:.08em;color:var(--muted);min-width:4.5em}
 .pill{border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:99px;padding:5px 13px;font-size:13px;display:inline-flex;gap:6px;align-items:center}
 .pill .n{font-family:var(--f-data);font-size:11px;opacity:.8}
 .pill[aria-pressed='true']{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
-.pill .dot{width:8px;height:8px;border-radius:50%;background:var(--c)}
 #q{flex:1;min-width:0;max-width:340px;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:6px 14px}
 
-.sec h2{font-size:15px;margin:10px 0 8px;display:flex;align-items:center;gap:8px}
+.sec h2{font-size:15px;margin:10px 0 8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .sec h2::before{content:'';width:10px;height:10px;border-radius:3px;background:var(--c)}
 .sec h2 .n{font-family:var(--f-data);font-size:12px;color:var(--muted);background:var(--sunk);border-radius:99px;padding:0 8px}
+.sec h2 .sub{font-size:12px;font-weight:500;color:var(--muted)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr));gap:12px}
-.card{--c:var(--accent);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;grid-template-columns:62px 1fr;gap:4px 12px;min-width:0;position:relative}
+.card{--c:var(--accent);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;grid-template-columns:62px 1fr;gap:4px 12px;min-width:0;position:relative;align-content:start}
 .card::before{content:'';position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:0 3px 3px 0;background:var(--c)}
-.date{font-family:var(--f-data);text-align:center;line-height:1.15;grid-row:span 6}
+.card>*:not(.date){grid-column:2}
+.date{font-family:var(--f-data);text-align:center;line-height:1.15;grid-column:1;grid-row:1 / span 8}
 .date .y{font-size:10px;color:var(--muted)}
 .date .md{font-size:17px;font-weight:700;font-variant-numeric:tabular-nums}
 .date .w{font-size:11px;color:var(--muted)}
 .date .lbl{font-size:11px;font-weight:700;color:var(--muted);word-break:keep-all}
+.date .cap{font-family:var(--f-body);font-size:9.5px;color:var(--muted);margin-bottom:2px}
 .tags{display:flex;flex-wrap:wrap;gap:5px;align-items:center;min-width:0}
 .tag{font-size:10.5px;font-weight:700;letter-spacing:.04em;padding:1px 8px;border-radius:4px;background:var(--sunk);color:var(--muted)}
 .tag.cat{color:var(--c);background:color-mix(in srgb,var(--c) 14%,var(--surface))}
@@ -80,12 +89,16 @@ h1{margin:6px 0 6px;font-weight:900;font-size:clamp(24px,3.6vw,36px);line-height
 .pts{margin:2px 0 0;padding-left:1.2em;font-size:12.5px;min-width:0}
 .pts li{margin:1px 0;word-break:break-word}
 .pts li::marker{color:var(--c)}
+.spec{margin:4px 0 0;display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:12.5px;min-width:0}
+.spec dt{color:var(--muted);font-size:11.5px;white-space:nowrap}
+.spec dd{margin:0;min-width:0;word-break:break-word}
 .foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:4px;font-size:11.5px;color:var(--muted);min-width:0}
 .foot a{color:var(--accent);font-weight:700;text-decoration:none;white-space:nowrap}
 .foot a:hover{text-decoration:underline}
 .star{border:1px solid var(--line);background:var(--surface);border-radius:8px;width:30px;height:30px;color:var(--muted);font-size:15px;line-height:1;flex:none}
 .star[aria-pressed='true']{color:var(--star);border-color:var(--star)}
 .empty{color:var(--muted);background:var(--surface);border:1.5px dashed var(--line);border-radius:12px;padding:20px;text-align:center}
+.more{display:block;margin:10px auto 0;border:1px solid var(--line);background:var(--surface);color:var(--accent);border-radius:99px;padding:6px 18px;font-size:13px;font-weight:700}
 footer{font-size:12px;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -95,9 +108,9 @@ footer{font-size:12px;color:var(--muted)}
   <div class='band-in'>
     <div>
       <a class='back' href='../'>← メインメニュー</a>
-      <div class='eyebrow'>Claude · Claude Code · Generative AI</div>
+      <div class='eyebrow'>Claude · ChatGPT · Gemini · Generative AI</div>
       <h1>AI情報ボード</h1>
-      <p class='lead'>Claude と Claude Code の効果的な使い方、Claude のアップデートや修正、ほかの生成AIの話題をまとめています。毎週土曜の朝1時に更新。</p>
+      <p class='lead'>Claude の基本・アップデート・使い方と、ChatGPT・Gemini・Grok などほかの生成AIのニュース、各社の現行モデルの一覧をまとめています。毎週土曜の朝1時に更新。</p>
     </div>
     <div class='stats'>
       <div class='stat'><div class='k'>新着（14日）</div><div class='v' id='stNew'>—</div></div>
@@ -109,10 +122,12 @@ footer{font-size:12px;color:var(--muted)}
 
 <div class='wrap'>
   <div class='lastrun' id='lastrun' hidden></div>
+  <div class='tabs' id='tabs' role='tablist' aria-label='分類'></div>
+  <p class='hint' id='hint'></p>
   <div class='filters'>
-    <div class='row' id='rowCat'><span class='lbl'>分類</span></div>
     <div class='row' id='rowProd' hidden><span class='lbl'>対象</span></div>
-    <div class='row' id='rowStat'><span class='lbl'>表示</span><input id='q' type='search' placeholder='キーワードで絞り込み（例：CLAUDE.md、サブエージェント、Gemini）' aria-label='キーワードで絞り込み'></div>
+    <div class='row' id='rowMaker' hidden><span class='lbl'>会社</span></div>
+    <div class='row' id='rowStat'><span class='lbl'>表示</span><input id='q' type='search' placeholder='キーワードで絞り込み（例：Gemini、GPT、サブエージェント）' aria-label='キーワードで絞り込み'></div>
   </div>
   <div id='list'></div>
   <footer>内容は公開時点の情報です。機能や料金は変わることがあるので、使う前にリンク先で確認してください。お気に入り（☆）はこのブラウザに保存されます。</footer>
@@ -120,34 +135,45 @@ footer{font-size:12px;color:var(--muted)}
 
 <script>
 const CATS = [
-  {k:'all', label:'すべて'},
-  {k:'update', label:'アップデート・修正', c:'var(--c-update)'},
-  {k:'tips', label:'使い方', c:'var(--c-tips)'},
-  {k:'other', label:'ほかの生成AI', c:'var(--c-other)'}
+  {k:'all', label:'すべて', hint:'新しい情報から順に、分類ごとに並べています。'},
+  {k:'guide', label:'Claudeの基本', c:'var(--c-guide)', hint:'Claude のプラン・アプリ・主な機能・Claude Code・API の全体像です。初めて使う機能を調べるときに。'},
+  {k:'update', label:'Claudeのアップデート', c:'var(--c-update)', hint:'Claude アプリ・モデル、Claude Code、API の新機能・変更・修正です。'},
+  {k:'tips', label:'Claudeの使い方', c:'var(--c-tips)', hint:'Claude と Claude Code を上手に使うコツです。'},
+  {k:'other', label:'ほかの生成AI', c:'var(--c-other)', hint:'OpenAI（ChatGPT）、Google（Gemini）、xAI（Grok）、Meta、Microsoft などのニュースです。会社で絞り込めます。'},
+  {k:'model', label:'モデル一覧', c:'var(--c-model)', hint:'各社がいま提供している主なモデルです。得意なこと・使える場所・API料金の目安を会社ごとにまとめています。'}
 ];
 const PRODS = [{k:'all',label:'すべて'},{k:'claude',label:'Claude（アプリ）'},{k:'code',label:'Claude Code'},{k:'api',label:'API・開発者向け'}];
 const PRODNAME = {claude:'Claude', code:'Claude Code', api:'API'};
+const MAKER_ORDER = ['Anthropic','OpenAI','Google','xAI','Meta','Microsoft','Apple','Amazon','Mistral','DeepSeek','Alibaba','Moonshot','Zhipu','Black Forest Labs','Midjourney','Runway','Kuaishou','ByteDance','Suno','ElevenLabs'];
 const STATS = [{k:'all',label:'すべて'},{k:'new',label:'新着（14日以内）'},{k:'fav',label:'★ お気に入り'}];
 const WD = ['日','月','火','水','木','金','土'];
+const PAGE = 24;
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s==null?'':s).replace(/[&<>'\x22]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','\x22':'&quot;','\'':'&#39;'}[c]));
 const safeUrl = u => /^https?:\/\//i.test(String(u||'')) ? String(u) : '#';
-const state = {cat:'all', prod:'all', stat:'all', q:''};
+const state = {cat:'all', prod:'all', maker:'all', stat:'all', q:''};
+const shown = {};
 let DATA = {items:[]};
 let favs = new Set();
 try{ favs = new Set(JSON.parse(localStorage.getItem('ai-favs-v1')||'[]')); }catch(e){}
 const saveFavs = () => { try{ localStorage.setItem('ai-favs-v1', JSON.stringify([...favs])); }catch(e){} };
+try{ const h = decodeURIComponent(location.hash.slice(1)); if(CATS.some(c=>c.k===h)) state.cat = h; }catch(e){}
 
 function daysAgoJST(n){ const d = new Date(Date.now()+9*3600e3-n*864e5); return d.toISOString().slice(0,10); }
-function isRecent(it){ const d = it.date || it.addedAt || ''; return d >= daysAgoJST(14); }
+function isRecent(it){ if(it.cat==='guide') return (it.addedAt||'') >= daysAgoJST(14); const d = it.date || it.addedAt || ''; return d >= daysAgoJST(14); }
 function isNew(it){ return (DATA.lastRun && (DATA.lastRun.added||[]).includes(it.id)); }
+const hasProd = c => c==='guide' || c==='update' || c==='tips';
+const hasMaker = c => c==='other' || c==='model';
+const makerOf = it => it.maker || (it.cat==='model' ? 'Anthropic' : 'その他');
+function makerRank(m){ const i = MAKER_ORDER.indexOf(m); return i<0 ? 999 : i; }
 function match(it){
   if(state.cat!=='all' && it.cat!==state.cat) return false;
-  if(state.cat!=='all' && state.cat!=='other' && state.prod!=='all' && it.prod!==state.prod) return false;
+  if(hasProd(state.cat) && state.prod!=='all' && it.prod!==state.prod) return false;
+  if(hasMaker(state.cat) && state.maker!=='all' && makerOf(it)!==state.maker) return false;
   if(state.stat==='new' && !isRecent(it)) return false;
   if(state.stat==='fav' && !favs.has(it.id)) return false;
-  if(state.q){ const t=[it.title,it.desc,(it.points||[]).join(' '),it.maker,it.src,it.level,PRODNAME[it.prod]].join(' '); if(!t.toLowerCase().includes(state.q.toLowerCase())) return false; }
+  if(state.q){ const t=[it.title,it.desc,(it.points||[]).join(' '),it.maker,it.brand,it.src,it.level,it.kind&&it.kind.join(' '),it.avail,it.price,it.topic,PRODNAME[it.prod]].join(' '); if(!t.toLowerCase().includes(state.q.toLowerCase())) return false; }
   return true;
 }
 function pills(el, list, key, counts){
@@ -155,56 +181,96 @@ function pills(el, list, key, counts){
   list.forEach(o => {
     const b = document.createElement('button');
     b.type='button'; b.className='pill'; b.dataset.k=o.k; b.setAttribute('aria-pressed', String(state[key]===o.k));
-    if(o.c) b.style.setProperty('--c', o.c);
-    b.innerHTML = (o.c?'<span class=\x22dot\x22></span>':'') + esc(o.label) + (counts && counts[o.k]!=null ? ` <span class='n'>${counts[o.k]}</span>` : '');
-    b.addEventListener('click', () => { state[key]=o.k; if(key==='cat') state.prod='all'; render(); });
+    b.innerHTML = esc(o.label) + (counts && counts[o.k]!=null ? ` <span class='n'>${counts[o.k]}</span>` : '');
+    b.addEventListener('click', () => { state[key]=o.k; render(); });
     if(key==='stat') el.insertBefore(b, $('#q')); else el.appendChild(b);
   });
 }
+function tabs(counts){
+  const el = $('#tabs'); el.innerHTML='';
+  CATS.forEach(o => {
+    const b = document.createElement('button');
+    b.type='button'; b.className='tab'; b.setAttribute('role','tab'); b.setAttribute('aria-selected', String(state.cat===o.k));
+    if(o.c) b.style.setProperty('--c', o.c);
+    b.innerHTML = (o.c?'<span class=\x22dot\x22></span>':'') + esc(o.label) + ` <span class='n'>${counts[o.k]||0}</span>`;
+    b.addEventListener('click', () => { state.cat=o.k; state.prod='all'; state.maker='all'; history.replaceState(null,'',o.k==='all'?location.pathname:'#'+o.k); render(); });
+    el.appendChild(b);
+  });
+}
 function dateBlock(it){
-  if(!/^\d{4}-\d{2}-\d{2}$/.test(it.date||'')) return `<div class='date'><div class='lbl'>${esc(it.dateLabel||'日付なし')}</div></div>`;
+  const cap = it.cat==='model' ? `<div class='cap'>公開</div>` : '';
+  if(!/^\d{4}-\d{2}(-\d{2})?$/.test(it.date||'')) return `<div class='date'><div class='lbl'>${esc(it.dateLabel||(it.cat==='guide'?'基本':'日付なし'))}</div></div>`;
+  if(it.date.length===7){ const [y,m]=it.date.split('-'); return `<div class='date'>${cap}<div class='y'>${y}</div><div class='md'>${+m}月</div></div>`; }
   const [y,m,d] = it.date.split('-'); const w = WD[new Date(Date.UTC(+y,+m-1,+d)).getUTCDay()];
-  return `<div class='date'><div class='y'>${y}</div><div class='md'>${m}.${d}</div><div class='w'>${w}</div></div>`;
+  return `<div class='date'>${cap}<div class='y'>${y}</div><div class='md'>${m}.${d}</div><div class='w'>${w}</div></div>`;
 }
 function card(it){
   const c = CATS.find(x=>x.k===it.cat); const on = favs.has(it.id);
-  const who = it.cat==='other' ? (it.maker||'') : (PRODNAME[it.prod]||'');
-  const pts = (it.points||[]).filter(Boolean).slice(0,5);
+  const who = hasMaker(it.cat) ? [makerOf(it), it.brand].filter(Boolean).filter((v,i,a)=>a.indexOf(v)===i) : (PRODNAME[it.prod]?[PRODNAME[it.prod]]:[]);
+  const pts = (it.points||[]).filter(Boolean).slice(0, it.cat==='guide'?8:5);
+  const kinds = (it.kind||[]).filter(Boolean).slice(0,5);
+  const spec = [['使える場所',it.avail],['API料金',it.price],['状態',it.status]].filter(x=>x[1]);
   return `<article class='card' style='--c:${c?c.c:'var(--accent)'}'>
     ${dateBlock(it)}
-    <div class='tags'><span class='tag cat'>${esc(c?c.label:'')}</span>${who?`<span class='tag prod'>${esc(who)}</span>`:''}${it.level?`<span class='tag'>${esc(it.level)}</span>`:''}${isNew(it)?`<span class='tag new'>NEW</span>`:''}</div>
+    <div class='tags'><span class='tag cat'>${esc(c?c.label:'')}</span>${who.map(w=>`<span class='tag prod'>${esc(w)}</span>`).join('')}${it.topic?`<span class='tag'>${esc(it.topic)}</span>`:''}${kinds.map(k=>`<span class='tag'>${esc(k)}</span>`).join('')}${it.level?`<span class='tag'>${esc(it.level)}</span>`:''}${isNew(it)?`<span class='tag new'>NEW</span>`:''}</div>
     <div class='title'>${esc(it.title)}</div>
     ${it.desc?`<p class='desc'>${esc(it.desc)}</p>`:''}
     ${pts.length?`<ul class='pts'>${pts.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>`:''}
+    ${spec.length?`<dl class='spec'>${spec.map(s=>`<dt>${esc(s[0])}</dt><dd>${esc(s[1])}</dd>`).join('')}</dl>`:''}
     <div class='foot'><span>出典：${esc(it.src)}</span><span style='display:flex;gap:8px;align-items:center'><a href='${esc(safeUrl(it.url))}' target='_blank' rel='noopener'>詳しく見る ↗</a><button class='star' type='button' data-id='${esc(it.id)}' aria-pressed='${on}' aria-label='${on?'お気に入りから外す':'お気に入りに保存'}'>${on?'★':'☆'}</button></span></div>
   </article>`;
 }
 const byDate = (a,b) => (b.date||b.addedAt||'').localeCompare(a.date||a.addedAt||'');
-function section(cat, list){
+const byGuide = (a,b) => (a.order??999)-(b.order??999) || (a.title||'').localeCompare(b.title||'','ja');
+function section(key, label, c, list, sub){
   if(!list.length) return '';
-  return `<section class='sec' style='--c:${cat.c}'><h2>${esc(cat.label)} <span class='n'>${list.length}</span></h2><div class='grid'>${list.sort(byDate).map(card).join('')}</div></section>`;
+  const lim = shown[key] || PAGE;
+  const rest = list.length - lim;
+  return `<section class='sec' style='--c:${c}'><h2>${esc(label)} <span class='n'>${list.length}</span>${sub?`<span class='sub'>${esc(sub)}</span>`:''}</h2><div class='grid'>${list.slice(0,lim).map(card).join('')}</div>${rest>0?`<button class='more' type='button' data-sec='${esc(key)}'>さらに ${Math.min(rest,PAGE)} 件を表示（残り ${rest} 件）</button>`:''}</section>`;
+}
+function byMakerSections(cat, list){
+  const g = new Map();
+  list.forEach(i => { const m = makerOf(i); if(!g.has(m)) g.set(m,[]); g.get(m).push(i); });
+  return [...g.entries()].sort((a,b)=>makerRank(a[0])-makerRank(b[0]) || b[1].length-a[1].length || a[0].localeCompare(b[0]))
+    .map(([m,arr]) => { const brands=[...new Set(arr.map(i=>i.brand).filter(Boolean))].slice(0,4).join('・'); return section(cat.k+':'+m, m, cat.c, arr.sort(byDate), brands); }).join('');
 }
 function render(){
   const items = (DATA.items||[]);
   const cc = {all:items.length}; items.forEach(i=>cc[i.cat]=(cc[i.cat]||0)+1);
-  pills($('#rowCat'), CATS, 'cat', cc);
-  const showProd = state.cat==='tips' || state.cat==='update';
-  $('#rowProd').hidden = !showProd;
-  if(showProd){ const pc={all:cc[state.cat]||0}; items.filter(i=>i.cat===state.cat).forEach(i=>pc[i.prod]=(pc[i.prod]||0)+1); pills($('#rowProd'), PRODS, 'prod', pc); }
+  tabs(cc);
+  const cat = CATS.find(c=>c.k===state.cat) || CATS[0];
+  $('#hint').textContent = cat.hint || '';
+  $('#rowProd').hidden = !hasProd(state.cat);
+  if(hasProd(state.cat)){ const pc={all:cc[state.cat]||0}; items.filter(i=>i.cat===state.cat).forEach(i=>pc[i.prod]=(pc[i.prod]||0)+1); pills($('#rowProd'), PRODS, 'prod', pc); }
+  $('#rowMaker').hidden = !hasMaker(state.cat);
+  if(hasMaker(state.cat)){
+    const mc={all:cc[state.cat]||0}; items.filter(i=>i.cat===state.cat).forEach(i=>{ const m=makerOf(i); mc[m]=(mc[m]||0)+1; });
+    const ms = Object.keys(mc).filter(k=>k!=='all').sort((a,b)=>makerRank(a)-makerRank(b) || mc[b]-mc[a] || a.localeCompare(b));
+    pills($('#rowMaker'), [{k:'all',label:'すべて'}, ...ms.map(m=>({k:m,label:m}))], 'maker', mc);
+  }
   pills($('#rowStat'), STATS, 'stat', {new:items.filter(isRecent).length, fav:favs.size});
   const list = items.filter(match);
-  const html = CATS.slice(1).map(cat => section(cat, list.filter(i=>i.cat===cat.k))).join('');
+  let html = '';
+  if(state.cat==='all'){
+    html = CATS.slice(1).map(c => section(c.k, c.label, c.c, list.filter(i=>i.cat===c.k).sort(c.k==='guide'?byGuide:byDate))).join('');
+  }else if(hasMaker(state.cat) && state.maker==='all' && !state.q && state.stat==='all'){
+    html = byMakerSections(cat, list);
+  }else{
+    html = section(state.cat+':'+state.maker+':'+state.prod, cat.label, cat.c, list.sort(state.cat==='guide'?byGuide:byDate));
+  }
   $('#list').innerHTML = html || (items.length ? `<p class='empty'>条件に合う情報はありません。絞り込みを変えてみてください。</p>` : `<p class='empty'>AI情報を読み込み中です。表示されない場合は、毎週土曜朝1時の更新後にもう一度開いてください。</p>`);
   $('#stNew').textContent = items.filter(isRecent).length + '件';
   $('#stAll').textContent = items.length + '件';
 }
 function header(){
-  let u='—'; try{ const d=new Date(DATA.updatedAt); if(!isNaN(d)) u=d.toLocaleString('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}); }catch(e){}
+  let u='—'; try{ const d=new Date(DATA.updatedAt); if(DATA.updatedAt && !isNaN(d)) u=d.toLocaleString('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}); }catch(e){}
   $('#stUpd').textContent = u;
   const lr = DATA.lastRun;
   if(lr && lr.summary){ $('#lastrun').hidden=false; $('#lastrun').innerHTML = `<b>前回の更新（${esc(lr.date)}）</b>：新着 ${(lr.added||[]).length}件・変更 ${(lr.changed||[]).length}件。${esc(lr.summary)}`; }
 }
 document.addEventListener('click', e => {
+  const m = e.target.closest('.more');
+  if(m){ const k=m.dataset.sec; shown[k]=(shown[k]||PAGE)+PAGE; render(); return; }
   const s = e.target.closest('.star'); if(!s) return;
   const id = s.dataset.id; favs.has(id) ? favs.delete(id) : favs.add(id); saveFavs(); render();
 });
