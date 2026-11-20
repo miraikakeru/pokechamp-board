@@ -1,14 +1,15 @@
 {
- "updatedAt": "2026-11-13T04:30:00+09:00",
+ "updatedAt": "2026-11-20T04:30:00+09:00",
  "notes": {},
  "lastRun": {
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "added": [
-   "pk-center-maps-2026-11",
-   "gs-mcdonalds-2026-11"
+   "pk-center-myparty-2026-11",
+   "pk-newera-30th-2026-11",
+   "pk-takarajima-poco-2026-12"
   ],
   "changed": [],
-  "summary": "ポケモンセンター歴代マップグッズと原神×マクドナルドの2件を追加"
+  "summary": "ポケモン3件（My Pokémon Party、ニューエラ、宝島社ムック）を追加。マーベル・HoYoverseは確認できる新情報なし"
  },
  "items": [
   {
@@ -366,6 +367,51 @@
    "img": "https://cimg.kgl-systems.io/camion/files/93460/thumbnail_QgFQ.jpeg?x=1280",
    "src": "ファミ通.com",
    "addedAt": "2026-11-13"
+  },
+  {
+   "id": "pk-center-myparty-2026-11",
+   "cat": "pokemon",
+   "kind": "official",
+   "grp": "ポケモンセンター新商品",
+   "title": "My Pokémon Party（30周年カスタマイズグッズ）",
+   "release": "2026-11-07",
+   "price": "キーチェーン770円／ボックス型アクリルスタンド2,970円",
+   "where": "ポケモンセンター各店、ポケモンセンターオンライン（11/5 10時から）",
+   "desc": "1,025匹のポケモンから好きなパーティを選び、キーチェーンやアクリルスタンドに付けて自分だけの組み合わせを作れる30周年記念シリーズ。モンスターボールや持ち物モチーフのチャームもある。",
+   "url": "https://www.famitsu.com/article/202610/92679",
+   "img": "https://cimg.kgl-systems.io/camion/files/92679/thumbnail_DqZE.jpg?x=1280",
+   "src": "ファミ通",
+   "addedAt": "2026-11-20"
+  },
+  {
+   "id": "pk-newera-30th-2026-11",
+   "cat": "pokemon",
+   "kind": "collab",
+   "grp": "アパレル",
+   "title": "ニューエラ × ポケモン 30周年記念コレクション（全25種）",
+   "release": "2026-11-20",
+   "price": "4,400円〜11,000円（キャップ7,700円／Tシャツ6,050円）",
+   "where": "ニューエラストア各店、ニューエラ公式オンラインストア、全国の取扱店",
+   "desc": "ピカチュウやフシギダネなど12種のポケモン刺繍や30周年ロゴを使った、キャップ・Tシャツ・バッグ・キッズ向けのコレクション。店舗により取扱のないアイテムがある。",
+   "url": "https://bestcalendar.jp/press/164152",
+   "img": "https://cdn.bestcalendar.jp/press-release-images/164152/1-large.webp",
+   "src": "PR TIMES（bestcalendar）",
+   "addedAt": "2026-11-20"
+  },
+  {
+   "id": "pk-takarajima-poco-2026-12",
+   "cat": "pokemon",
+   "kind": "collab",
+   "grp": "ブランドムック",
+   "title": "宝島社 ぽこ あ ポケモン ブランドムック（ポーチBOOK・メッセンジャーバッグBOOK）",
+   "release": "2026-12-09",
+   "price": "ポーチBOOK3,289円／バッグBOOK3,960円",
+   "where": "全国の書店・ネット書店、セブン-イレブン（限定版）、宝島チャンネル",
+   "desc": "耳が動くピカチュウ柄ポーチ2種と、メタモンのファスナー付きメッセンジャーバッグが付録のムック3種。セブン限定版と書店版で販売先が分かれる。",
+   "url": "https://game.watch.impress.co.jp/docs/news/2153580.html",
+   "img": "https://game.watch.impress.co.jp/img/gmw/list/2153/580/1.jpg",
+   "src": "GAME Watch",
+   "addedAt": "2026-11-20"
   }
  ]
 }
