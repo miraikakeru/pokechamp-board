@@ -1,15 +1,13 @@
 {
- "updatedAt": "2026-11-20T04:30:00+09:00",
+ "updatedAt": "2026-11-27T04:30:00+09:00",
  "notes": {},
  "lastRun": {
-  "date": "2026-11-20",
+  "date": "2026-11-27",
   "added": [
-   "pk-center-myparty-2026-11",
-   "pk-newera-30th-2026-11",
-   "pk-takarajima-poco-2026-12"
+   "sr-nendoroid-ratio-2026-12"
   ],
   "changed": [],
-  "summary": "ポケモン3件（My Pokémon Party、ニューエラ、宝島社ムック）を追加。マーベル・HoYoverseは確認できる新情報なし"
+  "summary": "崩壊：スターレイルのねんどろいど Dr.レイシオを追加。ポケモン・マーベル・原神・ゼンゼロは確認できる新情報なし"
  },
  "items": [
   {
@@ -412,6 +410,23 @@
    "img": "https://game.watch.impress.co.jp/img/gmw/list/2153/580/1.jpg",
    "src": "GAME Watch",
    "addedAt": "2026-11-20"
+  },
+  {
+   "id": "sr-nendoroid-ratio-2026-12",
+   "cat": "hoyo",
+   "sub": "starrail",
+   "kind": "official",
+   "grp": "フィギュア",
+   "title": "ねんどろいど Dr.レイシオ（崩壊：スターレイル）",
+   "release": "2026-12-01",
+   "releaseLabel": "2026年12月予定",
+   "price": "7,900円（参考価格・税込）",
+   "where": "GOODSMILE ONLINE SHOPほか",
+   "desc": "グッドスマイルカンパニーのデフォルメフィギュア。表情パーツ3種やエフェクトパーツ、本、チョークが付属する。",
+   "url": "https://www.toy-people.com/jp/?p=111210",
+   "img": "https://img.toy-people.com/member/178174952619_1200.png",
+   "src": "トイピープル",
+   "addedAt": "2026-11-27"
   }
  ]
 }
