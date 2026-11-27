@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T03:30:00+09:00",
+ "updatedAt": "2026-11-28T03:40:00+09:00",
  "home": "小平駅・一橋学園駅（各徒歩15分）",
  "items": [
   {
@@ -233,6 +233,41 @@
    "img": "https://image.walkerplus.com/wpimg/walkertouch/wtd/event/72/n/323872_15.jpg"
   },
   {
+   "id": "2026-11-moomin-christmas-hanno",
+   "cat": "fest",
+   "title": "ムーミン谷のクリスマス2026／メッツァの北欧クリスマス",
+   "desc": "飯能のムーミンバレーパークとメッツァビレッジで開催される冬のイベント。ショーやナイトパス、湖上花火（週末・祝日ほか）、北欧クリスマスの催しが楽しめる。",
+   "start": "2026-10-31",
+   "end": "2026-12-25",
+   "time": "10:00〜20:00（日により異なる）",
+   "venue": "ムーミンバレーパーク／メッツァビレッジ（飯能市宮沢）",
+   "area": "飯能市",
+   "price": "メッツァビレッジ入場無料／パーク1日券 大人4,300円（当日）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 70,
+     "note": "西武新宿線で所沢、西武池袋線で飯能、バス・徒歩でメッツァ"
+    },
+    "hitotsubashi": {
+     "min": "75",
+     "note": "西武国分寺線で所沢、西武池袋線で飯能、バス・徒歩でメッツァ"
+    }
+   },
+   "car": {
+    "min": 45,
+    "parking": "あり"
+   },
+   "tags": [
+    "クリスマス",
+    "北欧",
+    "花火",
+    "家族向け"
+   ],
+   "url": "https://metsa-hanno.com/event/47204/",
+   "src": "メッツァ公式"
+  },
+  {
    "id": "2026-11-green-springs-illumi",
    "cat": "fest",
    "title": "GREEN SPRINGS ILLUMINATION",
@@ -299,6 +334,37 @@
    "src": "公式サイト"
   },
   {
+   "id": "2026-11-kichijoji-illumi",
+   "cat": "fest",
+   "title": "吉祥寺イルミネーション2026",
+   "desc": "吉祥寺駅北口駅前広場と周辺の街路樹を飾るイルミネーション。今年はデザインを全面リニューアル、12/24にはクリスマスのフォトスポットも開放される。",
+   "start": "2026-11-03",
+   "end": "2026-12-25",
+   "time": "16:00〜25:00",
+   "venue": "吉祥寺駅北口駅前広場ほか",
+   "area": "武蔵野市",
+   "train": {
+    "kodaira": {
+     "min": 33,
+     "note": "国分寺でJR中央線に乗換え吉祥寺"
+    },
+    "hitotsubashi": {
+     "min": "22",
+     "note": "一橋学園からバスまたは国分寺経由で吉祥寺"
+    }
+   },
+   "car": {
+    "min": 32,
+    "parking": "周辺に有料駐車場"
+   },
+   "tags": [
+    "イルミネーション"
+   ],
+   "url": "https://musashino-kanko.com/musashino-event/kichijoji-illumi2026/",
+   "src": "武蔵野市観光機構",
+   "img": "https://musashino-kanko.com/wp/wp-content/uploads/2026/10/78af37592e7b79b6202543f48f13b67a.jpg"
+  },
+  {
    "id": "2026-11-roppongi-hills-xmas",
    "cat": "fest",
    "title": "ROPPONGI HILLS CHRISTMAS 2026 けやき坂イルミネーション",
@@ -334,6 +400,39 @@
    "img": "https://image.walkerplus.com/wpimg/walkertouch/wtd/event/03/n/17503_4.jpg"
   },
   {
+   "id": "2026-11-skytree-xmas-market",
+   "cat": "fest",
+   "title": "絵本の中のクリスマスマーケット in 東京スカイツリータウン",
+   "desc": "東京ソラマチ4階スカイアリーナで開かれるクリスマスマーケット。入場無料。",
+   "start": "2026-11-05",
+   "end": "2026-12-25",
+   "time": "11:00〜22:00（L.O.21:00）",
+   "venue": "東京ソラマチ4階 スカイアリーナ",
+   "area": "墨田区",
+   "price": "入場無料",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 65,
+     "note": "西武新宿線で高田馬場、山手線・半蔵門線等で押上"
+    },
+    "hitotsubashi": {
+     "min": "60",
+     "note": "西武国分寺線・中央線で神田・錦糸町経由等で押上"
+    }
+   },
+   "car": {
+    "min": 70
+   },
+   "tags": [
+    "クリスマスマーケット",
+    "スカイツリー",
+    "無料"
+   ],
+   "url": "https://www.zato.co.jp/",
+   "src": "PR TIMES（運営会社発表）"
+  },
+  {
    "id": "2026-11-saitama-cocoon-christmas",
    "cat": "fest",
    "title": "コクーンシティ クリスマス",
@@ -364,6 +463,36 @@
    ],
    "url": "https://www.cocooncity.jp/christmas2026/",
    "src": "コクーンシティ公式"
+  },
+  {
+   "id": "2026-11-musashisakai-illumi",
+   "cat": "fest",
+   "title": "武蔵境イルミネーション2026",
+   "desc": "武蔵境駅の北口駅前広場、スイングロード、南口ロータリーが光で彩られる、ロングランの駅前イルミネーション。",
+   "start": "2026-11-07",
+   "end": "2027-01-24",
+   "time": "夕方〜夜（点灯時間は公式ページに記載なし）",
+   "venue": "武蔵境駅北口駅前広場・スイングロード・南口ロータリー",
+   "area": "武蔵野市",
+   "train": {
+    "kodaira": {
+     "min": 30,
+     "note": "国分寺でJR中央線に乗換え武蔵境"
+    },
+    "hitotsubashi": {
+     "min": "25",
+     "note": "一橋学園からバスまたは西武多摩川線経由で武蔵境"
+    }
+   },
+   "car": {
+    "min": 25
+   },
+   "tags": [
+    "イルミネーション"
+   ],
+   "url": "https://musashino-kanko.com/musashino-event/musashino-illumination2026/",
+   "src": "武蔵野市観光機構",
+   "img": "https://musashino-kanko.com/wp/wp-content/uploads/2026/10/cc4d31291f8b5feca114d266423114f6.jpg"
   },
   {
    "id": "2026-11-chuo-pokemon-legend-research",
@@ -498,6 +627,39 @@
    "src": "enjoytokyo"
   },
   {
+   "id": "2026-11-tokyotower-xmas-market",
+   "cat": "fest",
+   "title": "TOKYO TOWER Christmas Market 2026",
+   "desc": "東京タワー正面玄関前広場の特設会場で開かれるクリスマスマーケット。入場は無料で、飲食・物販は別料金。",
+   "start": "2026-11-13",
+   "end": "2026-12-25",
+   "time": "12:00〜22:00（L.O.21:30）",
+   "venue": "東京タワー正面玄関前広場",
+   "area": "港区",
+   "price": "入場無料",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 60,
+     "note": "西武新宿線で高田馬場、山手線・都営線等で赤羽橋または御成門"
+    },
+    "hitotsubashi": {
+     "min": "55",
+     "note": "西武国分寺線・中央線で新宿経由、地下鉄で赤羽橋"
+    }
+   },
+   "car": {
+    "min": 60
+   },
+   "tags": [
+    "クリスマスマーケット",
+    "東京タワー",
+    "無料"
+   ],
+   "url": "https://christmasmarket.jp/202611-tokyotower",
+   "src": "主催（クリスマスマーケット実行委員会）"
+  },
+  {
    "id": "2026-11-kadokawa-shokudo-tokorozawa",
    "cat": "food",
    "title": "角川食堂「秋の実りとスイーツフェア」",
@@ -567,6 +729,41 @@
    "img": "https://image.walkerplus.com/wpimg/walkertouch/wtd/event/83/n/17383_6.jpg"
   },
   {
+   "id": "2026-11-ebisu-baccarat-eternal-lights",
+   "cat": "fest",
+   "title": "Baccarat ETERNAL LIGHTS（恵比寿ガーデンプレイス）",
+   "desc": "センター広場に高さ約5mの大型バカラシャンデリアが灯る恵比寿の冬の恒例イルミネーション。ツリーとクリスマスマルシェも12/25まで。",
+   "start": "2026-11-14",
+   "end": "2027-01-11",
+   "time": "11:00〜23:00",
+   "venue": "恵比寿ガーデンプレイス センター広場",
+   "area": "渋谷区",
+   "price": "無料",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 50,
+     "note": "西武新宿線で高田馬場、山手線で恵比寿"
+    },
+    "hitotsubashi": {
+     "min": "45",
+     "note": "西武国分寺線・中央線で国分寺経由、中央線・山手線で恵比寿"
+    }
+   },
+   "car": {
+    "min": 55,
+    "parking": "あり"
+   },
+   "tags": [
+    "イルミネーション",
+    "シャンデリア",
+    "恵比寿",
+    "無料"
+   ],
+   "url": "https://event.gardenplace.jp/special/2026baccarat/",
+   "src": "恵比寿ガーデンプレイス"
+  },
+  {
    "id": "2026-11-kodaira-mewtech-xmas",
    "cat": "family",
    "title": "クリスマスワークショップ 3色のLEDが光るドアチャイムを作ろう",
@@ -634,6 +831,72 @@
    "url": "https://www.tokyo-dome.co.jp/illumination/",
    "src": "東京ドームシティ",
    "img": "https://www.tokyo-dome.co.jp/themes/common/img/ogp/ogp.jpg"
+  },
+  {
+   "id": "2026-11-fuchu-mannaka-illumi",
+   "cat": "fest",
+   "title": "府中まんなかイルミ2026（府中けやき並木ライトアップ）",
+   "desc": "府中駅南口デッキに高さ約5mのクリスマスツリーとフォトスポットが登場し、けやき並木も5色の光で照らされる。",
+   "start": "2026-11-19",
+   "end": "2026-12-25",
+   "time": "16:30〜24:00",
+   "venue": "府中駅南口ペデストリアンデッキ・けやき並木",
+   "area": "府中市",
+   "price": "無料",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 38,
+     "note": "国分寺でJR武蔵野線に乗換え府中本町、または西国分寺経由"
+    },
+    "hitotsubashi": {
+     "min": "22",
+     "note": "一橋学園から国分寺方面経由で府中"
+    }
+   },
+   "car": {
+    "min": 28,
+    "parking": "周辺の有料駐車場"
+   },
+   "tags": [
+    "イルミネーション",
+    "無料"
+   ],
+   "url": "https://www.hotel-continental.co.jp/news/%E6%9C%AC%E6%97%A5%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%EF%BC%81%E5%BA%9C%E4%B8%AD%E3%81%BE%E3%82%93%E3%81%AA%E3%81%8B%E3%82%A4%E3%83%AB%E3%83%9F2026/",
+   "src": "ホテルコンチネンタル府中",
+   "img": "https://rstatic.enjoytokyo.jp/assets/images/event/b6/932843/img_1.jpg?1794973008&p=t&w=1200"
+  },
+  {
+   "id": "2026-11-mitaka-kita-illumi",
+   "cat": "fest",
+   "title": "三鷹駅北口イルミネーション2026",
+   "desc": "三鷹駅北口ロータリーを温かな光で飾る冬の定番イルミネーション。11/19に点灯式が行われた。",
+   "start": "2026-11-19",
+   "end": "2027-01-31",
+   "time": "17:00〜25:00",
+   "venue": "三鷹駅北口駅前ロータリー",
+   "area": "三鷹市",
+   "price": "無料",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 32,
+     "note": "国分寺でJR中央線に乗換え三鷹"
+    },
+    "hitotsubashi": {
+     "min": "22",
+     "note": "一橋学園からバス、または国分寺経由で三鷹"
+    }
+   },
+   "car": {
+    "min": 30
+   },
+   "tags": [
+    "イルミネーション",
+    "無料"
+   ],
+   "url": "https://www.musashino-shouren.com/event/illumi2026/",
+   "src": "三鷹駅北口商店会"
   },
   {
    "id": "2026-11-tokyo-xmas-market",
@@ -761,6 +1024,241 @@
    "img": "https://ms-cache.walkerplus.com/walkertouch/wtd/event/81/l2/623181.jpg"
   },
   {
+   "id": "2026-11-koishikawa-korakuen-momiji",
+   "cat": "fest",
+   "title": "小石川後楽園「深山紅葉を楽しむ」",
+   "desc": "都立庭園の紅葉にあわせ、茶会・能楽・雅楽公演や庭園ガイドが開かれる。11/22の茶会、11/28の能楽、12/5の雅楽などの催しあり。",
+   "start": "2026-11-21",
+   "end": "2026-12-06",
+   "time": "9:00〜17:00（最終入園16:30）",
+   "venue": "小石川後楽園",
+   "area": "文京区",
+   "price": "一般300円／65歳以上150円（小学生以下無料）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 55,
+     "note": "西武新宿線で高田馬場、東西線で飯田橋、徒歩"
+    },
+    "hitotsubashi": {
+     "min": "55",
+     "note": "西武国分寺線・中央線で中野経由、東西線で飯田橋、徒歩"
+    }
+   },
+   "car": {
+    "min": 55
+   },
+   "tags": [
+    "紅葉",
+    "庭園",
+    "能楽",
+    "雅楽"
+   ],
+   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026101407",
+   "src": "東京都"
+  },
+  {
+   "id": "2026-11-lumine-pokemon-xmas-shinjuku",
+   "cat": "family",
+   "title": "LUMINE Pokémon Christmas 2026（ルミネ新宿）",
+   "desc": "『ぽこ あ ポケモン』とのコラボで、スタンプラリーやフォトブースを展開。12/13にはルミネ新宿でワークショップもある（無料）。",
+   "start": "2026-11-21",
+   "end": "2026-12-25",
+   "venue": "ルミネ新宿・ルミネエスト新宿",
+   "area": "新宿区",
+   "price": "フォトブース・ワークショップ無料",
+   "free": true,
+   "tags": [
+    "ポケモン",
+    "クリスマス",
+    "スタンプラリー",
+    "新宿"
+   ],
+   "url": "https://www.lumine.ne.jp/christmas2026",
+   "src": "ルミネ公式",
+   "train": {
+    "kodaira": {
+     "min": 35,
+     "note": "西武新宿線・JR中央線で新宿"
+    },
+    "hitotsubashi": {
+     "min": 30,
+     "note": "西武線・中央線で新宿"
+    }
+   },
+   "car": {
+    "min": 50,
+    "parking": "なし"
+   }
+  },
+  {
+   "id": "2026-10-haikyu-challengers",
+   "cat": "family",
+   "title": "古舘春一 ハイキュー!!展 挑戦者たち",
+   "desc": "原画や描き下ろしイラストで『ハイキュー!!』の物語をたどる展覧会。日時指定制で後期は12/1〜。",
+   "start": "2026-11-21",
+   "end": "2027-01-11",
+   "time": "10:00〜20:00（最終入館は閉館30分前）",
+   "venue": "森アーツセンターギャラリー（六本木ヒルズ森タワー52階）",
+   "area": "港区",
+   "free": false,
+   "tags": [
+    "アニメ",
+    "漫画",
+    "展覧会",
+    "六本木"
+   ],
+   "url": "https://eplus.jp/haikyu-challengers-ex/",
+   "src": "イープラス（公式チケット）",
+   "train": {
+    "kodaira": {
+     "min": 55,
+     "note": "中央線・地下鉄で六本木（日比谷線 六本木駅直結）"
+    },
+    "hitotsubashi": {
+     "min": 45,
+     "note": "中央線・地下鉄で六本木"
+    }
+   },
+   "car": {
+    "min": 55,
+    "parking": "なし"
+   }
+  },
+  {
+   "id": "2026-11-mappa-expo",
+   "cat": "family",
+   "title": "MAPPA EXPO 15th Anniversary",
+   "desc": "アニメ制作会社MAPPAの15年の歩みをたどる展覧会。12月7日まで。",
+   "start": "2026-11-21",
+   "end": "2026-12-07",
+   "venue": "YURAKUCHO MUSEUM（有楽町）",
+   "area": "千代田区",
+   "free": false,
+   "tags": [
+    "アニメ",
+    "展覧会",
+    "有楽町"
+   ],
+   "url": "https://expo.mappa.co.jp/",
+   "src": "MAPPA EXPO公式",
+   "train": {
+    "kodaira": {
+     "min": 65,
+     "note": "中央線で東京駅、有楽町へ徒歩"
+    },
+    "hitotsubashi": {
+     "min": 55,
+     "note": "中央線で東京駅、有楽町へ徒歩"
+    }
+   },
+   "car": {
+    "min": 70,
+    "parking": "なし"
+   }
+  },
+  {
+   "id": "2026-11-rikugien-night-momiji",
+   "cat": "fest",
+   "title": "六義園 夜間特別観賞（庭紅葉）",
+   "desc": "通常17時閉園の後、18時から夜間に特別開園する紅葉ライトアップ。",
+   "start": "2026-11-25",
+   "end": "2026-12-06",
+   "time": "18:00〜20:30（最終入園19:30）",
+   "venue": "六義園",
+   "area": "文京区",
+   "price": "前売1,000円／当日1,200円（小学生以下無料）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 55,
+     "note": "西武新宿線で高田馬場、山手線で駒込"
+    },
+    "hitotsubashi": {
+     "min": "55",
+     "note": "西武国分寺線・中央線で国分寺経由、山手線で駒込"
+    }
+   },
+   "car": {
+    "min": 60
+   },
+   "tags": [
+    "紅葉",
+    "ライトアップ",
+    "庭園",
+    "夜"
+   ],
+   "url": "https://www.tokyo-park.or.jp/park/rikugien/",
+   "src": "東京都公園協会"
+  },
+  {
+   "id": "2026-11-teamlab-hamarikyu",
+   "cat": "family",
+   "title": "チームラボ 浜離宮",
+   "desc": "浜離宮恩賜庭園の夜に広がる屋外のアート展。日時指定の事前購入制で、防寒対策が必要。",
+   "start": "2026-11-25",
+   "end": "2026-12-24",
+   "time": "18:00〜21:15（最終入場20:30）",
+   "venue": "浜離宮恩賜庭園",
+   "area": "中央区",
+   "price": "一般2,500円・中高生1,500円・小学生900円・未就学児無料",
+   "free": false,
+   "tags": [
+    "アート",
+    "夜",
+    "庭園",
+    "子連れ"
+   ],
+   "url": "https://www.teamlab.art/jp/e/hamarikyu/",
+   "src": "チームラボ公式",
+   "train": {
+    "kodaira": {
+     "min": 65,
+     "note": "中央線で新宿・東京方面、地下鉄などで新橋・汐留"
+    },
+    "hitotsubashi": {
+     "min": 55,
+     "note": "中央線で東京方面、新橋へ"
+    }
+   },
+   "car": {
+    "min": 70,
+    "parking": "なし"
+   }
+  },
+  {
+   "id": "2026-11-seibuen-nostalgic-xmas",
+   "cat": "fest",
+   "title": "西武園ゆうえんち ノスタルジック・クリスマス",
+   "desc": "昭和風の商店街でクリスマスのパレードやショー、イルミネーションが楽しめる。12月の土日と24〜30日には焚火喫茶も出る。",
+   "start": "2026-11-26",
+   "end": "2026-12-25",
+   "time": "パレード13:00〜、ブギウギ祭16:30頃〜（焚火喫茶は一部日程の16:00〜）",
+   "venue": "西武園ゆうえんち",
+   "area": "所沢市",
+   "train": {
+    "kodaira": {
+     "min": 30,
+     "note": "西武新宿線で東村山、西武園線で西武園"
+    },
+    "hitotsubashi": {
+     "min": "40",
+     "note": "西武新宿線で東村山、西武園線で西武園"
+    }
+   },
+   "car": {
+    "min": 25
+   },
+   "tags": [
+    "クリスマス",
+    "遊園地",
+    "パレード"
+   ],
+   "url": "https://www.seibuen-amusement-park.jp/event/christmas2026",
+   "src": "西武園ゆうえんち",
+   "img": "https://www.seibuen-amusement-park.jp/2026-ch-w-1920.jpg"
+  },
+  {
    "id": "2026-11-ikebukuro-tamago-fes",
    "cat": "food",
    "title": "卵フェスin東京2026",
@@ -792,6 +1290,69 @@
    ],
    "url": "https://japantkg.theshop.jp/",
    "src": "卵フェス公式"
+  },
+  {
+   "id": "2026-11-harajuku-holiday-market",
+   "cat": "fest",
+   "title": "HOLIDAY MARKET powered by nanoblock（原宿 and ST TOKYO）",
+   "desc": "ナノブロックの壁面アートや巨大ツリー、セルフフォトブース、週末ワークショップがある体験型クリスマス。",
+   "start": "2026-11-27",
+   "end": "2026-12-25",
+   "time": "店舗営業時間に準ずる（ワークショップは一部11:00〜17:00）",
+   "venue": "and ST TOKYO（WITH HARAJUKU 1F）",
+   "area": "渋谷区",
+   "price": "体験により無料〜4,500円",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 50,
+     "note": "西武新宿線で高田馬場、山手線で原宿"
+    },
+    "hitotsubashi": {
+     "min": "40",
+     "note": "西武国分寺線・中央線で新宿経由、山手線で原宿"
+    }
+   },
+   "car": {
+    "min": 55
+   },
+   "tags": [
+    "クリスマス",
+    "原宿",
+    "ワークショップ"
+   ],
+   "url": "https://www.dot-st.com/cp/sttokyo2026_xmas",
+   "src": "and ST TOKYO"
+  },
+  {
+   "id": "2026-11-roppongi-rock-anthem-ex",
+   "cat": "music",
+   "title": "ロックアンセムEX",
+   "desc": "11/27はOKAMOTO'S・ドレスコーズ・THE BAWDIES、11/29はBase Ball Bear・山内総一郎ほかが出るロックイベント。",
+   "start": "2026-11-27",
+   "time": "11/27 19:00開演、11/29 17:00開演（11/28は開催なし）",
+   "venue": "EX THEATER ROPPONGI",
+   "area": "港区（六本木）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 55,
+     "note": "西武新宿線で高田馬場→大江戸線等で六本木"
+    },
+    "hitotsubashi": {
+     "min": 50,
+     "note": "中央線で新宿→大江戸線で六本木"
+    }
+   },
+   "car": {
+    "min": 55
+   },
+   "tags": [
+    "ロック",
+    "ライブ"
+   ],
+   "url": "https://eplus.jp/sf/detail/4627210001-P0030001",
+   "src": "イープラス"
   },
   {
    "id": "2026-11-fuchu-kyodo-matsuri",
@@ -925,6 +1486,102 @@
    "src": "タイムマシーンカンパニー"
   },
   {
+   "id": "2026-11-tokorozawa-sakuratown-lightup",
+   "cat": "fest",
+   "title": "ところざわサクラタウン 冬のライトアップ2026-2027『Let It Glow -A Winter Gift-』",
+   "desc": "「光のプレゼント」をテーマに、サクラタウン中央広場をキャンドルやプレゼントボックスの装飾で彩る無料のライトアップ。12/19・20は冬のテレ玉マーケットも開かれる。",
+   "start": "2026-11-28",
+   "end": "2027-01-31",
+   "time": "17:00〜22:00（12/19・20のマーケットは14:00〜20:00）",
+   "venue": "ところざわサクラタウン 中央広場",
+   "area": "所沢市",
+   "price": "無料",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 40,
+     "note": "西武線で国分寺、JR武蔵野線で東所沢"
+    },
+    "hitotsubashi": {
+     "min": "45",
+     "note": "国分寺経由でJR武蔵野線東所沢"
+    }
+   },
+   "car": {
+    "min": 25
+   },
+   "tags": [
+    "イルミネーション",
+    "ライトアップ",
+    "無料"
+   ],
+   "url": "https://tokorozawa-sakuratown.com/event_categories/lightup26.html",
+   "src": "ところざわサクラタウン"
+  },
+  {
+   "id": "2026-11-higashimurayama-marusuzuen",
+   "cat": "family",
+   "title": "冬の丸鈴園をまるごと体験（みかん狩り・干し柿・輪飾り作り）",
+   "desc": "東村山の農園で、みかん狩り、旬の野菜の収穫、干し柿作り、地場のわらでの正月用輪飾り作りを体験できる2日間。予約制。",
+   "start": "2026-11-28",
+   "end": "2026-11-29",
+   "time": "9:00〜11:30",
+   "venue": "丸鈴園 庭先販売所（東村山市野口町4-23-1）",
+   "area": "東村山市",
+   "price": "不明（公式サイトから予約、1セット最大4名）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 15,
+     "note": "西武新宿線で東村山、徒歩約8分"
+    },
+    "hitotsubashi": {
+     "min": 25,
+     "note": "バス等で西武新宿線沿線へ、東村山から徒歩約8分"
+    }
+   },
+   "car": {
+    "min": 20
+   },
+   "tags": [
+    "農業体験",
+    "収穫",
+    "親子"
+   ],
+   "url": "https://marusuzuen.tokyo/",
+   "src": "丸鈴園（いこーよ掲載）"
+  },
+  {
+   "id": "2026-11-shinjuku-edo-wave-2026",
+   "cat": "music",
+   "title": "Tokyo International Music Festival EDO WAVE 2026 ええじゃないか!江戸国際音楽祭",
+   "desc": "海外ゲストと国内バンドが出る国際音楽祭。新宿LOFTで開催。",
+   "start": "2026-11-29",
+   "time": "15:30開演（14:30開場）",
+   "venue": "新宿 LOFT",
+   "area": "新宿区",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 40,
+     "note": "西武新宿線で西武新宿、徒歩"
+    },
+    "hitotsubashi": {
+     "min": 35,
+     "note": "中央線で新宿、徒歩"
+    }
+   },
+   "car": {
+    "min": 50
+   },
+   "tags": [
+    "フェス",
+    "ロック"
+   ],
+   "url": "https://eplus.jp/sf/detail/4580500001-P0030001",
+   "src": "イープラス"
+  },
+  {
    "id": "2026-12-kawaguchi-nabe-matsuri",
    "cat": "food",
    "title": "川口×絶品グルメ鍋祭り2026",
@@ -1026,6 +1683,37 @@
    "img": "https://tokyochristmas.net/wp/wp-content/themes/tokyochristmas_rwd/common/images/ogp2023.png"
   },
   {
+   "id": "2026-12-kawagoe-citizen-xmas-charity",
+   "cat": "music",
+   "title": "川越市民クリスマスチャリティーコンサート",
+   "desc": "川越市民による実行委員会が開く、ウェスタ川越ヤオコー大ホールでのチャリティー形式のクリスマスコンサート。",
+   "start": "2026-12-04",
+   "time": "19:00開演",
+   "venue": "ウェスタ川越 ヤオコー大ホール",
+   "area": "川越市",
+   "price": "1,000円（小学生以下無料・全席自由）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 45,
+     "note": "西武新宿線で本川越、バスまたは徒歩（ウェスタ川越は川越駅方面からも徒歩圏）"
+    },
+    "hitotsubashi": {
+     "min": 50,
+     "note": "西武新宿線で本川越方面へ、バスまたは徒歩"
+    }
+   },
+   "car": {
+    "min": 40
+   },
+   "tags": [
+    "クリスマス",
+    "チャリティー"
+   ],
+   "url": "https://www.westa-kawagoe.jp/event/detail.html?id=3900",
+   "src": "ウェスタ川越"
+  },
+  {
    "id": "2026-12-showa-sippo",
    "cat": "family",
    "title": "Sippo Festa 2026 Winter（しっぽフェスタ）",
@@ -1089,6 +1777,75 @@
    ],
    "url": "https://www.muse-tokorozawa.or.jp/event/detail/20261205/",
    "src": "所沢ミューズ公式"
+  },
+  {
+   "id": "2026-12-odaiba-rainbow-hanabi",
+   "cat": "fest",
+   "title": "お台場レインボー花火2026",
+   "desc": "12月の毎週土曜にお台場海浜公園の夜空へ打ち上がる冬の花火。1回約5分で、12/19は音楽に合わせたミュージック花火。",
+   "start": "2026-12-05",
+   "end": "2026-12-26",
+   "time": "19:00頃〜（各回約5分、12/5・12・19・26の土曜）",
+   "venue": "お台場海浜公園",
+   "area": "港区",
+   "price": "無料",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 75,
+     "note": "西武新宿線で高田馬場、山手線・ゆりかもめ等で台場"
+    },
+    "hitotsubashi": {
+     "min": "70",
+     "note": "西武国分寺線・中央線で国分寺経由、りんかい線で東京テレポート"
+    }
+   },
+   "car": {
+    "min": 70
+   },
+   "tags": [
+    "花火",
+    "冬花火",
+    "お台場",
+    "無料"
+   ],
+   "url": "https://www.gotokyo.org/jp/spot/ev278/index.html",
+   "src": "GO TOKYO"
+  },
+  {
+   "id": "2026-12-kawagoe-coffee-fes",
+   "cat": "food",
+   "title": "川越コーヒーフェスティバル2026",
+   "desc": "蓮馨寺の境内に全国のロースターやフードの店が集まる、第11回のコーヒーの祭典。初日夕方にはライブもある。",
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "time": "10:00〜16:30（12/5はイブニングライブあり）",
+   "venue": "蓮馨寺",
+   "area": "川越市",
+   "price": "入場料1,100円（混雑時は入場制限あり）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 45,
+     "note": "西武新宿線で本川越、徒歩約7分"
+    },
+    "hitotsubashi": {
+     "min": 50,
+     "note": "一橋学園から小平で西武新宿線に乗り換え、本川越から徒歩"
+    }
+   },
+   "car": {
+    "min": 40,
+    "parking": "少ない（公共交通推奨）"
+   },
+   "tags": [
+    "コーヒー",
+    "音楽",
+    "川越"
+   ],
+   "url": "https://kawagoecoffee.com",
+   "src": "川越コーヒーフェスティバル公式",
+   "img": "https://storage.googleapis.com/production-os-assets/assets/1f0d2fe8-b926-48a9-9c35-a506d795a237"
   },
   {
    "id": "2026-12-kawagoe-daiku",
@@ -1186,6 +1943,172 @@
    "src": "所沢ミューズ公式"
   },
   {
+   "id": "2026-12-kichijoji-parco-mottainai",
+   "cat": "family",
+   "title": "吉祥寺パルコ MOTTAINAIフリーマーケット（12月）",
+   "desc": "吉祥寺パルコ屋上で開かれる約100店のフリマ。洋服、雑貨、古本、子ども服などが並ぶ。雨天中止の場合あり。",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "time": "9:30〜14:00",
+   "venue": "吉祥寺パルコ 屋上",
+   "area": "武蔵野市",
+   "price": "入場無料",
+   "free": true,
+   "tags": [
+    "フリーマーケット",
+    "古着",
+    "子ども服",
+    "雑貨"
+   ],
+   "url": "https://www.walkerplus.com/event/ar0313e608810/",
+   "src": "ウォーカープラス",
+   "train": {
+    "kodaira": {
+     "min": 30,
+     "note": "西武新宿線・中央線で国分寺、中央線で吉祥寺"
+    },
+    "hitotsubashi": {
+     "min": 20,
+     "note": "西武国分寺線で国分寺、中央線で吉祥寺"
+    }
+   },
+   "car": {
+    "min": 30,
+    "parking": "なし"
+   }
+  },
+  {
+   "id": "2026-12-seibu-akaden-night",
+   "cat": "family",
+   "title": "西武多摩川線101系【赤電】夜間撮影会",
+   "desc": "終電後の武蔵境駅で、ヘッドマーク付きの赤電を撮影し車両の入換も見学できる。是政駅から臨時列車で移動。18歳以上対象、先着40名、申込は11/30まで（西武線アプリ）。",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "time": "0:20〜4:30（12/5終電後）",
+   "venue": "西武鉄道 多摩川線 武蔵境駅（受付は是政駅）",
+   "area": "武蔵野市",
+   "price": "20,000円（税込）",
+   "free": false,
+   "tags": [
+    "鉄道",
+    "撮影会",
+    "西武",
+    "大人向け"
+   ],
+   "url": "https://www.seiburailway.jp/newsroom/news/",
+   "src": "西武鉄道",
+   "train": {
+    "kodaira": {
+     "min": 40,
+     "note": "終電後開催。受付の是政駅へは国分寺経由西武多摩川線などで（目安）"
+    },
+    "hitotsubashi": {
+     "min": 35,
+     "note": "国分寺経由で武蔵境・是政方面（目安）"
+    }
+   },
+   "car": {
+    "min": 25
+   }
+  },
+  {
+   "id": "2026-12-daikanyama-enjoy-craft-nenmatsu",
+   "cat": "food",
+   "title": "ENJOY! CRAFT 年末大感謝祭 2026（ブルワーズナイト）",
+   "desc": "スプリングバレーブルワリー東京で、醸造家やスタッフと交流しながら13種のビールを飲み放題で楽しむ一夜。アメリカンダイナー風ビュッフェとTボーンステーキつき。",
+   "start": "2026-12-08",
+   "time": "18:30開場、19:00〜21:30",
+   "venue": "SPRING VALLEY BREWERY TOKYO 2階",
+   "area": "渋谷区",
+   "price": "6,500円（税込、定員55名）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 50,
+     "note": "西武新宿線・JR経由で渋谷、東急東横線で代官山駅"
+    },
+    "hitotsubashi": {
+     "min": 45,
+     "note": "JR中央線で新宿、山手線で渋谷、東急東横線で代官山駅"
+    }
+   },
+   "car": {
+    "min": 60
+   },
+   "tags": [
+    "クラフトビール",
+    "ステーキ",
+    "代官山"
+   ],
+   "url": "https://www.enjoytokyo.jp/event/2091258/",
+   "src": "レッツエンジョイ東京"
+  },
+  {
+   "id": "2026-12-koganei-konnyaku-jodoe",
+   "cat": "food",
+   "title": "成道会に蒟蒻料理を作る会",
+   "desc": "精進料理の寺・三光院で、成道会にちなんで蒟蒻料理を作って味わう会。料理は江戸の料理書『蒟蒻百珍』から選ばれる。",
+   "start": "2026-12-08",
+   "time": "16:00〜18:30",
+   "venue": "寺子屋三光院十月堂",
+   "area": "小金井市",
+   "train": {
+    "kodaira": {
+     "min": 30,
+     "note": "西武新宿線で花小金井、バス・徒歩で小金井市内の三光院へ"
+    },
+    "hitotsubashi": {
+     "min": 25,
+     "note": "一橋学園からバス・徒歩で小金井方面"
+    }
+   },
+   "car": {
+    "min": 20
+   },
+   "tags": [
+    "精進料理",
+    "体験",
+    "蒟蒻"
+   ],
+   "url": "https://www.walkerplus.com/event/ar0313e622385/",
+   "src": "ウォーカープラス",
+   "img": "https://ms-cache.walkerplus.com/walkertouch/wtd/event/85/l2/622385.jpg"
+  },
+  {
+   "id": "2026-12-seibu-nra-night",
+   "cat": "family",
+   "title": "深夜に電車をとらNIGHT！ NRAコンプリート撮影会",
+   "desc": "2027年春に定期運行を終える10000系ニューレッドアロー5本を、深夜の南入曽車両基地で撮影する。本川越駅から臨時列車で移動。18歳以上、先着50名、申込は11/30まで。",
+   "start": "2026-12-09",
+   "end": "2026-12-09",
+   "time": "0:30〜4:50（12/8終電後）",
+   "venue": "西武鉄道 南入曽車両基地（受付は本川越駅）",
+   "area": "狭山市",
+   "price": "27,000円（税込）",
+   "free": false,
+   "tags": [
+    "鉄道",
+    "撮影会",
+    "西武",
+    "大人向け"
+   ],
+   "url": "https://www.seiburailway.jp/newsroom/news/",
+   "src": "西武鉄道",
+   "train": {
+    "kodaira": {
+     "min": 45,
+     "note": "西武新宿線で本川越へ（終電後開催のため時間は目安）"
+    },
+    "hitotsubashi": {
+     "min": 50,
+     "note": "西武新宿線で本川越へ（目安）"
+    }
+   },
+   "car": {
+    "min": 40
+   }
+  },
+  {
    "id": "2026-12-toshima-dr-stone-ten",
    "cat": "family",
    "title": "TVアニメ「Dr.STONE」展 科学王国ミュージアム",
@@ -1218,6 +2141,107 @@
    "url": "https://eplus.jp/anime-drstone-exhibition/",
    "src": "イープラス",
    "img": "https://eplus.jp/s/image/0000187530/0000187530_1.jpg"
+  },
+  {
+   "id": "2026-12-nishitokyo-kendama-free",
+   "cat": "family",
+   "title": "紅白出場けん玉師が教える けん玉無料体験（田無）",
+   "desc": "世界的けん玉師・伊藤佑介さんを講師に、小学生から大人まで無料でけん玉を体験できる教室。要予約。",
+   "start": "2026-12-10",
+   "end": "2027-01-07",
+   "time": "16:30〜18:00、19:00〜20:30（12/17は19:30〜20:30）",
+   "venue": "J:COMコール田無 4階（西東京市田無町3-7-2）",
+   "area": "西東京市",
+   "price": "無料（要予約）",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 20,
+     "note": "西武新宿線で田無へ、徒歩約7分"
+    },
+    "hitotsubashi": {
+     "min": 30,
+     "note": "バス等で西武新宿線沿線へ出て田無へ、徒歩約7分"
+    }
+   },
+   "car": {
+    "min": 20
+   },
+   "tags": [
+    "体験",
+    "けん玉",
+    "無料"
+   ],
+   "url": "https://lit.link/nishitokyokendama",
+   "src": "西東京けん玉クラブ（いこーよ掲載）"
+  },
+  {
+   "id": "2026-12-saitama-keyaki-xmas-market",
+   "cat": "food",
+   "title": "けやきひろば クリスマスマーケット2026 ～WHITE SNOW CHRISTMAS～",
+   "desc": "さいたま新都心のけやきひろばで開く第12回のクリスマスマーケット。雪をイメージした装飾とグルメ、ドイツ系の雑貨が並び、一部日はワークショップもある。",
+   "start": "2026-12-11",
+   "end": "2026-12-25",
+   "time": "12:00〜21:00（初日16:00〜、最終日〜20:00）",
+   "venue": "さいたま新都心 けやきひろば",
+   "area": "さいたま市",
+   "price": "入場無料（飲食代別途）",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 65,
+     "note": "西武新宿線・JR埼京線等を乗り継ぎさいたま新都心駅から徒歩1分"
+    },
+    "hitotsubashi": {
+     "min": 65,
+     "note": "一橋学園から国分寺・武蔵浦和経由などでさいたま新都心"
+    }
+   },
+   "car": {
+    "min": 55,
+    "parking": "少ない（周辺有料駐車場）"
+   },
+   "tags": [
+    "クリスマスマーケット",
+    "グルメ",
+    "イルミネーション"
+   ],
+   "url": "https://tamaari-xmas.com/",
+   "src": "けやきひろばクリスマスマーケット公式",
+   "img": "https://tamaari-xmas.com/ogp.png"
+  },
+  {
+   "id": "2026-12-sumida-atatakagourmet-fes",
+   "cat": "food",
+   "title": "すみだあったかグルメフェス 2026 WINTER",
+   "desc": "隅田公園のそよ風ひろばに約44のフードテントやキッチンカーが並ぶ冬のグルメフェス。鍋や汁物、串焼き、世界のグルメとステージがあり、初日は鏡開きもある。",
+   "start": "2026-12-11",
+   "end": "2026-12-13",
+   "time": "12/11・12 10:00〜20:00、12/13 10:00〜18:00",
+   "venue": "墨田区立隅田公園 そよ風ひろば",
+   "area": "墨田区",
+   "train": {
+    "kodaira": {
+     "min": 75,
+     "note": "西武新宿線・都営線等で浅草・押上方面へ、隅田公園まで徒歩"
+    },
+    "hitotsubashi": {
+     "min": 80,
+     "note": "一橋学園から国分寺・新宿経由で浅草方面"
+    }
+   },
+   "car": {
+    "min": 65,
+    "parking": "なし"
+   },
+   "tags": [
+    "グルメフェス",
+    "鍋",
+    "屋台"
+   ],
+   "url": "https://www.walkerplus.com/event/ar0313e623715/",
+   "src": "ウォーカープラス",
+   "img": "https://image.walkerplus.com/wpimg/walkertouch/wtd/event/15/n/623715_1.jpg"
   },
   {
    "id": "2026-12-nihonshu-hitomeguri-shimbashi",
@@ -1253,6 +2277,238 @@
    "url": "https://www.walkerplus.com/event/ar0313e617229/",
    "src": "ウォーカープラス",
    "img": "https://ms-cache.walkerplus.com/walkertouch/wtd/event/29/l2/617229.jpg"
+  },
+  {
+   "id": "2026-12-kokubunji-gloria-campanella",
+   "cat": "music",
+   "title": "グロリア・カンパネル THE SOUND OF EMOTIONS～ピアノ名曲集",
+   "desc": "南アフリカ出身のピアニストが、ショパンやドビュッシー、坂本龍一「戦場のメリークリスマス」などを演奏する。トークも入る。",
+   "start": "2026-12-12",
+   "time": "14:00開演（13:30開場）",
+   "venue": "国分寺市立いずみホール",
+   "area": "国分寺市",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 20,
+     "note": "西武国分寺線で国分寺、徒歩"
+    },
+    "hitotsubashi": {
+     "min": 12,
+     "note": "西武多摩湖線で国分寺、徒歩"
+    }
+   },
+   "car": {
+    "min": 15
+   },
+   "tags": [
+    "ピアノ",
+    "クラシック"
+   ],
+   "url": "https://eplus.jp/sf/detail/4581840001-P0030001P021001?P1=0817",
+   "src": "イープラス"
+  },
+  {
+   "id": "2026-12-tatemonoen-craft",
+   "cat": "family",
+   "title": "伝統工芸の実演（江戸東京たてもの園）",
+   "desc": "園内の建物で、職人による伝統工芸の実演が見られる週末企画。古い建物の見学とあわせて楽しめる。",
+   "start": "2026-12-12",
+   "end": "2026-12-13",
+   "time": "9:30〜16:30（入園は16:00まで）",
+   "venue": "江戸東京たてもの園（都立小金井公園内）",
+   "area": "小金井市",
+   "price": "入園料 一般400円・65歳以上200円・中学生以下無料",
+   "free": false,
+   "tags": [
+    "家族",
+    "体験",
+    "工芸",
+    "博物館"
+   ],
+   "url": "https://www.tatemonoen.jp/event/schedule/",
+   "src": "江戸東京たてもの園公式",
+   "train": {
+    "kodaira": {
+     "min": 25,
+     "note": "西武新宿線で花小金井、バスまたは徒歩で小金井公園へ"
+    },
+    "hitotsubashi": {
+     "min": 15,
+     "note": "バスで小金井公園方面（または国分寺経由で武蔵小金井）"
+    }
+   },
+   "car": {
+    "min": 20
+   }
+  },
+  {
+   "id": "2026-12-yugioh-art-works",
+   "cat": "family",
+   "title": "高橋和希原画展 YU-GI-OH! ART WORKS",
+   "desc": "『遊☆戯☆王』連載30周年を記念する初の原画展。370点以上の直筆原稿などを展示。日時指定制。",
+   "start": "2026-12-12",
+   "end": "2027-02-21",
+   "time": "10:00〜20:00（最終入場は閉場30分前）",
+   "venue": "CREATIVE MUSEUM TOKYO（京橋）",
+   "area": "中央区",
+   "price": "一般2,200円・中高生1,400円・小学生900円",
+   "free": false,
+   "tags": [
+    "アニメ",
+    "漫画",
+    "展覧会",
+    "遊戯王"
+   ],
+   "url": "https://eplus.jp/t-kazuki-ten/",
+   "src": "イープラス（公式チケット）",
+   "train": {
+    "kodaira": {
+     "min": 60,
+     "note": "中央線で東京駅、京橋へ徒歩"
+    },
+    "hitotsubashi": {
+     "min": 50,
+     "note": "中央線で東京駅、京橋へ徒歩"
+    }
+   },
+   "car": {
+    "min": 65,
+    "parking": "なし"
+   }
+  },
+  {
+   "id": "2026-12-tokorozawa-sakuratown-xmas-marche",
+   "cat": "food",
+   "title": "ところざわサクラタウン クリスマスマルシェ",
+   "desc": "キッチンカーのグルメやスイーツ、焼き菓子・雑貨の販売に加え、親子向けワークショップやスタンプラリーがある。13日には近隣市のキャラクターも登場する。",
+   "start": "2026-12-12",
+   "end": "2026-12-13",
+   "time": "11:00〜17:00",
+   "venue": "ところざわサクラタウン",
+   "area": "所沢市",
+   "train": {
+    "kodaira": {
+     "min": 50,
+     "note": "西武新宿線で所沢、JR武蔵野線は新秋津乗換で東所沢から徒歩約10分"
+    },
+    "hitotsubashi": {
+     "min": 50,
+     "note": "一橋学園から小平→新秋津経由で東所沢、徒歩約10分"
+    }
+   },
+   "car": {
+    "min": 25,
+    "parking": "あり（148台・有料）"
+   },
+   "tags": [
+    "マルシェ",
+    "クリスマス",
+    "キッチンカー",
+    "親子"
+   ],
+   "url": "https://www.walkerplus.com/event/ar0311e624732/",
+   "src": "ウォーカープラス",
+   "img": "https://ms-cache.walkerplus.com/walkertouch/wtd/event/32/l2/624732.jpg"
+  },
+  {
+   "id": "2026-12-hachioji-k8-xmas-market",
+   "cat": "food",
+   "title": "ケイハチクリスマスマーケット2026",
+   "desc": "京王八王子商店会が開く、欧州のアドベントマルシェ風のクリスマスイベント。雑貨とグルメの出店、ワークショップ、ステージがある。",
+   "start": "2026-12-12",
+   "time": "10:00〜16:00",
+   "venue": "東京たま未来メッセ",
+   "area": "八王子市",
+   "price": "入場無料（一部体験は有料の場合あり）",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 60,
+     "note": "国分寺でJR中央線に乗り換え八王子、徒歩または京王線で会場方面"
+    },
+    "hitotsubashi": {
+     "min": 55,
+     "note": "一橋学園から国分寺経由で八王子"
+    }
+   },
+   "car": {
+    "min": 40
+   },
+   "tags": [
+    "マルシェ",
+    "クリスマス",
+    "ワークショップ"
+   ],
+   "url": "https://k8syoutenkai.sakura.ne.jp/christmas/",
+   "src": "京王八王子商店会"
+  },
+  {
+   "id": "2026-12-tachikawa-kunioncert-daiku",
+   "cat": "music",
+   "title": "未来の大人たちへのスペシャルコンサート 歓喜の第九と華麗なバレエの世界",
+   "desc": "国立音楽大学ブラスオーケストラが、合唱・ソリスト・バレエとともに第九を披露する、1,500円の親子向けコンサート。",
+   "start": "2026-12-12",
+   "time": "15:00開場／16:00開演",
+   "venue": "TACHIKAWA STAGE GARDEN（立川市）",
+   "area": "立川市",
+   "price": "一般1,500円／高校生以下500円／2歳以下ひざ上無料",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 40,
+     "note": "西武拝島線・JRなどで立川へ、徒歩またはモノレール"
+    },
+    "hitotsubashi": {
+     "min": 35,
+     "note": "国分寺経由でJR中央線立川へ、徒歩またはモノレール"
+    }
+   },
+   "car": {
+    "min": 25
+   },
+   "tags": [
+    "第九",
+    "吹奏楽",
+    "バレエ",
+    "子どもOK"
+   ],
+   "url": "https://www.t-sg.jp/events/2026/12/00001538.php",
+   "src": "TACHIKAWA STAGE GARDEN"
+  },
+  {
+   "id": "2026-12-showa-oyako-wreath",
+   "cat": "family",
+   "title": "親子deワークショップ「クリスマスのリース」（昭和記念公園）",
+   "desc": "園内の針葉樹や常緑樹の枝を使い、親子でクリスマスリースを作る体験。完成品はそのまま飾ってドライにできる。",
+   "start": "2026-12-12",
+   "time": "午前10:30〜12:00／午後13:30〜15:00（要予約・12/7締切）",
+   "venue": "国営昭和記念公園 花みどり文化センター 研修室",
+   "area": "立川市",
+   "price": "各回2,500円（2人1組・各回10組、入園料別）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 35,
+     "note": "西武拝島線で玉川上水、多摩モノレール・JR等で立川方面へ。西立川口から徒歩"
+    },
+    "hitotsubashi": {
+     "min": 30,
+     "note": "バス・JRで西立川方面へ。西立川口から徒歩"
+    }
+   },
+   "car": {
+    "min": 20,
+    "parking": "あり（園内駐車場・有料）"
+   },
+   "tags": [
+    "ワークショップ",
+    "クリスマス",
+    "親子"
+   ],
+   "url": "https://www.showakinen-koen.jp/event/77216/",
+   "src": "国営昭和記念公園",
+   "img": "https://www.showakinen-koen.jp/wp-content/uploads/2026/11/bfd95e58-0f8e-434c-8326-bca16112e8b0.jpg"
   },
   {
    "id": "2026-12-kawagoe-steelpan",
@@ -1355,6 +2611,39 @@
    "img": "https://eplus.jp/s/image/459444/0001/000/20260828094209007.JPG"
   },
   {
+   "id": "2026-12-asakusa-hagoita-ichi",
+   "cat": "fest",
+   "title": "浅草寺 羽子板市",
+   "desc": "年末恒例、浅草寺境内に羽子板の露店が並ぶ歳の市。納めの観音の縁日にあわせた下町の年中行事。",
+   "start": "2026-12-17",
+   "end": "2026-12-19",
+   "time": "9:00〜19:30（最終日は19:00まで）",
+   "venue": "浅草寺境内",
+   "area": "台東区",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 65,
+     "note": "西武新宿線で高田馬場、JR・東京メトロ銀座線等で浅草"
+    },
+    "hitotsubashi": {
+     "min": "60",
+     "note": "西武国分寺線・中央線等で神田、銀座線で浅草"
+    }
+   },
+   "car": {
+    "min": 65
+   },
+   "tags": [
+    "羽子板市",
+    "年末",
+    "下町",
+    "無料"
+   ],
+   "url": "https://www.gotokyo.org/jp/spot/ev152/index.html",
+   "src": "GO TOKYO"
+  },
+  {
    "id": "2026-12-koganei-elisabeth",
    "cat": "music",
    "title": "クリスマス/アヴェ・マリア ～エリザベート弦楽アンサンブル～",
@@ -1448,6 +2737,40 @@
    ],
    "url": "https://tachikawaillumination.com",
    "src": "たちかわイルミネーション公式"
+  },
+  {
+   "id": "2026-12-tachikawa-snowqueen",
+   "cat": "family",
+   "title": "子どもとおとなといっしょに楽しむ舞台vol.10『雪の女王』",
+   "desc": "アンデルセン童話をもとに、少女ゲルダが連れ去られた友人カイを探す旅を描く約60分の舞台。子どもから大人まで楽しめる。",
+   "start": "2026-12-18",
+   "end": "2026-12-20",
+   "time": "12/18 19:00、12/19・20 11:00／15:00（約60分）",
+   "venue": "たましんRISURUホール（立川市市民会館）",
+   "area": "立川市",
+   "price": "大人2,000円／中高生1,000円／小学生以下500円（要予約）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 45,
+     "note": "西武線・JR中央線で立川へ、南口から徒歩約13分"
+    },
+    "hitotsubashi": {
+     "min": 35,
+     "note": "バス等でJR立川へ、南口から徒歩約13分"
+    }
+   },
+   "car": {
+    "min": 25
+   },
+   "tags": [
+    "舞台",
+    "親子",
+    "クリスマス"
+   ],
+   "url": "https://tachikawa-sozosha.jp/ttp/snowqueen/",
+   "src": "立川シアタープロジェクト",
+   "img": "https://tachikawa-sozosha.jp/cms/wp-content/uploads/2026/09/snowqween_main.webp"
   },
   {
    "id": "2026-12-minato-sado-daiku-suntory",
@@ -1576,6 +2899,235 @@
    "src": "acosta!公式"
   },
   {
+   "id": "2026-12-machida-city-garden",
+   "cat": "music",
+   "title": "CITY GARDEN in MACHIDA",
+   "desc": "RHYMESTER、般若、梅田サイファー、KEN THE 390らが集まるヒップホップ系イベント。町田市民ホール開催。先着一般発売は枚数終了表示。",
+   "start": "2026-12-19",
+   "time": "15:00開演（14:00開場）",
+   "venue": "町田市民ホール",
+   "area": "町田市",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 65,
+     "note": "西武線・JR等で町田駅、徒歩"
+    },
+    "hitotsubashi": {
+     "min": 55,
+     "note": "中央線・横浜線等で町田駅、徒歩"
+    }
+   },
+   "car": {
+    "min": 60
+   },
+   "tags": [
+    "フェス",
+    "ヒップホップ"
+   ],
+   "url": "https://eplus.jp/sf/detail/3689620001-P0030005",
+   "src": "イープラス"
+  },
+  {
+   "id": "2026-12-hinode-ohguno-hanabi",
+   "cat": "fest",
+   "title": "大久野イルミネーション・冬花火（12/19）",
+   "desc": "日の出町大久野の沿道や小学校前を光で飾る地元のイルミネーション。12/19は大久野小学校校庭から18:30に花火が上がる。",
+   "start": "2026-12-19",
+   "time": "花火18:30（イルミ点灯17:00〜22:00、期間は11/22〜1/16）",
+   "venue": "大久野小学校校庭ほか（日の出町大久野）",
+   "area": "日の出町",
+   "price": "無料",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 85,
+     "note": "国分寺・立川・拝島経由で武蔵五日市、そこからバスなど"
+    },
+    "hitotsubashi": {
+     "min": "90",
+     "note": "立川経由で武蔵五日市、バス"
+    }
+   },
+   "car": {
+    "min": 55,
+    "parking": "あり（大久野中学校駐車場 約20台、花火当日16:30〜）"
+   },
+   "tags": [
+    "花火",
+    "イルミネーション",
+    "無料"
+   ],
+   "url": "https://www.ohgunoillumi.com/",
+   "src": "大久野を明るくする会",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd5ef1f96a4c8cccc/backgroundarea/i87f171c2e72bb541/version/1728462526/image.jpg"
+  },
+  {
+   "id": "2026-12-musashikoganei-socola-xmas-marche",
+   "cat": "food",
+   "title": "SOCOLAクリスマスマルシェ＠武蔵小金井",
+   "desc": "武蔵小金井駅前のSOCOLAクロスコートで開く地域密着のマーケット。フードやスイーツ、ハンドメイド雑貨、ワークショップが並ぶ。",
+   "start": "2026-12-19",
+   "end": "2026-12-20",
+   "time": "11:00〜18:00",
+   "venue": "SOCOLA武蔵小金井クロス クロスコート",
+   "area": "小金井市",
+   "train": {
+    "kodaira": {
+     "min": 25,
+     "note": "西武新宿線で花小金井、バス等でJR武蔵小金井駅へ。駅から徒歩3分"
+    },
+    "hitotsubashi": {
+     "min": 20,
+     "note": "一橋学園からバスで武蔵小金井駅方面、駅から徒歩3分"
+    }
+   },
+   "car": {
+    "min": 20,
+    "parking": "あり（SOCOLA駐車場・有料）"
+   },
+   "tags": [
+    "マルシェ",
+    "クリスマス",
+    "ハンドメイド"
+   ],
+   "url": "https://www.walkerplus.com/event/ar0313e623383/",
+   "src": "ウォーカープラス",
+   "img": "https://image.walkerplus.com/wpimg/walkertouch/wtd/event/83/n/623383.jpg"
+  },
+  {
+   "id": "2026-12-tachikawa-sound-of-xmas",
+   "cat": "music",
+   "title": "TACHIKAWA Sound of CHRISTMAS 2026",
+   "desc": "小柳ゆき、May J.らのステージと、オペラ・ミュージカルのパートを東京21世紀管弦楽団の演奏で楽しむクリスマスコンサート。",
+   "start": "2026-12-19",
+   "time": "15:15開場／16:00開演",
+   "venue": "TACHIKAWA STAGE GARDEN（立川市）",
+   "area": "立川市",
+   "price": "1・2階5,000円／3階3,000円（全席指定）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 40,
+     "note": "西武拝島線・JRなどで立川へ、徒歩またはモノレール"
+    },
+    "hitotsubashi": {
+     "min": 35,
+     "note": "国分寺経由でJR中央線立川へ、徒歩またはモノレール"
+    }
+   },
+   "car": {
+    "min": 25
+   },
+   "tags": [
+    "クリスマス",
+    "コンサート",
+    "オペラ"
+   ],
+   "url": "https://www.t-sg.jp/events/2026/12/00001539.php",
+   "src": "TACHIKAWA STAGE GARDEN"
+  },
+  {
+   "id": "2026-12-showa-craft-oshogatsu",
+   "cat": "family",
+   "title": "クラフト教室特別編「お正月かざり」（昭和記念公園）",
+   "desc": "竹・松葉・ナンテンなど園内の自然素材で、子ども自身がお正月飾りを作る木工房のワークショップ。保護者は周辺で待機。",
+   "start": "2026-12-19",
+   "end": "2026-12-20",
+   "time": "10:30〜11:30、13:00〜14:30（当日受付・先着・入替制）",
+   "venue": "国営昭和記念公園 こどもの森木工房",
+   "area": "立川市",
+   "price": "500円（入園料別）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 35,
+     "note": "西武拝島線で玉川上水、多摩モノレール・JR等で立川方面へ。西立川口から徒歩"
+    },
+    "hitotsubashi": {
+     "min": 30,
+     "note": "バス・JRで西立川方面へ。西立川口から徒歩"
+    }
+   },
+   "car": {
+    "min": 20,
+    "parking": "あり（園内駐車場・有料）"
+   },
+   "tags": [
+    "ワークショップ",
+    "工作",
+    "お正月"
+   ],
+   "url": "https://www.showakinen-koen.jp/event/29722/",
+   "src": "国営昭和記念公園",
+   "img": "https://www.showakinen-koen.jp/wp-content/uploads/2024/09/IMG_5579-1.jpg"
+  },
+  {
+   "id": "2026-12-kodaira-xmas-marche",
+   "cat": "family",
+   "title": "クリスマスマルシェ2026（小平中央公園）",
+   "desc": "ハンドメイドのクリスマス雑貨、ワークショップ、小平産の冬野菜、キッチンカー、コダレンジャーのショーが集まる地元のマルシェ。",
+   "start": "2026-12-19",
+   "time": "10:00〜15:00",
+   "venue": "小平中央公園",
+   "area": "小平市",
+   "price": "記載なし（詳細は公式で確認）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 15,
+     "note": "小平市内。駅からバスまたは徒歩（詳細は公式で確認）"
+    },
+    "hitotsubashi": {
+     "min": 15,
+     "note": "小平市内。駅からバスまたは徒歩（詳細は公式で確認）"
+    }
+   },
+   "car": {
+    "min": 10
+   },
+   "tags": [
+    "マルシェ",
+    "ハンドメイド",
+    "ワークショップ"
+   ],
+   "url": "https://kodaira-tourism.com/event/23149/",
+   "src": "こだいら観光まちづくり協会",
+   "img": "https://kodaira-tourism.com/wp-content/uploads/2026/11/20f4aeefa892de3246343e6d9e726fec.jpg"
+  },
+  {
+   "id": "2026-12-kokubunji-yokubari-concert",
+   "cat": "family",
+   "title": "よくばりアソートコンサートvol.10（フルート×ピアノの参加型コンサート）",
+   "desc": "未就学児と保護者向けの参加型コンサート。クラシックや童謡にリズム遊び・手遊び、クリスマス企画も交える。",
+   "start": "2026-12-20",
+   "time": "演奏10:15〜11:00（受付10:00頃〜）",
+   "venue": "カフェといろいろ びより（国分寺市南町1-14-7）",
+   "area": "国分寺市",
+   "price": "親子ペア2,000円／追加の子ども500円／追加の中学生以上1,000円（定員30、12/19までに要予約）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 20,
+     "note": "西武国分寺線で国分寺、南口から徒歩約5分"
+    },
+    "hitotsubashi": {
+     "min": 15,
+     "note": "バス等で国分寺駅へ、南口から徒歩約5分"
+    }
+   },
+   "car": {
+    "min": 15
+   },
+   "tags": [
+    "コンサート",
+    "未就学児",
+    "親子"
+   ],
+   "url": "https://e-constellation.jimdofree.com/",
+   "src": "アンサンブル・コンステレーション（いこーよ掲載）"
+  },
+  {
    "id": "2026-12-tokorozawa-sado-daiku",
    "cat": "music",
    "title": "佐渡裕×新日本フィル ベートーヴェン「第九」",
@@ -1700,6 +3252,37 @@
    ],
    "url": "https://san-tatsu.jp/pressrelease/494350/",
    "src": "主催者プレスリリース"
+  },
+  {
+   "id": "2026-12-toyota-arena-new-horizon-fest",
+   "cat": "music",
+   "title": "Sammy presents NEW HORIZON FEST 2026",
+   "desc": "04 Limited Sazabys、Dragon Ash、coldrain、ROTTENGRAFFTYなど約20組が出るバンド系フェス。年末のTOYOTA ARENA TOKYOで開催。",
+   "start": "2026-12-28",
+   "time": "11:00開演（9:30開場）",
+   "venue": "TOYOTA ARENA TOKYO",
+   "area": "江東区（青海）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 75,
+     "note": "西武新宿線・中央線等で新橋→ゆりかもめで青海方面"
+    },
+    "hitotsubashi": {
+     "min": 70,
+     "note": "中央線で新宿・東京方面→ゆりかもめ"
+    }
+   },
+   "car": {
+    "min": 70
+   },
+   "tags": [
+    "フェス",
+    "ロック",
+    "年末"
+   ],
+   "url": "https://eplus.jp/sf/detail/4362000001-P0030002",
+   "src": "イープラス"
   },
   {
    "id": "2026-12-dq-wind-orchestra",
@@ -1863,758 +3446,6 @@
    "src": "所沢ミューズ公式"
   },
   {
-   "id": "2027-01-fuchu-higashi-takagi",
-   "cat": "music",
-   "title": "東亮汰&高木竜馬 デュオリサイタル",
-   "desc": "ヴァイオリンとピアノのデュオ。ベートーヴェン、ブラームス、シベリウス、グリーグを演奏。",
-   "start": "2027-01-09",
-   "end": "2027-01-09",
-   "time": "開演14:00",
-   "venue": "府中の森芸術劇場 ウィーンホール",
-   "area": "府中市",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 50,
-     "note": "国分寺→西国分寺→武蔵野線で府中本町、徒歩約5分"
-    },
-    "hitotsubashi": {
-     "min": 40,
-     "note": "国分寺→西国分寺→府中本町、徒歩約5分"
-    }
-   },
-   "car": {
-    "min": 30,
-    "parking": "あり"
-   },
-   "tags": [
-    "コンサート",
-    "クラシック",
-    "屋内"
-   ],
-   "url": "https://eplus.jp/sf/detail/4338500001-P0030004P021001",
-   "src": "イープラス"
-  },
-  {
-   "id": "2027-01-tokorozawa-tso-new-year",
-   "cat": "music",
-   "title": "東京交響楽団 New Year Concert 2027",
-   "desc": "下野竜也指揮、小山実稚恵のピアノで迎えるお正月恒例のコンサート。",
-   "start": "2027-01-11",
-   "time": "14:00開演",
-   "venue": "所沢市民文化センター ミューズ アークホール",
-   "area": "所沢市",
-   "price": "S5,700円／A5,000円／B4,400円／P4,000円",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 20,
-     "note": "西武新宿線→所沢→池袋線で航空公園"
-    },
-    "hitotsubashi": {
-     "min": 30,
-     "note": "多摩湖線等で所沢→航空公園"
-    }
-   },
-   "car": {
-    "min": 20
-   },
-   "tags": [
-    "ニューイヤー",
-    "オーケストラ"
-   ],
-   "url": "https://www.muse-tokorozawa.or.jp/event/detail/20270111/",
-   "src": "所沢ミューズ公式"
-  },
-  {
-   "id": "2027-01-setagaya-boroichi",
-   "cat": "fest",
-   "title": "世田谷ボロ市（2027年1月）",
-   "desc": "ボロ市通り周辺に古道具・植木・食べ物などの露店が並ぶ、年2回の歴史ある市の1月開催。",
-   "start": "2027-01-15",
-   "end": "2027-01-16",
-   "time": "9:00〜20:00",
-   "venue": "ボロ市通り周辺（世田谷1丁目）",
-   "area": "世田谷区",
-   "price": "入場無料",
-   "free": true,
-   "train": {
-    "kodaira": {
-     "min": 75,
-     "note": "新宿・下北沢経由、小田急・世田谷線で世田谷駅"
-    },
-    "hitotsubashi": {
-     "min": 70,
-     "note": "国分寺・新宿経由で世田谷線方面"
-    }
-   },
-   "car": {
-    "min": 60,
-    "parking": "なし（交通規制）"
-   },
-   "tags": [
-    "ボロ市",
-    "露店",
-    "屋外"
-   ],
-   "url": "https://www.city.setagaya.lg.jp/02072/10108.html",
-   "src": "世田谷区"
-  },
-  {
-   "id": "2026-11-kadokawa-nazotoki",
-   "cat": "family",
-   "title": "ところざわサクラタウン リアル謎解きゲーム「謎めくミュージアムと記憶の欠片」",
-   "desc": "記憶をなくした主人公になり、館内の謎を解いて絵本を完成させる周遊型の謎解き。1回90〜120分ほど。",
-   "dateLabel": "2026/11/5〜（終了日未定）",
-   "time": "所要90〜120分",
-   "venue": "角川武蔵野ミュージアム・ところざわサクラタウン",
-   "area": "所沢市",
-   "price": "謎解きキット2,200円（別途入館券が必要）",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 40,
-     "note": "武蔵野線の東所沢駅、徒歩約10分"
-    },
-    "hitotsubashi": {
-     "min": 50,
-     "note": "国分寺・西国分寺経由で東所沢駅"
-    }
-   },
-   "car": {
-    "min": 25,
-    "parking": "あり"
-   },
-   "tags": [
-    "謎解き",
-    "屋内",
-    "雨の日OK"
-   ],
-   "url": "https://kadcul.com/event/287",
-   "src": "角川武蔵野ミュージアム"
-  },
-  {
-   "id": "2026-12-odaiba-rainbow-hanabi",
-   "cat": "fest",
-   "title": "お台場レインボー花火2026",
-   "desc": "12月の毎週土曜にお台場海浜公園の夜空へ打ち上がる冬の花火。1回約5分で、12/19は音楽に合わせたミュージック花火。",
-   "start": "2026-12-05",
-   "end": "2026-12-26",
-   "time": "19:00頃〜（各回約5分、12/5・12・19・26の土曜）",
-   "venue": "お台場海浜公園",
-   "area": "港区",
-   "price": "無料",
-   "free": true,
-   "train": {
-    "kodaira": {
-     "min": 75,
-     "note": "西武新宿線で高田馬場、山手線・ゆりかもめ等で台場"
-    },
-    "hitotsubashi": {
-     "min": "70",
-     "note": "西武国分寺線・中央線で国分寺経由、りんかい線で東京テレポート"
-    }
-   },
-   "car": {
-    "min": 70
-   },
-   "tags": [
-    "花火",
-    "冬花火",
-    "お台場",
-    "無料"
-   ],
-   "url": "https://www.gotokyo.org/jp/spot/ev278/index.html",
-   "src": "GO TOKYO"
-  },
-  {
-   "id": "2026-12-asakusa-hagoita-ichi",
-   "cat": "fest",
-   "title": "浅草寺 羽子板市",
-   "desc": "年末恒例、浅草寺境内に羽子板の露店が並ぶ歳の市。納めの観音の縁日にあわせた下町の年中行事。",
-   "start": "2026-12-17",
-   "end": "2026-12-19",
-   "time": "9:00〜19:30（最終日は19:00まで）",
-   "venue": "浅草寺境内",
-   "area": "台東区",
-   "free": true,
-   "train": {
-    "kodaira": {
-     "min": 65,
-     "note": "西武新宿線で高田馬場、JR・東京メトロ銀座線等で浅草"
-    },
-    "hitotsubashi": {
-     "min": "60",
-     "note": "西武国分寺線・中央線等で神田、銀座線で浅草"
-    }
-   },
-   "car": {
-    "min": 65
-   },
-   "tags": [
-    "羽子板市",
-    "年末",
-    "下町",
-    "無料"
-   ],
-   "url": "https://www.gotokyo.org/jp/spot/ev152/index.html",
-   "src": "GO TOKYO"
-  },
-  {
-   "id": "2026-11-moomin-christmas-hanno",
-   "cat": "fest",
-   "title": "ムーミン谷のクリスマス2026／メッツァの北欧クリスマス",
-   "desc": "飯能のムーミンバレーパークとメッツァビレッジで開催される冬のイベント。ショーやナイトパス、湖上花火（週末・祝日ほか）、北欧クリスマスの催しが楽しめる。",
-   "start": "2026-10-31",
-   "end": "2026-12-25",
-   "time": "10:00〜20:00（日により異なる）",
-   "venue": "ムーミンバレーパーク／メッツァビレッジ（飯能市宮沢）",
-   "area": "飯能市",
-   "price": "メッツァビレッジ入場無料／パーク1日券 大人4,300円（当日）",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 70,
-     "note": "西武新宿線で所沢、西武池袋線で飯能、バス・徒歩でメッツァ"
-    },
-    "hitotsubashi": {
-     "min": "75",
-     "note": "西武国分寺線で所沢、西武池袋線で飯能、バス・徒歩でメッツァ"
-    }
-   },
-   "car": {
-    "min": 45,
-    "parking": "あり"
-   },
-   "tags": [
-    "クリスマス",
-    "北欧",
-    "花火",
-    "家族向け"
-   ],
-   "url": "https://metsa-hanno.com/event/47204/",
-   "src": "メッツァ公式"
-  },
-  {
-   "id": "2026-11-koishikawa-korakuen-momiji",
-   "cat": "fest",
-   "title": "小石川後楽園「深山紅葉を楽しむ」",
-   "desc": "都立庭園の紅葉にあわせ、茶会・能楽・雅楽公演や庭園ガイドが開かれる。11/22の茶会、11/28の能楽、12/5の雅楽などの催しあり。",
-   "start": "2026-11-21",
-   "end": "2026-12-06",
-   "time": "9:00〜17:00（最終入園16:30）",
-   "venue": "小石川後楽園",
-   "area": "文京区",
-   "price": "一般300円／65歳以上150円（小学生以下無料）",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 55,
-     "note": "西武新宿線で高田馬場、東西線で飯田橋、徒歩"
-    },
-    "hitotsubashi": {
-     "min": "55",
-     "note": "西武国分寺線・中央線で中野経由、東西線で飯田橋、徒歩"
-    }
-   },
-   "car": {
-    "min": 55
-   },
-   "tags": [
-    "紅葉",
-    "庭園",
-    "能楽",
-    "雅楽"
-   ],
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026101407",
-   "src": "東京都"
-  },
-  {
-   "id": "2026-11-rikugien-night-momiji",
-   "cat": "fest",
-   "title": "六義園 夜間特別観賞（庭紅葉）",
-   "desc": "通常17時閉園の後、18時から夜間に特別開園する紅葉ライトアップ。",
-   "start": "2026-11-25",
-   "end": "2026-12-06",
-   "time": "18:00〜20:30（最終入園19:30）",
-   "venue": "六義園",
-   "area": "文京区",
-   "price": "前売1,000円／当日1,200円（小学生以下無料）",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 55,
-     "note": "西武新宿線で高田馬場、山手線で駒込"
-    },
-    "hitotsubashi": {
-     "min": "55",
-     "note": "西武国分寺線・中央線で国分寺経由、山手線で駒込"
-    }
-   },
-   "car": {
-    "min": 60
-   },
-   "tags": [
-    "紅葉",
-    "ライトアップ",
-    "庭園",
-    "夜"
-   ],
-   "url": "https://www.tokyo-park.or.jp/park/rikugien/",
-   "src": "東京都公園協会"
-  },
-  {
-   "id": "2026-11-tokyotower-xmas-market",
-   "cat": "fest",
-   "title": "TOKYO TOWER Christmas Market 2026",
-   "desc": "東京タワー正面玄関前広場の特設会場で開かれるクリスマスマーケット。入場は無料で、飲食・物販は別料金。",
-   "start": "2026-11-13",
-   "end": "2026-12-25",
-   "time": "12:00〜22:00（L.O.21:30）",
-   "venue": "東京タワー正面玄関前広場",
-   "area": "港区",
-   "price": "入場無料",
-   "free": true,
-   "train": {
-    "kodaira": {
-     "min": 60,
-     "note": "西武新宿線で高田馬場、山手線・都営線等で赤羽橋または御成門"
-    },
-    "hitotsubashi": {
-     "min": "55",
-     "note": "西武国分寺線・中央線で新宿経由、地下鉄で赤羽橋"
-    }
-   },
-   "car": {
-    "min": 60
-   },
-   "tags": [
-    "クリスマスマーケット",
-    "東京タワー",
-    "無料"
-   ],
-   "url": "https://christmasmarket.jp/202611-tokyotower",
-   "src": "主催（クリスマスマーケット実行委員会）"
-  },
-  {
-   "id": "2026-11-skytree-xmas-market",
-   "cat": "fest",
-   "title": "絵本の中のクリスマスマーケット in 東京スカイツリータウン",
-   "desc": "東京ソラマチ4階スカイアリーナで開かれるクリスマスマーケット。入場無料。",
-   "start": "2026-11-05",
-   "end": "2026-12-25",
-   "time": "11:00〜22:00（L.O.21:00）",
-   "venue": "東京ソラマチ4階 スカイアリーナ",
-   "area": "墨田区",
-   "price": "入場無料",
-   "free": true,
-   "train": {
-    "kodaira": {
-     "min": 65,
-     "note": "西武新宿線で高田馬場、山手線・半蔵門線等で押上"
-    },
-    "hitotsubashi": {
-     "min": "60",
-     "note": "西武国分寺線・中央線で神田・錦糸町経由等で押上"
-    }
-   },
-   "car": {
-    "min": 70
-   },
-   "tags": [
-    "クリスマスマーケット",
-    "スカイツリー",
-    "無料"
-   ],
-   "url": "https://www.zato.co.jp/",
-   "src": "PR TIMES（運営会社発表）"
-  },
-  {
-   "id": "2026-11-ebisu-baccarat-eternal-lights",
-   "cat": "fest",
-   "title": "Baccarat ETERNAL LIGHTS（恵比寿ガーデンプレイス）",
-   "desc": "センター広場に高さ約5mの大型バカラシャンデリアが灯る恵比寿の冬の恒例イルミネーション。ツリーとクリスマスマルシェも12/25まで。",
-   "start": "2026-11-14",
-   "end": "2027-01-11",
-   "time": "11:00〜23:00",
-   "venue": "恵比寿ガーデンプレイス センター広場",
-   "area": "渋谷区",
-   "price": "無料",
-   "free": true,
-   "train": {
-    "kodaira": {
-     "min": 50,
-     "note": "西武新宿線で高田馬場、山手線で恵比寿"
-    },
-    "hitotsubashi": {
-     "min": "45",
-     "note": "西武国分寺線・中央線で国分寺経由、中央線・山手線で恵比寿"
-    }
-   },
-   "car": {
-    "min": 55,
-    "parking": "あり"
-   },
-   "tags": [
-    "イルミネーション",
-    "シャンデリア",
-    "恵比寿",
-    "無料"
-   ],
-   "url": "https://event.gardenplace.jp/special/2026baccarat/",
-   "src": "恵比寿ガーデンプレイス"
-  },
-  {
-   "id": "2026-11-harajuku-holiday-market",
-   "cat": "fest",
-   "title": "HOLIDAY MARKET powered by nanoblock（原宿 and ST TOKYO）",
-   "desc": "ナノブロックの壁面アートや巨大ツリー、セルフフォトブース、週末ワークショップがある体験型クリスマス。",
-   "start": "2026-11-27",
-   "end": "2026-12-25",
-   "time": "店舗営業時間に準ずる（ワークショップは一部11:00〜17:00）",
-   "venue": "and ST TOKYO（WITH HARAJUKU 1F）",
-   "area": "渋谷区",
-   "price": "体験により無料〜4,500円",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 50,
-     "note": "西武新宿線で高田馬場、山手線で原宿"
-    },
-    "hitotsubashi": {
-     "min": "40",
-     "note": "西武国分寺線・中央線で新宿経由、山手線で原宿"
-    }
-   },
-   "car": {
-    "min": 55
-   },
-   "tags": [
-    "クリスマス",
-    "原宿",
-    "ワークショップ"
-   ],
-   "url": "https://www.dot-st.com/cp/sttokyo2026_xmas",
-   "src": "and ST TOKYO"
-  },
-  {
-   "id": "2026-weekly-unu-farmers-market",
-   "cat": "food",
-   "title": "国連大学前ファーマーズマーケット（毎週末）",
-   "desc": "全国の生産者が旬の野菜や果物、加工品を直売する、青山の定番マーケット。週末ごとに特集企画が組まれる。",
-   "dateLabel": "毎週土・日曜",
-   "time": "10:00〜16:00（イベント時は変更あり）",
-   "venue": "国連大学前広場（青山）",
-   "area": "渋谷区",
-   "price": "入場無料",
-   "free": true,
-   "train": {
-    "kodaira": {
-     "min": 50,
-     "note": "西武新宿線・JR経由で渋谷、徒歩約15分または地下鉄で表参道駅"
-    },
-    "hitotsubashi": {
-     "min": 40,
-     "note": "JR中央線で新宿/渋谷、地下鉄で表参道駅"
-    }
-   },
-   "car": {
-    "min": 55
-   },
-   "tags": [
-    "ファーマーズマーケット",
-    "マルシェ",
-    "青山",
-    "野菜"
-   ],
-   "url": "https://farmersmarkets.jp/",
-   "src": "Farmers Market＠UNU公式"
-  },
-  {
-   "id": "2026-12-daikanyama-enjoy-craft-nenmatsu",
-   "cat": "food",
-   "title": "ENJOY! CRAFT 年末大感謝祭 2026（ブルワーズナイト）",
-   "desc": "スプリングバレーブルワリー東京で、醸造家やスタッフと交流しながら13種のビールを飲み放題で楽しむ一夜。アメリカンダイナー風ビュッフェとTボーンステーキつき。",
-   "start": "2026-12-08",
-   "time": "18:30開場、19:00〜21:30",
-   "venue": "SPRING VALLEY BREWERY TOKYO 2階",
-   "area": "渋谷区",
-   "price": "6,500円（税込、定員55名）",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 50,
-     "note": "西武新宿線・JR経由で渋谷、東急東横線で代官山駅"
-    },
-    "hitotsubashi": {
-     "min": 45,
-     "note": "JR中央線で新宿、山手線で渋谷、東急東横線で代官山駅"
-    }
-   },
-   "car": {
-    "min": 60
-   },
-   "tags": [
-    "クラフトビール",
-    "ステーキ",
-    "代官山"
-   ],
-   "url": "https://www.enjoytokyo.jp/event/2091258/",
-   "src": "レッツエンジョイ東京"
-  },
-  {
-   "id": "2027-01-nihonbashi-premium-washu-fes",
-   "cat": "food",
-   "title": "第2回 プレミアム和酒フェス in 日本橋",
-   "desc": "全国の34蔵・2団体が参加し、120種類以上の日本酒などの和酒を飲み比べできる新年最初の利き酒イベント。蔵人との交流や専門セミナーもある。",
-   "start": "2027-01-15",
-   "end": "2027-01-16",
-   "time": "12:00〜20:00（各日2部制）",
-   "venue": "KABUTO ONE（日本橋兜町）",
-   "area": "中央区",
-   "price": "公式ページで確認",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 60,
-     "note": "西武新宿線・JR・地下鉄で茅場町駅/日本橋駅"
-    },
-    "hitotsubashi": {
-     "min": 55,
-     "note": "JR中央線・地下鉄で茅場町駅/日本橋駅"
-    }
-   },
-   "car": {
-    "min": 65
-   },
-   "tags": [
-    "日本酒",
-    "利き酒",
-    "日本橋"
-   ],
-   "url": "https://sakefes.com/premium02/",
-   "src": "プレミアム和酒フェス公式"
-  },
-  {
-   "id": "2027-01-musashimurayama-oshiuma-market",
-   "cat": "food",
-   "title": "全国物産展 JAPAN SELECT 推しうまーけっと2026（第2回・イオンモールむさし村山）",
-   "desc": "47都道府県のアンテナショップ商品や各地の定番・人気商品を集めた物産展。ご当地キャラクターのPRステージや、ガチャ企画もある。",
-   "start": "2027-01-30",
-   "end": "2027-01-31",
-   "time": "10:00〜20:00（最終日は19:00終了）",
-   "venue": "イオンモールむさし村山 1F センターコート・ノースコート・サウスコート、3Fセンターデッキ",
-   "area": "武蔵村山市",
-   "price": "公式サイトで確認",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 30,
-     "note": "西武拝島線・多摩モノレール経由で玉川上水、バスまたは武蔵砂川駅利用"
-    },
-    "hitotsubashi": {
-     "min": 30,
-     "note": "西武国分寺線・拝島線経由、または玉川上水からバス/徒歩"
-    }
-   },
-   "car": {
-    "min": 25
-   },
-   "tags": [
-    "物産展",
-    "アンテナショップ",
-    "ご当地キャラ"
-   ],
-   "url": "https://tokyo-antennashop.jp/",
-   "src": "アンテナショップイベント公式（情報元：レッツエンジョイ東京）"
-  },
-  {
-   "id": "2027-01-hibiya-furusato-nabe-gp",
-   "cat": "food",
-   "title": "ふるさと鍋グランプリ2027 in 日比谷公園",
-   "desc": "全国のご当地鍋・郷土鍋が日比谷公園に集結。食べ比べてWEB投票でグランプリを決める冬のグルメイベント。",
-   "start": "2027-01-29",
-   "end": "2027-01-31",
-   "time": "10:00〜20:00（最終日は18:00まで）",
-   "venue": "日比谷公園",
-   "area": "千代田区",
-   "price": "入場無料（飲食代は別途）",
-   "free": true,
-   "train": {
-    "kodaira": {
-     "min": 60,
-     "note": "西武新宿線・JR・地下鉄で日比谷駅/霞ケ関駅"
-    },
-    "hitotsubashi": {
-     "min": 55,
-     "note": "JR中央線・地下鉄で日比谷駅/霞ケ関駅"
-    }
-   },
-   "car": {
-    "min": 65
-   },
-   "tags": [
-    "鍋",
-    "ご当地グルメ",
-    "日比谷"
-   ],
-   "url": "https://www.nabe-gp.com/",
-   "src": "ふるさと鍋グランプリ公式（情報元：レッツエンジョイ東京）"
-  },
-  {
-   "id": "2026-12-kokubunji-gloria-campanella",
-   "cat": "music",
-   "title": "グロリア・カンパネル THE SOUND OF EMOTIONS～ピアノ名曲集",
-   "desc": "南アフリカ出身のピアニストが、ショパンやドビュッシー、坂本龍一「戦場のメリークリスマス」などを演奏する。トークも入る。",
-   "start": "2026-12-12",
-   "time": "14:00開演（13:30開場）",
-   "venue": "国分寺市立いずみホール",
-   "area": "国分寺市",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 20,
-     "note": "西武国分寺線で国分寺、徒歩"
-    },
-    "hitotsubashi": {
-     "min": 12,
-     "note": "西武多摩湖線で国分寺、徒歩"
-    }
-   },
-   "car": {
-    "min": 15
-   },
-   "tags": [
-    "ピアノ",
-    "クラシック"
-   ],
-   "url": "https://eplus.jp/sf/detail/4581840001-P0030001P021001?P1=0817",
-   "src": "イープラス"
-  },
-  {
-   "id": "2027-01-koganei-yamane-sakata",
-   "cat": "music",
-   "title": "山根一仁&阪田知樹 デュオ・リサイタル",
-   "desc": "ヴァイオリンとピアノの若手実力派2人が、クロイツェル・ソナタやラヴェルのソナタなどを披露する。",
-   "start": "2027-01-09",
-   "time": "14:00開演（13:30開場）",
-   "venue": "小金井 宮地楽器ホール 大ホール",
-   "area": "小金井市",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 25,
-     "note": "西武国分寺線で国分寺→中央線で武蔵小金井、徒歩"
-    },
-    "hitotsubashi": {
-     "min": 18,
-     "note": "西武多摩湖線で国分寺→中央線で武蔵小金井、徒歩"
-    }
-   },
-   "car": {
-    "min": 20
-   },
-   "tags": [
-    "クラシック",
-    "ヴァイオリン",
-    "ピアノ"
-   ],
-   "url": "https://eplus.jp/sf/detail/4559270001-P0030001P021001?P1=0817",
-   "src": "イープラス"
-  },
-  {
-   "id": "2027-01-koganei-osawa-senri",
-   "cat": "music",
-   "title": "大江千里 コンサート",
-   "desc": "小金井 宮地楽器ホール 大ホールで開かれる大江千里の公演。",
-   "start": "2027-01-13",
-   "time": "18:30開演（18:00開場）",
-   "venue": "小金井 宮地楽器ホール 大ホール",
-   "area": "小金井市",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 25,
-     "note": "西武国分寺線で国分寺→中央線で武蔵小金井、徒歩"
-    },
-    "hitotsubashi": {
-     "min": 18,
-     "note": "西武多摩湖線で国分寺→中央線で武蔵小金井、徒歩"
-    }
-   },
-   "car": {
-    "min": 20
-   },
-   "tags": [
-    "ポップス",
-    "ライブ"
-   ],
-   "url": "https://eplus.jp/sf/detail/0009770001-P0030155P021001?P1=0817",
-   "src": "イープラス"
-  },
-  {
-   "id": "2026-12-toyota-arena-new-horizon-fest",
-   "cat": "music",
-   "title": "Sammy presents NEW HORIZON FEST 2026",
-   "desc": "04 Limited Sazabys、Dragon Ash、coldrain、ROTTENGRAFFTYなど約20組が出るバンド系フェス。年末のTOYOTA ARENA TOKYOで開催。",
-   "start": "2026-12-28",
-   "time": "11:00開演（9:30開場）",
-   "venue": "TOYOTA ARENA TOKYO",
-   "area": "江東区（青海）",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 75,
-     "note": "西武新宿線・中央線等で新橋→ゆりかもめで青海方面"
-    },
-    "hitotsubashi": {
-     "min": 70,
-     "note": "中央線で新宿・東京方面→ゆりかもめ"
-    }
-   },
-   "car": {
-    "min": 70
-   },
-   "tags": [
-    "フェス",
-    "ロック",
-    "年末"
-   ],
-   "url": "https://eplus.jp/sf/detail/4362000001-P0030002",
-   "src": "イープラス"
-  },
-  {
-   "id": "2027-01-ariake-rockin-on-sonic",
-   "cat": "music",
-   "title": "rockin'on sonic 2027",
-   "desc": "Bloc Party、Dinosaur Jr.（9日）、Suede、Kula Shaker（10日）など海外勢が揃う2日間の洋楽ロックイベント。",
-   "start": "2027-01-09",
-   "end": "2027-01-10",
-   "time": "両日 13:00開演（12:00開場）",
-   "venue": "SGC HALL ARIAKE",
-   "area": "江東区（有明）",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 75,
-     "note": "西武新宿線・中央線等で新木場/豊洲経由、ゆりかもめ"
-    },
-    "hitotsubashi": {
-     "min": 70,
-     "note": "中央線・山手線経由でゆりかもめ有明"
-    }
-   },
-   "car": {
-    "min": 70
-   },
-   "tags": [
-    "フェス",
-    "洋楽ロック"
-   ],
-   "url": "https://eplus.jp/sf/detail/4163470001-P0030005",
-   "src": "イープラス"
-  },
-  {
    "id": "2026-12-shibuya-new-year-rock-fes-54",
    "cat": "music",
    "title": "54th NEW YEAR ROCK FESTIVAL 2026-2027",
@@ -2644,161 +3475,6 @@
    ],
    "url": "https://eplus.jp/sf/detail/4627880001-P0030001",
    "src": "イープラス"
-  },
-  {
-   "id": "2026-12-machida-city-garden",
-   "cat": "music",
-   "title": "CITY GARDEN in MACHIDA",
-   "desc": "RHYMESTER、般若、梅田サイファー、KEN THE 390らが集まるヒップホップ系イベント。町田市民ホール開催。先着一般発売は枚数終了表示。",
-   "start": "2026-12-19",
-   "time": "15:00開演（14:00開場）",
-   "venue": "町田市民ホール",
-   "area": "町田市",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 65,
-     "note": "西武線・JR等で町田駅、徒歩"
-    },
-    "hitotsubashi": {
-     "min": 55,
-     "note": "中央線・横浜線等で町田駅、徒歩"
-    }
-   },
-   "car": {
-    "min": 60
-   },
-   "tags": [
-    "フェス",
-    "ヒップホップ"
-   ],
-   "url": "https://eplus.jp/sf/detail/3689620001-P0030005",
-   "src": "イープラス"
-  },
-  {
-   "id": "2027-01-shinjuku-saruhage-rock-fes",
-   "cat": "music",
-   "title": "しりあがり寿presents 新春！(有)さるハゲロックフェスティバル'27",
-   "desc": "漫画家しりあがり寿が主催する新春ロックフェス。多数のバンド・芸人が新宿LOFTに出演する。",
-   "start": "2027-01-16",
-   "time": "16:00開演（15:30開場）",
-   "venue": "新宿 LOFT",
-   "area": "新宿区",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 40,
-     "note": "西武新宿線で西武新宿、徒歩"
-    },
-    "hitotsubashi": {
-     "min": 35,
-     "note": "中央線で新宿、徒歩"
-    }
-   },
-   "car": {
-    "min": 50
-   },
-   "tags": [
-    "フェス",
-    "ロック",
-    "新春"
-   ],
-   "url": "https://eplus.jp/sf/detail/4629230001-P0030001",
-   "src": "イープラス"
-  },
-  {
-   "id": "2026-11-roppongi-rock-anthem-ex",
-   "cat": "music",
-   "title": "ロックアンセムEX",
-   "desc": "11/27はOKAMOTO'S・ドレスコーズ・THE BAWDIES、11/29はBase Ball Bear・山内総一郎ほかが出るロックイベント。",
-   "start": "2026-11-27",
-   "time": "11/27 19:00開演、11/29 17:00開演（11/28は開催なし）",
-   "venue": "EX THEATER ROPPONGI",
-   "area": "港区（六本木）",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 55,
-     "note": "西武新宿線で高田馬場→大江戸線等で六本木"
-    },
-    "hitotsubashi": {
-     "min": 50,
-     "note": "中央線で新宿→大江戸線で六本木"
-    }
-   },
-   "car": {
-    "min": 55
-   },
-   "tags": [
-    "ロック",
-    "ライブ"
-   ],
-   "url": "https://eplus.jp/sf/detail/4627210001-P0030001",
-   "src": "イープラス"
-  },
-  {
-   "id": "2026-11-shinjuku-edo-wave-2026",
-   "cat": "music",
-   "title": "Tokyo International Music Festival EDO WAVE 2026 ええじゃないか!江戸国際音楽祭",
-   "desc": "海外ゲストと国内バンドが出る国際音楽祭。新宿LOFTで開催。",
-   "start": "2026-11-29",
-   "time": "15:30開演（14:30開場）",
-   "venue": "新宿 LOFT",
-   "area": "新宿区",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 40,
-     "note": "西武新宿線で西武新宿、徒歩"
-    },
-    "hitotsubashi": {
-     "min": 35,
-     "note": "中央線で新宿、徒歩"
-    }
-   },
-   "car": {
-    "min": 50
-   },
-   "tags": [
-    "フェス",
-    "ロック"
-   ],
-   "url": "https://eplus.jp/sf/detail/4580500001-P0030001",
-   "src": "イープラス"
-  },
-  {
-   "id": "2026-12-tatemonoen-craft",
-   "cat": "family",
-   "title": "伝統工芸の実演（江戸東京たてもの園）",
-   "desc": "園内の建物で、職人による伝統工芸の実演が見られる週末企画。古い建物の見学とあわせて楽しめる。",
-   "start": "2026-12-12",
-   "end": "2026-12-13",
-   "time": "9:30〜16:30（入園は16:00まで）",
-   "venue": "江戸東京たてもの園（都立小金井公園内）",
-   "area": "小金井市",
-   "price": "入園料 一般400円・65歳以上200円・中学生以下無料",
-   "free": false,
-   "tags": [
-    "家族",
-    "体験",
-    "工芸",
-    "博物館"
-   ],
-   "url": "https://www.tatemonoen.jp/event/schedule/",
-   "src": "江戸東京たてもの園公式",
-   "train": {
-    "kodaira": {
-     "min": 25,
-     "note": "西武新宿線で花小金井、バスまたは徒歩で小金井公園へ"
-    },
-    "hitotsubashi": {
-     "min": 15,
-     "note": "バスで小金井公園方面（または国分寺経由で武蔵小金井）"
-    }
-   },
-   "car": {
-    "min": 20
-   }
   },
   {
    "id": "2027-01-tatemonoen-shogatsu",
@@ -2835,6 +3511,194 @@
    }
   },
   {
+   "id": "2027-01-tachikawa-little-feat",
+   "cat": "music",
+   "title": "Little Feat \"The Last Farewell Tour\"",
+   "desc": "米ロックバンド、リトル・フィートのさよならツアー日本公演。ビル・ペインらメンバーが出演。",
+   "start": "2027-01-06",
+   "time": "18:00開場／19:00開演",
+   "venue": "TACHIKAWA STAGE GARDEN（立川市）",
+   "area": "立川市",
+   "price": "S席16,800円ほか（U25席8,900円）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 40,
+     "note": "西武拝島線・JRなどで立川へ、徒歩またはモノレール"
+    },
+    "hitotsubashi": {
+     "min": 35,
+     "note": "国分寺経由でJR中央線立川へ、徒歩またはモノレール"
+    }
+   },
+   "car": {
+    "min": 25
+   },
+   "tags": [
+    "ロック",
+    "来日公演"
+   ],
+   "url": "https://www.t-sg.jp/events/2027/01/00001529.php",
+   "src": "TACHIKAWA STAGE GARDEN"
+  },
+  {
+   "id": "2027-01-fuchu-higashi-takagi",
+   "cat": "music",
+   "title": "東亮汰&高木竜馬 デュオリサイタル",
+   "desc": "ヴァイオリンとピアノのデュオ。ベートーヴェン、ブラームス、シベリウス、グリーグを演奏。",
+   "start": "2027-01-09",
+   "end": "2027-01-09",
+   "time": "開演14:00",
+   "venue": "府中の森芸術劇場 ウィーンホール",
+   "area": "府中市",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 50,
+     "note": "国分寺→西国分寺→武蔵野線で府中本町、徒歩約5分"
+    },
+    "hitotsubashi": {
+     "min": 40,
+     "note": "国分寺→西国分寺→府中本町、徒歩約5分"
+    }
+   },
+   "car": {
+    "min": 30,
+    "parking": "あり"
+   },
+   "tags": [
+    "コンサート",
+    "クラシック",
+    "屋内"
+   ],
+   "url": "https://eplus.jp/sf/detail/4338500001-P0030004P021001",
+   "src": "イープラス"
+  },
+  {
+   "id": "2027-01-koganei-yamane-sakata",
+   "cat": "music",
+   "title": "山根一仁&阪田知樹 デュオ・リサイタル",
+   "desc": "ヴァイオリンとピアノの若手実力派2人が、クロイツェル・ソナタやラヴェルのソナタなどを披露する。",
+   "start": "2027-01-09",
+   "time": "14:00開演（13:30開場）",
+   "venue": "小金井 宮地楽器ホール 大ホール",
+   "area": "小金井市",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 25,
+     "note": "西武国分寺線で国分寺→中央線で武蔵小金井、徒歩"
+    },
+    "hitotsubashi": {
+     "min": 18,
+     "note": "西武多摩湖線で国分寺→中央線で武蔵小金井、徒歩"
+    }
+   },
+   "car": {
+    "min": 20
+   },
+   "tags": [
+    "クラシック",
+    "ヴァイオリン",
+    "ピアノ"
+   ],
+   "url": "https://eplus.jp/sf/detail/4559270001-P0030001P021001?P1=0817",
+   "src": "イープラス"
+  },
+  {
+   "id": "2027-01-ariake-rockin-on-sonic",
+   "cat": "music",
+   "title": "rockin'on sonic 2027",
+   "desc": "Bloc Party、Dinosaur Jr.（9日）、Suede、Kula Shaker（10日）など海外勢が揃う2日間の洋楽ロックイベント。",
+   "start": "2027-01-09",
+   "end": "2027-01-10",
+   "time": "両日 13:00開演（12:00開場）",
+   "venue": "SGC HALL ARIAKE",
+   "area": "江東区（有明）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 75,
+     "note": "西武新宿線・中央線等で新木場/豊洲経由、ゆりかもめ"
+    },
+    "hitotsubashi": {
+     "min": 70,
+     "note": "中央線・山手線経由でゆりかもめ有明"
+    }
+   },
+   "car": {
+    "min": 70
+   },
+   "tags": [
+    "フェス",
+    "洋楽ロック"
+   ],
+   "url": "https://eplus.jp/sf/detail/4163470001-P0030005",
+   "src": "イープラス"
+  },
+  {
+   "id": "2027-01-kawagoe-piano-meikyoku",
+   "cat": "music",
+   "title": "ピアノ名曲コンサート2027 in 川越",
+   "desc": "午前の小ホールで開かれる入場無料のピアノコンサート。全席自由。",
+   "start": "2027-01-09",
+   "time": "10:30開演",
+   "venue": "ウェスタ川越 ヤオコー小ホール",
+   "area": "川越市",
+   "price": "入場無料（全席自由）",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 45,
+     "note": "西武新宿線で本川越、バスまたは徒歩（ウェスタ川越は川越駅方面からも徒歩圏）"
+    },
+    "hitotsubashi": {
+     "min": 50,
+     "note": "西武新宿線で本川越方面へ、バスまたは徒歩"
+    }
+   },
+   "car": {
+    "min": 40
+   },
+   "tags": [
+    "ピアノ",
+    "無料"
+   ],
+   "url": "https://www.westa-kawagoe.jp/event/detail.html?id=3929",
+   "src": "ウェスタ川越"
+  },
+  {
+   "id": "2027-01-tokorozawa-tso-new-year",
+   "cat": "music",
+   "title": "東京交響楽団 New Year Concert 2027",
+   "desc": "下野竜也指揮、小山実稚恵のピアノで迎えるお正月恒例のコンサート。",
+   "start": "2027-01-11",
+   "time": "14:00開演",
+   "venue": "所沢市民文化センター ミューズ アークホール",
+   "area": "所沢市",
+   "price": "S5,700円／A5,000円／B4,400円／P4,000円",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 20,
+     "note": "西武新宿線→所沢→池袋線で航空公園"
+    },
+    "hitotsubashi": {
+     "min": 30,
+     "note": "多摩湖線等で所沢→航空公園"
+    }
+   },
+   "car": {
+    "min": 20
+   },
+   "tags": [
+    "ニューイヤー",
+    "オーケストラ"
+   ],
+   "url": "https://www.muse-tokorozawa.or.jp/event/detail/20270111/",
+   "src": "所沢ミューズ公式"
+  },
+  {
    "id": "2027-01-tatemonoen-seijin",
    "cat": "family",
    "title": "成人の日はたてもの園へ",
@@ -2869,325 +3733,424 @@
    }
   },
   {
-   "id": "2026-12-kichijoji-parco-mottainai",
-   "cat": "family",
-   "title": "吉祥寺パルコ MOTTAINAIフリーマーケット（12月）",
-   "desc": "吉祥寺パルコ屋上で開かれる約100店のフリマ。洋服、雑貨、古本、子ども服などが並ぶ。雨天中止の場合あり。",
-   "start": "2026-12-06",
-   "end": "2026-12-06",
-   "time": "9:30〜14:00",
-   "venue": "吉祥寺パルコ 屋上",
-   "area": "武蔵野市",
-   "price": "入場無料",
-   "free": true,
-   "tags": [
-    "フリーマーケット",
-    "古着",
-    "子ども服",
-    "雑貨"
-   ],
-   "url": "https://www.walkerplus.com/event/ar0313e608810/",
-   "src": "ウォーカープラス",
-   "train": {
-    "kodaira": {
-     "min": 30,
-     "note": "西武新宿線・中央線で国分寺、中央線で吉祥寺"
-    },
-    "hitotsubashi": {
-     "min": 20,
-     "note": "西武国分寺線で国分寺、中央線で吉祥寺"
-    }
-   },
-   "car": {
-    "min": 30,
-    "parking": "なし"
-   }
-  },
-  {
-   "id": "2026-12-seibu-akaden-night",
-   "cat": "family",
-   "title": "西武多摩川線101系【赤電】夜間撮影会",
-   "desc": "終電後の武蔵境駅で、ヘッドマーク付きの赤電を撮影し車両の入換も見学できる。是政駅から臨時列車で移動。18歳以上対象、先着40名、申込は11/30まで（西武線アプリ）。",
-   "start": "2026-12-06",
-   "end": "2026-12-06",
-   "time": "0:20〜4:30（12/5終電後）",
-   "venue": "西武鉄道 多摩川線 武蔵境駅（受付は是政駅）",
-   "area": "武蔵野市",
-   "price": "20,000円（税込）",
+   "id": "2027-01-tachikawa-fripside",
+   "cat": "music",
+   "title": "fripSide Concert Tour 2026-2027 -infinite Resonance 4-",
+   "desc": "アニソンユニットfripSideの全国コンサートツアーの立川公演。",
+   "start": "2027-01-11",
+   "time": "16:30開場／17:30開演",
+   "venue": "TACHIKAWA STAGE GARDEN（立川市）",
+   "area": "立川市",
+   "price": "8,800円（全席指定）",
    "free": false,
-   "tags": [
-    "鉄道",
-    "撮影会",
-    "西武",
-    "大人向け"
-   ],
-   "url": "https://www.seiburailway.jp/newsroom/news/",
-   "src": "西武鉄道",
    "train": {
     "kodaira": {
      "min": 40,
-     "note": "終電後開催。受付の是政駅へは国分寺経由西武多摩川線などで（目安）"
+     "note": "西武拝島線・JRなどで立川へ、徒歩またはモノレール"
     },
     "hitotsubashi": {
      "min": 35,
-     "note": "国分寺経由で武蔵境・是政方面（目安）"
+     "note": "国分寺経由でJR中央線立川へ、徒歩またはモノレール"
     }
    },
    "car": {
     "min": 25
-   }
+   },
+   "tags": [
+    "アニソン",
+    "ライブ"
+   ],
+   "url": "https://www.t-sg.jp/events/2027/01/00001528.php",
+   "src": "TACHIKAWA STAGE GARDEN"
   },
   {
-   "id": "2026-12-seibu-nra-night",
-   "cat": "family",
-   "title": "深夜に電車をとらNIGHT！ NRAコンプリート撮影会",
-   "desc": "2027年春に定期運行を終える10000系ニューレッドアロー5本を、深夜の南入曽車両基地で撮影する。本川越駅から臨時列車で移動。18歳以上、先着50名、申込は11/30まで。",
-   "start": "2026-12-09",
-   "end": "2026-12-09",
-   "time": "0:30〜4:50（12/8終電後）",
-   "venue": "西武鉄道 南入曽車両基地（受付は本川越駅）",
-   "area": "狭山市",
-   "price": "27,000円（税込）",
+   "id": "2027-01-koganei-osawa-senri",
+   "cat": "music",
+   "title": "大江千里 コンサート",
+   "desc": "小金井 宮地楽器ホール 大ホールで開かれる大江千里の公演。",
+   "start": "2027-01-13",
+   "time": "18:30開演（18:00開場）",
+   "venue": "小金井 宮地楽器ホール 大ホール",
+   "area": "小金井市",
    "free": false,
+   "train": {
+    "kodaira": {
+     "min": 25,
+     "note": "西武国分寺線で国分寺→中央線で武蔵小金井、徒歩"
+    },
+    "hitotsubashi": {
+     "min": 18,
+     "note": "西武多摩湖線で国分寺→中央線で武蔵小金井、徒歩"
+    }
+   },
+   "car": {
+    "min": 20
+   },
    "tags": [
-    "鉄道",
-    "撮影会",
-    "西武",
-    "大人向け"
+    "ポップス",
+    "ライブ"
    ],
-   "url": "https://www.seiburailway.jp/newsroom/news/",
-   "src": "西武鉄道",
+   "url": "https://eplus.jp/sf/detail/0009770001-P0030155P021001?P1=0817",
+   "src": "イープラス"
+  },
+  {
+   "id": "2027-01-setagaya-boroichi",
+   "cat": "fest",
+   "title": "世田谷ボロ市（2027年1月）",
+   "desc": "ボロ市通り周辺に古道具・植木・食べ物などの露店が並ぶ、年2回の歴史ある市の1月開催。",
+   "start": "2027-01-15",
+   "end": "2027-01-16",
+   "time": "9:00〜20:00",
+   "venue": "ボロ市通り周辺（世田谷1丁目）",
+   "area": "世田谷区",
+   "price": "入場無料",
+   "free": true,
+   "train": {
+    "kodaira": {
+     "min": 75,
+     "note": "新宿・下北沢経由、小田急・世田谷線で世田谷駅"
+    },
+    "hitotsubashi": {
+     "min": 70,
+     "note": "国分寺・新宿経由で世田谷線方面"
+    }
+   },
+   "car": {
+    "min": 60,
+    "parking": "なし（交通規制）"
+   },
+   "tags": [
+    "ボロ市",
+    "露店",
+    "屋外"
+   ],
+   "url": "https://www.city.setagaya.lg.jp/02072/10108.html",
+   "src": "世田谷区"
+  },
+  {
+   "id": "2027-01-nihonbashi-premium-washu-fes",
+   "cat": "food",
+   "title": "第2回 プレミアム和酒フェス in 日本橋",
+   "desc": "全国の34蔵・2団体が参加し、120種類以上の日本酒などの和酒を飲み比べできる新年最初の利き酒イベント。蔵人との交流や専門セミナーもある。",
+   "start": "2027-01-15",
+   "end": "2027-01-16",
+   "time": "12:00〜20:00（各日2部制）",
+   "venue": "KABUTO ONE（日本橋兜町）",
+   "area": "中央区",
+   "price": "公式ページで確認",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 60,
+     "note": "西武新宿線・JR・地下鉄で茅場町駅/日本橋駅"
+    },
+    "hitotsubashi": {
+     "min": 55,
+     "note": "JR中央線・地下鉄で茅場町駅/日本橋駅"
+    }
+   },
+   "car": {
+    "min": 65
+   },
+   "tags": [
+    "日本酒",
+    "利き酒",
+    "日本橋"
+   ],
+   "url": "https://sakefes.com/premium02/",
+   "src": "プレミアム和酒フェス公式"
+  },
+  {
+   "id": "2027-01-shinjuku-saruhage-rock-fes",
+   "cat": "music",
+   "title": "しりあがり寿presents 新春！(有)さるハゲロックフェスティバル'27",
+   "desc": "漫画家しりあがり寿が主催する新春ロックフェス。多数のバンド・芸人が新宿LOFTに出演する。",
+   "start": "2027-01-16",
+   "time": "16:00開演（15:30開場）",
+   "venue": "新宿 LOFT",
+   "area": "新宿区",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 40,
+     "note": "西武新宿線で西武新宿、徒歩"
+    },
+    "hitotsubashi": {
+     "min": 35,
+     "note": "中央線で新宿、徒歩"
+    }
+   },
+   "car": {
+    "min": 50
+   },
+   "tags": [
+    "フェス",
+    "ロック",
+    "新春"
+   ],
+   "url": "https://eplus.jp/sf/detail/4629230001-P0030001",
+   "src": "イープラス"
+  },
+  {
+   "id": "2027-01-kawagoe-regional-wind",
+   "cat": "music",
+   "title": "川越リージョナルウインドオーケストラ 特別演奏会 vol.3",
+   "desc": "地元の吹奏楽団による特別演奏会。1,000円と気軽に聴ける。",
+   "start": "2027-01-23",
+   "time": "15:30開演",
+   "venue": "ウェスタ川越 ヤオコー大ホール",
+   "area": "川越市",
+   "price": "1,000円（当日1,200円・全席自由）",
+   "free": false,
    "train": {
     "kodaira": {
      "min": 45,
-     "note": "西武新宿線で本川越へ（終電後開催のため時間は目安）"
+     "note": "西武新宿線で本川越、バスまたは徒歩（ウェスタ川越は川越駅方面からも徒歩圏）"
     },
     "hitotsubashi": {
      "min": 50,
-     "note": "西武新宿線で本川越へ（目安）"
+     "note": "西武新宿線で本川越方面へ、バスまたは徒歩"
     }
    },
    "car": {
     "min": 40
-   }
+   },
+   "tags": [
+    "吹奏楽",
+    "コンサート"
+   ],
+   "url": "https://www.westa-kawagoe.jp/event/detail.html?id=3912",
+   "src": "ウェスタ川越"
   },
   {
-   "id": "2026-11-lumine-pokemon-xmas-shinjuku",
-   "cat": "family",
-   "title": "LUMINE Pokémon Christmas 2026（ルミネ新宿）",
-   "desc": "『ぽこ あ ポケモン』とのコラボで、スタンプラリーやフォトブースを展開。12/13にはルミネ新宿でワークショップもある（無料）。",
-   "start": "2026-11-21",
-   "end": "2026-12-25",
-   "venue": "ルミネ新宿・ルミネエスト新宿",
-   "area": "新宿区",
-   "price": "フォトブース・ワークショップ無料",
-   "free": true,
-   "tags": [
-    "ポケモン",
-    "クリスマス",
-    "スタンプラリー",
-    "新宿"
-   ],
-   "url": "https://www.lumine.ne.jp/christmas2026",
-   "src": "ルミネ公式",
+   "id": "2027-01-tachikawa-sakurashimeji",
+   "cat": "music",
+   "title": "Sakurashimeji Hall Tour 2027 \"soup\"",
+   "desc": "さくらしめじのホールツアー立川公演。",
+   "start": "2027-01-24",
+   "time": "16:00開場／17:00開演",
+   "venue": "TACHIKAWA STAGE GARDEN（立川市）",
+   "area": "立川市",
+   "price": "8,500円（全席指定、3歳以上要チケット）",
+   "free": false,
    "train": {
     "kodaira": {
+     "min": 40,
+     "note": "西武拝島線・JRなどで立川へ、徒歩またはモノレール"
+    },
+    "hitotsubashi": {
      "min": 35,
-     "note": "西武新宿線・JR中央線で新宿"
-    },
-    "hitotsubashi": {
-     "min": 30,
-     "note": "西武線・中央線で新宿"
+     "note": "国分寺経由でJR中央線立川へ、徒歩またはモノレール"
     }
    },
    "car": {
-    "min": 50,
-    "parking": "なし"
-   }
-  },
-  {
-   "id": "2026-11-teamlab-hamarikyu",
-   "cat": "family",
-   "title": "チームラボ 浜離宮",
-   "desc": "浜離宮恩賜庭園の夜に広がる屋外のアート展。日時指定の事前購入制で、防寒対策が必要。",
-   "start": "2026-11-25",
-   "end": "2026-12-24",
-   "time": "18:00〜21:15（最終入場20:30）",
-   "venue": "浜離宮恩賜庭園",
-   "area": "中央区",
-   "price": "一般2,500円・中高生1,500円・小学生900円・未就学児無料",
-   "free": false,
-   "tags": [
-    "アート",
-    "夜",
-    "庭園",
-    "子連れ"
-   ],
-   "url": "https://www.teamlab.art/jp/e/hamarikyu/",
-   "src": "チームラボ公式",
-   "train": {
-    "kodaira": {
-     "min": 65,
-     "note": "中央線で新宿・東京方面、地下鉄などで新橋・汐留"
-    },
-    "hitotsubashi": {
-     "min": 55,
-     "note": "中央線で東京方面、新橋へ"
-    }
+    "min": 25
    },
-   "car": {
-    "min": 70,
-    "parking": "なし"
-   }
+   "tags": [
+    "ライブ",
+    "ホールツアー"
+   ],
+   "url": "https://www.t-sg.jp/events/2027/01/00001517.php",
+   "src": "TACHIKAWA STAGE GARDEN"
   },
   {
-   "id": "2026-12-yugioh-art-works",
-   "cat": "family",
-   "title": "高橋和希原画展 YU-GI-OH! ART WORKS",
-   "desc": "『遊☆戯☆王』連載30周年を記念する初の原画展。370点以上の直筆原稿などを展示。日時指定制。",
-   "start": "2026-12-12",
-   "end": "2027-02-21",
-   "time": "10:00〜20:00（最終入場は閉場30分前）",
-   "venue": "CREATIVE MUSEUM TOKYO（京橋）",
-   "area": "中央区",
-   "price": "一般2,200円・中高生1,400円・小学生900円",
-   "free": false,
-   "tags": [
-    "アニメ",
-    "漫画",
-    "展覧会",
-    "遊戯王"
-   ],
-   "url": "https://eplus.jp/t-kazuki-ten/",
-   "src": "イープラス（公式チケット）",
+   "id": "2027-01-hibiya-furusato-nabe-gp",
+   "cat": "food",
+   "title": "ふるさと鍋グランプリ2027 in 日比谷公園",
+   "desc": "全国のご当地鍋・郷土鍋が日比谷公園に集結。食べ比べてWEB投票でグランプリを決める冬のグルメイベント。",
+   "start": "2027-01-29",
+   "end": "2027-01-31",
+   "time": "10:00〜20:00（最終日は18:00まで）",
+   "venue": "日比谷公園",
+   "area": "千代田区",
+   "price": "入場無料（飲食代は別途）",
+   "free": true,
    "train": {
     "kodaira": {
      "min": 60,
-     "note": "中央線で東京駅、京橋へ徒歩"
+     "note": "西武新宿線・JR・地下鉄で日比谷駅/霞ケ関駅"
+    },
+    "hitotsubashi": {
+     "min": 55,
+     "note": "JR中央線・地下鉄で日比谷駅/霞ケ関駅"
+    }
+   },
+   "car": {
+    "min": 65
+   },
+   "tags": [
+    "鍋",
+    "ご当地グルメ",
+    "日比谷"
+   ],
+   "url": "https://www.nabe-gp.com/",
+   "src": "ふるさと鍋グランプリ公式（情報元：レッツエンジョイ東京）"
+  },
+  {
+   "id": "2027-01-musashimurayama-oshiuma-market",
+   "cat": "food",
+   "title": "全国物産展 JAPAN SELECT 推しうまーけっと2026（第2回・イオンモールむさし村山）",
+   "desc": "47都道府県のアンテナショップ商品や各地の定番・人気商品を集めた物産展。ご当地キャラクターのPRステージや、ガチャ企画もある。",
+   "start": "2027-01-30",
+   "end": "2027-01-31",
+   "time": "10:00〜20:00（最終日は19:00終了）",
+   "venue": "イオンモールむさし村山 1F センターコート・ノースコート・サウスコート、3Fセンターデッキ",
+   "area": "武蔵村山市",
+   "price": "公式サイトで確認",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 30,
+     "note": "西武拝島線・多摩モノレール経由で玉川上水、バスまたは武蔵砂川駅利用"
+    },
+    "hitotsubashi": {
+     "min": 30,
+     "note": "西武国分寺線・拝島線経由、または玉川上水からバス/徒歩"
+    }
+   },
+   "car": {
+    "min": 25
+   },
+   "tags": [
+    "物産展",
+    "アンテナショップ",
+    "ご当地キャラ"
+   ],
+   "url": "https://tokyo-antennashop.jp/",
+   "src": "アンテナショップイベント公式（情報元：レッツエンジョイ東京）"
+  },
+  {
+   "id": "2027-01-kawagoe-idol-hit-stage",
+   "cat": "music",
+   "title": "青春のアイドルヒットステージ 松本伊代・早見優・森口博子",
+   "desc": "80年代アイドルの松本伊代・早見優・森口博子が出演するヒット曲ステージ。",
+   "start": "2027-01-30",
+   "time": "16:30開演",
+   "venue": "ウェスタ川越 ヤオコー大ホール",
+   "area": "川越市",
+   "price": "7,800円（全席指定）",
+   "free": false,
+   "train": {
+    "kodaira": {
+     "min": 45,
+     "note": "西武新宿線で本川越、バスまたは徒歩（ウェスタ川越は川越駅方面からも徒歩圏）"
     },
     "hitotsubashi": {
      "min": 50,
-     "note": "中央線で東京駅、京橋へ徒歩"
+     "note": "西武新宿線で本川越方面へ、バスまたは徒歩"
     }
    },
    "car": {
-    "min": 65,
-    "parking": "なし"
-   }
+    "min": 40
+   },
+   "tags": [
+    "アイドル",
+    "歌謡"
+   ],
+   "url": "https://www.westa-kawagoe.jp/event/detail.html?id=3790",
+   "src": "ウェスタ川越"
   },
   {
-   "id": "2026-10-haikyu-challengers",
+   "id": "2026-11-kadokawa-nazotoki",
    "cat": "family",
-   "title": "古舘春一 ハイキュー!!展 挑戦者たち",
-   "desc": "原画や描き下ろしイラストで『ハイキュー!!』の物語をたどる展覧会。日時指定制で後期は12/1〜。",
-   "start": "2026-11-21",
-   "end": "2027-01-11",
-   "time": "10:00〜20:00（最終入館は閉館30分前）",
-   "venue": "森アーツセンターギャラリー（六本木ヒルズ森タワー52階）",
-   "area": "港区",
+   "title": "ところざわサクラタウン リアル謎解きゲーム「謎めくミュージアムと記憶の欠片」",
+   "desc": "記憶をなくした主人公になり、館内の謎を解いて絵本を完成させる周遊型の謎解き。1回90〜120分ほど。",
+   "dateLabel": "2026/11/5〜（終了日未定）",
+   "time": "所要90〜120分",
+   "venue": "角川武蔵野ミュージアム・ところざわサクラタウン",
+   "area": "所沢市",
+   "price": "謎解きキット2,200円（別途入館券が必要）",
    "free": false,
-   "tags": [
-    "アニメ",
-    "漫画",
-    "展覧会",
-    "六本木"
-   ],
-   "url": "https://eplus.jp/haikyu-challengers-ex/",
-   "src": "イープラス（公式チケット）",
    "train": {
     "kodaira": {
-     "min": 55,
-     "note": "中央線・地下鉄で六本木（日比谷線 六本木駅直結）"
+     "min": 40,
+     "note": "武蔵野線の東所沢駅、徒歩約10分"
     },
     "hitotsubashi": {
-     "min": 45,
-     "note": "中央線・地下鉄で六本木"
+     "min": 50,
+     "note": "国分寺・西国分寺経由で東所沢駅"
     }
    },
    "car": {
-    "min": 55,
-    "parking": "なし"
-   }
+    "min": 25,
+    "parking": "あり"
+   },
+   "tags": [
+    "謎解き",
+    "屋内",
+    "雨の日OK"
+   ],
+   "url": "https://kadcul.com/event/287",
+   "src": "角川武蔵野ミュージアム"
   },
   {
-   "id": "2026-11-mappa-expo",
-   "cat": "family",
-   "title": "MAPPA EXPO 15th Anniversary",
-   "desc": "アニメ制作会社MAPPAの15年の歩みをたどる展覧会。12月7日まで。",
-   "start": "2026-11-21",
-   "end": "2026-12-07",
-   "venue": "YURAKUCHO MUSEUM（有楽町）",
-   "area": "千代田区",
-   "free": false,
-   "tags": [
-    "アニメ",
-    "展覧会",
-    "有楽町"
-   ],
-   "url": "https://expo.mappa.co.jp/",
-   "src": "MAPPA EXPO公式",
+   "id": "2026-weekly-unu-farmers-market",
+   "cat": "food",
+   "title": "国連大学前ファーマーズマーケット（毎週末）",
+   "desc": "全国の生産者が旬の野菜や果物、加工品を直売する、青山の定番マーケット。週末ごとに特集企画が組まれる。",
+   "dateLabel": "毎週土・日曜",
+   "time": "10:00〜16:00（イベント時は変更あり）",
+   "venue": "国連大学前広場（青山）",
+   "area": "渋谷区",
+   "price": "入場無料",
+   "free": true,
    "train": {
     "kodaira": {
-     "min": 65,
-     "note": "中央線で東京駅、有楽町へ徒歩"
+     "min": 50,
+     "note": "西武新宿線・JR経由で渋谷、徒歩約15分または地下鉄で表参道駅"
     },
     "hitotsubashi": {
-     "min": 55,
-     "note": "中央線で東京駅、有楽町へ徒歩"
+     "min": 40,
+     "note": "JR中央線で新宿/渋谷、地下鉄で表参道駅"
     }
    },
    "car": {
-    "min": 70,
-    "parking": "なし"
-   }
+    "min": 55
+   },
+   "tags": [
+    "ファーマーズマーケット",
+    "マルシェ",
+    "青山",
+    "野菜"
+   ],
+   "url": "https://farmersmarkets.jp/",
+   "src": "Farmers Market＠UNU公式"
   }
  ],
  "lastRun": {
-  "date": "2026-11-21",
+  "date": "2026-11-28",
   "added": [
-   "2026-12-odaiba-rainbow-hanabi",
-   "2026-12-asakusa-hagoita-ichi",
-   "2026-11-moomin-christmas-hanno",
-   "2026-11-koishikawa-korakuen-momiji",
-   "2026-11-rikugien-night-momiji",
-   "2026-11-tokyotower-xmas-market",
-   "2026-11-skytree-xmas-market",
-   "2026-11-ebisu-baccarat-eternal-lights",
-   "2026-11-harajuku-holiday-market",
-   "2026-11-komazawa-ibaraki-shukakusai",
-   "2026-11-setagaya-life-gourmet-marche",
-   "2026-11-odaiba-world-drinks-fest",
-   "2026-11-sunshine-islander",
-   "2026-11-shimbashi-maimon-matsuri",
-   "2026-11-unu-natural-wine-love",
-   "2026-weekly-unu-farmers-market",
-   "2026-12-daikanyama-enjoy-craft-nenmatsu",
-   "2027-01-nihonbashi-premium-washu-fes",
-   "2027-01-musashimurayama-oshiuma-market",
-   "2027-01-hibiya-furusato-nabe-gp",
-   "2026-11-koganei-game-music-brass",
-   "2026-12-kokubunji-gloria-campanella",
-   "2027-01-koganei-yamane-sakata",
-   "2027-01-koganei-osawa-senri",
-   "2026-12-toyota-arena-new-horizon-fest",
-   "2027-01-ariake-rockin-on-sonic",
-   "2026-12-shibuya-new-year-rock-fes-54",
-   "2026-12-machida-city-garden",
-   "2027-01-shinjuku-saruhage-rock-fes",
-   "2026-11-roppongi-rock-anthem-ex",
-   "2026-11-shinjuku-edo-wave-2026",
-   "2026-12-tatemonoen-craft",
-   "2027-01-tatemonoen-shogatsu",
-   "2027-01-tatemonoen-seijin",
-   "2026-12-kichijoji-parco-mottainai",
-   "2026-12-seibu-akaden-night",
-   "2026-12-seibu-nra-night",
-   "2026-11-lumine-pokemon-xmas-shinjuku",
-   "2026-11-teamlab-hamarikyu",
-   "2026-12-yugioh-art-works",
-   "2026-10-haikyu-challengers",
-   "2026-11-mappa-expo"
+   "2026-11-tokorozawa-sakuratown-lightup",
+   "2026-11-seibuen-nostalgic-xmas",
+   "2026-11-fuchu-mannaka-illumi",
+   "2026-11-kichijoji-illumi",
+   "2026-11-musashisakai-illumi",
+   "2026-11-mitaka-kita-illumi",
+   "2026-12-hinode-ohguno-hanabi",
+   "2026-12-kawagoe-coffee-fes",
+   "2026-12-tokorozawa-sakuratown-xmas-marche",
+   "2026-12-musashikoganei-socola-xmas-marche",
+   "2026-12-koganei-konnyaku-jodoe",
+   "2026-12-hachioji-k8-xmas-market",
+   "2026-12-saitama-keyaki-xmas-market",
+   "2026-12-sumida-atatakagourmet-fes",
+   "2026-12-tachikawa-sound-of-xmas",
+   "2026-12-tachikawa-kunioncert-daiku",
+   "2027-01-tachikawa-little-feat",
+   "2027-01-tachikawa-fripside",
+   "2027-01-tachikawa-sakurashimeji",
+   "2026-12-kawagoe-citizen-xmas-charity",
+   "2027-01-kawagoe-piano-meikyoku",
+   "2027-01-kawagoe-regional-wind",
+   "2027-01-kawagoe-idol-hit-stage",
+   "2026-12-showa-oyako-wreath",
+   "2026-12-showa-craft-oshogatsu",
+   "2026-12-tachikawa-snowqueen",
+   "2026-12-kokubunji-yokubari-concert",
+   "2026-12-kodaira-xmas-marche",
+   "2026-12-nishitokyo-kendama-free",
+   "2026-11-higashimurayama-marusuzuen"
   ],
-  "summary": "終了イベント13件を削除し、新規42件（お台場レインボー花火、各地のクリスマスマーケット、小金井・国分寺のホール公演、年末年始のロックフェス、たてもの園のお正月など）を追加しました。"
+  "summary": "終了イベント12件を削除し、新規30件（所沢・武蔵境・吉祥寺・府中のイルミ、立川・川越のホール公演、各地のクリスマスマルシェ、昭和記念公園の親子ワークショップなど）を追加しました。"
  }
 }
