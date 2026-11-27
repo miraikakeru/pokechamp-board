@@ -36,102 +36,6 @@
    "src": "江戸東京たてもの園"
   },
   {
-   "id": "2026-08-kanda-curry-rally",
-   "cat": "food",
-   "title": "第13回 神田カレー街食べ歩きスタンプラリー2026",
-   "desc": "神田エリア約152軒のカレー店と駅のスタンプスポットを巡るラリー。スタンプ数に応じた認定賞があり、ウルトラマン60周年コラボも。",
-   "start": "2026-08-01",
-   "end": "2026-12-20",
-   "venue": "神田エリアの参加カレー店",
-   "area": "千代田区",
-   "train": {
-    "kodaira": {
-     "min": 60,
-     "note": "西武線→国分寺→中央線で神田"
-    },
-    "hitotsubashi": {
-     "min": 55,
-     "note": "多摩湖線→国分寺→中央線で神田"
-    }
-   },
-   "car": {
-    "min": 65
-   },
-   "tags": [
-    "カレー",
-    "スタンプラリー"
-   ],
-   "url": "https://kanda-curry.com/stamprally2026/",
-   "src": "公式サイト"
-  },
-  {
-   "id": "2026-11-takadanobaba-ramen-rally",
-   "cat": "food",
-   "title": "高田馬場・早稲田ラーメンラリー2026",
-   "desc": "高田馬場・早稲田エリアの参加20店舗とスタンプスポットを巡るラリー。全店制覇で認定状が贈られる。",
-   "start": "2026-10-01",
-   "end": "2027-01-31",
-   "time": "店舗により異なる",
-   "venue": "高田馬場・早稲田エリアの参加ラーメン店",
-   "area": "新宿区",
-   "price": "参加無料（ラーメン代は別）",
-   "free": true,
-   "train": {
-    "kodaira": {
-     "min": 35,
-     "note": "西武新宿線で高田馬場"
-    },
-    "hitotsubashi": {
-     "min": 30,
-     "note": "多摩湖線→国分寺→中央線・山手線で高田馬場"
-    }
-   },
-   "car": {
-    "min": 50,
-    "parking": "少ない（公共交通推奨）"
-   },
-   "tags": [
-    "ラーメン",
-    "スタンプラリー"
-   ],
-   "url": "https://ramenrally.jimore.net/",
-   "src": "実行委員会"
-  },
-  {
-   "id": "2026-10-kadokawa-mushi",
-   "cat": "family",
-   "title": "虫へんはみんなむし－蟲をめぐる博物誌",
-   "desc": "荒俣宏氏の監修で、昆虫やカエル、寄生虫まで広く「虫」を描いた博物画を並べる展示。",
-   "start": "2026-10-17",
-   "end": "2027-04-05",
-   "time": "10:00〜18:00（最終入館17:30、火曜休館）",
-   "venue": "角川武蔵野ミュージアム 荒俣ワンダー秘宝館",
-   "area": "所沢市",
-   "price": "一般1,400円・中高生1,200円・小学生1,000円・未就学児無料",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 40,
-     "note": "武蔵野線の東所沢駅、徒歩約10分"
-    },
-    "hitotsubashi": {
-     "min": 50,
-     "note": "国分寺・西国分寺経由で東所沢駅"
-    }
-   },
-   "car": {
-    "min": 25,
-    "parking": "あり"
-   },
-   "tags": [
-    "展示",
-    "屋内",
-    "雨の日OK"
-   ],
-   "url": "https://kadcul.com/event/289",
-   "src": "角川武蔵野ミュージアム"
-  },
-  {
    "id": "2026-10-yomiuriland-jewel",
    "cat": "fest",
    "title": "よみうりランド ジュエルミネーション",
@@ -197,40 +101,6 @@
    ],
    "url": "https://www.showakinen-koen.jp/event/58732/",
    "src": "国営昭和記念公園"
-  },
-  {
-   "id": "2026-10-tokyo-megaillumi",
-   "cat": "fest",
-   "title": "東京メガイルミ（大井競馬場）",
-   "desc": "競馬場の広い敷地を使った都内最大級のイルミネーション。来場日で料金が変わる変動制です。",
-   "start": "2026-10-31",
-   "end": "2027-01-10",
-   "time": "16:30〜21:00（最終入場20:00）",
-   "venue": "大井競馬場",
-   "area": "品川区",
-   "price": "当日券 18歳以上1,000円〜（日により変動）",
-   "free": false,
-   "train": {
-    "kodaira": {
-     "min": 80,
-     "note": "JR・東京モノレールで大井競馬場前"
-    },
-    "hitotsubashi": {
-     "min": 75,
-     "note": "国分寺→中央線・山手線・モノレールで大井競馬場前"
-    }
-   },
-   "car": {
-    "min": 70,
-    "parking": "あり（普通車2,000円/日）"
-   },
-   "tags": [
-    "イルミネーション",
-    "屋外"
-   ],
-   "url": "https://illumi.walkerplus.com/detail/ar0313e323872/",
-   "src": "ウォーカープラス",
-   "img": "https://image.walkerplus.com/wpimg/walkertouch/wtd/event/72/n/323872_15.jpg"
   },
   {
    "id": "2026-11-moomin-christmas-hanno",
@@ -2075,40 +1945,6 @@
    "img": "https://ms-cache.walkerplus.com/walkertouch/wtd/event/85/l2/622385.jpg"
   },
   {
-   "id": "2026-12-seibu-nra-night",
-   "cat": "family",
-   "title": "深夜に電車をとらNIGHT！ NRAコンプリート撮影会",
-   "desc": "2027年春に定期運行を終える10000系ニューレッドアロー5本を、深夜の南入曽車両基地で撮影する。本川越駅から臨時列車で移動。18歳以上、先着50名、申込は11/30まで。",
-   "start": "2026-12-09",
-   "end": "2026-12-09",
-   "time": "0:30〜4:50（12/8終電後）",
-   "venue": "西武鉄道 南入曽車両基地（受付は本川越駅）",
-   "area": "狭山市",
-   "price": "27,000円（税込）",
-   "free": false,
-   "tags": [
-    "鉄道",
-    "撮影会",
-    "西武",
-    "大人向け"
-   ],
-   "url": "https://www.seiburailway.jp/newsroom/news/",
-   "src": "西武鉄道",
-   "train": {
-    "kodaira": {
-     "min": 45,
-     "note": "西武新宿線で本川越へ（終電後開催のため時間は目安）"
-    },
-    "hitotsubashi": {
-     "min": 50,
-     "note": "西武新宿線で本川越へ（目安）"
-    }
-   },
-   "car": {
-    "min": 40
-   }
-  },
-  {
    "id": "2026-12-toshima-dr-stone-ten",
    "cat": "family",
    "title": "TVアニメ「Dr.STONE」展 科学王国ミュージアム",
@@ -2340,41 +2176,6 @@
    },
    "car": {
     "min": 20
-   }
-  },
-  {
-   "id": "2026-12-yugioh-art-works",
-   "cat": "family",
-   "title": "高橋和希原画展 YU-GI-OH! ART WORKS",
-   "desc": "『遊☆戯☆王』連載30周年を記念する初の原画展。370点以上の直筆原稿などを展示。日時指定制。",
-   "start": "2026-12-12",
-   "end": "2027-02-21",
-   "time": "10:00〜20:00（最終入場は閉場30分前）",
-   "venue": "CREATIVE MUSEUM TOKYO（京橋）",
-   "area": "中央区",
-   "price": "一般2,200円・中高生1,400円・小学生900円",
-   "free": false,
-   "tags": [
-    "アニメ",
-    "漫画",
-    "展覧会",
-    "遊戯王"
-   ],
-   "url": "https://eplus.jp/t-kazuki-ten/",
-   "src": "イープラス（公式チケット）",
-   "train": {
-    "kodaira": {
-     "min": 60,
-     "note": "中央線で東京駅、京橋へ徒歩"
-    },
-    "hitotsubashi": {
-     "min": 50,
-     "note": "中央線で東京駅、京橋へ徒歩"
-    }
-   },
-   "car": {
-    "min": 65,
-    "parking": "なし"
    }
   },
   {
@@ -4151,6 +3952,6 @@
    "2026-12-nishitokyo-kendama-free",
    "2026-11-higashimurayama-marusuzuen"
   ],
-  "summary": "終了イベント12件を削除し、新規30件（所沢・武蔵境・吉祥寺・府中のイルミ、立川・川越のホール公演、各地のクリスマスマルシェ、昭和記念公園の親子ワークショップなど）を追加しました。"
+  "summary": "終了イベント12件と長期・遠方の6件を削除し、新規30件（所沢・武蔵境・吉祥寺・府中のイルミ、立川・川越のホール公演、各地のクリスマスマルシェ、昭和記念公園の親子ワークショップなど）を追加しました。"
  }
 }
